@@ -1,6 +1,6 @@
 # Aziz Tahin ile 5 tarif
 
-Yorumlara "TAHİN" yazanlara otomatik DM ile giden tariflerin kaynağı. Web sayfası: docs/tarifler.html
+Tarif hikâyelerinin ve DM'den tarif soranlara gönderilecek metnin kaynağı.
 
 ---
 
@@ -110,5 +110,5 @@ Yapılışı:
 ---
 
 Afiyet olsun! 🥄 Tariflerde kullandığımız tahin, Munzur balı, zeytinyağı ve tahin
-yağını sipariş etmek için profilimizdeki WhatsApp linkinden bize
-yazabilirsiniz. Türkiye'nin her iline gönderim yapıyoruz.
+yağını sipariş etmek için bize DM'den yazın. Türkiye'nin her iline gönderim
+yapıyoruz.
