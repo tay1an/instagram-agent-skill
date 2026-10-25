@@ -3,8 +3,8 @@
 ```
 26 EKİM - 1 KASIM HAFTASI   (saatler Türkiye saati)
 
-PZT  etkileşim  (liste aşağıda)
-SAL  20:00  REEL       KANIT    #23 İstatistik        - 100 gram tahinimizde 27 gram protein
+PZT  20:00  REEL       KANIT    #23 İstatistik        - 100 gram tahinimizde 27 gram protein
+SAL  hikâye
 ÇAR  hikâye + etkileşim
 PER  20:00  CAROUSEL   ÖĞRETİ   #11 Numaralı Favori   - tahin yağını kullanmanın 5 yolu
 CUM  20:00  REEL       GÖRÜŞ    #2  Olumsuz Komut     - kahvaltıda çikolatalı krema yerine ballı tahin
@@ -27,7 +27,7 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 ## Gönderiler
 
-### Salı 20:00 · Reel · Kanıt · #23 İstatistik
+### Pazartesi 20:00 · Reel · Kanıt · #23 İstatistik
 
 - **Açı:** Tahin deyince akla tatlı gelir; protein gelmez. 100 gramında
   27 gram protein olduğunu çoğu kişi bilmiyor.
@@ -86,8 +86,8 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 | gün | konu |
 | --- | --- |
-| PZT | Taş değirmende tahin üretimi, kısa video |
-| SAL | Salı reel'inin paylaşımı + "yorumlara TAHİN yazın" hatırlatması |
+| PZT | Pazartesi reel'inin paylaşımı + "yorumlara TAHİN yazın" hatırlatması |
+| SAL | Taş değirmende tahin üretimi, kısa video |
 | ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
 | PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" |
 | CUM | Ballı tahin hazırlanışı, reel'e yönlendirme |
