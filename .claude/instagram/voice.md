@@ -105,6 +105,9 @@ Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunl
 asla uydurmaz.
 
 - Aile işletmesiyiz.
+- Tarladan gelen susamın %15-20'si temizlikte fire olarak ayrılır. Yıkanmış ve
+  kavrulmuş 1 kilo susamdan 1 kilo tahin çıkar; fire olmaz, arada hiçbir şey
+  eklenmez.
 - Tahinimiz 100 gramda 27 g protein içerir; oleik ve linoleik asit gibi
   doymamış yağ asitleri bakımından zengindir. %100 susamdır, katkı maddesi ve
   koruyucu içermez. (Daha önce paylaşılmış değerler; etiketle aynı kalmalı.)

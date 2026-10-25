@@ -69,12 +69,13 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 - **Açı:** Susamın değirmene dökülüp tahin olarak akışı. Taş değirmen ve
   aile işletmesi, gözle görülür hale gelir.
-- **Kanca (taslak):** "{{rakam}} kilo susam. Taş değirmenden geçince elimizde
-  kalan bu kadar tahin."
-- **Ekran yazısı:** {{rakam}} KG SUSAM → ? KG TAHİN
+- **Kanca (taslak):** "1 kilo susam giriyor, 1 kilo tahin çıkıyor. Arada
+  hiçbir şey eklenmiyor."
+- **Ekran yazısı:** 1 KG SUSAM = 1 KG TAHİN
 - **Görüntü:** Susam dökülür, değirmen döner, tahin kavanoza akar.
-- **Eksik bilgi:** 1 kilo tahin için kaç kilo susam gerektiği. Rakam
-  uydurulmaz; öğrenilene kadar kanca bu haliyle kullanılmaz.
+- **Bilgi:** Tarladan gelen susamın %15-20'si temizlikte ayrılır. Yıkanmış,
+  kavrulmuş 1 kilo susamdan 1 kilo tahin çıkar, fire yok. Pazartesi sabah
+  hikâyesi bunun kısa bir ön gösterimi; reel daha ayrıntılı.
 - **Çağrı:** "Yorumlara TAHİN yazın, tariflerimizi gönderelim."
 
 ### Pazar 19:00 · Carousel · Teklif
@@ -93,7 +94,7 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 | gün | konu |
 | --- | --- |
-| PZT | Pazartesi reel'inin paylaşımı + "yorumlara TAHİN yazın" hatırlatması |
+| PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "yorumlara TAHİN yazın" |
 | SAL | Taş değirmende tahin üretimi, kısa video |
 | ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
 | PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" + ballı tahin reel'i |
@@ -102,6 +103,31 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 | PAZ | Pazar carousel'inin paylaşımı + WhatsApp linki |
 
 Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
+
+### Pazar akşamı (25 Ekim) · deneme · 4 kare
+
+```
+1  [el, kaşıktan akan tahin]       "Bugün tahinimizin besin değerini paylaştık 🤎"
+2  [kavanoz ve etiket, yakın]      "100 gramında 27 g protein var"
+3  [ANKET]                         "Bunu biliyor muydunuz?"  Evet / İlk kez duydum
+4  [gönderi paylaşımı + yazı]      "Doymamış yağlar ve fazlası bugünkü gönderimizde 👇"
+```
+
+### Pazartesi sabahı (26 Ekim) · 09:00 · 5 kare
+
+```
+1  [el, avuçta susam]              "Günaydın! 🤎 Bu, 1 kilo yıkanmış ve kavrulmuş susam."
+2  [susam değirmene dökülürken]    "Tarladan gelen susamın %15-20'si temizlikte ayrılır. Kalanı taş değirmene."
+3  [değirmenden akan tahin]        "1 kilo susam girdi, 1 kilo tahin çıkıyor."
+4  [TEST]                          "Tahinimize susamdan başka ne ekleniyor?"  Şeker / Koruyucu / Hiçbir şey ✅
+5  [kavanoz, üstte yağ görünür]    "Kavanozun üstündeki bu yağ ne? Cevabı bu akşam 20:00'de 👀"
+```
+
+20:00'de reel paylaşılınca bir kare daha:
+
+```
+6  [reel paylaşımı + yazı]         "Cevap videoda. Yorumlara TAHİN yazana 5 tarifimizi gönderiyoruz."
+```
 
 **Hikâye halkası hiç boş kalmasın.** Hikâyeler paylaşıldıktan 24 saat sonra
 kaybolur. Halkanın kesintisiz dolu görünmesi için:
