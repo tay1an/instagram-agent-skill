@@ -4,12 +4,11 @@
     {
       "id": "2026-10-25-hikaye-protein",
       "tur": "hikaye",
-      "zaman": "2026-10-25 20:30",
+      "zaman": "2026-10-25 19:08",
       "medya": [
         ".claude/instagram/gorseller/hikaye-25-ekim.jpg"
       ],
-      "durum": "taslak",
-      "not": "Anketli hikâye; anket API ile eklenemediği için elle paylaşılıyor."
+      "durum": "bekliyor"
     }
   ]
 }
