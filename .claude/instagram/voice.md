@@ -22,7 +22,9 @@ uydurmaz, taslaklarda yer tutucu bırakır.
 - **Kime konuşuyorum:** Tahin satın alabilecek herkes: kahvaltı sofrası kuran
   aileler, tatlı ve hamur işi yapanlar, sağlıklı beslenmeye önem verenler,
   sporcular ve kaliteli, katkısız ürün arayanlar.
-- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı.
+- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı. Tahin tek çeşittir ve
+  "Aziz Tahin" diye anılır ("tek kavrulmuş", "çifte kavrulmuş" gibi çeşit adı
+  kullanılmaz; çifte kavrulmuş artık satılmıyor).
 
 ## Nasıl konuşuyorum
 
