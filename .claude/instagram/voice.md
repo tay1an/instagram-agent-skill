@@ -1,8 +1,7 @@
 # voice.md
 
-Paketteki her beceri bu dosyayı okur. Boş bırakılan alanlar `{{doldur}}` ile
-işaretlidir; skill'ler bu alanlar için bilgi uydurmaz, taslaklarda yer tutucu
-bırakır.
+Paketteki her beceri bu dosyayı okur. Skill'ler burada yazmayan bir bilgiyi
+uydurmaz, taslaklarda yer tutucu bırakır.
 
 ---
 
@@ -38,7 +37,8 @@ bırakır.
 - **Asla söylemeyeceğim kelimeler:** Abartılı mucize iddiaları ("her derde
   deva", "mucize gıda"), argo, rakip markaları kötüleyen ifadeler.
 - **Küfür:** Hayır.
-- **Açıklamalarda emoji:** Az; gönderi başına bir iki tane.
+- **Açıklamalarda emoji:** Az; gönderi başına bir iki tane. Sık kullanılanlar:
+  🤎 🥄 😋
 - **Yüz kamerada:** Bazen. Bazı videolarda yüz görünür, bazılarında yalnızca
   ürün, eller ve mutfak görüntüsü olur.
 - **Seslendirme mi, kameraya mı:** İkisi de. Yüzün göründüğü videolarda
@@ -48,11 +48,36 @@ bırakır.
 
 ## Kendi videolarım veya açıklamalarım
 
-En çok bana benzeyen üç reel ya da açıklama (daha sonra eklenecek):
+Geçmiş üç açıklama. Bunlar **ton ve kelime örneğidir, satış örneği değildir**:
+bir yıldır Instagram'dan satış gelmedi. Kelimeleri ve sıcaklığı buradan al,
+yapıyı "Satış dili" bölümünden al.
 
-1. {{doldur}}
-2. {{doldur}}
-3. {{doldur}}
+1. "Geleneksel yöntemlerle hazırlanan tahinimiz sizlere en taze haliyle sunulur.
+   #AzizTahin #tahin #doğal #katkısız"
+2. "Her kaşıkta %100 doğal tahin. Afiyet olsun 😋🤎"
+3. "Sadece lezzet değil, besin değeri de bir o kadar güçlü! 🤎🥄 Aziz Tahin,
+   100 gramda 27 g protein içerir, oleik ve linoleik asit gibi doymamış yağ
+   asitleri bakımından zengindir. %100 susam, katkı maddesi ve koruyucu
+   içermez. Aziz Tahin'i keşfedin, gerçek susam lezzetini sofranıza taşıyın."
+
+Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
+- İlk cümle bir merak ya da sorun açmıyor, doğrudan ürünü anlatıyor.
+- Okuyana ne yapacağı söylenmiyor: yorum, DM ya da sipariş çağrısı yok.
+- Fiyat, sipariş yolu ve kargo bilgisi yok.
+
+## Satış dili
+
+- Her içerik tek bir somut çağrıyla biter: ya "Yorumlara TAHİN yazın" ya da
+  "Sipariş için profildeki WhatsApp linkinden yazın". İkisi aynı anda
+  kullanılmaz.
+- İlk cümle ürünü değil, izleyicinin durumunu anlatır: bir soru, bir yanlış
+  bilinen ya da bir sofra anı. Ürün ikinci cümlede gelir.
+- Özellik değil, kazanç söylenir: "27 g protein" tek başına kalmaz, "kahvaltıda
+  iki kaşıkla güne tok başlarsınız" gibi bir sonuca bağlanır.
+- Satın almanın kolay olduğu hatırlatılır: Türkiye'nin her iline gönderim,
+  WhatsApp'tan sipariş, Trendyol.
+- Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
+  çağrının yerine geçmez.
 
 ## Savunduğum görüşler
 
@@ -78,6 +103,9 @@ Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunl
 asla uydurmaz.
 
 - Aile işletmesiyiz.
+- Tahinimiz 100 gramda 27 g protein içerir; oleik ve linoleik asit gibi
+  doymamış yağ asitleri bakımından zengindir. %100 susamdır, katkı maddesi ve
+  koruyucu içermez. (Daha önce paylaşılmış değerler; etiketle aynı kalmalı.)
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
