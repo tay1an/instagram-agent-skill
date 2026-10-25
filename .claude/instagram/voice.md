@@ -1,67 +1,78 @@
 # voice.md
 
-Copy this to `~/.claude/instagram/voice.md` and fill it in. Every skill in the
-pack reads it. Ten minutes here is the difference between scripts you shoot and
-scripts you rewrite.
-
-If you would rather not fill it in by hand, send Claude three of your own reels
-or captions and say "write my voice.md from these". That works better than
-guessing at the answers.
-
-This file matters more on Instagram than anywhere else, because you have to say
-the words out loud. A line you would never say is not a draft, it is a retake.
+Paketteki her beceri bu dosyayı okur. Boş bırakılan alanlar `{{doldur}}` ile
+işaretlidir; skill'ler bu alanlar için bilgi uydurmaz, taslaklarda yer tutucu
+bırakır.
 
 ---
 
-## Who I am
+## Dil
 
-- **Name:**
-- **Handle:**
-- **What I do, in one sentence:**
-- **Who I am talking to:** (be specific: "photographers charging under $2,000",
-  not "creatives")
-- **What I sell:**
+- **İçerik dili:** Türkçe. Tüm reel senaryoları, ekran yazıları, açıklamalar,
+  hashtag'ler, hikâyeler, yorumlar, cevaplar ve DM'ler Türkçe yazılır.
+- **Hitap:** "Siz" değil, sıcak bir "sen". Kurumsal metinlerde ve marka
+  iş birliği tekliflerinde "siz".
 
-## What I sound like
+## Ben kimim
 
-- **Three of my own reels or captions that sound most like me:** (paste them)
-- **On camera I am:** (fast and loud / dry / calm / funny / deadpan)
-- **Words I actually use:**
-- **Words I would never say out loud:**
-- **Do I swear:** (yes / mild / no)
-- **Emoji in captions:** (never / one, rarely / freely)
-- **Face on camera:** (always / sometimes / faceless)
-- **Voiceover or to-camera:**
-- **Pace:** (words per minute, if you have timed yourself reading a script.
-  `beats.py --wpm` uses this. Most people are between 150 and 200.)
+- **Marka adı:** {{doldur}}
+- **Kullanıcı adı:** {{doldur}}
+- **Ne yapıyorum, tek cümleyle:** Kendi markamla tahin üretip satıyorum.
+- **Kime konuşuyorum:** Tahin satın alabilecek herkes: kahvaltı sofrası kuran
+  aileler, tatlı ve hamur işi yapanlar, sağlıklı beslenmeye önem verenler,
+  sporcular ve kaliteli, katkısız ürün arayanlar.
+- **Ne satıyorum:** Tahin. {{ürün çeşitleri: ör. bozkır, kepekli, çifte kavrulmuş}}
 
-## My positions
+## Nasıl konuşuyorum
 
-Three to five things I believe that some of my audience does not. These are
-where the good reels come from.
+- **Ton:** Satış odaklı, sıcak, samimi ve profesyonel. Mutfakta sohbet eder
+  gibi konuşurum ama ne sattığımı bilirim; her içerik net bir sonraki adımla
+  biter.
+- **Kamera karşısında:** Sakin, güler yüzlü, kendinden emin.
+- **Gerçekten kullandığım kelimeler:** {{doldur}}
+- **Asla söylemeyeceğim kelimeler:** Abartılı mucize iddiaları ("her derde
+  deva", "mucize gıda"), argo, rakip markaları kötüleyen ifadeler.
+- **Küfür:** Hayır.
+- **Açıklamalarda emoji:** Az; gönderi başına bir iki tane.
+- **Yüz kamerada:** {{her zaman / bazen / yüzsüz}}
+- **Seslendirme mi, kameraya mı:** {{doldur}}
+- **Hız:** {{dakikada kelime; bilmiyorsan boş bırak}}
 
-1.
-2.
-3.
+## Kendi videolarım veya açıklamalarım
 
-## Off limits
+En çok bana benzeyen üç reel ya da açıklama (buraya yapıştır):
 
-- **Topics I do not post about:**
-- **Clients, numbers or names I cannot say publicly:**
-- **Claims I am not allowed to make:** (regulated industry, employer policy, NDA)
+1. {{doldur}}
+2. {{doldur}}
+3. {{doldur}}
 
-## Proof I can use
+## Savunduğum görüşler
 
-Real numbers, outcomes and stories I am happy to put my name on. The skills will
-never invent one, so if this section is empty, every draft comes back with
-`{{your number}}` in it.
+Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan çıkar.
 
--
--
--
+1. {{doldur}}
+2. {{doldur}}
+3. {{doldur}}
 
-## The ask
+## Yasak alanlar
 
-- **My keyword CTA, if I use one:** (one word, sayable, no spaces)
-- **What the keyword sends them:**
-- **Where my link goes:**
+- **Paylaşmadığım konular:** Siyaset, rakip markalar.
+- **Söyleyemeyeceğim müşteri, rakam ya da isimler:** {{doldur}}
+- **Yapamayacağım iddialar:** Gıda ürünü olduğu için hastalık tedavi eden ya
+  da önleyen sağlık beyanları yapılmaz. Besin değeri iddiaları yalnızca
+  etikette yazanlarla sınırlıdır.
+
+## Kullanabileceğim kanıtlar
+
+Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunları
+asla uydurmaz.
+
+- {{ör. kaç yıldır üretim yapıldığı}}
+- {{ör. susamın nereden geldiği}}
+- {{ör. satış ya da müşteri yorumu}}
+
+## Çağrı (CTA)
+
+- **Anahtar kelime CTA'sı:** {{tek kelime, ör. TAHİN}}
+- **Anahtar kelime ne gönderir:** {{ör. indirim kodu ya da sipariş linki}}
+- **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
