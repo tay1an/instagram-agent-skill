@@ -16,7 +16,7 @@ import json
 import os
 import statistics
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 from instagram_yayinla import ApiHatasi, istek  # noqa: E402
@@ -65,6 +65,61 @@ def oran(pay, payda):
     return round(pay / payda, 4) if pay is not None and payda else None
 
 
+def onceki_rapor(bugun):
+    """Bugünden önceki en yeni raporu döndürür (yoksa None)."""
+    try:
+        adlar = sorted(f for f in os.listdir(KLASOR) if f.endswith(".json") and f[:10] < bugun and f[:4].isdigit())
+    except FileNotFoundError:
+        return None
+    if not adlar:
+        return None
+    with open(f"{KLASOR}/{adlar[-1]}", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def haftalik_ozet(satirlar, takipci, bugun):
+    """Son 7 günün gönderilerini ve takipçi değişimini özetler."""
+    bas = (datetime.strptime(bugun, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
+    hafta = [s for s in satirlar if s["tarih"] > bas]
+
+    def topla(k):
+        v = [s[k] for s in hafta if s[k] is not None]
+        return sum(v) if v else None
+
+    erisim = topla("erisim")
+    once = onceki_rapor(bugun)
+    return {
+        "baslangic": bas, "gonderi": len(hafta),
+        "turler": {t: sum(1 for s in hafta if s["tur"] == t) for t in ("reel", "carousel", "gönderi")},
+        "izlenme": topla("izlenme"), "erisim": erisim, "kaydetme": topla("kaydetme"),
+        "paylasma": topla("paylasma"), "yorum": topla("yorum"),
+        "paylasma_orani": oran(topla("paylasma"), erisim),
+        "takipci": takipci,
+        "takipci_degisim": (takipci - once["takipci"]) if once and once.get("takipci") is not None and takipci is not None else None,
+        "onceki_rapor": once["tarih"] if once else None,
+        "onceki_hafta": once.get("hafta") if once else None,
+    }
+
+
+def hafta_md(h):
+    def y(v):
+        return "-" if v is None else (f"%{v * 100:.1f}" if isinstance(v, float) else str(v))
+    def fark(k):
+        o = (h.get("onceki_hafta") or {}).get(k)
+        if o is None or h.get(k) is None:
+            return ""
+        d = h[k] - o
+        return f" ({'+' if d >= 0 else ''}{y(d) if not isinstance(d, float) else f'{d * 100:+.1f} puan'})"
+    t = h["turler"]
+    return ["## Bu hafta (" + h["baslangic"] + " sonrası)", "",
+            f"- Gönderi: {h['gonderi']} (reel {t['reel']}, carousel {t['carousel']}, tek görsel {t['gönderi']})",
+            f"- Takipçi: {y(h['takipci'])}" + (f" ({h['takipci_degisim']:+d}, {h['onceki_rapor']} raporuna göre)" if h["takipci_degisim"] is not None else ""),
+            f"- Toplam erişim: {y(h['erisim'])}{fark('erisim')} · izlenme: {y(h['izlenme'])}{fark('izlenme')}",
+            f"- Kaydetme: {y(h['kaydetme'])}{fark('kaydetme')} · paylaşma: {y(h['paylasma'])}{fark('paylasma')} · yorum: {y(h['yorum'])}{fark('yorum')}",
+            f"- Paylaşma/erişim: {y(h['paylasma_orani'])}{fark('paylasma_orani')}",
+            "- DM'den gelen sipariş: skor-karti.md'ye kullanıcıdan alınarak yazılır", ""]
+
+
 def main():
     token = os.environ.get("IG_ACCESS_TOKEN")
     if not token:
@@ -111,7 +166,8 @@ def main():
 
     bugun = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     os.makedirs(KLASOR, exist_ok=True)
-    veri = {"tarih": bugun, "hesap": ben.get("username"), "takipci": ben.get("followers_count"),
+    hafta = haftalik_ozet(satirlar, ben.get("followers_count"), bugun)
+    veri = {"tarih": bugun, "hafta": hafta, "hesap": ben.get("username"), "takipci": ben.get("followers_count"),
             "olcut": olcut, "medyan": medyan, "izin_hatasi": izin_hatasi, "gonderiler": satirlar}
     with open(f"{KLASOR}/{bugun}.json", "w", encoding="utf-8") as f:
         json.dump(veri, f, ensure_ascii=False, indent=2)
@@ -122,6 +178,7 @@ def main():
     md = [f"# Instagram raporu, {bugun}", "",
           f"@{ben.get('username')} · {ben.get('followers_count')} takipçi · son {len(satirlar)} gönderi · "
           f"ölçüt: {olcut}, medyan {medyan}", ""]
+    md += hafta_md(hafta)
     if izin_hatasi:
         md += ["**İstatistik izni yok:** yalnızca beğeni ve yorumlar var. "
                "Meta'da instagram_business_manage_insights iznini ekleyip anahtarı yenileyin.", "",
