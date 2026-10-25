@@ -69,7 +69,7 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 
 ## Satış dili
 
-- Her içerik tek bir somut çağrıyla biter: ya "DM'den TAHİN yazın" ya da
+- Her içerik tek bir somut çağrıyla biter: ya "Yorumlara TAHİN yazın" ya da
   "Sipariş için profildeki WhatsApp linkinden yazın". İkisi aynı anda
   kullanılmaz.
 - İlk cümle ürünü değil, izleyicinin durumunu anlatır: bir soru, bir yanlış
@@ -98,7 +98,7 @@ sipariş verdirmektir.
   müşterimiz tekrar alıyor", "Türkiye'nin her iline gönderim").
 - **Son slayt:** Tek ve net sipariş çağrısı: "Sipariş için profildeki
   WhatsApp linkinden yazın." Siparişin kolay olduğu hatırlatılır.
-  DM anahtar kelimesi (TAHİN) yalnızca tarif içerikli carousel'lerde.
+  Yorum anahtar kelimesi (TAHİN) yalnızca tarif içerikli carousel'lerde.
 - **Açıklama:** İlk satır merak açar ve "... devamı" kesiminden önce biter;
   sonda aynı sipariş çağrısı, 3 hashtag.
 - Haftada en az 2 carousel doğrudan sipariş çağrısıyla biter.
@@ -157,10 +157,13 @@ asla uydurmaz.
 
 ## Çağrı (CTA)
 
-- **Anahtar kelime CTA'sı:** TAHİN, **DM'den** yazılır (yorum değil). Meta Business
-  Suite otomatik yanıtı tarifleri "Tarifler" öne çıkanına yönlendirir.
-- **Anahtar kelime ne gönderir:** Aziz Tahin ürünleriyle yapılabilecek 5
-  tariflik bir liste. (İndirim ya da hediye verilmez.)
+- **Anahtar kelime CTA'sı:** "Yorumlara TAHİN yazın". Meta Business Suite'teki
+  "Yorumdan mesaja" otomasyonu (Tahin, TAHİN, tahin, Tahın, TAHIN, tahın)
+  yorumun altına "DM'den yazdık 🤎" yazar ve kişiye otomatik DM gönderir.
+- **Anahtar kelime ne gönderir:** 5 tarifin web sayfasının linki
+  (https://tay1an.github.io/instagram-agent-skill/tarifler.html) ve sipariş
+  çağrısı. (İndirim ya da hediye verilmez. Otomatik DM'de görsel gitmediği için
+  link kullanılır.)
 - **Linkim nereye gider:** Profilde birden fazla link var:
   - Trendyol satış sayfası
   - Dükkanın konumu

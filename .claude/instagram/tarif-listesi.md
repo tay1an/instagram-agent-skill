@@ -1,6 +1,6 @@
 # Aziz Tahin ile 5 tarif
 
-DM'den "TAHİN" yazan takipçiler için tarif listesi ("Tarifler" öne çıkanında da var).
+Yorumlara "TAHİN" yazanlara otomatik DM ile giden tariflerin kaynağı. Web sayfası: docs/tarifler.html
 
 ---
 
