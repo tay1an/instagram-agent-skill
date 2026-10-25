@@ -1,67 +1,137 @@
 # voice.md
 
-Copy this to `~/.claude/instagram/voice.md` and fill it in. Every skill in the
-pack reads it. Ten minutes here is the difference between scripts you shoot and
-scripts you rewrite.
-
-If you would rather not fill it in by hand, send Claude three of your own reels
-or captions and say "write my voice.md from these". That works better than
-guessing at the answers.
-
-This file matters more on Instagram than anywhere else, because you have to say
-the words out loud. A line you would never say is not a draft, it is a retake.
+Paketteki her beceri bu dosyayı okur. Skill'ler burada yazmayan bir bilgiyi
+uydurmaz, taslaklarda yer tutucu bırakır.
 
 ---
 
-## Who I am
+## Dil
 
-- **Name:**
-- **Handle:**
-- **What I do, in one sentence:**
-- **Who I am talking to:** (be specific: "photographers charging under $2,000",
-  not "creatives")
-- **What I sell:**
+- **İçerik dili:** Türkçe. Tüm reel senaryoları, ekran yazıları, açıklamalar,
+  hashtag'ler, hikâyeler, yorumlar, cevaplar ve DM'ler Türkçe yazılır.
+- **Hitap:** Takipçilere ve herkese "siz" diye hitap edilir. Saygılı ama sıcak
+  ve samimi.
 
-## What I sound like
+## Ben kimim
 
-- **Three of my own reels or captions that sound most like me:** (paste them)
-- **On camera I am:** (fast and loud / dry / calm / funny / deadpan)
-- **Words I actually use:**
-- **Words I would never say out loud:**
-- **Do I swear:** (yes / mild / no)
-- **Emoji in captions:** (never / one, rarely / freely)
-- **Face on camera:** (always / sometimes / faceless)
-- **Voiceover or to-camera:**
-- **Pace:** (words per minute, if you have timed yourself reading a script.
-  `beats.py --wpm` uses this. Most people are between 150 and 200.)
+- **Ad (profil adı):** Aziz Tahin
+- **Marka adı:** Aziz Tahin
+- **Kullanıcı adı:** @aziz.tahin
+- **Ne yapıyorum, tek cümleyle:** Aziz Tahin markasıyla doğal tahin, zeytinyağı,
+  bal ve tahin yağı satıyoruz.
+- **Kime konuşuyorum:** Tahin satın alabilecek herkes: kahvaltı sofrası kuran
+  aileler, tatlı ve hamur işi yapanlar, sağlıklı beslenmeye önem verenler,
+  sporcular ve kaliteli, katkısız ürün arayanlar.
+- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı. Tahin tek çeşittir ve
+  "Aziz Tahin" diye anılır ("tek kavrulmuş", "çifte kavrulmuş" gibi çeşit adı
+  kullanılmaz; çifte kavrulmuş artık satılmıyor).
 
-## My positions
+## Nasıl konuşuyorum
 
-Three to five things I believe that some of my audience does not. These are
-where the good reels come from.
+- **Ton:** Satış odaklı, sıcak, samimi ve profesyonel. Mutfakta sohbet eder
+  gibi konuşurum ama ne sattığımı bilirim; her içerik net bir sonraki adımla
+  biter.
+- **Kamera karşısında:** Sakin, güler yüzlü, kendinden emin.
+- **Gerçekten kullandığım kelimeler:** "%100 doğal", "doğadan gelen sağlık
+  deposu", "geleneksel yöntemler", "tahinin faydaları", "lezzetli", "hakiki",
+  "yüksek protein", "doymamış yağ yüksek, doymuş yağ düşük", "katkısız",
+  "koruyucusuz"
+- **Asla söylemeyeceğim kelimeler:** Abartılı mucize iddiaları ("her derde
+  deva", "mucize gıda"), argo, rakip markaları kötüleyen ifadeler.
+- **Küfür:** Hayır.
+- **Açıklamalarda emoji:** Az; gönderi başına bir iki tane. Sık kullanılanlar:
+  🤎 🥄 😋
+- **Yüz kamerada:** Bazen. Bazı videolarda yüz görünür, bazılarında yalnızca
+  ürün, eller ve mutfak görüntüsü olur.
+- **Seslendirme mi, kameraya mı:** İkisi de. Yüzün göründüğü videolarda
+  kameraya konuşulur, yüzün görünmediği videolarda seslendirme yapılır.
+- **Hız:** Dakikada 140 kelime. Ölçülmedi; çok hızlı olmayan, rahat bir
+  konuşma temposu olarak seçildi.
 
-1.
-2.
-3.
+## Kendi videolarım veya açıklamalarım
 
-## Off limits
+Geçmiş üç açıklama. Bunlar **ton ve kelime örneğidir, satış örneği değildir**:
+bir yıldır Instagram'dan satış gelmedi. Kelimeleri ve sıcaklığı buradan al,
+yapıyı "Satış dili" bölümünden al.
 
-- **Topics I do not post about:**
-- **Clients, numbers or names I cannot say publicly:**
-- **Claims I am not allowed to make:** (regulated industry, employer policy, NDA)
+1. "Geleneksel yöntemlerle hazırlanan tahinimiz sizlere en taze haliyle sunulur.
+   #AzizTahin #tahin #doğal #katkısız"
+2. "Her kaşıkta %100 doğal tahin. Afiyet olsun 😋🤎"
+3. "Sadece lezzet değil, besin değeri de bir o kadar güçlü! 🤎🥄 Aziz Tahin,
+   100 gramda 27 g protein içerir, oleik ve linoleik asit gibi doymamış yağ
+   asitleri bakımından zengindir. %100 susam, katkı maddesi ve koruyucu
+   içermez. Aziz Tahin'i keşfedin, gerçek susam lezzetini sofranıza taşıyın."
 
-## Proof I can use
+Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
+- İlk cümle bir merak ya da sorun açmıyor, doğrudan ürünü anlatıyor.
+- Okuyana ne yapacağı söylenmiyor: yorum, DM ya da sipariş çağrısı yok.
+- Fiyat, sipariş yolu ve kargo bilgisi yok.
 
-Real numbers, outcomes and stories I am happy to put my name on. The skills will
-never invent one, so if this section is empty, every draft comes back with
-`{{your number}}` in it.
+## Satış dili
 
--
--
--
+- Her içerik tek bir somut çağrıyla biter: ya "Yorumlara TAHİN yazın" ya da
+  "Sipariş için profildeki WhatsApp linkinden yazın". İkisi aynı anda
+  kullanılmaz.
+- İlk cümle ürünü değil, izleyicinin durumunu anlatır: bir soru, bir yanlış
+  bilinen ya da bir sofra anı. Ürün ikinci cümlede gelir.
+- Özellik değil, kazanç söylenir: "27 g protein" tek başına kalmaz, "kahvaltıda
+  iki kaşıkla güne tok başlarsınız" gibi bir sonuca bağlanır.
+- Satın almanın kolay olduğu hatırlatılır: Türkiye'nin her iline gönderim,
+  WhatsApp'tan sipariş, Trendyol.
+- Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
+  çağrının yerine geçmez.
 
-## The ask
+## Savunduğum görüşler
 
-- **My keyword CTA, if I use one:** (one word, sayable, no spaces)
-- **What the keyword sends them:**
-- **Where my link goes:**
+Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan çıkar.
+
+1. %100 doğal ürün: katkısız, saf, olduğu gibi.
+2. Sağlıklı beslenmenin önemi.
+3. Geleneksel tatlar yaşatılmalı.
+
+## Yasak alanlar
+
+- **Paylaşmadığım konular:** Siyaset, rakip markalar, kaç yıldır üretim
+  yaptığımız (2 yıl; kısa olduğu için kullanılmaz).
+- **Söyleyemeyeceğim müşteri, rakam ya da isimler:** Müşteri isimleri
+  paylaşılmaz. Müşteri yorumları isimsiz kullanılır.
+- **Yapamayacağım iddialar:** Gıda ürünü olduğu için hastalık tedavi eden ya
+  da önleyen sağlık beyanları yapılmaz. Besin değeri iddiaları yalnızca
+  etikette yazanlarla sınırlıdır.
+
+## Kullanabileceğim kanıtlar
+
+Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunları
+asla uydurmaz.
+
+- Aile işletmesiyiz.
+- Tahinimiz 100 gramda 27 g protein içerir; oleik ve linoleik asit gibi
+  doymamış yağ asitleri bakımından zengindir. %100 susamdır, katkı maddesi ve
+  koruyucu içermez. (Daha önce paylaşılmış değerler; etiketle aynı kalmalı.)
+- Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
+  "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
+- Zeytinyağımız %100 doğaldır.
+- Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir. Tariflerde ve öne
+  çıkan içeriklerde "%100 doğal Ovacık balımız" tercih edilir.
+- Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
+  gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
+- Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
+  (Oran ölçülmedi; rakam verilmez, "çoğu müşterimiz tekrar alıyor" gibi
+  söylenir.)
+- Tahinimize analiz yaptırdık; değerleri piyasadaki diğer markalara göre daha
+  iyi çıktı. (Başka marka adı verilmez, karşılaştırma kötüleme tonunda
+  yapılmaz. Rakam yalnızca analiz raporunda yazan değerlerle kullanılır.)
+
+## Çağrı (CTA)
+
+- **Anahtar kelime CTA'sı:** TAHİN
+- **Anahtar kelime ne gönderir:** Aziz Tahin ürünleriyle yapılabilecek 5
+  tariflik bir liste. (İndirim ya da hediye verilmez.)
+- **Linkim nereye gider:** Profilde birden fazla link var:
+  - Trendyol satış sayfası
+  - Dükkanın konumu
+  - Web sitesi
+  - WhatsApp konuşması
+
+  İçeriklerde "profildeki linkten" denir; hangi link kastediliyorsa adıyla
+  söylenir (ör. "profildeki WhatsApp linkinden yazın").
