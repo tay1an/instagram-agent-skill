@@ -131,13 +131,15 @@ Instagram'da aranacak kelimeler:
 3. BÜYÜK   @gezginlerbursada       Bursa gezi hesabı
 4. BÜYÜK   @sukrankaymak           Tarif hesabı
 5. BÜYÜK   @yemektarifi            Tarif hesabı
+6. BÜYÜK   @farukgida              Bursa'da peynir ve doğal ürün dükkanı, ~130 bin
+                                   takipçi, kitlesi bize uygun. Her gün yorum.
+                                   Yorumlar müşteri gibi değil ("nereden alınır",
+                                   "fiyatı ne" yok), komşu esnaf ve üretici gibi.
 
 Büyük hesap yedekleri (her gün 5 büyük hesap seçin, sırayla değiştirin):
 - @nefisyemektarifleri   Çok büyük tarif hesabı, yorumlar hızla birikir;
   yalnızca paylaşımın ilk dakikalarında yorum yazın.
 - @yemekcom              Büyük tarif hesabı
-- @farukgida             Bursa'da peynir ve doğal ürün dükkanı, ~130 bin
-  takipçi, dükkanımıza yakın. Satış amacı yok; komşu esnaf olarak yorum.
 6. BENZER  @dovmechanem            Dut ve cevizden geleneksel lezzet üreticisi
 7. BENZER  {{kullanıcı adı}}
 8. BENZER  {{kullanıcı adı}}
