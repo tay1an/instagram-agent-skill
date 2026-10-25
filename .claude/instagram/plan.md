@@ -104,13 +104,11 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
 
-### Pazar akşamı (25 Ekim) · deneme · 4 kare
+### Pazar akşamı (25 Ekim) · deneme · tek hikâye
 
 ```
-1  [el, kaşıktan akan tahin]       "Bugün tahinimizin besin değerini paylaştık 🤎"
-2  [kavanoz ve etiket, yakın]      "100 gramında 27 g protein var"
-3  [ANKET]                         "Bunu biliyor muydunuz?"  Evet / İlk kez duydum
-4  [gönderi paylaşımı + yazı]      "Doymamış yağlar ve fazlası bugünkü gönderimizde 👇"
+[kavanoz ya da kaşıktan akan tahin]  "100 gram tahinimizde 27 g protein var 🤎"
+[ANKET]                              "Bunu biliyor muydunuz?"  Evet / İlk kez duydum
 ```
 
 ### Pazartesi sabahı (26 Ekim) · 09:00 · 5 kare
