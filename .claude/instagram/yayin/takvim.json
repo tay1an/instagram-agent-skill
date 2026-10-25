@@ -23,6 +23,16 @@
       "not": "1 kg susam = 1 kg tahin"
     },
     {
+      "id": "2026-10-26-hikaye-aksam",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 20:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-26-aksam.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Cevap: üstteki yağ doğallık"
+    },
+    {
       "id": "2026-10-27-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-10-27 09:00",
@@ -61,6 +71,16 @@
       ],
       "durum": "bekliyor",
       "not": "Tahin yağı"
+    },
+    {
+      "id": "2026-10-30-hikaye-aksam",
+      "tur": "hikaye",
+      "zaman": "2026-10-30 20:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-30-aksam.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Cevap: tahin yağının 5 kullanım yolu"
     },
     {
       "id": "2026-10-31-hikaye-sabah",
