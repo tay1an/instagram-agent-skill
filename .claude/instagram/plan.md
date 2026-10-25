@@ -139,7 +139,8 @@ Büyük hesap yedekleri (her gün 5 büyük hesap seçin, sırayla değiştirin)
 6. BENZER  @dovmechanem            Dut ve cevizden geleneksel lezzet üreticisi
 7. BENZER  {{kullanıcı adı}}
 8. BENZER  {{kullanıcı adı}}
-9. ALICI   {{kullanıcı adı}}
+9. ALICI   @farukgida              Bursa'da peynir ve doğal ürün dükkanı, ~130 bin
+                                   takipçi, dükkanımıza yakın
 10. ALICI  {{kullanıcı adı}}
 
 Plan hiçbir yere zamanlanmadı ve paylaşılmadı. Paylaşımları siz yaparsınız.
