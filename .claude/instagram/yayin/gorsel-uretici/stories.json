@@ -1,9 +1,37 @@
 [
- {"id":"hikaye-2026-10-26","seeds":true,"html":"<div class='wrap'><div class='kick'>Günaydın <span class='e'>☀️</span></div><div class='big'>1 kg</div><div class='t'>susam giriyor</div><div class='big'>1 kg</div><div class='t'>tahin çıkıyor</div><div class='s'>Taş değirmende öğütülür.<br>Arada hiçbir şey eklenmez.</div></div><div class='foot'>Bu akşam 20:00 · kavanozun üstündeki yağın sırrı <span class='e'>👀</span></div>"},
- {"id":"hikaye-2026-10-27","seeds":false,"html":"<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg'><div class='t'>İçindekiler:<br><span class='r'>Susam.</span></div><div class='s'>Hepsi bu kadar. <span class='e'>🤎</span></div></div>"},
- {"id":"hikaye-2026-10-28","seeds":true,"html":"<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Yeni ballarımız<br>geldi <span class='e'>🍯</span></div><div class='s'>Tunceli <b>Ovacık</b><br>ve Bitlis <b>Ahlat</b>'tan</div><div class='t r'>%100 doğal</div><div class='s'>Sipariş için WhatsApp'tan<br>bize yazabilirsiniz</div></div>"},
- {"id":"hikaye-2026-10-29","seeds":true,"html":"<div class='wrap'><div class='kick'>Günaydın · kahvaltı önerisi</div><div class='big'>3 + 1</div><div class='t'>3 kaşık tahin<br>1 kaşık Ovacık balı</div><div class='s'>Karıştırın, isteğe göre<br>tarçın serpin. Afiyet olsun <span class='e'>🥄</span></div></div><div class='foot'>Bu akşam 20:00 · ballı tahin videosu</div>"},
- {"id":"hikaye-2026-10-30","seeds":true,"html":"<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Tahin yağı<br>rafta, peki<br><span class='r'>ne yapılır?</span></div><div class='s'>Salataya, humusun üstüne,<br>sıcak ekmeğe birkaç damla...</div></div><div class='foot'>Bu akşam 20:00 · 5 kullanım yolu</div>"},
- {"id":"hikaye-2026-10-31","seeds":false,"html":"<div class='wrap'><div class='kick'>Hafta sonu kahvaltısı</div><img class='photo' src='jarphoto.jpg' style='width:470px'><div class='t'>Sofranın eksiği<br><span class='r'>bir kaşık tahin</span> <span class='e'>🤎</span></div></div><div class='foot'>Saat 10:00 · susamdan tahine videomuz</div>"},
- {"id":"hikaye-2026-11-01","seeds":true,"html":"<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Aziz Tahin<br>nasıl sipariş edilir?</div><div class='s'><span class='e'>💬</span> WhatsApp'tan yazın<br><span class='e'>🛒</span> Trendyol mağazamız<br><span class='e'>📍</span> Bursa'daki dükkanımız</div><div class='t r'>Türkiye'nin<br>her iline gönderim</div></div><div class='foot'>Linkler profilimizde</div>"}
+ {
+  "id": "hikaye-2026-10-26",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın <span class='e'>☀️</span></div><div class='big'>1 kg</div><div class='t'>susam giriyor</div><div class='big'>1 kg</div><div class='t'>tahin çıkıyor</div><div class='s'>Taş değirmende öğütülür.<br>Arada hiçbir şey eklenmez.</div></div><div class='foot'>Bu akşam 20:00 · kavanozun üstündeki yağın sırrı <span class='e'>👀</span></div>"
+ },
+ {
+  "id": "hikaye-2026-10-27",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg'><div class='t'>İçindekiler:<br><span class='r'>Susam.</span></div><div class='s'>Hepsi bu kadar. <span class='e'>🤎</span></div></div>"
+ },
+ {
+  "id": "hikaye-2026-10-28",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Yeni ballarımız<br>geldi <span class='e'>🍯</span></div><div class='s'>Tunceli <b>Ovacık</b><br>ve Bitlis <b>Ahlat</b>'tan</div><div class='t r'>%100 doğal</div><div class='s'>Sipariş için WhatsApp'tan<br>bize yazabilirsiniz</div></div>"
+ },
+ {
+  "id": "hikaye-2026-10-29",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın · kahvaltı önerisi</div><div class='big'>3 + 1</div><div class='t'>3 kaşık tahin<br>1 kaşık Ovacık balı</div><div class='s'>Karıştırın, isteğe göre<br>tarçın serpin. Afiyet olsun <span class='e'>🥄</span></div></div><div class='foot'>Bu akşam 20:00 · ballı tahin videosu</div>"
+ },
+ {
+  "id": "hikaye-2026-10-30",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Tahin yağı<br>rafta, peki<br><span class='r'>ne yapılır?</span></div><div class='s'>Salataya, humusun üstüne,<br>sıcak ekmeğe birkaç damla...</div></div><div class='foot'>Bu akşam 20:00 · 5 kullanım yolu</div>"
+ },
+ {
+  "id": "hikaye-2026-10-31",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Hafta sonu kahvaltısı</div><img class='photo' src='jarphoto.jpg' style='width:390px'><div class='t'>Sofranın eksiği<br><span class='r'>bir kaşık tahin</span> <span class='e'>🤎</span></div></div><div class='foot'>Saat 10:00 · susamdan tahine videomuz</div>"
+ },
+ {
+  "id": "hikaye-2026-11-01",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Aziz Tahin<br>nasıl sipariş edilir?</div><div class='s'><span class='e'>💬</span> WhatsApp'tan yazın<br><span class='e'>🛒</span> Trendyol mağazamız<br><span class='e'>📍</span> Bursa'daki dükkanımız</div><div class='t r'>Türkiye'nin<br>her iline gönderim</div></div><div class='foot'>Linkler profilimizde</div>"
+ }
 ]
