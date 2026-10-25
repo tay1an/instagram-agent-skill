@@ -61,13 +61,13 @@ Malzemeler:
 - 2 diş sarımsak
 - 1-2 yemek kaşığı soğuk su
 - Tuz, kimyon
-- Üzeri için 1-3 yemek kaşığı Aziz Zeytinyağı ve kırmızı biber
+- Üzeri için 1-2 yemek kaşığı Aziz Zeytinyağı ve kırmızı biber
 
 Yapılışı:
 1. Nohut, tahin, zeytinyağı, limon suyu, sarımsak, tuz ve kimyonu mutfak
    robotuna alın.
 2. Soğuk suyu ekleyerek 3-4 dakika, pürüzsüz olana kadar çekin.
-3. Tabağa yayın, üzerine 1-3 yemek kaşığı Aziz Zeytinyağı gezdirip kırmızı
+3. Tabağa yayın, üzerine 1-2 yemek kaşığı Aziz Zeytinyağı gezdirip kırmızı
    biber serpin.
    Susam aromasını sevenler birkaç damla Aziz Tahin Yağı da ekleyebilir.
 
