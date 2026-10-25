@@ -11,9 +11,10 @@ gönderilmesine izin verir ve mesajlar 1000 karakterle sınırlıdır:
   2. Özel yanıta cevap veren kişiye (konuşma açıldığı için) tarifler birkaç
      mesaj hâlinde gönderilir.
 
-Durum, aynı yorumun iki kez işlenmemesi için yorum-durumu.json dosyasında
-tutulur. Depo herkese açık olduğundan kullanıcı adı saklanmaz; yalnızca
-Instagram'ın verdiği kimlik numaraları saklanır.
+Durum, aynı yorumun iki kez işlenmemesi için bir JSON dosyasında tutulur. Depo
+herkese açık olduğundan bu dosya depoya yazılmaz; iş akışı onu GitHub
+Actions önbelleğinde saklar. Kullanıcı adı saklanmaz, kayıtlar 30 gün sonra
+silinir (bkz. docs/gizlilik.html).
 
 Ortam değişkenleri: IG_ACCESS_TOKEN, isteğe bağlı IG_API_VERSION,
 KURU_CALISMA=1 (hiçbir şey göndermez, yalnızca ne yapılacağını yazar).
@@ -29,7 +30,8 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from instagram_yayinla import ApiHatasi, istek  # noqa: E402
 
-DURUM = os.environ.get("YORUM_DURUMU", ".claude/instagram/yayin/yorum-durumu.json")
+DURUM = os.environ.get("YORUM_DURUMU", ".yorum-durumu/durum.json")
+SAKLAMA_SURESI = timedelta(days=30)
 TARIFLER = os.environ.get("TARIF_LISTESI", ".claude/instagram/tarif-listesi.md")
 
 ANAHTARLAR = {"tahin", "tahın"}  # İngilizce klavyede "TAHIN" yazanlar için
@@ -206,6 +208,10 @@ def main():
         durum = json.load(open(DURUM, encoding="utf-8"))
     except FileNotFoundError:
         durum = {"yorumlar": {}}
+    durum["yorumlar"] = {
+        k: v for k, v in durum["yorumlar"].items()
+        if simdi() - datetime.fromisoformat(v["zaman"]) <= SAKLAMA_SURESI
+    }
     ben = istek("GET", "me", {"fields": "user_id"}, token)
     ben = ben.get("user_id") or ben["id"]
     try:
@@ -213,6 +219,7 @@ def main():
         tarifleri_gonder(durum, token, kuru)
     finally:
         if not kuru:
+            os.makedirs(os.path.dirname(DURUM) or ".", exist_ok=True)
             with open(DURUM, "w", encoding="utf-8") as f:
                 json.dump(durum, f, ensure_ascii=False, indent=2)
                 f.write("\n")
