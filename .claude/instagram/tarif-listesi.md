@@ -81,7 +81,7 @@ Yapılışı:
 Malzemeler:
 - 1 su bardağı yulaf
 - 3 yemek kaşığı Aziz Tahin
-- 2 yemek kaşığı Aziz %100 doğal Ovacık Balı
+- 2 yemek kaşığı Munzur Balı
 - Yarım çay bardağı çekilmiş ceviz ya da fındık
 - 1 yemek kaşığı kakao (isteğe bağlı)
 - Bir tutam tuz
@@ -97,7 +97,7 @@ Yapılışı:
 
 Malzemeler:
 - 3 yemek kaşığı Aziz Tahin
-- 1 yemek kaşığı Aziz %100 doğal Ovacık Balı
+- 1 yemek kaşığı Munzur Balı
 - Tarçın (isteğe göre)
 
 Yapılışı:
@@ -109,6 +109,6 @@ Yapılışı:
 
 ---
 
-Afiyet olsun! 🥄 Tariflerde kullandığımız tahin, Ovacık balı, zeytinyağı ve tahin
+Afiyet olsun! 🥄 Tariflerde kullandığımız tahin, Munzur balı, zeytinyağı ve tahin
 yağını sipariş etmek için profilimizdeki WhatsApp linkinden bize
 yazabilirsiniz. Türkiye'nin her iline gönderim yapıyoruz.

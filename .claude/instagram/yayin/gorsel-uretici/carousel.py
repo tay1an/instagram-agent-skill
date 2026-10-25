@@ -1,6 +1,6 @@
 import json, subprocess, sys, os
 from PIL import Image
-OUT=os.path.abspath(sys.argv[2] if len(sys.argv)>2 else ".claude/instagram/gorseller")
+OUT=os.path.abspath(sys.argv[2] if len(sys.argv)>2 else "/home/user/instagram-agent-skill/.claude/instagram/gorseller")
 CSS="""*{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:1350px;overflow:hidden;font-family:'Inter',sans-serif;position:relative;
 background:radial-gradient(ellipse at 50% 50%,#fffaf0 0%,#f6ead4 65%,#ead6b4 100%);color:#5a2a12}
