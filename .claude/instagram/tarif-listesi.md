@@ -7,49 +7,54 @@ Yorumlara "TAHİN" yazan takipçilere DM'den gönderilen liste.
 Merhaba, ilginiz için teşekkür ederiz! 🤎 Aziz Tahin ürünleriyle evde kolayca
 yapabileceğiniz 5 tarifimizi aşağıda bulabilirsiniz.
 
-**1. Bademli Tahin Soslu Tavuk** (4-5 kişilik)
+**1. Bademli Tahin Soslu Tavuk** (Hazırlama 30 dk, pişirme 30 dk, 4-5 kişilik)
 
 Malzemeler:
-- 800 g tavuk bonfile
-- 50 g soyulmuş badem
+- 800 gr tavuk bonfile
+- 50 gr soyulmuş badem
 - 1 orta boy soğan
 - 3 adet havuç
-- Yarım çay bardağı Aziz Zeytinyağı
-- Karabiber, tuz
+- Yarım çay bardağı zeytinyağı
+- Karabiber
+- Tuz
 
 Sosu için:
 - 1 su bardağı Aziz Tahin
-- 2 orta boy limonun suyu
-- 100 g soyulmuş badem
-- 1 su bardağı su
+- 2 adet orta boy limonun suyu
+- 100 gr soyulmuş badem
 
 Yapılışı:
-1. Sos için ayırdığınız 100 g bademi 1 su bardağı su ile iyice öğütün ve
+1. 100 gr bademi 1 su bardağı su ile iyice öğütüp elde edilen karışımdan
    badem sütünü süzün.
-2. Kalan 50 g bademi zeytinyağında 3-4 dakika kavurun. Küp doğranmış soğanı
-   ve yuvarlak dilimlenmiş havuçları ekleyip kavurmaya devam edin.
-3. Kuşbaşı doğranmış tavuğu ekleyin. Bol karabiber ve isteğe göre tuz atıp
-   tavuklar iyice kızarana kadar arada karıştırarak pişirin.
-4. Bu sırada tahin, limon suyu ve badem sütünü yavaşça çırparak karıştırın.
-5. Tavuklar kızarınca sosu üzerine ekleyin, kısık ateşte 4-5 dakika daha
-   pişirip servis edin.
+2. Kalan 50 gr bademi, yarım çay bardağı zeytinyağında 3-4 dk kavurun.
+   Sonrasında küp doğranmış kuru soğanları ve yuvarlak dilimlenmiş havuçları
+   ekleyip kavurmaya devam edin.
+3. Ardından kuşbaşı doğranmış tavuk bonfileyi ilave edip üzerine bol
+   karabiber ve isteğe göre tuz ekleyip tavuklar iyice kızarana kadar arada
+   karıştırarak pişirin.
+4. Bu sırada sosu için 1 su bardağı Aziz Tahin, 2 orta boy limon suyunu ve
+   hazırlanan badem sütünü birlikte yavaşça çırpıp iyice karıştırın.
+5. Tavuklar kızardıktan sonra, elde ettiğiniz tahinli badem sütlü sosu
+   yavaşça üzerine ekleyin.
+6. Yaklaşık 4-5 dk daha kısık ateşte pişirdikten sonra servis edebilirsiniz.
 
 **2. Tahinli Cevizli Milföy Rulo**
 
 Malzemeler:
 - 1 su bardağı Aziz Tahin
-- 8 adet kare milföy
+- Milföy
 - 2 yemek kaşığı sıvı yağ
+- Çekilmiş ceviz
 - 3/4 su bardağı pudra şekeri
-- 1 su bardağı çekilmiş ceviz
 
 Yapılışı:
-1. Tahin, sıvı yağ ve pudra şekerini karıştırın.
-2. Milföyleri şeritler halinde kesin. Karışımı şeritlerin üzerine sürün,
-   ceviz serpin ve şeritleri rulo yapın.
-3. Ruloları tepsiye dizin, üzerlerine biraz daha tahinli karışım ve ceviz
+1. Milföyleri tepsiye dizip şeritler halinde kesin.
+2. Tahin, sıvı yağ ve pudra şekerini karıştırın.
+3. Karışımı şeritler halinde kesilmiş milföylerin üzerine sürüp ceviz ekleyin
+   ve şeritleri rulo yapın.
+4. Ruloları tepsiye dizip üzerlerine biraz daha tahinli karışım ve ceviz
    ekleyin.
-4. 200°C fırında yaklaşık 25 dakika pişirin.
+5. 200°C fırında yaklaşık 25 dakika pişirin.
 
 **3. Ev Yapımı Humus**
 
