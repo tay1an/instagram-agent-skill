@@ -115,6 +115,17 @@ sipariş verdirmektir.
 - Haftada en az 2 carousel doğrudan sipariş çağrısıyla biter.
 - Kurallar değişmez: uydurma rakam, sağlık iddiası, rakip marka, uzun tire yok.
 
+## Hesabın kendi verisi (25 Ekim 2026 denetimi, rapor/denetim-2026-10-25.md)
+
+- Tek görsel gönderiler en kötü biçim (medyan 469 izlenme, erişim takipçilerin
+  ~%12'si, paylaşma ~0): planda tek görsel gönderi kullanılmaz.
+- Carousel'ler en çok paylaşılan biçim (paylaşma/erişim %2,3; reel %1,2). En iyi
+  konular: "gerçek tahin nasıl seçilir", "üstteki yağ normal".
+- En iyi reel kıvam/akış görüntüsü ("ipek gibi kıvam": 34 kaydetme, 52 paylaşma).
+- Reel'lerde ortalama izlenme 4,2 sn: ilk 2 saniye ve kanca her şeyden önemli.
+- Takip ve yorum neredeyse yok: her içerik tek bir net çağrıyla biter.
+- Her cumartesi yeni rapor rapor/ klasörüne yazılır; plan ondan önce okunur.
+
 ## Savunduğum görüşler
 
 Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan çıkar.
