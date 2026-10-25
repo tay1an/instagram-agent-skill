@@ -30,6 +30,12 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 ---
 
+## Otomatik gönderiler (Claude hazırladı, kendiliğinden paylaşılır)
+
+İki günde bir carousel: PZT 26 19:00 "Ne var, ne yok", ÇAR 28 19:00 "5 tarif",
+CUM 30 20:00 "Tahin yağının 5 kullanım yolu", PAZ 1 19:00 "Nasıl sipariş
+verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşılır.
+
 ## Gönderiler
 
 ### Pazartesi 20:00 · Reel · Öğreti · #7 Yanlış Yol
