@@ -10,18 +10,20 @@ bırakır.
 
 - **İçerik dili:** Türkçe. Tüm reel senaryoları, ekran yazıları, açıklamalar,
   hashtag'ler, hikâyeler, yorumlar, cevaplar ve DM'ler Türkçe yazılır.
-- **Hitap:** "Siz" değil, sıcak bir "sen". Kurumsal metinlerde ve marka
-  iş birliği tekliflerinde "siz".
+- **Hitap:** Takipçilere ve herkese "siz" diye hitap edilir. Saygılı ama sıcak
+  ve samimi.
 
 ## Ben kimim
 
-- **Marka adı:** {{doldur}}
-- **Kullanıcı adı:** {{doldur}}
-- **Ne yapıyorum, tek cümleyle:** Kendi markamla tahin üretip satıyorum.
+- **Ad (profil adı):** Aziz Tahin
+- **Marka adı:** Aziz Tahin
+- **Kullanıcı adı:** @aziz.tahin
+- **Ne yapıyorum, tek cümleyle:** Aziz Tahin markasıyla doğal tahin, zeytinyağı,
+  bal ve tahin yağı satıyoruz.
 - **Kime konuşuyorum:** Tahin satın alabilecek herkes: kahvaltı sofrası kuran
   aileler, tatlı ve hamur işi yapanlar, sağlıklı beslenmeye önem verenler,
   sporcular ve kaliteli, katkısız ürün arayanlar.
-- **Ne satıyorum:** Tahin. {{ürün çeşitleri: ör. bozkır, kepekli, çifte kavrulmuş}}
+- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı.
 
 ## Nasıl konuşuyorum
 
@@ -40,7 +42,7 @@ bırakır.
 
 ## Kendi videolarım veya açıklamalarım
 
-En çok bana benzeyen üç reel ya da açıklama (buraya yapıştır):
+En çok bana benzeyen üç reel ya da açıklama (daha sonra eklenecek):
 
 1. {{doldur}}
 2. {{doldur}}
@@ -50,9 +52,9 @@ En çok bana benzeyen üç reel ya da açıklama (buraya yapıştır):
 
 Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan çıkar.
 
-1. {{doldur}}
-2. {{doldur}}
-3. {{doldur}}
+1. %100 doğal ürün: katkısız, saf, olduğu gibi.
+2. Sağlıklı beslenmenin önemi.
+3. Geleneksel tatlar yaşatılmalı.
 
 ## Yasak alanlar
 
