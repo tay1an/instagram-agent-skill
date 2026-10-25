@@ -4,14 +4,16 @@
 26 EKİM - 1 KASIM HAFTASI   (saatler Türkiye saati)
 
 PZT  20:00  REEL       KANIT    #23 İstatistik        - 100 gram tahinimizde 27 gram protein
-SAL  hikâye
-ÇAR  hikâye + etkileşim
+SAL  sadece hikâye
+ÇAR  sadece hikâye + etkileşim
 PER  20:00  CAROUSEL   ÖĞRETİ   #11 Numaralı Favori   - tahin yağını kullanmanın 5 yolu
 CUM  20:00  REEL       GÖRÜŞ    #2  Olumsuz Komut     - kahvaltıda çikolatalı krema yerine ballı tahin
 CMT  10:00  REEL       ÖĞRETİ   #7  Yanlış Yol        - tahinin üstündeki yağ bozulma değil, doğallık
 PAZ  19:00  CAROUSEL   TEKLİF   -                     - Aziz Tahin ürünleri ve nasıl sipariş verilir
 
-HİKÂYE      her gün 3-5 kare. Çarşamba anket, perşembe soru kutusu.
+HİKÂYE      HER GÜN, istisnasız. İlk kare her sabah 09:00'da; profile giren
+            biri hikâye halkasını her saat dolu görsün. Çarşamba anket,
+            perşembe soru kutusu.
 ETKİLEŞİM   @nefisyemektarifleri ve @yemekcom her gün. Diğerleri 2 günde 1
             (pazartesi, çarşamba, cuma, pazar). @farukgida en fazla haftada 1.
 ```
@@ -95,6 +97,18 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 | PAZ | Pazar carousel'inin paylaşımı + WhatsApp linki |
 
 Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
+
+**Hikâye halkası hiç boş kalmasın.** Hikâyeler paylaşıldıktan 24 saat sonra
+kaybolur. Halkanın kesintisiz dolu görünmesi için:
+
+- Her günün ilk karesini sabah 09:00 civarında paylaşın. Dünün ilk karesi
+  09:00'da kaybolurken bugününki yerine geçer.
+- Günün diğer kareleri öğlen ya da akşam, gönderiyle birlikte eklenir.
+- Yapacak bir şey yoksa bile tek bir kare yeter: dükkandan bir fotoğraf,
+  raftaki kavanozlar, susamın değirmene dökülüşü. Boş halka, kapalı dükkan
+  gibi görünür.
+- Kalıcı olması gereken hikâyeleri (tarifler, nasıl sipariş verilir, dükkan
+  konumu) profildeki Öne Çıkanlar'a ekleyin.
 
 ---
 
