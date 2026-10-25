@@ -3,7 +3,7 @@
 ```
 26 EKİM - 1 KASIM HAFTASI   (saatler Türkiye saati)
 
-PZT  etkileşim  (20 dk, liste aşağıda)
+PZT  etkileşim  (liste aşağıda)
 SAL  20:00  REEL       KANIT    #23 İstatistik        - 100 gram tahinimizde 27 gram protein
 ÇAR  hikâye + etkileşim
 PER  20:00  CAROUSEL   ÖĞRETİ   #11 Numaralı Favori   - tahin yağını kullanmanın 5 yolu
@@ -12,8 +12,8 @@ CMT  10:00  REEL       ÖĞRETİ   #7  Yanlış Yol        - tahinin üstündeki
 PAZ  19:00  CAROUSEL   TEKLİF   -                     - Aziz Tahin ürünleri ve nasıl sipariş verilir
 
 HİKÂYE      her gün 3-5 kare. Çarşamba anket, perşembe soru kutusu.
-ETKİLEŞİM   2 günde 1: pazartesi, çarşamba, cuma, pazar. Kimseye her gün
-            yorum yapılmaz.
+ETKİLEŞİM   @nefisyemektarifleri ve @yemekcom her gün. Diğerleri 2 günde 1
+            (pazartesi, çarşamba, cuma, pazar). @farukgida en fazla haftada 1.
 ```
 
 Ağırlık tahinde. Bal yalnızca cuma (ballı tahin) ve pazar (ürün tanıtımı)
@@ -108,9 +108,13 @@ saatleri sonra.
 
 ---
 
-## Etkileşim (2 günde 1, 20 dakika, paylaşımdan önce)
+## Etkileşim (paylaşımdan önce)
 
-Pazartesi, çarşamba, cuma ve pazar. Hiçbir hesaba her gün yorum yapılmaz.
+| sıklık | hesaplar |
+| --- | --- |
+| her gün | @nefisyemektarifleri, @yemekcom |
+| 2 günde 1 (pzt, çar, cum, paz) | diğer büyük hesaplar ve benzer hesap |
+| en fazla haftada 1 | @farukgida |
 
 Liste birlikte bulunacak. 10 hesap:
 
@@ -136,15 +140,15 @@ Instagram'da aranacak kelimeler:
 4. BÜYÜK   @sukrankaymak           Tarif hesabı
 5. BÜYÜK   @yemektarifi            Tarif hesabı
 6. BÜYÜK   @farukgida              Bursa'da peynir ve doğal ürün dükkanı, ~130 bin
-                                   takipçi, kitlesi bize uygun. Haftada 1 ya da
-                                   arada bir yorum; her gün değil.
+                                   takipçi, kitlesi bize uygun. En fazla haftada
+                                   1 yorum.
                                    Yorumlar müşteri gibi değil ("nereden alınır",
                                    "fiyatı ne" yok), komşu esnaf ve üretici gibi.
 7. BENZER  @dovmechanem            Dut ve cevizden geleneksel lezzet üreticisi
 
-Büyük hesap yedekleri (listedeki bir hesap o gün paylaşım yapmadıysa bunlara geçin):
+Her gün yorum yapılan hesaplar:
 - @nefisyemektarifleri   Çok büyük tarif hesabı, yorumlar hızla birikir;
-  yalnızca paylaşımın ilk dakikalarında yorum yazın.
+  paylaşımın ilk dakikalarında yorum yazın.
 - @yemekcom              Büyük tarif hesabı
 
 Alıcı grubu ve kalan 2 benzer hesap şimdilik boş; yeni hesap bulununca eklenecek.
