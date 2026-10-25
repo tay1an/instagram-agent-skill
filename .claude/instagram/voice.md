@@ -69,9 +69,9 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 
 ## Satış dili
 
-- Her içerik tek bir somut çağrıyla biter: ya "Yorumlara TAHİN yazın" ya da
-  "Sipariş için profildeki WhatsApp linkinden yazın". İkisi aynı anda
-  kullanılmaz.
+- Her içerik tek bir somut çağrıyla biter: "Sipariş için profildeki WhatsApp
+  linkinden yazın". Tarif içeriklerinde bunun yerine "Kaydedin" denebilir.
+  "TAHİN yazın" gibi anahtar kelime çağrıları kullanılmaz (otomasyon kapalı).
 - İlk cümle ürünü değil, izleyicinin durumunu anlatır: bir soru, bir yanlış
   bilinen ya da bir sofra anı. Ürün ikinci cümlede gelir.
 - Özellik değil, kazanç söylenir: "27 g protein" tek başına kalmaz, "kahvaltıda
@@ -98,7 +98,7 @@ sipariş verdirmektir.
   müşterimiz tekrar alıyor", "Türkiye'nin her iline gönderim").
 - **Son slayt:** Tek ve net sipariş çağrısı: "Sipariş için profildeki
   WhatsApp linkinden yazın." Siparişin kolay olduğu hatırlatılır.
-  Yorum anahtar kelimesi (TAHİN) yalnızca tarif içerikli carousel'lerde.
+  Anahtar kelime çağrısı (TAHİN) kullanılmaz.
 - **Açıklama:** İlk satır merak açar ve "... devamı" kesiminden önce biter;
   sonda aynı sipariş çağrısı, 3 hashtag.
 - Haftada en az 2 carousel doğrudan sipariş çağrısıyla biter.
@@ -157,13 +157,9 @@ asla uydurmaz.
 
 ## Çağrı (CTA)
 
-- **Anahtar kelime CTA'sı:** "Yorumlara TAHİN yazın". Meta Business Suite'teki
-  "Yorumdan mesaja" otomasyonu (Tahin, TAHİN, tahin, Tahın, TAHIN, tahın)
-  yorumun altına "DM'den yazdık 🤎" yazar ve kişiye otomatik DM gönderir.
-- **Anahtar kelime ne gönderir:** 5 tarifin web sayfasının linki
-  (https://tay1an.github.io/instagram-agent-skill/tarifler.html) ve sipariş
-  çağrısı. (İndirim ya da hediye verilmez. Otomatik DM'de görsel gitmediği için
-  link kullanılır.)
+- **Anahtar kelime CTA'sı:** Yok. Yoruma ya da DM'e "TAHİN" yazdırıp tarif
+  gönderme otomasyonu kapatıldı; içerikler bunu istemez. Tarifler günlük
+  hikâyelerde paylaşılır.
 - **Linkim nereye gider:** Profilde birden fazla link var:
   - Trendyol satış sayfası
   - Dükkanın konumu

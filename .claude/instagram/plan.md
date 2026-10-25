@@ -48,7 +48,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Ekran yazısı:** ÜSTTEKİ YAĞ NORMAL
 - **Görüntü:** Kavanoz açılır, yağ görünür, doğru karıştırma gösterilir.
 - **Dikkat:** Rakip marka adı ya da "onların tahini katkılı" imaları yok.
-- **Çağrı:** "DM'den TAHİN yazın, tariflerimizi gönderelim."
+- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
 
 ### Perşembe 20:00 · Reel · Görüş · #2 Olumsuz Komut
 
@@ -60,7 +60,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Görüntü:** Ballı tahinin hazırlanışı (tarif listesindeki 5. tarif). Kim
   krema sever, yorumlarda tartışma çıkar; bu istenen bir şey.
 - **Dikkat:** Sağlık iddiası yok. Konu tat, doğallık ve gelenek.
-- **Çağrı:** "Tariflerin tamamı için DM'den TAHİN yazın."
+- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
 
 ### Cuma 20:00 · Carousel · Öğreti · #11 Numaralı Favori
 
@@ -82,7 +82,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Bilgi:** Tarladan gelen susamın %15-20'si temizlikte ayrılır. Yıkanmış,
   kavrulmuş 1 kilo susamdan 1 kilo tahin çıkar, fire yok. Pazartesi sabah
   hikâyesi bunun kısa bir ön gösterimi; reel daha ayrıntılı.
-- **Çağrı:** "DM'den TAHİN yazın, tariflerimizi gönderelim."
+- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
 
 ### Pazar 19:00 · Carousel · Teklif
 
@@ -100,7 +100,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 
 | gün | konu |
 | --- | --- |
-| PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "DM'den TAHİN yazın" |
+| PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "Sipariş için WhatsApp'tan yazın" |
 | SAL | Taş değirmende tahin üretimi, kısa video |
 | ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
 | PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" + ballı tahin reel'i |
@@ -130,7 +130,7 @@ Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
 20:00'de reel paylaşılınca bir kare daha:
 
 ```
-6  [reel paylaşımı + yazı]         "Cevap videoda. DM'den TAHİN yazana 5 tarifimizi gönderiyoruz."
+6  [reel paylaşımı + yazı]         "Cevap videoda. Sipariş için WhatsApp'tan yazabilirsiniz."
 ```
 
 **Hikâye halkası hiç boş kalmasın.** Hikâyeler paylaşıldıktan 24 saat sonra
