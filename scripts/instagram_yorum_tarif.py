@@ -102,12 +102,21 @@ def mesaj_gonder(alici, metin, token):
 
 
 def yorumlari_tara(durum, ben, token, kuru):
-    gonderiler = istek("GET", f"{ben}/media", {"fields": "id,timestamp", "limit": TARANACAK_GONDERI}, token)
+    gonderiler = istek("GET", f"{ben}/media", {"fields": "id,timestamp,comments_count", "limit": TARANACAK_GONDERI}, token)
+    ozet = {"gonderi": 0, "yorum": 0, "eslesen": 0, "kimliksiz": 0}
     for g in gonderiler.get("data", []):
         if simdi() - zaman(g["timestamp"]) > timedelta(days=30):
             continue
+        ozet["gonderi"] += 1
         yorumlar = istek("GET", f"{g['id']}/comments", {"fields": "id,text,timestamp,from", "limit": 50}, token)
-        for y in yorumlar.get("data", []):
+        veri = yorumlar.get("data", [])
+        print(f"Gönderi {g['timestamp'][:10]}: Instagram'a göre {g.get('comments_count')} yorum, okunan {len(veri)}")
+        ozet["yorum"] += len(veri)
+        for y in veri:
+            if anahtar_mi(y.get("text")):
+                ozet["eslesen"] += 1
+                if not (y.get("from") or {}).get("id"):
+                    ozet["kimliksiz"] += 1
             onceki = durum["yorumlar"].get(y["id"])
             if onceki and (onceki["durum"] != "hata" or onceki.get("deneme", 1) >= 3):
                 continue
@@ -136,6 +145,8 @@ def yorumlari_tara(durum, ben, token, kuru):
                     istek("POST", f"{y['id']}/replies", {"message": random.choice(HERKESE_ACIK_YANITLAR)}, token)
                 except ApiHatasi as e:
                     print(f"UYARI    yorum {y['id']}: herkese açık yanıt yazılamadı: {e}", file=sys.stderr)
+    print(f"Özet: {ozet['gonderi']} gönderi, {ozet['yorum']} yorum, {ozet['eslesen']} TAHİN yorumu"
+          + (f" ({ozet['kimliksiz']} tanesinde yazan kişinin kimliği gelmedi)" if ozet["kimliksiz"] else ""))
 
 
 def cevap_verdi_mi(kisi, sonra, token):
