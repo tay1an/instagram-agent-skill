@@ -61,18 +61,18 @@ Yapılışı:
 Malzemeler:
 - 2 su bardağı haşlanmış nohut
 - Yarım su bardağı Aziz Tahin
-- Yarım çay bardağı Aziz Zeytinyağı
+- Yarım çay bardağı sızma zeytinyağı
 - 1 limonun suyu
 - 2 diş sarımsak
 - 1-2 yemek kaşığı soğuk su
 - Tuz, kimyon
-- Üzeri için 1-2 yemek kaşığı Aziz Zeytinyağı ve kırmızı biber
+- Üzeri için 1-2 yemek kaşığı sızma zeytinyağı ve kırmızı biber
 
 Yapılışı:
 1. Nohut, tahin, zeytinyağı, limon suyu, sarımsak, tuz ve kimyonu mutfak
    robotuna alın.
 2. Soğuk suyu ekleyerek 3-4 dakika, pürüzsüz olana kadar çekin.
-3. Tabağa yayın, üzerine 1-2 yemek kaşığı Aziz Zeytinyağı gezdirip kırmızı
+3. Tabağa yayın, üzerine 1-2 yemek kaşığı sızma zeytinyağı gezdirip kırmızı
    biber serpin.
    Susam aromasını sevenler birkaç damla Aziz Tahin Yağı da ekleyebilir.
 
