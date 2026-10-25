@@ -1,32 +1,44 @@
 # DM otomatik yanıtları (Meta Business Suite)
 
-DM'den "TAHİN" yazan kişiye tarif menüsü gider. Kişi istediği tarifin kelimesini yazınca tarifin tamamı gelir. Tavuk tarifi uzun olduğu için iki mesajdır: TAVUK malzemeleri, YAPILIŞ yapılışını gönderir. Her mesaj 1000 karakterin altındadır; tarif içerikleri tarif-listesi.md ile birebir aynıdır.
-
-Kurulum: https://business.facebook.com/latest/inbox → **Otomasyonlar** → **Özel anahtar kelimeler** (Custom keywords) → **Oluştur**. Platform: **Instagram**. Aşağıdaki her blok için ayrı bir otomasyon oluşturun (toplam 7). Yanıt alanı metni kabul etmezse (karakter sınırı) Claude'a haber verin.
-
-## 1. Menü
-
-**Anahtar kelimeler:** `tahin`, `Tahin`, `TAHİN`, `TAHIN`
-
-**Yanıt** (326 karakter):
+Etkileşimli tarif yolculuğu: yoruma (ya da DM'e) "TAHİN" yazan kişi her adımda bir sonraki kelimeyi yazarak 5 tarifi sırayla alır.
 
 ```
-Merhaba, ilginiz için teşekkür ederiz! 🤎 Aziz Tahin ile 5 tarifimiz var. Hangisini isterseniz o kelimeyi yazmanız yeterli, tarif hemen gelsin:
-
-TAVUK → Bademli Tahin Soslu Tavuk
-MİLFÖY → Tahinli Cevizli Milföy Rulo
-HUMUS → Ev Yapımı Humus
-ENERJİ → Tahinli Ballı Enerji Topları
-BALLI → Ballı Tahin
-
-Hepsini denemenizi isteriz 🥄
+TAHİN → BAŞLA → PİŞİR → RULO → HUMUS → ENERJİ → KAŞIK
 ```
 
-## 2. Bademli Tahin Soslu Tavuk
+Her mesaj 1000 karakterin altındadır; tarif içerikleri tarif-listesi.md ile birebir aynıdır.
 
-**Anahtar kelimeler:** `tavuk`, `Tavuk`, `TAVUK`
+## 1. Yorumdan mesaja (Otomasyonlar → Yorumdan mesaja)
 
-**Yanıt** (340 karakter):
+**Kanal:** yalnızca Instagram. **Anahtar sözcükler:** `Tahin`, `tahin`, `tahın`, `TAHIN`, `TAHİN`
+
+**Özel mesaj** (141 karakter):
+
+```
+Merhaba, ilginiz için teşekkür ederiz! 🤎 Aziz Tahin ile 5 tarifimizi sırayla, adım adım göndereceğiz.
+
+İlk tarif için bu mesaja BAŞLA yazın 🥄
+```
+
+**Yorum yanıtı:**
+
+```
+DM'den yazdık 🤎
+```
+
+## 2. DM'den TAHİN yazanlar (Özel anahtar kelimeler)
+
+**Anahtar kelimeler:** `tahin`, `Tahin`, `TAHİN`, `TAHIN`, `tahın`
+
+**Yanıt:** yukarıdaki özel mesajın aynısı.
+
+## 3-8. Tarif adımları (Özel anahtar kelimeler, her biri ayrı otomasyon)
+
+### 3. BAŞLA → 1. tarif: tavuk (malzemeler)
+
+**Anahtar kelimeler:** `başla`, `Başla`, `BAŞLA`, `basla`
+
+**Yanıt** (361 karakter):
 
 ```
 1. Bademli Tahin Soslu Tavuk (Hazırlama 30 dk, pişirme 30 dk, 4-5 kişilik)
@@ -45,19 +57,18 @@ Sosu için:
 - 2 adet orta boy limonun suyu
 - 100 gr soyulmuş badem
 
-Yapılışı için YAPILIŞ yazın 🥄
+Malzemeler hazır mı? Yapılışı için PİŞİR yazın 👩‍🍳
 ```
 
-## 3. Bademli Tahin Soslu Tavuk (yapılışı)
+### 4. PİŞİR → 1. tarif: tavuk (yapılışı)
 
-**Anahtar kelimeler:** `yapılış`, `Yapılış`, `YAPILIŞ`, `yapilis`
+**Anahtar kelimeler:** `pişir`, `Pişir`, `PİŞİR`, `pisir`
 
-**Yanıt** (873 karakter):
+**Yanıt** (850 karakter):
 
 ```
-1. Bademli Tahin Soslu Tavuk (devamı)
+Bademli Tahin Soslu Tavuk, yapılışı:
 
-Yapılışı:
 1. 100 gr bademi 1 su bardağı su ile iyice öğütüp elde edilen karışımdan badem sütünü süzün.
 2. Kalan 50 gr bademi, yarım çay bardağı zeytinyağında 3-4 dk kavurun. Sonrasında küp doğranmış kuru soğanları ve yuvarlak dilimlenmiş havuçları ekleyip kavurmaya devam edin.
 3. Ardından kuşbaşı doğranmış tavuk bonfileyi ilave edip üzerine bol karabiber ve isteğe göre tuz ekleyip tavuklar iyice kızarana kadar arada karıştırarak pişirin.
@@ -65,14 +76,14 @@ Yapılışı:
 5. Tavuklar kızardıktan sonra, elde ettiğiniz tahinli badem sütlü sosu yavaşça üzerine ekleyin.
 6. Yaklaşık 4-5 dk daha kısık ateşte pişirdikten sonra servis edebilirsiniz.
 
-Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz 🤎
+Afiyet olsun! 2. tarif tatlıdan geliyor, görmek için RULO yazın 🤎
 ```
 
-## 4. Tahinli Cevizli Milföy Rulo
+### 5. RULO → 2. tarif: milföy rulo
 
-**Anahtar kelimeler:** `milföy`, `Milföy`, `MİLFÖY`, `milfoy`
+**Anahtar kelimeler:** `rulo`, `Rulo`, `RULO`
 
-**Yanıt** (572 karakter):
+**Yanıt** (538 karakter):
 
 ```
 2. Tahinli Cevizli Milföy Rulo
@@ -91,14 +102,14 @@ Yapılışı:
 4. Ruloları tepsiye dizip üzerlerine biraz daha tahinli karışım ve ceviz ekleyin.
 5. 200°C fırında yaklaşık 25 dakika pişirin.
 
-Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz 🤎
+3. tarif mezeden: görmek için HUMUS yazın 🥄
 ```
 
-## 5. Ev Yapımı Humus
+### 6. HUMUS → 3. tarif: humus
 
 **Anahtar kelimeler:** `humus`, `Humus`, `HUMUS`
 
-**Yanıt** (668 karakter):
+**Yanıt** (653 karakter):
 
 ```
 3. Ev Yapımı Humus
@@ -118,14 +129,14 @@ Yapılışı:
 2. Soğuk suyu ekleyerek 3-4 dakika, pürüzsüz olana kadar çekin.
 3. Tabağa yayın, üzerine 1-2 yemek kaşığı Aziz Zeytinyağı gezdirip kırmızı biber serpin. Susam aromasını sevenler birkaç damla Aziz Tahin Yağı da ekleyebilir.
 
-Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz 🤎
+4. tarif fırınsız bir atıştırmalık: görmek için ENERJİ yazın ✨
 ```
 
-## 6. Tahinli Ballı Enerji Topları
+### 7. ENERJİ → 4. tarif: enerji topları
 
 **Anahtar kelimeler:** `enerji`, `Enerji`, `ENERJİ`, `ENERJI`
 
-**Yanıt** (608 karakter):
+**Yanıt** (591 karakter):
 
 ```
 4. Tahinli Ballı Enerji Topları (yaklaşık 12 adet, fırın gerekmez)
@@ -144,14 +155,14 @@ Yapılışı:
 2. Karışımdan ceviz büyüklüğünde parçalar alıp yuvarlayın, susama bulayın.
 3. Buzdolabında 30 dakika dinlendirin. Spor sonrası ya da ara öğünde tok tutan bir atıştırmalık olur.
 
-Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz 🤎
+Ve son tarif, kahvaltının yıldızı: görmek için KAŞIK yazın 🥄
 ```
 
-## 7. Ballı Tahin
+### 8. KAŞIK → 5. tarif: ballı tahin
 
-**Anahtar kelimeler:** `ballı`, `Ballı`, `BALLI`, `balli`
+**Anahtar kelimeler:** `kaşık`, `Kaşık`, `KAŞIK`, `kasik`
 
-**Yanıt** (437 karakter):
+**Yanıt** (528 karakter):
 
 ```
 5. Ballı Tahin
@@ -166,5 +177,5 @@ Yapılışı:
 2. Tahin ve balı küçük bir kasede karıştırın. İsterseniz üzerine tarçın serpin.
 3. Taze ekmekle kahvaltı sofranıza alın.
 
-Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz 🤎
+Beş tarifin hepsi sizde, afiyet olsun! 🤎 Aziz Tahin, Ovacık balı, zeytinyağı ve tahin yağı siparişi için bu mesaja yazmanız yeterli. Türkiye'nin her iline gönderiyoruz.
 ```
