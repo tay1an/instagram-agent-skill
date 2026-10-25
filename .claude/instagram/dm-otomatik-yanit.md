@@ -3,7 +3,7 @@
 Etkileşimli tarif yolculuğu: yoruma (ya da DM'e) "TAHİN" yazan kişi her adımda bir sonraki kelimeyi yazarak 5 tarifi sırayla alır. Özel anahtar kelime yanıtları 500 karakterle sınırlı olduğu için tarifler **görsel** olarak gider; metin yalnızca kısa bir açıklama ve sonraki kelimedir.
 
 ```
-TAHİN → BAŞLA → PİŞİR → RULO → HUMUS → ENERJİ → KAŞIK
+TAHİN → BAŞLA → RULO → HUMUS → ENERJİ → KAŞIK
 ```
 
 Görselleri bilgisayarınıza indirmek için her adımdaki bağlantıya tıklayıp görsele sağ tıklayın → **Resmi farklı kaydet**.
@@ -32,37 +32,23 @@ DM'den yazdık 🤎
 
 **Yanıt:** yukarıdaki özel mesajın aynısı.
 
-## 3-8. Tarif adımları (Özel anahtar kelimeler, her biri ayrı otomasyon)
+## 3-7. Tarif adımları (Özel anahtar kelimeler, her biri ayrı otomasyon)
 
 ### 3. BAŞLA
 
 **Anahtar kelimeler:** `başla`, `Başla`, `BAŞLA`, `basla`
 
-**Medya:** [dm-tarif-1a.jpg](https://raw.githubusercontent.com/tay1an/instagram-agent-skill/main/.claude/instagram/gorseller/dm-tarif-1a.jpg)
+**Medya:** [dm-tarif-1.jpg](https://raw.githubusercontent.com/tay1an/instagram-agent-skill/main/.claude/instagram/gorseller/dm-tarif-1.jpg)
 
-**Yanıt** (128 karakter):
-
-```
-1. tarif: Bademli Tahin Soslu Tavuk 🤎 Malzemeler görselde, kaydetmeyi unutmayın.
-
-Malzemeler hazır mı? Yapılışı için PİŞİR yazın
-```
-
-### 4. PİŞİR
-
-**Anahtar kelimeler:** `pişir`, `Pişir`, `PİŞİR`, `pisir`
-
-**Medya:** [dm-tarif-1b.jpg](https://raw.githubusercontent.com/tay1an/instagram-agent-skill/main/.claude/instagram/gorseller/dm-tarif-1b.jpg)
-
-**Yanıt** (96 karakter):
+**Yanıt** (145 karakter):
 
 ```
-Tavuğun yapılışı görselde. Afiyet olsun! 🍽️
+1. tarif: Bademli Tahin Soslu Tavuk 🤎 Malzemeler ve yapılışı görselde, kaydetmeyi unutmayın.
 
 2. tarif tatlıdan geliyor, görmek için RULO yazın 🤎
 ```
 
-### 5. RULO
+### 4. RULO
 
 **Anahtar kelimeler:** `rulo`, `Rulo`, `RULO`
 
@@ -76,7 +62,7 @@ Tavuğun yapılışı görselde. Afiyet olsun! 🍽️
 3. tarif mezeden: görmek için HUMUS yazın 🥄
 ```
 
-### 6. HUMUS
+### 5. HUMUS
 
 **Anahtar kelimeler:** `humus`, `Humus`, `HUMUS`
 
@@ -90,7 +76,7 @@ Tavuğun yapılışı görselde. Afiyet olsun! 🍽️
 4. tarif fırınsız bir atıştırmalık: görmek için ENERJİ yazın ✨
 ```
 
-### 7. ENERJİ
+### 6. ENERJİ
 
 **Anahtar kelimeler:** `enerji`, `Enerji`, `ENERJİ`, `ENERJI`
 
@@ -104,7 +90,7 @@ Tavuğun yapılışı görselde. Afiyet olsun! 🍽️
 Ve son tarif, kahvaltının yıldızı: görmek için KAŞIK yazın 🥄
 ```
 
-### 8. KAŞIK
+### 7. KAŞIK
 
 **Anahtar kelimeler:** `kaşık`, `Kaşık`, `KAŞIK`, `kasik`
 
