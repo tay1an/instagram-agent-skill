@@ -61,8 +61,10 @@ kendiliğinden yeniler, ama bunun için GitHub'a bir izin vermeniz gerekir:
    **Instagram yayın**'a tıklayın.
 2. **Run workflow**'a basın, **Deneme** kutusunu işaretleyin, çalıştırın.
    Bu hiçbir şey paylaşmaz, yalnızca sistemin çalıştığını gösterir.
-3. **Instagram anahtar yenileme**'yi de bir kez **Run workflow** ile
-   çalıştırın. Yeşil tik çıkarsa kurulum tamam.
+   Kayıtta "Bağlantı tamam" ve "Paylaşım izni tamam" satırları görünmeli.
+3. **Instagram anahtar yenileme** ilk pazartesi kendiliğinden çalışır.
+   Instagram, 24 saatten yeni bir anahtarın yenilenmesine izin vermediği
+   için bunu kurulum günü elle çalıştırmayın.
 
 Kırmızı çarpı çıkarsa Claude'a haber verin.
 

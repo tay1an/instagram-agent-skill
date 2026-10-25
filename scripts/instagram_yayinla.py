@@ -150,8 +150,25 @@ def dogrula(paylasim):
         medya_parametresi(yol)
 
 
+def baglanti_kontrol(token):
+    """Deneme modunda hiçbir şey paylaşmadan anahtarı ve izinleri sınar."""
+    try:
+        ben = istek("GET", "me", {"fields": "user_id,username,account_type"}, token)
+        print(f"Bağlantı tamam: @{ben.get('username')} ({ben.get('account_type')})")
+        kullanici = ben.get("user_id") or ben["id"]
+        limit = istek("GET", f"{kullanici}/content_publishing_limit", {"fields": "quota_usage,config"}, token)
+        veri = (limit.get("data") or [{}])[0]
+        kota = veri.get("config", {}).get("quota_total")
+        print(f"Paylaşım izni tamam: son 24 saatte {veri.get('quota_usage', 0)}/{kota} API paylaşımı")
+    except ApiHatasi as e:
+        print(f"BAĞLANTI HATASI: {e}", file=sys.stderr)
+        raise SystemExit(1)
+
+
 def main():
     kuru = os.environ.get("KURU_CALISMA") == "1"
+    if kuru and os.environ.get("IG_ACCESS_TOKEN"):
+        baglanti_kontrol(os.environ["IG_ACCESS_TOKEN"])
     with open(TAKVIM, encoding="utf-8") as f:
         takvim = json.load(f)
     dilim = ZoneInfo(takvim.get("saat_dilimi", "Europe/Istanbul"))
