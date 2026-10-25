@@ -93,6 +93,6 @@ asla uydurmaz.
 
 ## Çağrı (CTA)
 
-- **Anahtar kelime CTA'sı:** {{tek kelime, ör. TAHİN}}
+- **Anahtar kelime CTA'sı:** TAHİN
 - **Anahtar kelime ne gönderir:** {{ör. indirim kodu ya da sipariş linki}}
 - **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
