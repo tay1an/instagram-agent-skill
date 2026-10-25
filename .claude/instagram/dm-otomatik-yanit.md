@@ -1,5 +1,34 @@
 # DM otomatik yanıtları (Meta Business Suite)
 
+## Önerilen kurulum: tek görselde 5 tarif
+
+Yoruma "TAHİN" yazan kişiye, 5 tarifin tamamı tek bir görselde gider
+([dm-tarifler-hepsi.jpg](https://raw.githubusercontent.com/tay1an/instagram-agent-skill/main/.claude/instagram/gorseller/dm-tarifler-hepsi.jpg)).
+
+**Otomasyonlar → Yorumdan mesaja**
+
+- **Kanal:** yalnızca Instagram
+- **Anahtar sözcükler:** `Tahin`, `tahin`, `tahın`, `TAHIN`, `TAHİN`
+- **Özel mesaj** (177 karakter):
+
+```
+Merhaba, ilginiz için teşekkür ederiz! 🤎 Aziz Tahin ile 5 tarifimiz görselde, kaydetmeyi unutmayın.
+
+Sipariş için bu mesaja yazmanız yeterli, Türkiye'nin her iline gönderiyoruz.
+```
+
+- **Medya:** dm-tarifler-hepsi.jpg
+- **Yorum yanıtı:** `DM'den yazdık 🤎`
+
+DM'den doğrudan "TAHİN" yazanlar için **Özel anahtar kelimeler**'de aynı
+anahtar kelimelerle, aynı mesaj ve görselle bir otomasyon daha kurun.
+
+---
+
+## Alternatif: adım adım tarif yolculuğu
+
+Tek görsel yerine her tarifin ayrı görselle gitmesi istenirse:
+
 Etkileşimli tarif yolculuğu: yoruma (ya da DM'e) "TAHİN" yazan kişi her adımda bir sonraki kelimeyi yazarak 5 tarifi sırayla alır. Özel anahtar kelime yanıtları 500 karakterle sınırlı olduğu için tarifler **görsel** olarak gider; metin yalnızca kısa bir açıklama ve sonraki kelimedir.
 
 ```
