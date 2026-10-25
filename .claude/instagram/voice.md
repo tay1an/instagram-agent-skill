@@ -78,7 +78,8 @@ Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunl
 asla uydurmaz.
 
 - Aile işletmesiyiz.
-- Tahinimiz içinde taş bulunan tahin makinesinde üretilir.
+- Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
+  "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
 - Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir.
 - Bursa'da şubemiz var; online satışla Türkiye'nin tüm illerine gönderim
