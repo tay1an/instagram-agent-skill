@@ -94,6 +94,6 @@ asla uydurmaz.
 ## Çağrı (CTA)
 
 - **Anahtar kelime CTA'sı:** TAHİN
-- **Anahtar kelime ne gönderir:** İlk siparişe özel hediye. Hediye:
-  {{hediye ne}}
+- **Anahtar kelime ne gönderir:** Aziz Tahin ürünleriyle yapılabilecek 5
+  tariflik bir liste. (İndirim ya da hediye verilmez.)
 - **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
