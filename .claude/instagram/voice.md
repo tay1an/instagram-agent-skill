@@ -18,11 +18,11 @@ uydurmaz, taslaklarda yer tutucu bırakır.
 - **Marka adı:** Aziz Tahin
 - **Kullanıcı adı:** @aziz.tahin
 - **Ne yapıyorum, tek cümleyle:** Aziz Tahin markasıyla doğal tahin, zeytinyağı,
-  bal ve tahin yağı satıyoruz.
+  bal, tahin yağı ve üzüm pekmezi satıyoruz.
 - **Kime konuşuyorum:** Tahin satın alabilecek herkes: kahvaltı sofrası kuran
   aileler, tatlı ve hamur işi yapanlar, sağlıklı beslenmeye önem verenler,
   sporcular ve kaliteli, katkısız ürün arayanlar.
-- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı. Tahin tek çeşittir ve
+- **Ne satıyorum:** Tahin, zeytinyağı, bal, tahin yağı, doğal üzüm pekmezi. Tahin tek çeşittir ve
   "Aziz Tahin" diye anılır ("tek kavrulmuş", "çifte kavrulmuş" gibi çeşit adı
   kullanılmaz; çifte kavrulmuş artık satılmıyor).
 
@@ -143,6 +143,8 @@ asla uydurmaz.
 - Etikette "Yağın üstte birikmesi normaldir. Tüketmeden önce karıştırınız."
   yazar. Etiket: "%100 susamdan elde edilir", "Bursa'dan doğal lezzet".
 - Web sitesi: aziztahin.com
+- Doğal üzüm pekmezi cam kavanozda, kırmızı çiçek desenli kapakla satılır
+  (etiketsiz; hacmi {{doldur}}). Tahin-pekmez ikilisi içeriklerde öne çıkarılabilir.
 - Tahin yağı kare cam şişede satılır; şişenin ağzı keten bezle kapatılıp sicimle
   bağlanır ve kırmızı mumla "Aziz" mühürü basılır (hediyelik görünüm). Şişe hacmi
   {{doldur}}.
