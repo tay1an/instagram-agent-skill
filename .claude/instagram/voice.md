@@ -96,4 +96,11 @@ asla uydurmaz.
 - **Anahtar kelime CTA'sı:** TAHİN
 - **Anahtar kelime ne gönderir:** Aziz Tahin ürünleriyle yapılabilecek 5
   tariflik bir liste. (İndirim ya da hediye verilmez.)
-- **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
+- **Linkim nereye gider:** Profilde birden fazla link var:
+  - Trendyol satış sayfası
+  - Dükkanın konumu
+  - Web sitesi
+  - WhatsApp konuşması
+
+  İçeriklerde "profildeki linkten" denir; hangi link kastediliyorsa adıyla
+  söylenir (ör. "profildeki WhatsApp linkinden yazın").
