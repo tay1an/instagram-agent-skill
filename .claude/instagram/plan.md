@@ -132,7 +132,8 @@ Instagram'da aranacak kelimeler:
 4. BÜYÜK   @sukrankaymak           Tarif hesabı
 5. BÜYÜK   @yemektarifi            Tarif hesabı
 6. BÜYÜK   @farukgida              Bursa'da peynir ve doğal ürün dükkanı, ~130 bin
-                                   takipçi, kitlesi bize uygun. Her gün yorum.
+                                   takipçi, kitlesi bize uygun. Haftada 1 ya da
+                                   arada bir yorum; her gün değil.
                                    Yorumlar müşteri gibi değil ("nereden alınır",
                                    "fiyatı ne" yok), komşu esnaf ve üretici gibi.
 
