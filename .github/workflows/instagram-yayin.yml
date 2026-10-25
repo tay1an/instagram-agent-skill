@@ -1,0 +1,55 @@
+name: Instagram yayın
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      kuru_calisma:
+        description: "Deneme: hiçbir şey yayınlama, sadece ne yapılacağını göster"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-yayin
+  cancel-in-progress: false
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zamanı gelen paylaşımları yayınla
+        id: yayin
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
+        run: python scripts/instagram_yayinla.py
+
+      - name: Takvimdeki durumları kaydet
+        if: always()
+        run: |
+          if git diff --quiet -- .claude/instagram/yayin/takvim.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .claude/instagram/yayin/takvim.json
+          git commit -m "Instagram: yayın durumu güncellendi"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Hata varsa işi başarısız say
+        if: steps.yayin.outcome == 'failure'
+        run: |
+          echo "Bir ya da daha fazla paylaşım yayınlanamadı; takvim.json içindeki 'hata' alanına bakın."
+          exit 1

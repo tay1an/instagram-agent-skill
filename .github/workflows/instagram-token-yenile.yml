@@ -1,0 +1,34 @@
+name: Instagram anahtar yenileme
+
+# Instagram uzun ömürlü erişim anahtarı 60 günde sona erer. Bu iş her hafta
+# anahtarı yeniler ve yeni anahtarı IG_ACCESS_TOKEN sırrına yazar.
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  yenile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Anahtarı yenile
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ] || [ -z "$GH_TOKEN" ]; then
+            echo "IG_ACCESS_TOKEN ya da GH_SECRETS_TOKEN tanımlı değil; kurulum tamamlanmamış."
+            exit 1
+          fi
+          yanit=$(curl -sS --get "https://graph.instagram.com/refresh_access_token" \
+            --data-urlencode "grant_type=ig_refresh_token" \
+            --data-urlencode "access_token=${IG_ACCESS_TOKEN}")
+          yeni=$(printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("access_token",""))')
+          if [ -z "$yeni" ]; then
+            echo "Yenileme başarısız:"
+            printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("error",{}).get("message","bilinmeyen hata"))'
+            exit 1
+          fi
+          echo "::add-mask::$yeni"
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$yeni"
+          echo "Anahtar yenilendi."
