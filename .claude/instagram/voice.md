@@ -173,8 +173,9 @@ asla uydurmaz.
 - Dükkan Bursa'da, Cumhuriyet Caddesi'nin girişinde; 15. yüzyıldan kalma tarihi
   Yiğit Köhne Camii'nin tam karşısında. Tarihi görünümlü bir binada, önünden
   tramvay geçiyor. İçeriklerde "Cumhuriyet Caddesi'nin girişinde, Yiğit Köhne
-  Camii'nin karşısında" diye tarif edilir (etiketteki resmi adres: Alamescit Mh.
-  İnönü Cad. No:51 Osmangazi/Bursa).
+  Camii'nin karşısında" diye tarif edilir. Adres aslında İnönü Caddesi'ndedir
+  (Alamescit Mh. İnönü Cad. No:51 Osmangazi/Bursa); "Cumhuriyet Caddesi'nde"
+  denmez, yalnızca "Cumhuriyet Caddesi'nin girişinde" denir.
 - Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
   gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
