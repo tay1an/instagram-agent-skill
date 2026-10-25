@@ -131,7 +131,7 @@ Instagram'da aranacak kelimeler:
 3. BÜYÜK   @gezginlerbursada       Bursa gezi hesabı
 4. BÜYÜK   {{kullanıcı adı}}
 5. BÜYÜK   {{kullanıcı adı}}
-6. BENZER  {{kullanıcı adı}}
+6. BENZER  @dovmechanem            Dut ve cevizden geleneksel lezzet üreticisi
 7. BENZER  {{kullanıcı adı}}
 8. BENZER  {{kullanıcı adı}}
 9. ALICI   {{kullanıcı adı}}
