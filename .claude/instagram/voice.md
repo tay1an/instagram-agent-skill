@@ -143,6 +143,9 @@ asla uydurmaz.
 - Etikette "Yağın üstte birikmesi normaldir. Tüketmeden önce karıştırınız."
   yazar. Etiket: "%100 susamdan elde edilir", "Bursa'dan doğal lezzet".
 - Web sitesi: aziztahin.com
+- Tahin yağı kare cam şişede satılır; şişenin ağzı keten bezle kapatılıp sicimle
+  bağlanır ve kırmızı mumla "Aziz" mühürü basılır (hediyelik görünüm). Şişe hacmi
+  {{doldur}}.
 - Tahin iki boyda: 500 g (cam kavanoz, altın kapak) ve 1 kg (plastik kavanoz,
   kırmızı kapak). İkisi de aynı etiketle.
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
