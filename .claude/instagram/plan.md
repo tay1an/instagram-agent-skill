@@ -126,9 +126,9 @@ Instagram'da aranacak kelimeler:
 | benzer | `doğal tahin`, `köy ürünleri`, `doğal bal`, `taş değirmen tahin` |
 | alıcı | `bursa kahvaltı`, `bursa kafe`, `bursa pastane`, `bursa şarküteri` |
 
-1. BÜYÜK   {{kullanıcı adı}}
-2. BÜYÜK   {{kullanıcı adı}}
-3. BÜYÜK   {{kullanıcı adı}}
+1. BÜYÜK   @bursaseyyahi           Bursa gezi ve mekân hesabı
+2. BÜYÜK   @bursa_mekan_onerisi    Bursa mekân önerileri
+3. BÜYÜK   @gezginlerbursada       Bursa gezi hesabı
 4. BÜYÜK   {{kullanıcı adı}}
 5. BÜYÜK   {{kullanıcı adı}}
 6. BENZER  {{kullanıcı adı}}
