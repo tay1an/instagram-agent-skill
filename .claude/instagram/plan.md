@@ -3,12 +3,12 @@
 ```
 26 EKİM - 1 KASIM HAFTASI   (saatler Türkiye saati)
 
-PZT  20:00  REEL       KANIT    #23 İstatistik        - 100 gram tahinimizde 27 gram protein
+PZT  20:00  REEL       ÖĞRETİ   #7  Yanlış Yol        - tahinin üstündeki yağ bozulma değil, doğallık
 SAL  sadece hikâye
 ÇAR  sadece hikâye + etkileşim
-PER  20:00  CAROUSEL   ÖĞRETİ   #11 Numaralı Favori   - tahin yağını kullanmanın 5 yolu
-CUM  20:00  REEL       GÖRÜŞ    #2  Olumsuz Komut     - kahvaltıda çikolatalı krema yerine ballı tahin
-CMT  10:00  REEL       ÖĞRETİ   #7  Yanlış Yol        - tahinin üstündeki yağ bozulma değil, doğallık
+PER  20:00  REEL       GÖRÜŞ    #2  Olumsuz Komut     - kahvaltıda çikolatalı krema yerine ballı tahin
+CUM  20:00  CAROUSEL   ÖĞRETİ   #11 Numaralı Favori   - tahin yağını kullanmanın 5 yolu
+CMT  10:00  REEL       KANIT    #24 Gösterim          - susamın taş değirmende tahine dönüşmesi
 PAZ  19:00  CAROUSEL   TEKLİF   -                     - Aziz Tahin ürünleri ve nasıl sipariş verilir
 
 HİKÂYE      HER GÜN, istisnasız. İlk kare her sabah 09:00'da; profile giren
@@ -18,7 +18,10 @@ ETKİLEŞİM   @nefisyemektarifleri ve @yemekcom her gün. Diğerleri 2 günde 1
             (pazartesi, çarşamba, cuma, pazar). @farukgida en fazla haftada 1.
 ```
 
-Ağırlık tahinde. Bal yalnızca cuma (ballı tahin) ve pazar (ürün tanıtımı)
+Protein reel'i plandan çıkarıldı: 25 Ekim'de aynı bilgiyle paylaşım yapıldı
+(bkz. log.md). En erken iki hafta sonra, farklı bir açıyla tekrar gelebilir.
+
+Ağırlık tahinde. Bal yalnızca perşembe (ballı tahin) ve pazar (ürün tanıtımı)
 içeriklerinde yer alıyor; yeni ballar asıl olarak hikâyelerde duyuruluyor.
 
 Bu hafta "Hikâye" türü (yaşanmış bir sahne) yok: iki haftada bir yeterli ve
@@ -29,27 +32,19 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 
 ## Gönderiler
 
-### Pazartesi 20:00 · Reel · Kanıt · #23 İstatistik
+### Pazartesi 20:00 · Reel · Öğreti · #7 Yanlış Yol
 
-- **Açı:** Tahin deyince akla tatlı gelir; protein gelmez. 100 gramında
-  27 gram protein olduğunu çoğu kişi bilmiyor.
-- **Kanca (taslak):** "100 gram tahinde 27 gram protein var. Ve bunu çoğu kişi
-  kahvaltıda bir kaşıkla geçiştiriyor."
-- **Ekran yazısı:** 100 GRAMDA 27 G PROTEİN
-- **Görüntü:** Taş değirmenden akan tahin. Ardından analiz raporu ya da etiket
-  ekranda gösterilir. Rakam kaynaksız kalmamalı.
-- **Çağrı:** "5 tariflik listemiz için yorumlara TAHİN yazın."
+- **Açı:** Müşteriler kavanozu açınca üstteki yağı görüp tahinin bozulduğunu
+  sanıyor. Oysa katkısız tahinde yağın ayrışması doğaldır. Pazar günkü
+  "katkı maddesi ve koruyucu içermez" paylaşımının gözle görülen kanıtı.
+- **Kanca (taslak):** "Tahininizin üstünde yağ birikiyorsa bozulmamış. Sadece
+  yanlış karıştırıyorsunuz, bu sizin suçunuz değil."
+- **Ekran yazısı:** ÜSTTEKİ YAĞ NORMAL
+- **Görüntü:** Kavanoz açılır, yağ görünür, doğru karıştırma gösterilir.
+- **Dikkat:** Rakip marka adı ya da "onların tahini katkılı" imaları yok.
+- **Çağrı:** "Yorumlara TAHİN yazın, tariflerimizi gönderelim."
 
-### Perşembe 20:00 · Carousel · Öğreti · #11 Numaralı Favori
-
-- **Açı:** Tahin yağı rafta duruyor ama çoğu kişi ne yapacağını bilmiyor.
-- **Kapak (taslak):** "Tahin yağını kullanmanın 5 yolu. 4. maddeyi kimse
-  denemiyor."
-- **Slaytlar:** Her slaytta tek kullanım, tek fotoğraf. Son slaytta sipariş
-  bilgisi.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
-
-### Cuma 20:00 · Reel · Görüş · #2 Olumsuz Komut
+### Perşembe 20:00 · Reel · Görüş · #2 Olumsuz Komut
 
 - **Açı:** Kahvaltı sofrasına hazır çikolatalı krema yerine ballı tahin
   koyulması. Geleneksel tatlar görüşünüzün videosu.
@@ -61,15 +56,25 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 - **Dikkat:** Sağlık iddiası yok. Konu tat, doğallık ve gelenek.
 - **Çağrı:** "Tariflerin tamamı için yorumlara TAHİN yazın."
 
-### Cumartesi 10:00 · Reel · Öğreti · #7 Yanlış Yol
+### Cuma 20:00 · Carousel · Öğreti · #11 Numaralı Favori
 
-- **Açı:** Müşteriler kavanozu açınca üstteki yağı görüp tahinin bozulduğunu
-  sanıyor. Oysa katkısız tahinde yağın ayrışması doğaldır.
-- **Kanca (taslak):** "Tahininizin üstünde yağ birikiyorsa bozulmamış. Sadece
-  yanlış karıştırıyorsunuz, bu sizin suçunuz değil."
-- **Ekran yazısı:** ÜSTTEKİ YAĞ NORMAL
-- **Görüntü:** Kavanoz açılır, yağ görünür, doğru karıştırma gösterilir.
-- **Dikkat:** Rakip marka adı ya da "onların tahini katkılı" imaları yok.
+- **Açı:** Tahin yağı rafta duruyor ama çoğu kişi ne yapacağını bilmiyor.
+- **Kapak (taslak):** "Tahin yağını kullanmanın 5 yolu. 4. maddeyi kimse
+  denemiyor."
+- **Slaytlar:** Her slaytta tek kullanım, tek fotoğraf. Son slaytta sipariş
+  bilgisi.
+- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+
+### Cumartesi 10:00 · Reel · Kanıt · #24 Gösterim
+
+- **Açı:** Susamın değirmene dökülüp tahin olarak akışı. Taş değirmen ve
+  aile işletmesi, gözle görülür hale gelir.
+- **Kanca (taslak):** "{{rakam}} kilo susam. Taş değirmenden geçince elimizde
+  kalan bu kadar tahin."
+- **Ekran yazısı:** {{rakam}} KG SUSAM → ? KG TAHİN
+- **Görüntü:** Susam dökülür, değirmen döner, tahin kavanoza akar.
+- **Eksik bilgi:** 1 kilo tahin için kaç kilo susam gerektiği. Rakam
+  uydurulmaz; öğrenilene kadar kanca bu haliyle kullanılmaz.
 - **Çağrı:** "Yorumlara TAHİN yazın, tariflerimizi gönderelim."
 
 ### Pazar 19:00 · Carousel · Teklif
@@ -91,8 +96,8 @@ yaşanırsa (bir müşteri sorusu, üretimde bir aksilik) o olur.
 | PZT | Pazartesi reel'inin paylaşımı + "yorumlara TAHİN yazın" hatırlatması |
 | SAL | Taş değirmende tahin üretimi, kısa video |
 | ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
-| PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" |
-| CUM | Ballı tahin hazırlanışı, reel'e yönlendirme |
+| PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" + ballı tahin reel'i |
+| CUM | Tahin yağı carousel'inin paylaşımı |
 | CMT | Dükkandan bir kare, raftaki tahin yağları |
 | PAZ | Pazar carousel'inin paylaşımı + WhatsApp linki |
 
