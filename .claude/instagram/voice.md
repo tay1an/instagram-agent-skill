@@ -64,7 +64,8 @@ Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan 
 
 ## Yasak alanlar
 
-- **Paylaşmadığım konular:** Siyaset, rakip markalar.
+- **Paylaşmadığım konular:** Siyaset, rakip markalar, kaç yıldır üretim
+  yaptığımız (2 yıl; kısa olduğu için kullanılmaz).
 - **Söyleyemeyeceğim müşteri, rakam ya da isimler:** Müşteri isimleri
   paylaşılmaz. Müşteri yorumları isimsiz kullanılır.
 - **Yapamayacağım iddialar:** Gıda ürünü olduğu için hastalık tedavi eden ya
@@ -76,9 +77,18 @@ Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan 
 Adımı koyabileceğim gerçek rakamlar, sonuçlar ve hikâyeler. Skill'ler bunları
 asla uydurmaz.
 
-- {{ör. kaç yıldır üretim yapıldığı}}
-- {{ör. susamın nereden geldiği}}
-- {{ör. satış ya da müşteri yorumu}}
+- Aile işletmesiyiz.
+- Tahinimiz içinde taş bulunan tahin makinesinde üretilir.
+- Zeytinyağımız %100 doğaldır.
+- Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir.
+- Bursa'da şubemiz var; online satışla Türkiye'nin tüm illerine gönderim
+  yapıyoruz.
+- Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
+  (Oran ölçülmedi; rakam verilmez, "çoğu müşterimiz tekrar alıyor" gibi
+  söylenir.)
+- Tahinimize analiz yaptırdık; değerleri piyasadaki diğer markalara göre daha
+  iyi çıktı. (Başka marka adı verilmez, karşılaştırma kötüleme tonunda
+  yapılmaz. Rakam yalnızca analiz raporunda yazan değerlerle kullanılır.)
 
 ## Çağrı (CTA)
 
