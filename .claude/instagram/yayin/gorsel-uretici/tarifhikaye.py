@@ -34,7 +34,7 @@ ul,ol{padding-left:1.15em}li{margin:.12em 0;line-height:1.32}p{line-height:1.35;
 .cover{position:absolute;top:420px;left:80px;right:80px;bottom:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:34px}
 """
 FIT="<script>let c=document.getElementById('c');let s=46;c.style.fontSize=s+'px';while(c.scrollHeight>c.clientHeight&&s>24){s--;c.style.fontSize=s+'px'}document.title=s</script>"
-def page(inner,fit=True): return f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body><div class='band top'></div><img class='logo' src='logo.png'>{inner}<div class='foot'>Sipariş için WhatsApp'tan yazabilirsiniz <span class='e'>🤎</span></div><div class='band bot'></div>{FIT if fit else ''}</body></html>"
+def page(inner,fit=True): return f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body><div class='band top'></div><img class='logo' src='logo.png'>{inner}<div class='foot'>Sipariş için bize DM'den yazabilirsiniz <span class='e'>🤎</span></div><div class='band bot'></div>{FIT if fit else ''}</body></html>"
 frames=[("tarif-0-kapak",page("<div class='cover'><div style='font-size:44px;font-weight:600;letter-spacing:8px;color:#b07a42'>ÖNE ÇIKAN</div><div style='font-size:120px;font-weight:900;color:#b3151b;line-height:1'>Tarifler</div><div style='font-size:56px;font-weight:700'>Aziz Tahin ile<br>5 tarif</div><div style='font-size:42px;color:#6b3a1c'>Kaydırın, kaydedin <span class='e'>🥄</span></div></div>",False))]
 for p in parts:
     n,t,meta,b=parse(p)

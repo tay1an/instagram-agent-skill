@@ -69,15 +69,17 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 
 ## Satış dili
 
-- Her içerik tek bir somut çağrıyla biter: "Sipariş için profildeki WhatsApp
-  linkinden yazın". Tarif içeriklerinde bunun yerine "Kaydedin" denebilir.
+- Her içerik tek bir somut çağrıyla biter: "Sipariş için bize DM'den yazın".
+  WhatsApp, Trendyol, dükkan ve web sitesi yalnızca "nasıl sipariş verilir"
+  içeriklerinde birlikte listelenir; hikâyelerde ara sıra Trendyol link
+  çıkartması kullanılabilir. Tarif içeriklerinde bunun yerine "Kaydedin" denebilir.
   "TAHİN yazın" gibi anahtar kelime çağrıları kullanılmaz (otomasyon kapalı).
 - İlk cümle ürünü değil, izleyicinin durumunu anlatır: bir soru, bir yanlış
   bilinen ya da bir sofra anı. Ürün ikinci cümlede gelir.
 - Özellik değil, kazanç söylenir: "27 g protein" tek başına kalmaz, "kahvaltıda
   iki kaşıkla güne tok başlarsınız" gibi bir sonuca bağlanır.
 - Satın almanın kolay olduğu hatırlatılır: Türkiye'nin her iline gönderim,
-  WhatsApp'tan sipariş, Trendyol.
+  DM'den sipariş, Trendyol.
 - Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
   çağrının yerine geçmez.
 
@@ -96,8 +98,8 @@ sipariş verdirmektir.
   voice.md'deki gerçek bir kanıt.
 - **Sondan bir önceki slayt:** İtirazı kaldırır ya da güven verir ("Çoğu
   müşterimiz tekrar alıyor", "Türkiye'nin her iline gönderim").
-- **Son slayt:** Tek ve net sipariş çağrısı: "Sipariş için profildeki
-  WhatsApp linkinden yazın." Siparişin kolay olduğu hatırlatılır.
+- **Son slayt:** Tek ve net sipariş çağrısı: "Sipariş için bize DM'den
+  yazın." Siparişin kolay olduğu hatırlatılır.
   Anahtar kelime çağrısı (TAHİN) kullanılmaz.
 - **Açıklama:** İlk satır merak açar ve "... devamı" kesiminden önce biter;
   sonda aynı sipariş çağrısı, 3 hashtag.
@@ -166,5 +168,6 @@ asla uydurmaz.
   - Web sitesi
   - WhatsApp konuşması
 
-  İçeriklerde "profildeki linkten" denir; hangi link kastediliyorsa adıyla
-  söylenir (ör. "profildeki WhatsApp linkinden yazın").
+  Varsayılan sipariş çağrısı DM'dir ("Sipariş için bize DM'den yazın").
+  Bir link kastediliyorsa adıyla söylenir (ör. "profildeki Trendyol
+  linkinden").

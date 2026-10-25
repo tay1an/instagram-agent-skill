@@ -48,7 +48,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Ekran yazısı:** ÜSTTEKİ YAĞ NORMAL
 - **Görüntü:** Kavanoz açılır, yağ görünür, doğru karıştırma gösterilir.
 - **Dikkat:** Rakip marka adı ya da "onların tahini katkılı" imaları yok.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+- **Çağrı:** "Sipariş için bize DM'den yazın."
 
 ### Perşembe 20:00 · Reel · Görüş · #2 Olumsuz Komut
 
@@ -60,7 +60,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Görüntü:** Ballı tahinin hazırlanışı (tarif listesindeki 5. tarif). Kim
   krema sever, yorumlarda tartışma çıkar; bu istenen bir şey.
 - **Dikkat:** Sağlık iddiası yok. Konu tat, doğallık ve gelenek.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+- **Çağrı:** "Sipariş için bize DM'den yazın."
 
 ### Cuma 20:00 · Carousel · Öğreti · #11 Numaralı Favori
 
@@ -69,7 +69,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
   denemiyor."
 - **Slaytlar:** Her slaytta tek kullanım, tek fotoğraf. Son slaytta sipariş
   bilgisi.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+- **Çağrı:** "Sipariş için bize DM'den yazın."
 
 ### Cumartesi 10:00 · Reel · Kanıt · #24 Gösterim
 
@@ -82,7 +82,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 - **Bilgi:** Tarladan gelen susamın %15-20'si temizlikte ayrılır. Yıkanmış,
   kavrulmuş 1 kilo susamdan 1 kilo tahin çıkar, fire yok. Pazartesi sabah
   hikâyesi bunun kısa bir ön gösterimi; reel daha ayrıntılı.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+- **Çağrı:** "Sipariş için bize DM'den yazın."
 
 ### Pazar 19:00 · Carousel · Teklif
 
@@ -90,9 +90,9 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
   gelen ballar. Nasıl sipariş verilir, nereye gönderilir.
 - **Kapak (taslak):** "Aziz Tahin sofranıza nasıl gelir?"
 - **Slaytlar:** Tahin (taş değirmen), tahin yağı, zeytinyağı, yeni ballar
-  (Ovacık ve Ahlat), sipariş: WhatsApp, Trendyol, dükkan konumu, tüm illere
+  (Ovacık ve Ahlat), sipariş: DM, WhatsApp, Trendyol, dükkan konumu, tüm illere
   gönderim.
-- **Çağrı:** "Sipariş için profildeki WhatsApp linkinden yazın."
+- **Çağrı:** "Sipariş için bize DM'den yazın."
 
 ---
 
@@ -100,13 +100,13 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 
 | gün | konu |
 | --- | --- |
-| PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "Sipariş için WhatsApp'tan yazın" |
+| PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "Sipariş için bize DM'den yazın" |
 | SAL | Taş değirmende tahin üretimi, kısa video |
 | ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
 | PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" + ballı tahin reel'i |
 | CUM | Tahin yağı carousel'inin paylaşımı |
 | CMT | Dükkandan bir kare, raftaki tahin yağları |
-| PAZ | Pazar carousel'inin paylaşımı + WhatsApp linki |
+| PAZ | Pazar carousel'inin paylaşımı + DM'den sipariş |
 
 Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
 
@@ -130,7 +130,7 @@ Perşembe soru kutusuna gelen sorular, sonraki haftanın reel'leri olur.
 20:00'de reel paylaşılınca bir kare daha:
 
 ```
-6  [reel paylaşımı + yazı]         "Cevap videoda. Sipariş için WhatsApp'tan yazabilirsiniz."
+6  [reel paylaşımı + yazı]         "Cevap videoda. Sipariş için bize DM'den yazabilirsiniz."
 ```
 
 **Hikâye halkası hiç boş kalmasın.** Hikâyeler paylaşıldıktan 24 saat sonra
