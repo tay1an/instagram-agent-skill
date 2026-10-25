@@ -65,7 +65,8 @@ Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan 
 ## Yasak alanlar
 
 - **Paylaşmadığım konular:** Siyaset, rakip markalar.
-- **Söyleyemeyeceğim müşteri, rakam ya da isimler:** {{doldur}}
+- **Söyleyemeyeceğim müşteri, rakam ya da isimler:** Müşteri isimleri
+  paylaşılmaz. Müşteri yorumları isimsiz kullanılır.
 - **Yapamayacağım iddialar:** Gıda ürünü olduğu için hastalık tedavi eden ya
   da önleyen sağlık beyanları yapılmaz. Besin değeri iddiaları yalnızca
   etikette yazanlarla sınırlıdır.
