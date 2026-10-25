@@ -82,8 +82,8 @@ asla uydurmaz.
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
 - Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir.
-- Bursa'da şubemiz var; online satışla Türkiye'nin tüm illerine gönderim
-  yapıyoruz.
+- Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
+  gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
   (Oran ölçülmedi; rakam verilmez, "çoğu müşterimiz tekrar alıyor" gibi
   söylenir.)
@@ -94,6 +94,6 @@ asla uydurmaz.
 ## Çağrı (CTA)
 
 - **Anahtar kelime CTA'sı:** TAHİN
-- **Anahtar kelime ne gönderir:** Gel al siparişlerde geçerli %10 indirim
-  kodu (Bursa şubesinden teslim alınan siparişler). Kod: {{indirim kodu}}
+- **Anahtar kelime ne gönderir:** İlk siparişe özel hediye. Hediye:
+  {{hediye ne}}
 - **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
