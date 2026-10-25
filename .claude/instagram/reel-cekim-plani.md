@@ -114,9 +114,9 @@ Katkısız tahinde yağın üste çıkması doğaldır, etiketimizde bile yazar.
 | 0:04.3 | 100 gramında 27 gram protein. | YAKIN: besin değerleri tablosunda 'Protein 27,6' satırı. | 100 G'DA 27 G PROTEİN |
 | 0:06.6 | Etikette yazıyor, bakın. | ORTA: sunucu etiketi kameraya gösterir. |  |
 | 0:08.5 | Kahvaltıda 2 kaşık. | ÜSTTEN: kahvaltı sofrasına 2 kaşık tahin. |  |
-| 0:10.4 | Güne tok başlayın. | ORTA: sunucu spor çantasını omzuna atıp lokmayı alır. | HER İLE GÖNDERİM |
-| 0:12.8 | Bursa'dan Türkiye'nin her iline gönderiyoruz. | ORTA: kargo kutusuna kavanoz yerleştirilir. | SİPARİŞ: DM'DEN YAZIN |
-| 0:15.5 | Sipariş için bize DM'den yazın. | ORTA, kameraya: kavanozu uzatır. |  |
+| 0:10.4 | Güne tok başlayın. | ORTA: sunucu spor çantasını omzuna atıp lokmayı alır. |  |
+| 0:12.8 | Bursa'dan Türkiye'nin her iline gönderiyoruz. | ORTA: kargo kutusuna kavanoz yerleştirilir. | HER İLE GÖNDERİM |
+| 0:15.5 | Sipariş için bize DM'den yazın. | ORTA, kameraya: kavanozu uzatır. | SİPARİŞ: DM'DEN YAZIN |
 | 0:18.2 | İçindekiler: 1 kelime. Susam. | ÇOK YAKIN: büyüteç yine etikette. (döngü) |  |
 
 **Açıklama:**
