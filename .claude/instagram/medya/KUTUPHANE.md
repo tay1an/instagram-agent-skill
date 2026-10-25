@@ -1,15 +1,5 @@
-# Medya kütüphanesi
 
-Kullanıcının gönderdiği gerçek fotoğraf ve videolar. İçerik hazırlarken önce
-bu listeye bakılır; uygun görüntü seçilir ve "kullanıldığı yerler" sütununa
-işlenir. Aynı görüntü iki hafta içinde ana görsel olarak tekrar kullanılmaz.
-
-Depo herkese açıktır: buraya yalnızca paylaşılması sorun olmayan görüntüler
-konur.
-
-| dosya | ne | açıklama (kullanıcının sözleriyle) | tür / boyut | etiketler | notlar | kullanıldığı yerler |
-| --- | --- | --- | --- | --- | --- | --- |
-| bal-ahlat-01.jpg | Ahlat çiçek balı | "Ahlat'tan hakiki çiçek balı" | fotoğraf, dikey 1200x1600 | bal, ahlat, ürün, dükkan, akşam | 5 kavanoz, altın kapaklı, etiketsiz, ahşap tezgâhta; akşam ışığı, arkada vitrin ve karşı sokak. Arka planda başka dükkanların bulanık tabelaları var: kullanırken üst kısmı kırpın ya da bulanıklaştırın. | |
-| tahin-500g-01.jpg | Aziz Tahin 500 g, tek kavanoz | "500 gr ağırlığında tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, etiket, 500g, sade zemin | Önden, etiket tam ve okunur; krem duvar, ahşap masa. Sade arka plan: kırpma gerekmez. Kapak, ürün tanıtımı, carousel kapağı ve kavanoz yerine en iyi seçenek. | |
-| tahin-500g-02.jpg | Aziz Tahin 500 g, sıra kavanozlar (soldan) | "500 gr ağırlığında tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, etiket, 500g, stok, dükkan, loş ışık | Yan açı, 5 kavanoz sıra, etiketlerdeki kaşık çizimi öne çıkıyor; akşam/loş ışık. "Yeni parti hazır", "stokta" ve sipariş içerikleri için. | |
-| tahin-500g-03.jpg | Aziz Tahin 500 g, sıra kavanozlar (sağdan, yakın) | "500 gr ağırlığında tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, etiket, 500g, stok, yakın | Çapraz, yakın açı; öndeki kavanoz hafif bulanık, sıranın derinliği hissediliyor. Atmosfer ve arka plan görseli olarak; yazı üstüne bindirmeye uygun. | |
+| tahin-1kg-01.jpg | Aziz Tahin 1 kg, rafta 4 kavanoz (çapraz) | "1 kg tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, 1kg, raf, dükkan | Çapraz/eğik açı, ahşap raf; alt rafta etiketsiz bal kavanozları görünüyor. Dinamik, 'raflarımız dolu' içerikleri için. | |
+| tahin-1kg-02.jpg | Aziz Tahin 1 kg, rafta 4 kavanoz (önden) | "1 kg tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, 1kg, raf, dükkan | Önden, düz; üst rafta etiketsiz büyük şeffaf bidonlarda sarı yağ (ne olduğu belirtilmedi, ürün adı verilmeden kullanılmaz). Etiketler okunur. | |
+| tahin-1kg-03.jpg | Aziz Tahin 1 kg, vitrin önünde 4 kavanoz, akşam | "1 kg tahin fotoğrafları" | fotoğraf, yatay 1600x1200 | tahin, ürün, 1kg, vitrin, bursa, akşam, yatay | YATAY. Vitrin önü, akşam mavi saati; arkada bulanık bir cami kubbesi (Bursa havası). Carousel ve geniş kapaklar için en güçlü 1 kg görseli; dikey kullanımda kırpılır. | |
+| tahin-1kg-04.jpg | Aziz Tahin 1 kg, vitrin önünde 3 kavanoz, akşam | "1 kg tahin fotoğrafları" | fotoğraf, dikey 1200x1600 | tahin, ürün, 1kg, vitrin, bursa, akşam | Dikey, ortadaki kavanozun etiketi tam; arkada bulanık cami kubbesi ve ağaç. Hikâye ve dikey gönderiler için. | |
