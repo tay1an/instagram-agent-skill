@@ -147,7 +147,8 @@ asla uydurmaz.
   kırmızı kapak). İkisi de aynı etiketle.
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
-- Zeytinyağımız %100 doğaldır.
+- Zeytinyağımız %100 doğal sızma zeytinyağıdır (extra virgin), 3 L teneke.
+  Tenekede marka adı yoktur; içeriklerde "Aziz Tahin'de sızma zeytinyağı" denir.
 - Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir. Ahlat balı çiçek balıdır
   ("Ahlat'tan hakiki çiçek balı"). Tariflerde ve öne
   çıkan içeriklerde "%100 doğal Ovacık balımız" tercih edilir.
