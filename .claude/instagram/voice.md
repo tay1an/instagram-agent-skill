@@ -81,6 +81,29 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 - Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
   çağrının yerine geçmez.
 
+## Carousel kuralları (sonraki haftalar için)
+
+Carousel'ler çok dikkat çekici, satış odaklı ve merak uyandırıcı olur; amaç
+sipariş verdirmektir.
+
+- **Kapak:** Ürünü değil, merakı satar. Soru, şaşırtıcı bir gerçek ya da
+  yanlış bilinen bir şey ("Tahininizin üstündeki yağı dökmeyin"). Büyük,
+  kontrastlı yazı, kırmızı vurgu; gerekiyorsa koyu kırmızı zemin. Tek bakışta
+  okunur, en fazla 8 kelime.
+- **2. slayt:** Kapağın açtığı merakı büyütür, kaydırmaya devam ettirir
+  ("Çoğu kişi bunu bilmiyor...").
+- **Orta slaytlar:** Her slaytta tek fikir. Özellik değil kazanç, arkasında
+  voice.md'deki gerçek bir kanıt.
+- **Sondan bir önceki slayt:** İtirazı kaldırır ya da güven verir ("Çoğu
+  müşterimiz tekrar alıyor", "Türkiye'nin her iline gönderim").
+- **Son slayt:** Tek ve net sipariş çağrısı: "Sipariş için profildeki
+  WhatsApp linkinden yazın." Siparişin kolay olduğu hatırlatılır.
+  Yorum anahtar kelimesi (TAHİN) yalnızca tarif içerikli carousel'lerde.
+- **Açıklama:** İlk satır merak açar ve "... devamı" kesiminden önce biter;
+  sonda aynı sipariş çağrısı, 3 hashtag.
+- Haftada en az 2 carousel doğrudan sipariş çağrısıyla biter.
+- Kurallar değişmez: uydurma rakam, sağlık iddiası, rakip marka, uzun tire yok.
+
 ## Savunduğum görüşler
 
 Kitlemin bir kısmının katılmadığı üç beş fikir. İyi reel'ler buradan çıkar.
