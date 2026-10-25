@@ -129,8 +129,13 @@ Instagram'da aranacak kelimeler:
 1. BÜYÜK   @bursaseyyahi           Bursa gezi ve mekân hesabı
 2. BÜYÜK   @bursa_mekan_onerisi    Bursa mekân önerileri
 3. BÜYÜK   @gezginlerbursada       Bursa gezi hesabı
-4. BÜYÜK   {{kullanıcı adı}}
-5. BÜYÜK   {{kullanıcı adı}}
+4. BÜYÜK   @sukrankaymak           Tarif hesabı
+5. BÜYÜK   @yemektarifi            Tarif hesabı
+
+Büyük hesap yedekleri (her gün 5 büyük hesap seçin, sırayla değiştirin):
+- @nefisyemektarifleri   Çok büyük tarif hesabı, yorumlar hızla birikir;
+  yalnızca paylaşımın ilk dakikalarında yorum yazın.
+- @yemekcom              Büyük tarif hesabı
 6. BENZER  @dovmechanem            Dut ve cevizden geleneksel lezzet üreticisi
 7. BENZER  {{kullanıcı adı}}
 8. BENZER  {{kullanıcı adı}}
