@@ -35,8 +35,11 @@ jobs:
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
         run: python scripts/instagram_yayinla.py
 
+      # ManyChat kullanıldığı için kapalı. Açmak için depo değişkeni
+      # YORUM_OTOMASYONU=acik yapılır (aynı kişiye iki kez mesaj gitmesin).
       - name: Yorumlara TAHİN yazanlara tarif gönder
         id: yorum
+        if: vars.YORUM_OTOMASYONU == 'acik'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
