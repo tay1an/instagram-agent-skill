@@ -11,6 +11,76 @@
       "durum": "yayinlandi",
       "medya_id": "18342962686256532",
       "yayin_zamani": "2026-10-25 19:09"
+    },
+    {
+      "id": "2026-10-26-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "1 kg susam = 1 kg tahin"
+    },
+    {
+      "id": "2026-10-27-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-27 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-27.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "İçindekiler: susam"
+    },
+    {
+      "id": "2026-10-28-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-28 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-28.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Yeni ballar"
+    },
+    {
+      "id": "2026-10-29-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-29 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-29.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Ballı tahin 3+1"
+    },
+    {
+      "id": "2026-10-30-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-30 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-30.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tahin yağı"
+    },
+    {
+      "id": "2026-10-31-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-10-31 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-31.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Hafta sonu kahvaltısı"
+    },
+    {
+      "id": "2026-11-01-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-01 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-01.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Nasıl sipariş edilir"
     }
   ]
 }
