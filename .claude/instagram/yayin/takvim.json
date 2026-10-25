@@ -13,76 +13,6 @@
       "yayin_zamani": "2026-10-25 19:09"
     },
     {
-      "id": "2026-10-25-tarif-0-kapak",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-0-kapak.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-1a",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-1a.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-1b",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-1b.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-2",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-2.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-3",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-3.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-4",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-4.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
-      "id": "2026-10-25-tarif-5",
-      "tur": "hikaye",
-      "zaman": "2026-10-25 21:00",
-      "medya": [
-        ".claude/instagram/gorseller/hikaye-tarif-5.jpg"
-      ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanı için"
-    },
-    {
       "id": "2026-10-26-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-10-26 09:00",
@@ -91,6 +21,36 @@
       ],
       "durum": "bekliyor",
       "not": "1 kg susam = 1 kg tahin"
+    },
+    {
+      "id": "2026-10-26-tarif-0-kapak",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-0-kapak.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
+    },
+    {
+      "id": "2026-10-26-tarif-1a",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-1a.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
+    },
+    {
+      "id": "2026-10-26-tarif-1b",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-1b.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
     },
     {
       "id": "2026-10-26-carousel",
@@ -129,6 +89,16 @@
       "not": "İçindekiler: susam"
     },
     {
+      "id": "2026-10-27-tarif-2",
+      "tur": "hikaye",
+      "zaman": "2026-10-27 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-2.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
+    },
+    {
       "id": "2026-10-28-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-10-28 09:00",
@@ -137,6 +107,16 @@
       ],
       "durum": "bekliyor",
       "not": "Yeni ballar"
+    },
+    {
+      "id": "2026-10-28-tarif-3",
+      "tur": "hikaye",
+      "zaman": "2026-10-28 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-3.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
     },
     {
       "id": "2026-10-28-carousel",
@@ -166,6 +146,16 @@
       "not": "Ballı tahin 3+1"
     },
     {
+      "id": "2026-10-29-tarif-4",
+      "tur": "hikaye",
+      "zaman": "2026-10-29 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-4.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
+    },
+    {
       "id": "2026-10-30-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-10-30 09:00",
@@ -174,6 +164,16 @@
       ],
       "durum": "bekliyor",
       "not": "Tahin yağı"
+    },
+    {
+      "id": "2026-10-30-tarif-5",
+      "tur": "hikaye",
+      "zaman": "2026-10-30 12:30",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-tarif-5.jpg"
+      ],
+      "durum": "bekliyor",
+      "not": "Tarifler öne çıkanına eklenecek"
     },
     {
       "id": "2026-10-30-hikaye-aksam",
