@@ -111,6 +111,13 @@ asla uydurmaz.
 - Tahinimiz 100 gramda 27 g protein içerir; oleik ve linoleik asit gibi
   doymamış yağ asitleri bakımından zengindir. %100 susamdır, katkı maddesi ve
   koruyucu içermez. (Daha önce paylaşılmış değerler; etiketle aynı kalmalı.)
+- Etiketteki besin değerleri (100 g): enerji 2726,7 kJ / 651,7 kcal, yağ
+  53,5 g, doymuş yağ 8,19 g, karbonhidrat 14,9 g, şeker 1,94 g, protein
+  27,6 g, tuz 0,6 g. İçindekiler: yalnızca susam. "27 g" yuvarlaması
+  kullanılabilir; 27,6'dan büyük bir rakam söylenmez.
+- Etikette "Yağın üstte birikmesi normaldir. Tüketmeden önce karıştırınız."
+  yazar. Etiket: "%100 susamdan elde edilir", "Bursa'dan doğal lezzet".
+- Web sitesi: aziztahin.com
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
