@@ -27,7 +27,7 @@ Not: Kanca puanlama aracımız İngilizce dile göre ayarlı olduğu için Türk
 
 **Neden satar:** Ürünün en güçlü kanıtını (arada hiçbir şey eklenmiyor) gözle görülür bir deneye çeviriyor. Terazi rakamı yalan söylemez; reklamda güven en hızlı böyle kurulur.
 
-**Mekân ve malzeme:** Dükkan tezgâhı + değirmen. Dijital mutfak terazisi, büyük bir kase, 1 kg kavrulmuş susam, 1 kg'lık tahin (iki adet 500 g kavanoz).
+**Mekân ve malzeme:** Dükkan tezgâhı + değirmen. Dijital mutfak terazisi, büyük bir kase, 1 kg yıkanmış ve kavrulmuş susam, o susamdan çıkan tahin. Tartarken kaseyi terazide sıfırlayın (dara); kavanozun camı tartıya girmesin, yoksa rakam şişer.
 
 **Reklam için 3 kanca (A/B):**
 
@@ -46,7 +46,7 @@ Not: Kanca puanlama aracımız İngilizce dile göre ayarlı olduğu için Türk
 | 0:13.6 | Aziz Tahin bu yüzden %100 susam. | YAKIN: kavanoz etiketi, '%100 susamdan elde edilir' yazısına odak. |  |
 | 0:16.3 | Tadına bakmak ister misiniz? | ORTA, kameraya: soru sorar gibi kaşla işaret. |  |
 | 0:18.2 | Sipariş için bize DM'den yazın. | ORTA: kavanozu kameraya uzatır, gülümser. | SİPARİŞ: DM'DEN YAZIN |
-| 0:20.9 | 1 kilo susam, 1 kilo tahin. Bu kadar. | ÜSTTEN: tahin kavanozları teraziye konur, ekranda yine 1000 g. (döngü) | 1 KG = 1 KG |
+| 0:20.9 | 1 kilo susam, 1 kilo tahin. Bu kadar. | ÜSTTEN: tahin, darası alınmış kaseye dökülür, ekranda yine 1000 g. (döngü) | 1 KG = 1 KG |
 
 **Açıklama:**
 
