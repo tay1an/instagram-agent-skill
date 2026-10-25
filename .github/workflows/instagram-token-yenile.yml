@@ -17,8 +17,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ] || [ -z "$GH_TOKEN" ]; then
-            echo "IG_ACCESS_TOKEN ya da GH_SECRETS_TOKEN tanımlı değil; kurulum tamamlanmamış."
-            exit 1
+            echo "::warning::IG_ACCESS_TOKEN ya da GH_SECRETS_TOKEN tanımlı değil; kurulum tamamlanmamış."
+            exit 0
           fi
           yanit=$(curl -sS --get "https://graph.instagram.com/refresh_access_token" \
             --data-urlencode "grant_type=ig_refresh_token" \
