@@ -160,6 +160,8 @@ asla uydurmaz.
     balı" denmez.
   - **Ahlat balı:** Bitlis Ahlat'tan hakiki çiçek balı (kavanozlar etiketsiz).
   - "%100 doğal" gibi ek iddialar bal için kullanılmaz; etikette yazanla sınırlı kalınır.
+- Dükkan tarihi görünümlü bir binada; karşısında minareli taş bir cami ve önünden
+  tramvay geçiyor (Bursa havası içeriklerde kullanılabilir).
 - Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
   gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
