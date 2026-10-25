@@ -55,18 +55,19 @@ Yapılışı:
 
 Malzemeler:
 - 2 su bardağı haşlanmış nohut
-- 3 yemek kaşığı Aziz Tahin
+- Yarım su bardağı Aziz Tahin
+- Yarım çay bardağı Aziz Zeytinyağı
 - 1 limonun suyu
-- 1 diş sarımsak
-- Yarım çay bardağı soğuk su
+- 2 diş sarımsak
+- 1-2 yemek kaşığı soğuk su
 - Tuz, kimyon
-- Üzeri için Aziz Zeytinyağı ve pul biber
+- Üzeri için pul biber
 
 Yapılışı:
-1. Nohut, tahin, limon suyu, sarımsak, tuz ve kimyonu mutfak robotuna
-   alın.
-2. Soğuk suyu azar azar ekleyerek 3-4 dakika, pürüzsüz olana kadar çekin.
-3. Tabağa yayın, üzerine bolca Aziz Zeytinyağı gezdirip pul biber serpin.
+1. Nohut, tahin, zeytinyağı, limon suyu, sarımsak, tuz ve kimyonu mutfak
+   robotuna alın.
+2. Soğuk suyu ekleyerek 3-4 dakika, pürüzsüz olana kadar çekin.
+3. Tabağa yayın, üzerine pul biber serpin.
    Susam aromasını sevenler birkaç damla Aziz Tahin Yağı da ekleyebilir.
 
 **4. Tahinli Ballı Enerji Topları** (yaklaşık 12 adet, fırın gerekmez)
