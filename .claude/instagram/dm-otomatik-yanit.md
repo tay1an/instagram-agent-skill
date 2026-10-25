@@ -130,5 +130,5 @@ Ve son tarif, kahvaltının yıldızı: görmek için KAŞIK yazın 🥄
 ```
 5. tarif: Ballı Tahin 🍯 Tarif görselde.
 
-Beş tarifin hepsi sizde, afiyet olsun! 🤎 Aziz Tahin, Ovacık balı, zeytinyağı ve tahin yağı siparişi için bu mesaja yazmanız yeterli. Türkiye'nin her iline gönderiyoruz.
+Beş tarifin hepsi sizde, afiyet olsun! 🤎 Aziz Tahin, Munzur balı, zeytinyağı ve tahin yağı siparişi için bu mesaja yazmanız yeterli. Türkiye'nin her iline gönderiyoruz.
 ```

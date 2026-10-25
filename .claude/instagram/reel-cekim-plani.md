@@ -167,11 +167,11 @@ Cevap: sadece susam. Siz de tadına bakmak isterseniz bize DM'den yazın ya da B
 #AzizTahin #tahin #bursa
 ```
 
-## 5. Kremayı bırakın: 3 + 1  (27 sn)
+## 5. Kremayı bırakın: 3 + 1  (26 sn)
 
 **Neden satar:** Görüşünüzü (geleneksel tatlar) tartışma çıkaracak bir karşılaştırmayla anlatıyor; yorumlar artar, erişim büyür. Tahin ve balı birlikte sattırır.
 
-**Mekân ve malzeme:** Kahvaltı sofrası, sabah ışığı. Kase, kaşık, Aziz Tahin, Ovacık balı, tarçın, sıcak ekmek. Sahne malzemesi olarak markasız bir krema kavanozu (marka görünmesin).
+**Mekân ve malzeme:** Kahvaltı sofrası, sabah ışığı. Kase, kaşık, Aziz Tahin, Munzur balı, tarçın, sıcak ekmek. Sahne malzemesi olarak markasız bir krema kavanozu (marka görünmesin).
 
 **Reklam için 3 kanca (A/B):**
 
@@ -183,22 +183,22 @@ Cevap: sadece susam. Siz de tadına bakmak isterseniz bize DM'den yazın ya da B
 | --- | --- | --- | --- |
 | 0:00.0 | Kremayı bırakın. 3 kaşık tahin yeter. | HAREKETLİ AÇILIŞ: sunucu markasız krema kavanozunu kadraj dışına iter. | KREMAYI BIRAKIN |
 | 0:03.5 | 3 kaşık Aziz Tahin. | ÜSTTEN: 3 kaşık tahin kaseye (her kaşıkta ses efekti). | 3 KAŞIK TAHİN |
-| 0:05.4 | 1 kaşık Ovacık balı. | ÜSTTEN: bal akıtılır, yavaş çekim. | 1 KAŞIK OVACIK BALI |
-| 0:07.7 | Karıştırın. İsterseniz bir tutam tarçın. | ÜSTTEN: karıştırma + tarçın serpme. |  |
-| 0:11.2 | Sıcak ekmeğe sürün. | YAKIN: ekmeğe sürme. |  |
-| 0:13.9 | Şu kıvama bakın. | ÇOK YAKIN, yan açı: kıvam, ekmek ikiye ayrılır. |  |
-| 0:15.9 | 10 saniyede hazır. | ORTA: sunucu ekranda kronometre gösterir. | 10 SANİYE |
-| 0:17.4 | İçinde sadece susam ve bal var. | YAKIN: iki kavanoz yan yana (tahin + bal). |  |
-| 0:19.7 | Babaannelerimizin kahvaltısı bu. | GENİŞ: aile sofrası havası, sunucu ısırır. |  |
-| 0:21.3 | Sipariş için bize DM'den yazın. | ORTA, kameraya: kavanozları uzatır. | SİPARİŞ: DM'DEN YAZIN |
-| 0:24.0 | Krema yerine 3 kaşık tahin. Deneyin. | ORTA: krema kavanozunu tekrar iter. (döngü) |  |
+| 0:05.4 | 1 kaşık Munzur balı. | ÜSTTEN: bal akıtılır, yavaş çekim. | 1 KAŞIK MUNZUR BALI |
+| 0:07.3 | Karıştırın. İsterseniz bir tutam tarçın. | ÜSTTEN: karıştırma + tarçın serpme. |  |
+| 0:10.8 | Sıcak ekmeğe sürün. | YAKIN: ekmeğe sürme. |  |
+| 0:13.6 | Şu kıvama bakın. | ÇOK YAKIN, yan açı: kıvam, ekmek ikiye ayrılır. |  |
+| 0:15.5 | 10 saniyede hazır. | ORTA: sunucu ekranda kronometre gösterir. | 10 SANİYE |
+| 0:17.0 | İçinde sadece susam ve bal var. | YAKIN: iki kavanoz yan yana (tahin + bal). |  |
+| 0:19.4 | Babaannelerimizin kahvaltısı bu. | GENİŞ: aile sofrası havası, sunucu ısırır. |  |
+| 0:20.9 | Sipariş için bize DM'den yazın. | ORTA, kameraya: kavanozları uzatır. | SİPARİŞ: DM'DEN YAZIN |
+| 0:23.6 | Krema yerine 3 kaşık tahin. Deneyin. | ORTA: krema kavanozunu tekrar iter. (döngü) |  |
 
 **Açıklama:**
 
 ```
 Kahvaltıda krema mı, tahin mi? Yorumlara yazın 👇
 
-3 kaşık Aziz Tahin, 1 kaşık Ovacık balı, isteğe göre tarçın. 10 saniyede hazır, içinde sadece susam ve bal var. Sipariş için bize DM'den yazın 🥄
+3 kaşık Aziz Tahin, 1 kaşık Munzur balı, isteğe göre tarçın. 10 saniyede hazır, içinde sadece susam ve bal var. Sipariş için bize DM'den yazın 🥄
 
 #AzizTahin #ballıtahin #kahvaltı
 ```
@@ -246,7 +246,7 @@ Susam kavruluyor, taş değirmende tahine dönüşüyor, kavanoza doluyor ve her
 
 - [ ] Yaka mikrofonu şarjlı, telefonda en az 20 GB boş yer
 - [ ] Kavanozlar temiz, etiketler düz ve kameraya dönük
-- [ ] Kavrulmuş susam (1 kg), terazi, kaşıklar, kase, tarçın, Ovacık balı, sıcak ekmek
+- [ ] Kavrulmuş susam (1 kg), terazi, kaşıklar, kase, tarçın, Munzur balı, sıcak ekmek
 - [ ] Sokak tadımı için gönüllü izinleri
 - [ ] Her reel için 3 farklı açılış cümlesi çekildi
 - [ ] Her çekimden 2-3 deneme, en iyisi işaretlendi

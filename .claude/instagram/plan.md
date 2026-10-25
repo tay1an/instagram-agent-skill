@@ -90,7 +90,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
   gelen ballar. Nasıl sipariş verilir, nereye gönderilir.
 - **Kapak (taslak):** "Aziz Tahin sofranıza nasıl gelir?"
 - **Slaytlar:** Tahin (taş değirmen), tahin yağı, zeytinyağı, yeni ballar
-  (Ovacık ve Ahlat), sipariş: DM, WhatsApp, Trendyol, dükkan konumu, tüm illere
+  (Munzur ve Ahlat), sipariş: DM, WhatsApp, Trendyol, dükkan konumu, tüm illere
   gönderim.
 - **Çağrı:** "Sipariş için bize DM'den yazın."
 
@@ -102,7 +102,7 @@ verilir". Aşağıdaki reel'ler (PZT, PER, CMT) çekilirse ek olarak paylaşıl�
 | --- | --- |
 | PZT | 09:00 "1 kilo susam = 1 kilo tahin" (aşağıda kare kare). 20:00 reel'in paylaşımı + "Sipariş için bize DM'den yazın" |
 | SAL | Taş değirmende tahin üretimi, kısa video |
-| ÇAR | Yeni ballar geldi. Anket: "Ovacık mı, Ahlat mı?" |
+| ÇAR | Yeni ballar geldi. Anket: "Munzur mu, Ahlat mı?" |
 | PER | Soru kutusu: "Tahinle ilgili en çok neyi merak ediyorsunuz?" + ballı tahin reel'i |
 | CUM | Tahin yağı carousel'inin paylaşımı |
 | CMT | Dükkandan bir kare, raftaki tahin yağları |

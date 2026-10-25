@@ -154,9 +154,12 @@ asla uydurmaz.
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğal sızma zeytinyağıdır (extra virgin), 3 L teneke.
   Tenekede marka adı yoktur; içeriklerde "Aziz Tahin'de sızma zeytinyağı" denir.
-- Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir. Ahlat balı çiçek balıdır
-  ("Ahlat'tan hakiki çiçek balı"). Tariflerde ve öne
-  çıkan içeriklerde "%100 doğal Ovacık balımız" tercih edilir.
+- Bal iki çeşit, ikisi de başka üreticilerin balı; Aziz Tahin markasıyla anılmaz:
+  - **Munzur balı:** "munzur birlik BAL", Tunceli İli Arı Yetiştiricileri Birliği,
+    süzme çiçek balı. İçeriklerde "Munzur balı" denir; "Ovacık balı" ya da "Aziz
+    balı" denmez.
+  - **Ahlat balı:** Bitlis Ahlat'tan hakiki çiçek balı (kavanozlar etiketsiz).
+  - "%100 doğal" gibi ek iddialar bal için kullanılmaz; etikette yazanla sınırlı kalınır.
 - Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
   gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
