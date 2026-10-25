@@ -94,5 +94,6 @@ asla uydurmaz.
 ## Çağrı (CTA)
 
 - **Anahtar kelime CTA'sı:** TAHİN
-- **Anahtar kelime ne gönderir:** {{ör. indirim kodu ya da sipariş linki}}
+- **Anahtar kelime ne gönderir:** Gel al siparişlerde geçerli %10 indirim
+  kodu (Bursa şubesinden teslim alınan siparişler). Kod: {{indirim kodu}}
 - **Linkim nereye gider:** {{web sitesi / sipariş sayfası}}
