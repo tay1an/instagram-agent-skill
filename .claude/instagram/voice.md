@@ -31,7 +31,10 @@ bırakır.
   gibi konuşurum ama ne sattığımı bilirim; her içerik net bir sonraki adımla
   biter.
 - **Kamera karşısında:** Sakin, güler yüzlü, kendinden emin.
-- **Gerçekten kullandığım kelimeler:** {{doldur}}
+- **Gerçekten kullandığım kelimeler:** "%100 doğal", "doğadan gelen sağlık
+  deposu", "geleneksel yöntemler", "tahinin faydaları", "lezzetli", "hakiki",
+  "yüksek protein", "doymamış yağ yüksek, doymuş yağ düşük", "katkısız",
+  "koruyucusuz"
 - **Asla söylemeyeceğim kelimeler:** Abartılı mucize iddiaları ("her derde
   deva", "mucize gıda"), argo, rakip markaları kötüleyen ifadeler.
 - **Küfür:** Hayır.
