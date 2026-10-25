@@ -111,7 +111,8 @@ asla uydurmaz.
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
-- Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir.
+- Balımız Tunceli Ovacık'tan ve Bitlis Ahlat'tan gelir. Tariflerde ve öne
+  çıkan içeriklerde "%100 doğal Ovacık balımız" tercih edilir.
 - Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
   gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.

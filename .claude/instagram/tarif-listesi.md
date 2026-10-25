@@ -7,24 +7,7 @@ Yorumlara "TAHİN" yazan takipçilere DM'den gönderilen liste.
 Merhaba, ilginiz için teşekkür ederiz! 🤎 Aziz Tahin ürünleriyle evde kolayca
 yapabileceğiniz 5 tarifimizi aşağıda bulabilirsiniz.
 
-**1. Tahinli Cevizli Milföy Rulo**
-
-Malzemeler:
-- 1 su bardağı Aziz Tahin
-- 8 adet kare milföy
-- 2 yemek kaşığı sıvı yağ
-- 3/4 su bardağı pudra şekeri
-- 1 su bardağı çekilmiş ceviz
-
-Yapılışı:
-1. Tahin, sıvı yağ ve pudra şekerini karıştırın.
-2. Milföyleri şeritler halinde kesin. Karışımı şeritlerin üzerine sürün,
-   ceviz serpin ve şeritleri rulo yapın.
-3. Ruloları tepsiye dizin, üzerlerine biraz daha tahinli karışım ve ceviz
-   ekleyin.
-4. 200°C fırında yaklaşık 25 dakika pişirin.
-
-**2. Bademli Tahin Soslu Tavuk** (4-5 kişilik)
+**1. Bademli Tahin Soslu Tavuk** (4-5 kişilik)
 
 Malzemeler:
 - 800 g tavuk bonfile
@@ -51,21 +34,24 @@ Yapılışı:
 5. Tavuklar kızarınca sosu üzerine ekleyin, kısık ateşte 4-5 dakika daha
    pişirip servis edin.
 
-**3. Tahin-Bal Kahvaltılığı**
+**2. Tahinli Cevizli Milföy Rulo**
 
 Malzemeler:
-- 3 yemek kaşığı Aziz Tahin
-- 2 yemek kaşığı Aziz Bal (Tunceli Ovacık ya da Bitlis Ahlat)
-- İsteğe göre bir tutam tarçın ve birkaç ceviz içi
+- 1 su bardağı Aziz Tahin
+- 8 adet kare milföy
+- 2 yemek kaşığı sıvı yağ
+- 3/4 su bardağı pudra şekeri
+- 1 su bardağı çekilmiş ceviz
 
 Yapılışı:
-1. Tahini kavanozda iyice karıştırın; doğal tahinin yağı üste çıkar, bu
-   katkısız olduğunun işaretidir.
-2. Tahin ve balı küçük bir kasede karıştırın. İsterseniz tarçın serpin,
-   üzerine ceviz ekleyin.
-3. Taze ekmekle kahvaltı sofranıza alın.
+1. Tahin, sıvı yağ ve pudra şekerini karıştırın.
+2. Milföyleri şeritler halinde kesin. Karışımı şeritlerin üzerine sürün,
+   ceviz serpin ve şeritleri rulo yapın.
+3. Ruloları tepsiye dizin, üzerlerine biraz daha tahinli karışım ve ceviz
+   ekleyin.
+4. 200°C fırında yaklaşık 25 dakika pişirin.
 
-**4. Ev Yapımı Humus**
+**3. Ev Yapımı Humus**
 
 Malzemeler:
 - 2 su bardağı haşlanmış nohut
@@ -83,12 +69,12 @@ Yapılışı:
 3. Tabağa yayın, üzerine bolca Aziz Zeytinyağı gezdirip pul biber serpin.
    Susam aromasını sevenler birkaç damla Aziz Tahin Yağı da ekleyebilir.
 
-**5. Tahinli Ballı Enerji Topları** (yaklaşık 12 adet, fırın gerekmez)
+**4. Tahinli Ballı Enerji Topları** (yaklaşık 12 adet, fırın gerekmez)
 
 Malzemeler:
 - 1 su bardağı yulaf
 - 3 yemek kaşığı Aziz Tahin
-- 2 yemek kaşığı Aziz Bal
+- 2 yemek kaşığı Aziz %100 doğal Ovacık Balı
 - Yarım çay bardağı çekilmiş ceviz ya da fındık
 - 1 yemek kaşığı kakao (isteğe bağlı)
 - Bir tutam tuz
@@ -100,8 +86,22 @@ Yapılışı:
 3. Buzdolabında 30 dakika dinlendirin. Spor sonrası ya da ara öğünde tok
    tutan bir atıştırmalık olur.
 
+**5. Ballı Tahin**
+
+Malzemeler:
+- 3 yemek kaşığı Aziz Tahin
+- 1 yemek kaşığı Aziz %100 doğal Ovacık Balı
+- Tarçın (isteğe göre)
+
+Yapılışı:
+1. Tahini kavanozda iyice karıştırın; doğal tahinin yağı üste çıkar, bu
+   katkısız olduğunun işaretidir.
+2. Tahin ve balı küçük bir kasede karıştırın. İsterseniz üzerine tarçın
+   serpin.
+3. Taze ekmekle kahvaltı sofranıza alın.
+
 ---
 
-Afiyet olsun! 🥄 Tariflerde kullandığımız tahin, bal, zeytinyağı ve tahin
+Afiyet olsun! 🥄 Tariflerde kullandığımız tahin, Ovacık balı, zeytinyağı ve tahin
 yağını sipariş etmek için profilimizdeki WhatsApp linkinden bize
 yazabilirsiniz. Türkiye'nin her iline gönderim yapıyoruz.
