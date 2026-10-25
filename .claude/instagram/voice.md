@@ -143,6 +143,7 @@ asla uydurmaz.
 - Etikette "Yağın üstte birikmesi normaldir. Tüketmeden önce karıştırınız."
   yazar. Etiket: "%100 susamdan elde edilir", "Bursa'dan doğal lezzet".
 - Web sitesi: aziztahin.com
+- Tahin kavanozu 500 g'dır (cam kavanoz, altın kapak).
 - Tahinimiz taş değirmende öğütülür. ("Taş değirmen" denir; "doğal taş",
   "değirmen taşı" ya da "su değirmeni" gibi daha ileri ifadeler kullanılmaz.)
 - Zeytinyağımız %100 doğaldır.
