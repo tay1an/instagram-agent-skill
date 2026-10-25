@@ -41,7 +41,8 @@ bırakır.
 - **Açıklamalarda emoji:** Az; gönderi başına bir iki tane.
 - **Yüz kamerada:** Bazen. Bazı videolarda yüz görünür, bazılarında yalnızca
   ürün, eller ve mutfak görüntüsü olur.
-- **Seslendirme mi, kameraya mı:** {{doldur}}
+- **Seslendirme mi, kameraya mı:** İkisi de. Yüzün göründüğü videolarda
+  kameraya konuşulur, yüzün görünmediği videolarda seslendirme yapılır.
 - **Hız:** {{dakikada kelime; bilmiyorsan boş bırak}}
 
 ## Kendi videolarım veya açıklamalarım
