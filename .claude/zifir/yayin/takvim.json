@@ -26,11 +26,11 @@
       "yayin_zamani": "2026-10-26 22:51"
     },
     {
-      "id": "2026-10-27-hikaye-h1-kor-yara",
+      "id": "2026-10-27-hikaye-v01-yuk-olur",
       "tur": "hikaye",
       "zaman": "2026-10-27 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h1-kor-yara.jpg"
+        ".claude/zifir/medya/hikaye/v01-yuk-olur.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -46,11 +46,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-28-hikaye-h2-yuk-olur",
+      "id": "2026-10-28-hikaye-v02-kor-yara",
       "tur": "hikaye",
       "zaman": "2026-10-28 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h2-yuk-olur.jpg"
+        ".claude/zifir/medya/hikaye/v02-kor-yara.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -66,11 +66,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-29-hikaye-h3-kokleri",
+      "id": "2026-10-29-hikaye-v03-keyfine",
       "tur": "hikaye",
       "zaman": "2026-10-29 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h3-kokleri.jpg"
+        ".claude/zifir/medya/hikaye/v03-keyfine.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -86,11 +86,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-30-hikaye-h4-keyfine",
+      "id": "2026-10-30-hikaye-v04-sevgili",
       "tur": "hikaye",
       "zaman": "2026-10-30 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h4-keyfine.jpg"
+        ".claude/zifir/medya/hikaye/v04-sevgili.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -106,11 +106,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-31-hikaye-h5-oktur",
+      "id": "2026-10-31-hikaye-v05-oktur",
       "tur": "hikaye",
       "zaman": "2026-10-31 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h5-oktur.jpg"
+        ".claude/zifir/medya/hikaye/v05-oktur.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -126,11 +126,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-01-hikaye-h6-sevgili",
+      "id": "2026-11-01-hikaye-v06-kokler",
       "tur": "hikaye",
       "zaman": "2026-11-01 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h6-sevgili.jpg"
+        ".claude/zifir/medya/hikaye/v06-kokler.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -146,11 +146,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-02-hikaye-h7-sabah",
+      "id": "2026-11-02-hikaye-v07-sabah",
       "tur": "hikaye",
       "zaman": "2026-11-02 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h7-sabah.jpg"
+        ".claude/zifir/medya/hikaye/v07-sabah.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -166,11 +166,11 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-03-hikaye-h8-titre",
+      "id": "2026-11-03-hikaye-v08-ufuk",
       "tur": "hikaye",
       "zaman": "2026-11-03 13:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/h8-titre.jpg"
+        ".claude/zifir/medya/hikaye/v08-ufuk.mp4"
       ],
       "durum": "bekliyor"
     },
@@ -183,6 +183,146 @@
       ],
       "kapak": ".claude/zifir/medya/uzak-lyric-dikey-kapak.jpg",
       "aciklama": "uzak. baştan sona, sözleriyle.\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-04-hikaye-v09-parcalar",
+      "tur": "hikaye",
+      "zaman": "2026-11-04 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v09-parcalar.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-04-reel-09-sevgili",
+      "tur": "reel",
+      "zaman": "2026-11-04 20:30",
+      "medya": [
+        ".claude/zifir/medya/09-sevgili.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/09-sevgili-kapak.jpg",
+      "aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-05-hikaye-v10-olmayi",
+      "tur": "hikaye",
+      "zaman": "2026-11-05 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v10-olmayi.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-05-reel-10-sabah",
+      "tur": "reel",
+      "zaman": "2026-11-05 20:30",
+      "medya": [
+        ".claude/zifir/medya/10-sabah.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/10-sabah-kapak.jpg",
+      "aciklama": "\"bir sabah var hep uyanmak isterim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-06-hikaye-v11-ozune",
+      "tur": "hikaye",
+      "zaman": "2026-11-06 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v11-ozune.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-06-reel-11-kor-yara",
+      "tur": "reel",
+      "zaman": "2026-11-06 20:30",
+      "medya": [
+        ".claude/zifir/medya/11-kor-yara.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/11-kor-yara-kapak.jpg",
+      "aciklama": "\"kor yara sol yanım deşme dur daha\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-07-hikaye-v12-ardinda",
+      "tur": "hikaye",
+      "zaman": "2026-11-07 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v12-ardinda.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-07-reel-12-kokler",
+      "tur": "reel",
+      "zaman": "2026-11-07 20:30",
+      "medya": [
+        ".claude/zifir/medya/12-kokler.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/12-kokler-kapak.jpg",
+      "aciklama": "\"köklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-08-hikaye-v13-ben-eger",
+      "tur": "hikaye",
+      "zaman": "2026-11-08 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v13-ben-eger.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-08-reel-13-kalbim",
+      "tur": "reel",
+      "zaman": "2026-11-08 20:30",
+      "medya": [
+        ".claude/zifir/medya/13-kalbim.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/13-kalbim-kapak.jpg",
+      "aciklama": "\"kalbim yerinde yanımda senin yerin\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-09-hikaye-v14-elindeki",
+      "tur": "hikaye",
+      "zaman": "2026-11-09 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v14-elindeki.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-09-reel-14-yuk",
+      "tur": "reel",
+      "zaman": "2026-11-09 20:30",
+      "medya": [
+        ".claude/zifir/medya/14-yuk.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/14-yuk-kapak.jpg",
+      "aciklama": "\"yük olur her yudum içe işledikçe\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-10-hikaye-v15-ustume",
+      "tur": "hikaye",
+      "zaman": "2026-11-10 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v15-ustume.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-10-reel-15-oysa",
+      "tur": "reel",
+      "zaman": "2026-11-10 20:30",
+      "medya": [
+        ".claude/zifir/medya/15-oysa.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/15-oysa-kapak.jpg",
+      "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     }
   ]
