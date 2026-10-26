@@ -9,11 +9,6 @@ on:
         description: "Deneme: hiçbir şey yayınlama, sadece ne yapılacağını göster"
         type: boolean
         default: false
-      hesap:
-        description: "Elle çalıştırırken hangi hesap (zamanlanmış çalışmalarda ikisi de)"
-        type: choice
-        options: [hepsi, aziz, zifir]
-        default: hepsi
 
 permissions:
   contents: write
@@ -34,21 +29,9 @@ jobs:
 
       - name: Zamanı gelen paylaşımları yayınla
         id: yayin
-        if: inputs.hesap != 'zifir'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
-        run: python scripts/instagram_yayinla.py
-
-      # Zifir sanatçı hesabı: ayrı takvim, ayrı erişim anahtarı.
-      - name: "Zifir: zamanı gelen paylaşımları yayınla"
-        id: yayin_zifir
-        if: inputs.hesap != 'aziz'
-        continue-on-error: true
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_ZIFIR }}
-          TAKVIM: .claude/zifir/yayin/takvim.json
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
         run: python scripts/instagram_yayinla.py
 
@@ -66,7 +49,7 @@ jobs:
 
       - name: Yorumlara TAHİN yazanlara tarif gönder
         id: yorum
-        if: vars.YORUM_OTOMASYONU == 'acik' && inputs.hesap != 'zifir'
+        if: vars.YORUM_OTOMASYONU == 'acik'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -83,7 +66,7 @@ jobs:
       - name: Takvimdeki durumları kaydet
         if: always()
         run: |
-          dosyalar=".claude/instagram/yayin/takvim.json .claude/zifir/yayin/takvim.json"
+          dosyalar=".claude/instagram/yayin/takvim.json"
           if git diff --quiet -- $dosyalar; then
             exit 0
           fi
@@ -95,7 +78,7 @@ jobs:
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Hata varsa işi başarısız say
-        if: steps.yayin.outcome == 'failure' || steps.yayin_zifir.outcome == 'failure' || steps.yorum.outcome == 'failure'
+        if: steps.yayin.outcome == 'failure' || steps.yorum.outcome == 'failure'
         run: |
           echo "Bir paylaşım ya da tarif gönderimi başarısız oldu; yukarıdaki adımların kayıtlarına bakın."
           exit 1

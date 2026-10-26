@@ -1,8 +1,7 @@
 name: Instagram anahtar yenileme
 
 # Instagram uzun ömürlü erişim anahtarı 60 günde sona erer. Bu iş her hafta
-# anahtarları yeniler ve yeni anahtarı aynı ada sahip sırra yazar.
-# IG_ACCESS_TOKEN: @aziz.tahin, IG_ACCESS_TOKEN_ZIFIR: Zifir sanatçı hesabı.
+# anahtarı yeniler ve yeni anahtarı IG_ACCESS_TOKEN sırrına yazar.
 on:
   schedule:
     - cron: "17 6 * * 1"
@@ -12,35 +11,24 @@ jobs:
   yenile:
     runs-on: ubuntu-latest
     steps:
-      - name: Anahtarları yenile
+      - name: Anahtarı yenile
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_ACCESS_TOKEN_ZIFIR: ${{ secrets.IG_ACCESS_TOKEN_ZIFIR }}
           GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::warning::GH_SECRETS_TOKEN tanımlı değil; kurulum tamamlanmamış."
+          if [ -z "$IG_ACCESS_TOKEN" ] || [ -z "$GH_TOKEN" ]; then
+            echo "::warning::IG_ACCESS_TOKEN ya da GH_SECRETS_TOKEN tanımlı değil; kurulum tamamlanmamış."
             exit 0
           fi
-          hata=0
-          for ad in IG_ACCESS_TOKEN IG_ACCESS_TOKEN_ZIFIR; do
-            eski="$(printf '%s' "${!ad}" | tr -d '[:space:]')"
-            if [ -z "$eski" ]; then
-              echo "::warning::$ad tanımlı değil; atlandı."
-              continue
-            fi
-            yanit=$(curl -sS --get "https://graph.instagram.com/refresh_access_token" \
-              --data-urlencode "grant_type=ig_refresh_token" \
-              --data-urlencode "access_token=${eski}")
-            yeni=$(printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("access_token",""))')
-            if [ -z "$yeni" ]; then
-              echo "$ad yenileme başarısız:"
-              printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("error",{}).get("message","bilinmeyen hata"))'
-              hata=1
-              continue
-            fi
-            echo "::add-mask::$yeni"
-            gh secret set "$ad" --repo "$GITHUB_REPOSITORY" --body "$yeni"
-            echo "$ad yenilendi."
-          done
-          exit $hata
+          yanit=$(curl -sS --get "https://graph.instagram.com/refresh_access_token" \
+            --data-urlencode "grant_type=ig_refresh_token" \
+            --data-urlencode "access_token=${IG_ACCESS_TOKEN}")
+          yeni=$(printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("access_token",""))')
+          if [ -z "$yeni" ]; then
+            echo "Yenileme başarısız:"
+            printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("error",{}).get("message","bilinmeyen hata"))'
+            exit 1
+          fi
+          echo "::add-mask::$yeni"
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$yeni"
+          echo "Anahtar yenilendi."

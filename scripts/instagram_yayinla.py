@@ -35,6 +35,11 @@ API = f"https://graph.instagram.com/{API_VERSION}"
 EN_FAZLA_GECIKME = timedelta(hours=3)
 EN_FAZLA_DENEME = 3
 
+# GitHub'ın zamanlayıcısı yoğunken bir saate kadar gecikebiliyor. Bu kadar
+# süre içinde zamanı gelecek bir paylaşım varsa iş onu bekleyip tam
+# dakikasında yayınlar.
+BEKLEME_PENCERESI = timedelta(minutes=70)
+
 GORSEL_UZANTILARI = (".jpg", ".jpeg")
 VIDEO_UZANTILARI = (".mp4", ".mov")
 TURLER = ("gonderi", "hikaye", "reel", "carousel")
@@ -58,13 +63,7 @@ def istek(yontem, yol, params, token):
     except urllib.error.HTTPError as e:
         govde = e.read().decode(errors="replace")
         try:
-            hata = json.loads(govde)["error"]
-            mesaj = hata["message"]
-            # Kod ve alt kod, "API access blocked" gibi genel mesajların nedenini ayırt eder.
-            ek = ", ".join(f"{k}={hata[k]}" for k in ("code", "error_subcode", "type", "error_user_title", "error_user_msg")
-                           if hata.get(k) not in (None, ""))
-            if ek:
-                mesaj = f"{mesaj} ({ek})"
+            mesaj = json.loads(govde)["error"]["message"]
         except (ValueError, KeyError):
             mesaj = govde[:300]
         raise ApiHatasi(f"{e.code}: {mesaj}") from None
@@ -89,7 +88,14 @@ def medya_parametresi(yol):
 def hazir_olmasini_bekle(kap_id, token, sure=300):
     bitis = time.monotonic() + sure
     while True:
-        durum = istek("GET", kap_id, {"fields": "status_code,status"}, token)
+        try:
+            durum = istek("GET", kap_id, {"fields": "status_code,status"}, token)
+        except ApiHatasi as e:
+            # Yeni oluşturulan kap birkaç saniye "does not exist" dönebiliyor.
+            if "does not exist" not in str(e) or time.monotonic() > bitis:
+                raise
+            time.sleep(5)
+            continue
         kod = durum.get("status_code")
         if kod == "FINISHED":
             return
@@ -141,7 +147,13 @@ def yayinla(paylasim, kullanici, token):
             params["caption"] = aciklama
         kap = kap_olustur(kullanici, params, video, token)
 
-    return istek("POST", f"{kullanici}/media_publish", {"creation_id": kap}, token)["id"]
+    for deneme in range(3):
+        try:
+            return istek("POST", f"{kullanici}/media_publish", {"creation_id": kap}, token)["id"]
+        except ApiHatasi as e:
+            if deneme == 2 or not any(m in str(e) for m in ("does not exist", "not available", "not ready")):
+                raise
+            time.sleep(10)
 
 
 def dogrula(paylasim):
@@ -168,22 +180,28 @@ def baglanti_kontrol(token):
         print(f"Paylaşım izni tamam: son 24 saatte {veri.get('quota_usage', 0)}/{kota} API paylaşımı")
     except ApiHatasi as e:
         print(f"BAĞLANTI HATASI: {e}", file=sys.stderr)
-        # Anahtarın kendisi yazılmaz; yalnızca yanlış metin mi kopyalandı anlaşılsın diye.
-        print(f"Anahtar {len(token)} karakter, '{token[:2]}' ile başlıyor"
-              f"{', içinde boşluk var' if any(c.isspace() for c in token) else ''}.", file=sys.stderr)
         raise SystemExit(1)
 
 
 def main():
     kuru = os.environ.get("KURU_CALISMA") == "1"
-    # Elle yapıştırılan anahtarlarda baştaki/sondaki boşluk ve satır sonu sık görülür.
-    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
-    if kuru and token:
-        baglanti_kontrol(token)
+    if kuru and os.environ.get("IG_ACCESS_TOKEN"):
+        baglanti_kontrol(os.environ["IG_ACCESS_TOKEN"])
     with open(TAKVIM, encoding="utf-8") as f:
         takvim = json.load(f)
     dilim = ZoneInfo(takvim.get("saat_dilimi", "Europe/Istanbul"))
     simdi = datetime.now(dilim)
+
+    if not kuru:
+        yaklasan = [datetime.strptime(p["zaman"], "%Y-%m-%d %H:%M").replace(tzinfo=dilim)
+                    for p in takvim["paylasimlar"] if p.get("durum", "bekliyor") == "bekliyor"]
+        gelmis = any(simdi - EN_FAZLA_GECIKME <= z <= simdi for z in yaklasan)
+        yaklasan = [z for z in yaklasan if simdi < z <= simdi + BEKLEME_PENCERESI]
+        if yaklasan and not gelmis:
+            hedef = min(yaklasan)
+            print(f"BEKLE    {hedef:%H:%M} paylaşımı için {int((hedef - simdi).total_seconds() // 60)} dk bekleniyor")
+            time.sleep(max(0, (hedef - datetime.now(dilim)).total_seconds()) + 5)
+            simdi = datetime.now(dilim)
 
     zamani_gelen = []
     for p in takvim["paylasimlar"]:
@@ -205,6 +223,7 @@ def main():
             yaz(takvim)
         return 0
 
+    token = os.environ.get("IG_ACCESS_TOKEN")
     if not token and not kuru:
         print("IG_ACCESS_TOKEN tanımlı değil; kurulum tamamlanmamış.", file=sys.stderr)
         return 1

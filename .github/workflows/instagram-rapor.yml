@@ -1,7 +1,7 @@
 name: Instagram rapor
 
 # Her cumartesi sabahı son gönderilerin istatistiklerini çeker ve
-# .claude/instagram/rapor/ (Zifir için .claude/zifir/rapor/) altına yazar. Haftalık içerik hazırlığı bu raporu okur.
+# .claude/instagram/rapor/ altına yazar. Haftalık içerik hazırlığı bu raporu okur.
 on:
   schedule:
     - cron: "23 5 * * 6"
@@ -22,20 +22,9 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python scripts/instagram_rapor.py
-      - name: "Zifir: raporu oluştur"
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_ZIFIR }}
-          RAPOR_KLASOR: .claude/zifir/rapor
-        run: |
-          if [ -z "$IG_ACCESS_TOKEN" ]; then
-            echo "::warning::IG_ACCESS_TOKEN_ZIFIR tanımlı değil; Zifir raporu atlandı."
-            exit 0
-          fi
-          python scripts/instagram_rapor.py
       - name: Raporu kaydet
-        if: always()
         run: |
-          git add .claude/instagram/rapor .claude/zifir/rapor
+          git add .claude/instagram/rapor
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
