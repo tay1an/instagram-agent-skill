@@ -86,8 +86,10 @@
         ".claude/instagram/gorseller/gonderi-2026-10-26-6.jpg"
       ],
       "aciklama": "Bir kavanoz tahinin içinde kaç şey var? Bizimkinde tek bir şey: susam.\n\nAziz Tahin taş değirmende, yalnızca kavrulmuş susamdan öğütülür. 1 kilo susamdan 1 kilo tahin çıkar; şeker, koruyucu ya da katkı maddesi eklenmez. Bu yüzden kavanozun üstünde yağ birikmesi normaldir, karıştırıp afiyetle tüketebilirsiniz.\n\nSiz de hakiki tahinin tadına bakmak isterseniz bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahin #katkısız",
-      "durum": "bekliyor",
-      "not": "Ne var, ne yok | API engeli yüzünden geç paylaşıldı"
+      "durum": "yayinlandi",
+      "not": "Ne var, ne yok | API engeli yüzünden geç paylaşıldı",
+      "medya_id": "18025827566927058",
+      "yayin_zamani": "2026-10-26 20:33"
     },
     {
       "id": "2026-10-26-hikaye-aksam",
@@ -96,8 +98,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-26-aksam.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Cevap: üstteki yağ doğallık | API engeli yüzünden geç paylaşıldı"
+      "durum": "yayinlandi",
+      "not": "Cevap: üstteki yağ doğallık | API engeli yüzünden geç paylaşıldı",
+      "medya_id": "18120244771970522",
+      "yayin_zamani": "2026-10-26 20:33"
     },
     {
       "id": "2026-10-27-hikaye-sabah",
