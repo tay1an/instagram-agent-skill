@@ -58,7 +58,13 @@ def istek(yontem, yol, params, token):
     except urllib.error.HTTPError as e:
         govde = e.read().decode(errors="replace")
         try:
-            mesaj = json.loads(govde)["error"]["message"]
+            hata = json.loads(govde)["error"]
+            mesaj = hata["message"]
+            # Kod ve alt kod, "API access blocked" gibi genel mesajların nedenini ayırt eder.
+            ek = ", ".join(f"{k}={hata[k]}" for k in ("code", "error_subcode", "type", "error_user_title", "error_user_msg")
+                           if hata.get(k) not in (None, ""))
+            if ek:
+                mesaj = f"{mesaj} ({ek})"
         except (ValueError, KeyError):
             mesaj = govde[:300]
         raise ApiHatasi(f"{e.code}: {mesaj}") from None
