@@ -1,0 +1,49 @@
+# Zifir: öğrenmeler ve deneyler
+
+Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
+**önce bu dosya okunur**; "Kurallar" bölümü `voice.md`'nin önüne geçer.
+
+## Nasıl analiz edilir
+
+1. `rapor/` altındaki son raporu ve bir öncekini oku (`Zifir rapor` her gün yazar).
+2. Her reel için bak:
+   - **kat:** hesabın medyan izlenmesine göre kaç kat (asıl başarı ölçüsü)
+   - **ort. izlenme / süre:** ilk saniyeler tutuyor mu (15 sn reel'de hedef ≥ 7 sn)
+   - **kaydetme/erişim, paylaşma/erişim:** şarkının "benim şarkım" etkisi
+   - **takip:** profile ve Spotify'a dönüşüm
+3. En iyi ve en kötü 2 reel'i karşılaştır: şarkı kısmı, satır, görsel (çizim mi
+   fotoğraf mı, hangi filtre), kapak, saat. Tek bir farkı değiştiren deneyleri
+   tercih et; 1-2 gönderiden kesin kural çıkarma, "eğilim" diye yaz.
+4. Bulguları aşağıya yaz, sonra **önümüzdeki günlerin takvimini** buna göre
+   ayarla (sıra, saat, hangi kısım, hangi görsel, yeniden üretim). Tahin
+   dosyalarına dokunma. Hikâyeler `/media` raporunda yok; onları ayrıca
+   yorumlama.
+
+## Kurallar (verilerle desteklenen)
+
+- Açıklama ve video şarkının kendisiyle konuşur; "şimdi Spotify'da" duyurusu
+  değil. (26 Ekim: söz açıklamalı reel 387 izlenme / 3,4x; duyuru reel'leri 0-142)
+
+## Eğilimler (henüz kesin değil)
+
+- 2. nakarat başı ("Oysa seni sana anlatan ben idim") güçlü kanca.
+- İlk saniyeler zayıf: ort. izlenme 4,8 / 15 sn.
+
+## Deneyler
+
+| başlangıç | deney | değişen tek şey | ölçüt | sonuç |
+| --- | --- | --- | --- | --- |
+| 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |
+| 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler | kat, ort. izlenme | bekleniyor |
+
+## Kullanıcıdan beklenenler
+
+- Bio'ya Spotify şarkı linki (26 Ekim: 0 takip; açıklamalar "link profilde" diyor)
+- Spotify sanatçı linki (`voice.md`)
+
+## Geçmiş analizler
+
+### 26 Ekim 2026 (ilk rapor)
+- @zifir.123 · 1 takipçi · son 7 reel · medyan 114 izlenme
+- 01-anlatan: 387 izlenme, 246 erişim, 6 beğeni, 3 kaydetme, 0 paylaşma, ort. 4,8 sn (3,4x)
+- Önceki 6 reel (kullanıcının "Uzak şimdi Spotify'da" duyuruları): 0-142 izlenme, ort. 1,6-13 sn

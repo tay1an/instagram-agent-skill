@@ -1,10 +1,10 @@
 name: Zifir rapor
 
-# Her cumartesi @zifir.123'ün son gönderilerinin istatistiklerini
+# Her gün 08:53 (TSİ) @zifir.123'ün son gönderilerinin istatistiklerini
 # .claude/zifir/rapor/ altına yazar.
 on:
   schedule:
-    - cron: "53 5 * * 6"
+    - cron: "53 5 * * *"
   workflow_dispatch:
 
 permissions:

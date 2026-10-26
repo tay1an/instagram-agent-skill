@@ -54,6 +54,11 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 - **Görsel üretimi:** Görseller yapay zekâyla ya da kodla üretiliyor. Gerçekçi
   yapay zekâ görselleri paylaşılırken "AI ile oluşturuldu" etiketi işaretlenir.
 
+## Önce verilere bak
+
+İçerik üretmeden önce `rapor/ogrenmeler.md` okunur. Oradaki "Kurallar" bu
+dosyadaki genel tercihlerden önce gelir; "Deneyler" sürerken deney koşulu bozulmaz.
+
 ## Açıklama ve ekran yazısı kalıbı
 
 Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",

@@ -407,6 +407,9 @@ def render(name, scene_cls, kw, hook, t0, t1):
     tag_l = text_layer("ZİFİR  —  UZAK", font(F_SANS, 30), 900, H * 0.715)
     lyr = [(s - t0, e - t0, text_layer(txt, font(F_SERIF, 58, 500), 900, H * 0.6)) for s, e, txt in LYRICS
            if e > t0 and s < t1]
+    # İlk saniye kancası: ilk söz satırı ilk karede tam görünür (rapor 2026-10-26: ort. izlenme 4,8/15 sn).
+    lyr = [x for x in lyr if x[1] > 0.6]  # başta hemen biten önceki satırı atla
+    lyr = [(-1.0 if k == 0 and s < 1.2 else s, e, L) for k, (s, e, L) in enumerate(lyr)]
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     vign = np.clip(1.25 - 0.75 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .7)) ** 2), 0.35, 1)[..., None]
     rng = np.random.default_rng(0)
@@ -415,7 +418,7 @@ def render(name, scene_cls, kw, hook, t0, t1):
     ff = subprocess.Popen([
         "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
         "-i", "-", "-ss", f"{t0}", "-t", f"{dur}", "-i", SONG, "-map", "0:v", "-map", "1:a",
-        "-af", f"afade=t=in:d=0.25,afade=t=out:st={dur - 0.9}:d=0.9",
+        "-af", f"afade=t=in:d=0.08,afade=t=out:st={dur - 0.9}:d=0.9",
         "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-profile:v", "high",
         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", mp4], stdin=subprocess.PIPE)
     for i in range(n):
@@ -430,15 +433,12 @@ def render(name, scene_cls, kw, hook, t0, t1):
         fr = cv2.warpAffine(f, M, (W, H), flags=cv2.INTER_LINEAR)
         fr = np.clip(fr, 0, 255) * vign + grains[i % 6]
         fr = np.clip(fr, 0, 255)
-        fade_all = min(1, t / 0.35)
         comp_text(fr, tag_l, 0.8, (235, 225, 215))
         for s, e, L in lyr:
             if s - 0.05 <= t <= e:
                 a = min(1, (t - s + 0.05) / 0.25, (e - t) / 0.2)
                 rise = int(14 * (1 - min(1, (t - s + 0.05) / 0.4)))
                 comp_text(fr, L, max(0, a), (255, 246, 235), rise)
-        if fade_all < 1:
-            fr *= 0.3 + 0.7 * fade_all
         if i == int(FPS * 1.5):
             Image.fromarray(fr.astype(np.uint8)).save(os.path.join(OUT, f"{name}-kapak.jpg"), quality=92)
         ff.stdin.write(fr.astype(np.uint8).tobytes())
