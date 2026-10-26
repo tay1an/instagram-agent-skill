@@ -2,14 +2,14 @@
   "saat_dilimi": "Europe/Istanbul",
   "paylasimlar": [
     {
-      "id": "2026-10-26-reel-01-yabancilar-deneme",
+      "id": "2026-10-26-reel-01-anlatan",
       "tur": "reel",
-      "zaman": "2026-10-26 13:45",
+      "zaman": "2026-10-26 16:29",
       "medya": [
-        ".claude/zifir/medya/01-yabancilar.mp4"
+        ".claude/zifir/medya/01-anlatan.mp4"
       ],
-      "kapak": ".claude/zifir/medya/01-yabancilar-kapak-tikla.jpg",
-      "aciklama": "Onu en iyi tanıyan bendim. Bunu kimse bilmiyor.\nSen de birine böyle yabancılaştın mı?\n\nUzak, Spotify'da. Link profilde.\n#türkçepop #duygusalşarkılar #şarkısözleri #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/01-anlatan-kapak.jpg",
+      "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
