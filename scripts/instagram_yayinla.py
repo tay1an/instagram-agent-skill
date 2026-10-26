@@ -35,6 +35,11 @@ API = f"https://graph.instagram.com/{API_VERSION}"
 EN_FAZLA_GECIKME = timedelta(hours=3)
 EN_FAZLA_DENEME = 3
 
+# GitHub'ın zamanlayıcısı yoğunken bir saate kadar gecikebiliyor. Bu kadar
+# süre içinde zamanı gelecek bir paylaşım varsa iş onu bekleyip tam
+# dakikasında yayınlar.
+BEKLEME_PENCERESI = timedelta(minutes=70)
+
 GORSEL_UZANTILARI = (".jpg", ".jpeg")
 VIDEO_UZANTILARI = (".mp4", ".mov")
 TURLER = ("gonderi", "hikaye", "reel", "carousel")
@@ -186,6 +191,17 @@ def main():
         takvim = json.load(f)
     dilim = ZoneInfo(takvim.get("saat_dilimi", "Europe/Istanbul"))
     simdi = datetime.now(dilim)
+
+    if not kuru:
+        yaklasan = [datetime.strptime(p["zaman"], "%Y-%m-%d %H:%M").replace(tzinfo=dilim)
+                    for p in takvim["paylasimlar"] if p.get("durum", "bekliyor") == "bekliyor"]
+        gelmis = any(simdi - EN_FAZLA_GECIKME <= z <= simdi for z in yaklasan)
+        yaklasan = [z for z in yaklasan if simdi < z <= simdi + BEKLEME_PENCERESI]
+        if yaklasan and not gelmis:
+            hedef = min(yaklasan)
+            print(f"BEKLE    {hedef:%H:%M} paylaşımı için {int((hedef - simdi).total_seconds() // 60)} dk bekleniyor")
+            time.sleep(max(0, (hedef - datetime.now(dilim)).total_seconds()) + 5)
+            simdi = datetime.now(dilim)
 
     zamani_gelen = []
     for p in takvim["paylasimlar"]:
