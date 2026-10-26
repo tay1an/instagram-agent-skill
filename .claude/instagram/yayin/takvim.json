@@ -19,8 +19,23 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "1 kg susam = 1 kg tahin"
+      "durum": "yayinlandi",
+      "not": "1 kg susam = 1 kg tahin",
+      "deneme": 1,
+      "medya_id": "17942479536371710",
+      "yayin_zamani": "2026-10-26 09:19"
+    },
+    {
+      "id": "2026-10-26-hikaye-sabah-yeni-logo",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 09:28",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
+      ],
+      "durum": "yayinlandi",
+      "not": "sabah hikâyesi, düzeltilmiş logoyla yeniden",
+      "medya_id": "18115322543150937",
+      "yayin_zamani": "2026-10-26 09:29"
     },
     {
       "id": "2026-10-26-tarif-0-kapak",
@@ -29,8 +44,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-0-kapak.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "17864779101696367",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-tarif-1a",
@@ -39,8 +56,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-1a.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "18007617021006061",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-tarif-1b",
@@ -49,13 +68,15 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-1b.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "18111333014350692",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-carousel",
       "tur": "carousel",
-      "zaman": "2026-10-26 19:00",
+      "zaman": "2026-10-26 20:32",
       "medya": [
         ".claude/instagram/gorseller/gonderi-2026-10-26-1.jpg",
         ".claude/instagram/gorseller/gonderi-2026-10-26-2.jpg",
@@ -65,18 +86,22 @@
         ".claude/instagram/gorseller/gonderi-2026-10-26-6.jpg"
       ],
       "aciklama": "Bir kavanoz tahinin içinde kaç şey var? Bizimkinde tek bir şey: susam.\n\nAziz Tahin taş değirmende, yalnızca kavrulmuş susamdan öğütülür. 1 kilo susamdan 1 kilo tahin çıkar; şeker, koruyucu ya da katkı maddesi eklenmez. Bu yüzden kavanozun üstünde yağ birikmesi normaldir, karıştırıp afiyetle tüketebilirsiniz.\n\nSiz de hakiki tahinin tadına bakmak isterseniz bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahin #katkısız",
-      "durum": "bekliyor",
-      "not": "Ne var, ne yok"
+      "durum": "yayinlandi",
+      "not": "Ne var, ne yok | API engeli yüzünden geç paylaşıldı",
+      "medya_id": "18025827566927058",
+      "yayin_zamani": "2026-10-26 20:33"
     },
     {
       "id": "2026-10-26-hikaye-aksam",
       "tur": "hikaye",
-      "zaman": "2026-10-26 20:00",
+      "zaman": "2026-10-26 20:32",
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-26-aksam.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Cevap: üstteki yağ doğallık"
+      "durum": "yayinlandi",
+      "not": "Cevap: üstteki yağ doğallık | API engeli yüzünden geç paylaşıldı",
+      "medya_id": "18120244771970522",
+      "yayin_zamani": "2026-10-26 20:33"
     },
     {
       "id": "2026-10-27-hikaye-sabah",

@@ -23,7 +23,7 @@ background:radial-gradient(ellipse at 50% 50%,#fffaf0 0%,#f6ead4 65%,#ead6b4 100
 .list b{color:#b3151b}
 """
 def page(body, big=False):
-    return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="bt"></div><img class="logo{" big" if big else ""}" src="logo.png">{body}<div class="bb"></div></body></html>'
+    return f'<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="bt"></div><img class="logo{" big" if big else ""}" src="logo.png">{body}<div class="bb"></div></body></html>'
 data=json.load(open(sys.argv[1]))
 for car in data:
     n=len(car["slides"])
