@@ -1,0 +1,63 @@
+name: Zifir yayın
+
+# @zifir.123 hesabı. .claude/zifir/yayin/takvim.json'da zamanı gelen paylaşımları
+# yayınlar. Tahin hesabının iş akışlarından tamamen ayrıdır; yalnızca ortak
+# yayın betiğini (scripts/instagram_yayinla.py) değiştirmeden kullanır.
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+    inputs:
+      kuru_calisma:
+        description: "Deneme: hiçbir şey yayınlama, sadece bağlantıyı ve ne yapılacağını göster"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zifir-yayin
+  cancel-in-progress: false
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zamanı gelen paylaşımları yayınla
+        id: yayin
+        continue-on-error: true
+        env:
+          ZIFIR_TOKEN: ${{ secrets.ZIFIR_IG_TOKEN }}
+          TAKVIM: .claude/zifir/yayin/takvim.json
+          KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
+        run: |
+          # Elle yapıştırılan anahtarda kalan boşluk ve satır sonlarını temizle.
+          export IG_ACCESS_TOKEN="$(printf '%s' "$ZIFIR_TOKEN" | tr -d '[:space:]')"
+          python scripts/instagram_yayinla.py
+
+      - name: Takvimdeki durumları kaydet
+        if: always()
+        run: |
+          dosya=".claude/zifir/yayin/takvim.json"
+          if git diff --quiet -- "$dosya"; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dosya"
+          git commit -m "Zifir: yayın durumu güncellendi"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Hata varsa işi başarısız say
+        if: steps.yayin.outcome == 'failure'
+        run: |
+          echo "Bir paylaşım başarısız oldu; yukarıdaki adımın kaydına bakın."
+          exit 1
