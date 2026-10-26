@@ -1,0 +1,36 @@
+name: Zifir anahtar yenileme
+
+# Instagram uzun ömürlü erişim anahtarı 60 günde sona erer. Bu iş her hafta
+# ZIFIR_IG_TOKEN'ı yeniler. Yeni anahtarı yazmak için ZIFIR_GH_TOKEN
+# (yalnızca bu deponun Secrets iznine sahip bir GitHub anahtarı) kullanılır.
+on:
+  schedule:
+    - cron: "41 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  yenile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Anahtarı yenile
+        env:
+          ZIFIR_TOKEN: ${{ secrets.ZIFIR_IG_TOKEN }}
+          GH_TOKEN: ${{ secrets.ZIFIR_GH_TOKEN }}
+        run: |
+          eski="$(printf '%s' "$ZIFIR_TOKEN" | tr -d '[:space:]')"
+          if [ -z "$eski" ] || [ -z "$GH_TOKEN" ]; then
+            echo "::warning::ZIFIR_IG_TOKEN ya da ZIFIR_GH_TOKEN tanımlı değil; kurulum tamamlanmamış."
+            exit 0
+          fi
+          yanit=$(curl -sS --get "https://graph.instagram.com/refresh_access_token" \
+            --data-urlencode "grant_type=ig_refresh_token" \
+            --data-urlencode "access_token=${eski}")
+          yeni=$(printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("access_token",""))')
+          if [ -z "$yeni" ]; then
+            echo "Yenileme başarısız:"
+            printf '%s' "$yanit" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("error",{}).get("message","bilinmeyen hata"))'
+            exit 1
+          fi
+          echo "::add-mask::$yeni"
+          gh secret set ZIFIR_IG_TOKEN --repo "$GITHUB_REPOSITORY" --body "$yeni"
+          echo "Anahtar yenilendi."

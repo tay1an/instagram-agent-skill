@@ -1,82 +1,73 @@
 # Zifir: otomatik Instagram yayını kurulumu
 
-@aziz.tahin için kurulan sistemin aynısı. `takvim.json` dosyasındaki
-paylaşımlar zamanı gelince Zifir hesabında kendiliğinden yayınlanır. GitHub
-her 15 dakikada bir kontrol eder.
+`.claude/zifir/yayin/takvim.json` dosyasındaki paylaşımlar zamanı gelince
+@zifir.123 hesabında kendiliğinden yayınlanır. GitHub her 15 dakikada bir
+kontrol eder (`Zifir yayın` iş akışı).
 
-Meta uygulaması ve GitHub'daki `GH_SECRETS_TOKEN` zaten var. Bu yüzden
-kurulum yalnızca Zifir hesabını bağlamaktan ibaret ve 15-20 dakika sürer.
-Bilgisayardan yapılması daha kolaydır.
+**Tahin hesabından tamamen ayrıdır:** Zifir'in kendi Meta uygulaması, kendi
+GitHub anahtarları (`ZIFIR_IG_TOKEN`, `ZIFIR_GH_TOKEN`) ve kendi iş akışları
+(`zifir-yayin.yml`, `zifir-rapor.yml`, `zifir-token-yenile.yml`) vardır.
+Tahin'in uygulamasına, anahtarlarına ve iş akışlarına dokunulmaz.
 
-> **Önemli:** Erişim anahtarını (token) hiçbir zaman sohbete yapıştırmayın.
-> Yalnızca 3. adımda GitHub'daki gizli alana yapıştırın.
-
----
-
-## 1. Zifir hesabını profesyonel hesap yapın
-
-Instagram uygulamasında Zifir hesabına geçin → Profil → ☰ → Hesap türü ve
-araçlar → **Profesyonel hesaba geç** → **İçerik üreticisi**. Hesap zaten
-profesyonel hesapsa bu adımı atlayın.
-
-## 2. Zifir hesabını Meta uygulamasına ekleyip erişim anahtarı alın
-
-1. https://developers.facebook.com/apps adresinde, @aziz.tahin için
-   kullandığınız uygulamayı açın.
-2. **App roles → Roles → Instagram Testers → Add Instagram Testers** →
-   Zifir hesabının kullanıcı adını yazın (`zifir.123`).
-3. Zifir hesabıyla https://www.instagram.com/accounts/manage_access/
-   adresini açın → **Tester davetleri** sekmesi → daveti **kabul edin**.
-4. Uygulama panelinde **Instagram → API setup with Instagram login →
-   Generate access tokens** → **Add account** → Zifir hesabıyla giriş
-   yapıp izin verin.
-5. Zifir hesabının yanındaki **Generate token** düğmesine basın ve çıkan
-   uzun metni kopyalayın.
-
-## 3. Anahtarı GitHub'a kaydedin
-
-1. https://github.com/tay1an/instagram-agent-skill/settings/secrets/actions
-2. **New repository secret**
-3. Name: `IG_ACCESS_TOKEN_ZIFIR`, Secret: kopyaladığınız anahtar → **Add secret**
-
-Anahtar her pazartesi kendiliğinden yenilenir. Bunun için ek bir şey
-yapmanıza gerek yok, mevcut `GH_SECRETS_TOKEN` yeterli.
-
-## 4. Deneyin
-
-1. https://github.com/tay1an/instagram-agent-skill/actions → **Instagram yayın**
-2. **Run workflow** → **Deneme** kutusunu işaretleyin → çalıştırın.
-3. **"Zifir: zamanı gelen paylaşımları yayınla"** adımının kaydında
-   `Bağlantı tamam: @<zifir kullanıcı adı>` ve `Paylaşım izni tamam`
-   satırları görünmeli.
-
-Kırmızı çarpı çıkarsa Claude'a haber verin.
+> **Önemli:** Erişim anahtarlarını hiçbir zaman sohbete yapıştırmayın.
+> Yalnızca GitHub'daki gizli alana yapıştırın.
 
 ---
 
-## Takvim
+## 1. Zifir için ayrı bir Meta uygulaması oluşturun
 
-| tarih | video |
+1. https://developers.facebook.com/apps → **Uygulama oluştur** (Create app).
+2. Uygulama adı: `Zifir Yayin`.
+3. Kullanım durumu: **"Instagram'da mesajları ve içeriği yönet"**
+   (Manage messaging & content on Instagram).
+4. İşletme portföyü sorulursa **"Şimdilik bağlama"** seçilebilir.
+
+## 2. Zifir'i test kullanıcısı yapın
+
+1. Yeni uygulamada **App roles → Roles → Instagram Testers → Add Instagram
+   Testers** → `zifir.123`.
+2. zifir.123 ile https://www.instagram.com/accounts/manage_access/ →
+   **Tester Invites** → daveti kabul edin.
+
+## 3. Erişim anahtarını alın
+
+1. **Kullanım durumları → Customize → API setup with Instagram login →
+   Generate access tokens → Add account** → zifir.123 ile giriş yapıp
+   bütün izinleri verin.
+2. **Generate token** → açılan pencerede "IG" ile başlayan uzun metni
+   **Copy** ile kopyalayın (hesap numarasını değil).
+
+## 4. GitHub'a kaydedin
+
+https://github.com/tay1an/instagram-agent-skill/settings/secrets/actions →
+**New repository secret**:
+
+| Name | Secret |
 | --- | --- |
-| 26 Ekim | 01-anlatan (deneme paylaşımı) |
-| 27 Ekim 20:30 | 03-kalp |
-| 28 Ekim 20:30 | 05-ufuk |
-| 29 Ekim 20:30 | 04-agaclar |
-| 30 Ekim 20:30 | 06-alev |
-| 31 Ekim 20:30 | 02-yok-isem |
-| 1 Kasım 20:30 | 07-vardim |
-| 2 Kasım 20:30 | 08-ardinda |
-| 3 Kasım 20:30 | uzak-lyric-dikey (lyric videonun tamamı) |
+| `ZIFIR_IG_TOKEN` | 3. adımda kopyalanan anahtar |
+| `ZIFIR_GH_TOKEN` | aşağıdaki GitHub anahtarı |
 
-Bilmeniz gerekenler:
+`ZIFIR_GH_TOKEN` için: https://github.com/settings/personal-access-tokens/new
+→ ad `zifir anahtar yenileme`, en uzun süre, **Only select repositories** →
+`tay1an/instagram-agent-skill`, **Repository permissions → Secrets: Read and
+write** → Generate token.
 
-- Paylaşımlar 20:30-20:50 arasında çıkar.
-- Kurulum bir paylaşımın saatinden sonra 3 saatten fazla gecikirse o
-  paylaşım yayınlanmaz ("atlandi" olur). Claude'a söyleyin, tarihleri kaydırsın.
+## 5. Deneyin
+
+Claude, `Zifir yayın` iş akışını **Deneme** modunda bir kez çalıştırır. Kayıtta
+`Bağlantı tamam: @zifir.123` görünmelidir. Ardından tek bir paylaşım denenir.
+Art arda deneme yapılmaz; bir hata olursa önce nedeni bulunur.
+
+---
+
+## Bilmeniz gerekenler
+
+- Takvimdeki paylaşımlar kurulum bitene kadar `taslak` durumundadır ve
+  yayınlanmaz. Kurulum bitince Claude tarihleri ayarlayıp `bekliyor` yapar.
+- 3 saatten fazla gecikmiş bir paylaşım yayınlanmaz ("atlandi" olur).
 - API ile paylaşılan reel'lere Instagram müzik kütüphanesinden şarkı ve "AI
   ile oluşturuldu" etiketi eklenemez. Videolar şarkının kendi sesiyle çıkar.
-- **TikTok bu sisteme dahil değil.** TikTok'un API'si denetimden geçmemiş
-  uygulamaların paylaşımlarını yalnızca "gizli" yayınlıyor. TikTok için
-  tiktok.com/upload adresindeki "Zamanla" seçeneğini kullanın.
+- **TikTok bu sisteme dahil değil.** TikTok için tiktok.com/upload adresindeki
+  "Zamanla" seçeneğini kullanın.
 - Depo herkese açık olduğu için videolar ve açıklamalar yayın saatinden önce
   GitHub'da görülebilir.

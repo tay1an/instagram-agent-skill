@@ -10,9 +10,7 @@
       ],
       "kapak": ".claude/zifir/medya/01-anlatan-kapak.jpg",
       "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor",
-      "deneme": 1,
-      "hata": "400: API access blocked. (code=200, type=OAuthException)"
+      "durum": "taslak"
     },
     {
       "id": "2026-10-27-reel-03-kalp",
@@ -23,7 +21,7 @@
       ],
       "kapak": ".claude/zifir/medya/03-kalp-kapak.jpg",
       "aciklama": "\"elindeki kalbi yerine koysana\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-10-28-reel-05-ufuk",
@@ -34,7 +32,7 @@
       ],
       "kapak": ".claude/zifir/medya/05-ufuk-kapak.jpg",
       "aciklama": "\"ufuk daldırır beni senli bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-10-29-reel-04-agaclar",
@@ -45,7 +43,7 @@
       ],
       "kapak": ".claude/zifir/medya/04-agaclar-kapak.jpg",
       "aciklama": "\"yan yana ağacız gölge yeter bize\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-10-30-reel-06-alev",
@@ -56,7 +54,7 @@
       ],
       "kapak": ".claude/zifir/medya/06-alev-kapak.jpg",
       "aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-10-31-reel-02-yok-isem",
@@ -67,7 +65,7 @@
       ],
       "kapak": ".claude/zifir/medya/02-yok-isem-kapak.jpg",
       "aciklama": "\"ben eğer yok isem sen olmazsın dedim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-11-01-reel-07-vardim",
@@ -78,7 +76,7 @@
       ],
       "kapak": ".claude/zifir/medya/07-vardim-kapak.jpg",
       "aciklama": "\"vardım kendime ufka bakmam hiç sakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-11-02-reel-08-ardinda",
@@ -89,7 +87,7 @@
       ],
       "kapak": ".claude/zifir/medya/08-ardinda-kapak.jpg",
       "aciklama": "\"ardında ne parçam ne de ben varım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     },
     {
       "id": "2026-11-03-reel-lyric-video",
@@ -100,7 +98,7 @@
       ],
       "kapak": ".claude/zifir/medya/uzak-lyric-dikey-kapak.jpg",
       "aciklama": "uzak. baştan sona, sözleriyle.\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "taslak"
     }
   ]
 }

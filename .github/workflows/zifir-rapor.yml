@@ -1,0 +1,39 @@
+name: Zifir rapor
+
+# Her cumartesi @zifir.123'ün son gönderilerinin istatistiklerini
+# .claude/zifir/rapor/ altına yazar.
+on:
+  schedule:
+    - cron: "53 5 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rapor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Raporu oluştur
+        env:
+          ZIFIR_TOKEN: ${{ secrets.ZIFIR_IG_TOKEN }}
+        run: |
+          if [ -z "$ZIFIR_TOKEN" ]; then
+            echo "::warning::ZIFIR_IG_TOKEN tanımlı değil; kurulum tamamlanmamış."
+            exit 0
+          fi
+          export IG_ACCESS_TOKEN="$(printf '%s' "$ZIFIR_TOKEN" | tr -d '[:space:]')"
+          python scripts/zifir_rapor.py
+      - name: Raporu kaydet
+        run: |
+          git add .claude/zifir/rapor
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Zifir: haftalık rapor"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
