@@ -24,7 +24,7 @@ jobs:
           fi
           hata=0
           for ad in IG_ACCESS_TOKEN IG_ACCESS_TOKEN_ZIFIR; do
-            eski="${!ad}"
+            eski="$(printf '%s' "${!ad}" | tr -d '[:space:]')"
             if [ -z "$eski" ]; then
               echo "::warning::$ad tanımlı değil; atlandı."
               continue

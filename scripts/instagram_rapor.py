@@ -122,7 +122,7 @@ def hafta_md(h):
 
 
 def main():
-    token = os.environ.get("IG_ACCESS_TOKEN")
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
     if not token:
         print("IG_ACCESS_TOKEN tanımlı değil.")
         return 1

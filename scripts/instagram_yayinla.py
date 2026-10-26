@@ -162,13 +162,18 @@ def baglanti_kontrol(token):
         print(f"Paylaşım izni tamam: son 24 saatte {veri.get('quota_usage', 0)}/{kota} API paylaşımı")
     except ApiHatasi as e:
         print(f"BAĞLANTI HATASI: {e}", file=sys.stderr)
+        # Anahtarın kendisi yazılmaz; yalnızca yanlış metin mi kopyalandı anlaşılsın diye.
+        print(f"Anahtar {len(token)} karakter, '{token[:2]}' ile başlıyor"
+              f"{', içinde boşluk var' if any(c.isspace() for c in token) else ''}.", file=sys.stderr)
         raise SystemExit(1)
 
 
 def main():
     kuru = os.environ.get("KURU_CALISMA") == "1"
-    if kuru and os.environ.get("IG_ACCESS_TOKEN"):
-        baglanti_kontrol(os.environ["IG_ACCESS_TOKEN"])
+    # Elle yapıştırılan anahtarlarda baştaki/sondaki boşluk ve satır sonu sık görülür.
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    if kuru and token:
+        baglanti_kontrol(token)
     with open(TAKVIM, encoding="utf-8") as f:
         takvim = json.load(f)
     dilim = ZoneInfo(takvim.get("saat_dilimi", "Europe/Istanbul"))
@@ -194,7 +199,6 @@ def main():
             yaz(takvim)
         return 0
 
-    token = os.environ.get("IG_ACCESS_TOKEN")
     if not token and not kuru:
         print("IG_ACCESS_TOKEN tanımlı değil; kurulum tamamlanmamış.", file=sys.stderr)
         return 1
