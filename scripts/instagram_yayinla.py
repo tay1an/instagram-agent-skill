@@ -83,7 +83,14 @@ def medya_parametresi(yol):
 def hazir_olmasini_bekle(kap_id, token, sure=300):
     bitis = time.monotonic() + sure
     while True:
-        durum = istek("GET", kap_id, {"fields": "status_code,status"}, token)
+        try:
+            durum = istek("GET", kap_id, {"fields": "status_code,status"}, token)
+        except ApiHatasi as e:
+            # Yeni oluşturulan kap birkaç saniye "does not exist" dönebiliyor.
+            if "does not exist" not in str(e) or time.monotonic() > bitis:
+                raise
+            time.sleep(5)
+            continue
         kod = durum.get("status_code")
         if kod == "FINISHED":
             return
@@ -135,7 +142,13 @@ def yayinla(paylasim, kullanici, token):
             params["caption"] = aciklama
         kap = kap_olustur(kullanici, params, video, token)
 
-    return istek("POST", f"{kullanici}/media_publish", {"creation_id": kap}, token)["id"]
+    for deneme in range(3):
+        try:
+            return istek("POST", f"{kullanici}/media_publish", {"creation_id": kap}, token)["id"]
+        except ApiHatasi as e:
+            if deneme == 2 or not any(m in str(e) for m in ("does not exist", "not available", "not ready")):
+                raise
+            time.sleep(10)
 
 
 def dogrula(paylasim):
