@@ -62,12 +62,14 @@ def uret(foto, cikti, t0, ton, mx, zoom=1.0, my=0.5, sure=15.0, hikaye=False):
     tag = R.text_layer(kunye, R.font(R.F_SANS, 30), 960, H * (soz_y + 0.115))
     lyr = [(s - t0, e - t0, R.text_layer(txt, R.font(R.F_SERIF, 60, 500), 900, H * soz_y))
            for s, e, txt in R.LYRICS if e > t0 and s < t1]
+    # İlk saniye kancası: ilk söz satırı ilk karede tam görünür, siyahtan açılış yok.
+    lyr = [(-1.0 if k == 0 and s < 1.2 else s, e, L) for k, (s, e, L) in enumerate(lyr)]
     rng = np.random.default_rng(0)
     grains = [rng.normal(0, 6, (H, W, 1)).astype(np.float32) for _ in range(6)]
     ff = subprocess.Popen([
         "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
         "-i", "-", "-ss", f"{t0}", "-t", f"{sure}", "-i", R.SONG, "-map", "0:v", "-map", "1:a",
-        "-af", f"afade=t=in:d=0.25,afade=t=out:st={sure - 0.9}:d=0.9",
+        "-af", f"afade=t=in:d=0.08,afade=t=out:st={sure - 0.9}:d=0.9",
         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "3500k", "-bufsize", "7000k",
         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart",
         "-shortest", cikti], stdin=subprocess.PIPE)
@@ -85,7 +87,6 @@ def uret(foto, cikti, t0, ton, mx, zoom=1.0, my=0.5, sure=15.0, hikaye=False):
             if s - 0.05 <= t <= e:
                 a = min(1, (t - s + 0.05) / 0.25, (e - t) / 0.2)
                 R.comp_text(fr, L, max(0, a), (255, 246, 235), int(12 * (1 - min(1, (t - s + 0.05) / 0.4))))
-        fr *= min(1, t / 0.3)
         ff.stdin.write(fr.astype(np.uint8).tobytes())
     ff.stdin.close()
     ff.wait()

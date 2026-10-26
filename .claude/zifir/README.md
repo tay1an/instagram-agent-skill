@@ -12,7 +12,7 @@ ig-* skill'leri `~/.claude/instagram/voice.md`, `plan.md`, `log.md`,
 | `voice.md` | ses, açıklama ve kapak kuralları |
 | `plan.md` | haftalık plan |
 | `log.md` | paylaşım geçmişi |
-| `rapor/` | haftalık istatistikler (`Zifir rapor` iş akışı yazar) |
+| `rapor/` | günlük istatistikler (`Zifir rapor` iş akışı yazar) ve `ogrenmeler.md` (analiz, kurallar, deneyler) |
 | `yayin/takvim.json` | otomatik yayın takvimi (`Zifir yayın` iş akışı) |
 | `yayin/KURULUM.md` | Meta uygulaması ve GitHub anahtarlarının kurulumu |
 | `medya/` | reel videoları ve kapakları |
