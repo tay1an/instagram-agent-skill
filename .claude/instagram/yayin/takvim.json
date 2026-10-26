@@ -20,7 +20,9 @@
         ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
       ],
       "durum": "bekliyor",
-      "not": "1 kg susam = 1 kg tahin"
+      "not": "1 kg susam = 1 kg tahin",
+      "deneme": 1,
+      "hata": "400: The requested resource does not exist"
     },
     {
       "id": "2026-10-26-tarif-0-kapak",
