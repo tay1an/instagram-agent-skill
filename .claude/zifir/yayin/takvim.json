@@ -15,80 +15,80 @@
       "hata": "400: API access blocked. (code=200, type=OAuthException)"
     },
     {
-      "id": "2026-10-27-reel-03-ilk-cumle",
+      "id": "2026-10-27-reel-03-kalp",
       "tur": "reel",
       "zaman": "2026-10-27 20:30",
       "medya": [
-        ".claude/zifir/medya/03-ilk-cumle.mp4"
+        ".claude/zifir/medya/03-kalp.mp4"
       ],
-      "kapak": ".claude/zifir/medya/03-ilk-cumle-kapak.jpg",
-      "aciklama": "Bazı cümleler hiç gönderilmiyor. Bu da onlardan biriydi.\nSenin gönderemediğin cümle ne?\n\nZifir · Uzak, Spotify'da.\n#türkçepop #aşkşarkıları #şarkısözleri",
+      "kapak": ".claude/zifir/medya/03-kalp-kapak.jpg",
+      "aciklama": "\"elindeki kalbi yerine koysana\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-28-reel-05-gece-iki",
+      "id": "2026-10-28-reel-05-ufuk",
       "tur": "reel",
       "zaman": "2026-10-28 20:30",
       "medya": [
-        ".claude/zifir/medya/05-gece-iki.mp4"
+        ".claude/zifir/medya/05-ufuk.mp4"
       ],
-      "kapak": ".claude/zifir/medya/05-gece-iki-kapak.jpg",
-      "aciklama": "Herkes uyurken akla gelen o kişi.\nŞu an kimi düşünüyorsun? Yazma, sadece kaydet.\n\nUzak, Spotify'da. Link profilde.\n#gece #duygusalşarkılar #türkçepop",
+      "kapak": ".claude/zifir/medya/05-ufuk-kapak.jpg",
+      "aciklama": "\"ufuk daldırır beni senli bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-29-reel-04-fazlasi",
+      "id": "2026-10-29-reel-04-agaclar",
       "tur": "reel",
       "zaman": "2026-10-29 20:30",
       "medya": [
-        ".claude/zifir/medya/04-fazlasi.mp4"
+        ".claude/zifir/medya/04-agaclar.mp4"
       ],
-      "kapak": ".claude/zifir/medya/04-fazlasi-kapak.jpg",
-      "aciklama": "Yan yana iki ağaç. Gölge yeter bize.\nBunu söylemek istediğin birini etiketle.\n\nZifir · Uzak, Spotify'da.\n#türkçepop #şarkısözleri #aşk",
+      "kapak": ".claude/zifir/medya/04-agaclar-kapak.jpg",
+      "aciklama": "\"yan yana ağacız gölge yeter bize\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-30-reel-06-yakan-asklar",
+      "id": "2026-10-30-reel-06-alev",
       "tur": "reel",
       "zaman": "2026-10-30 20:30",
       "medya": [
-        ".claude/zifir/medya/06-yakan-asklar.mp4"
+        ".claude/zifir/medya/06-alev.mp4"
       ],
-      "kapak": ".claude/zifir/medya/06-yakan-asklar-kapak.jpg",
-      "aciklama": "Yandığını bile bile bırakamadığın biri oldu mu?\n\nUzak, Spotify'da. Link profilde.\n#duygusalşarkılar #türkçepop #aşkşarkıları",
+      "kapak": ".claude/zifir/medya/06-alev-kapak.jpg",
+      "aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-31-reel-02-hakli-miydim",
+      "id": "2026-10-31-reel-02-yok-isem",
       "tur": "reel",
       "zaman": "2026-10-31 20:30",
       "medya": [
-        ".claude/zifir/medya/02-hakli-miydim.mp4"
+        ".claude/zifir/medya/02-yok-isem.mp4"
       ],
-      "kapak": ".claude/zifir/medya/02-hakli-miydim-kapak.jpg",
-      "aciklama": "\"Ben yoksam sen de olmazsın\" dedim. Haklı mıydım?\nDürüst ol, yorumlara yaz.\n\nZifir · Uzak, Spotify'da.\n#türkçepop #şarkısözleri #duygusalşarkılar",
+      "kapak": ".claude/zifir/medya/02-yok-isem-kapak.jpg",
+      "aciklama": "\"ben eğer yok isem sen olmazsın dedim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-01-reel-07-kimi-dusunerek",
+      "id": "2026-11-01-reel-07-vardim",
       "tur": "reel",
       "zaman": "2026-11-01 20:30",
       "medya": [
-        ".claude/zifir/medya/07-kimi-dusunerek.mp4"
+        ".claude/zifir/medya/07-vardim.mp4"
       ],
-      "kapak": ".claude/zifir/medya/07-kimi-dusunerek-kapak.jpg",
-      "aciklama": "Bu şarkıyı kimi düşünerek dinleyeceksin?\nSadece baş harfini yaz.\n\nUzak, Spotify'da. Link profilde.\n#türkçepop #duygusalşarkılar #aşkşarkıları",
+      "kapak": ".claude/zifir/medya/07-vardim-kapak.jpg",
+      "aciklama": "\"vardım kendime ufka bakmam hiç sakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-02-reel-08-kayboldum",
+      "id": "2026-11-02-reel-08-ardinda",
       "tur": "reel",
       "zaman": "2026-11-02 20:30",
       "medya": [
-        ".claude/zifir/medya/08-kayboldum.mp4"
+        ".claude/zifir/medya/08-ardinda.mp4"
       ],
-      "kapak": ".claude/zifir/medya/08-kayboldum-kapak.jpg",
-      "aciklama": "Birini o kadar sevdin ki kendini kaybettin. Sonra?\n\nZifir · Uzak, Spotify'da.\n#türkçepop #şarkısözleri #aşk",
+      "kapak": ".claude/zifir/medya/08-ardinda-kapak.jpg",
+      "aciklama": "\"ardında ne parçam ne de ben varım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
@@ -99,7 +99,7 @@
         ".claude/zifir/medya/uzak-lyric-dikey.mp4"
       ],
       "kapak": ".claude/zifir/medya/uzak-lyric-dikey-kapak.jpg",
-      "aciklama": "Uzak, sözleriyle. Baştan sona.\nEn çok hangi satır seni anlattı?\n\nZifir · Uzak, Spotify'da. Link profilde.\n#türkçepop #şarkısözleri #duygusalşarkılar",
+      "aciklama": "uzak. baştan sona, sözleriyle.\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     }
   ]

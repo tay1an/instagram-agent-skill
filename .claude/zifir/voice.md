@@ -43,7 +43,7 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
   cümleler. Dinleyiciye soru sorar ama cevabı dayatmaz.
 - **Gerçekten kullandığım kelimeler:** uzak, ufuk, gece, yanmak, kalp, kök,
   gölge, kaybolmak, yabancı, söyleyemediğim
-- **Asla söylemeyeceğim kelimeler:** "Şarkımı dinleyin lütfen 🙏", "takip et
+- **Asla söylemeyeceğim kelimeler:** romantik klişeler ve takipçiye duygusal sorular, "Şarkımı dinleyin lütfen 🙏", "takip et
   takip edeyim", "viral olalım", abartılı övgü ("efsane şarkı", "bomba").
   Dinlenme ya da takipçi rica etmek yok; insanları sözle çekmek var.
 - **Küfür:** Hayır.
@@ -54,22 +54,26 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 - **Görsel üretimi:** Görseller yapay zekâyla ya da kodla üretiliyor. Gerçekçi
   yapay zekâ görselleri paylaşılırken "AI ile oluşturuldu" etiketi işaretlenir.
 
-## Açıklama kalıbı
+## Açıklama ve ekran yazısı kalıbı
 
-1. İlk satır: tek bir duygusal cümle (ekran yazısını tekrar etmez, devam ettirir).
-2. İkinci satır: dinleyiciye bir soru ya da küçük bir davet (kaydet, baş harfini
-   yaz, birini etiketle).
-3. Boş satır, sonra: "Uzak, Spotify'da. Link profilde." ya da
-   "Zifir · Uzak, Spotify'da."
-4. Üç hashtag: #türkçepop ve dönüşümlü olarak #duygusalşarkılar, #şarkısözleri,
-   #aşkşarkıları, #aşk, #gece.
+Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
+"kimi düşünerek dinleyeceksin?") ve kelime listesi tarzı sahne yazılarını
+("otobüs camı. yağmur. tek kulaklık.") istemedi. Ekrana ya da açıklamaya
+şarkının dışından cümle yazılmaz; konuşan şarkının kendisidir.
+
+- **Video:** Ekstra yazı yok. Yalnızca şarkıyla akan sözler ve altta küçük
+  `ZİFİR — UZAK` künyesi.
+- **Kapak:** Videoda çalan kısımdan bir satır, şarkıdaki haliyle, ortada büyük;
+  altında `ZİFİR — UZAK`. Kullanıcı kapakta hareket halinde bir insan da istiyor
+  (gerçekçi görseli kullanıcı yapay zekâ aracıyla üretir).
+- **Açıklama:** Aynı satır tırnak içinde, küçük harfle. Sonra boş satır,
+  `zifir · uzak. spotify'da.` ve `#türkçepop #yenimüzik #zifir`.
 
 Örnek:
-> Onu en iyi tanıyan bendim. Bunu kimse bilmiyor.
-> Sen de birine böyle yabancılaştın mı?
+> "oysa seni sana anlatan ben idim"
 >
-> Uzak, Spotify'da. Link profilde.
-> #türkçepop #duygusalşarkılar #şarkısözleri
+> zifir · uzak. spotify'da.
+> #türkçepop #yenimüzik #zifir
 
 ## Fikirlerim
 

@@ -58,14 +58,14 @@ Kırmızı çarpı çıkarsa Claude'a haber verin.
 
 | tarih | video |
 | --- | --- |
-| 26 Ekim 13:45 | 01-yabancilar (deneme paylaşımı) |
-| 27 Ekim 20:30 | 03-ilk-cumle |
-| 28 Ekim 20:30 | 05-gece-iki |
-| 29 Ekim 20:30 | 04-fazlasi |
-| 30 Ekim 20:30 | 06-yakan-asklar |
-| 31 Ekim 20:30 | 02-hakli-miydim |
-| 1 Kasım 20:30 | 07-kimi-dusunerek |
-| 2 Kasım 20:30 | 08-kayboldum |
+| 26 Ekim | 01-anlatan (deneme paylaşımı) |
+| 27 Ekim 20:30 | 03-kalp |
+| 28 Ekim 20:30 | 05-ufuk |
+| 29 Ekim 20:30 | 04-agaclar |
+| 30 Ekim 20:30 | 06-alev |
+| 31 Ekim 20:30 | 02-yok-isem |
+| 1 Kasım 20:30 | 07-vardim |
+| 2 Kasım 20:30 | 08-ardinda |
 | 3 Kasım 20:30 | uzak-lyric-dikey (lyric videonun tamamı) |
 
 Bilmeniz gerekenler:

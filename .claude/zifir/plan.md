@@ -3,16 +3,18 @@
 ```
 26 EKİM - 3 KASIM   (saatler Türkiye saati, Instagram otomatik / TikTok elle zamanlanır)
 
-PZT 26  13:45  REEL   01-yabancilar      "Onu en iyi tanıyan bendim. Şimdi yabancıyız." (deneme, tıklatan kapakla)
-SAL 27  20:30  REEL   03-ilk-cumle       "Ona söyleyemediğim ilk cümle"
-ÇAR 28  20:30  REEL   05-gece-iki        "Gece 2. Yine o düşünce."
-PER 29  20:30  REEL   04-fazlasi         "Fazlasını istemedim ki"
-CUM 30  20:30  REEL   06-yakan-asklar    "Bazı aşklar yakar ama bırakamazsın"
-CMT 31  20:30  REEL   02-hakli-miydim    "Ona böyle dedim. Haklı mıydım?"
-PAZ 01  20:30  REEL   07-kimi-dusunerek  "Bu şarkıyı kimi düşünerek dinleyeceksin?"
-PZT 02  20:30  REEL   08-kayboldum       "POV: Kendini onda kaybettiğini fark ediyorsun"
+PZT 26  şimdi   REEL   01-anlatan     "Oysa seni sana anlatan ben idim" (deneme)
+SAL 27  20:30  REEL   03-kalp        "Elindeki kalbi yerine koysana"
+ÇAR 28  20:30  REEL   05-ufuk        "Ufuk daldırır beni senli bir hayale"
+PER 29  20:30  REEL   04-agaclar     "Yan yana ağacız gölge yeter bize"
+CUM 30  20:30  REEL   06-alev        "Alevin içinde yanması ayrı zevk"
+CMT 31  20:30  REEL   02-yok-isem    "Ben eğer yok isem sen olmazsın dedim"
+PAZ 01  20:30  REEL   07-vardim      "Vardım kendime ufka bakmam hiç sakın"
+PZT 02  20:30  REEL   08-ardinda     "Ardında ne parçam ne de ben varım"
 SAL 03  20:30  REEL   uzak-lyric-dikey   Uzak, sözleriyle (tam şarkı)
 
+VİDEO       Ekstra yazı yok: yalnızca akan şarkı sözü + ZİFİR — UZAK künyesi.
+KAPAK       Ortada şarkıdan bir satır + künye. Açıklama: aynı satır, tırnak içinde.
 YOUTUBE     "Zifir - Uzak (Lyrics)" yatay lyric video, hemen yüklenir.
 ETKİLEŞİM   Her gün 10 gerçek yorum, benzer Türkçe pop sanatçılarına (link yok).
 CEVAP       Paylaşımdan sonraki ilk saatte gelen her yoruma cevap.
