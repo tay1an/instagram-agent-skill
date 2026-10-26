@@ -10,7 +10,9 @@
       ],
       "kapak": ".claude/zifir/medya/01-anlatan-kapak.jpg",
       "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "deneme": 1,
+      "hata": "400: API access blocked. (code=200, type=OAuthException)"
     },
     {
       "id": "2026-10-27-reel-03-ilk-cumle",
