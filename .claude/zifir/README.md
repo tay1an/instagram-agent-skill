@@ -16,3 +16,6 @@ ig-* skill'leri `~/.claude/instagram/voice.md`, `plan.md`, `log.md`,
 | `yayin/takvim.json` | otomatik yayın takvimi (`Zifir yayın` iş akışı) |
 | `yayin/KURULUM.md` | Meta uygulaması ve GitHub anahtarlarının kurulumu |
 | `medya/` | reel videoları ve kapakları |
+| `medya/hikaye/` | hikâye görselleri |
+| `stok/` | kapak ve hikâyelerde kullanılan fotoğraflar (Pexels, ücretsiz lisans) |
+| `uretici/` | videoları, kapakları ve hikâyeleri üreten betikler, fontlar, şarkı ve zamanlı sözler |
