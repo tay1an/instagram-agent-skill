@@ -9,6 +9,11 @@ on:
         description: "Deneme: hiçbir şey yayınlama, sadece ne yapılacağını göster"
         type: boolean
         default: false
+      hesap:
+        description: "Elle çalıştırırken hangi hesap (zamanlanmış çalışmalarda ikisi de)"
+        type: choice
+        options: [hepsi, aziz, zifir]
+        default: hepsi
 
 permissions:
   contents: write
@@ -29,6 +34,7 @@ jobs:
 
       - name: Zamanı gelen paylaşımları yayınla
         id: yayin
+        if: inputs.hesap != 'zifir'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -38,6 +44,7 @@ jobs:
       # Zifir sanatçı hesabı: ayrı takvim, ayrı erişim anahtarı.
       - name: "Zifir: zamanı gelen paylaşımları yayınla"
         id: yayin_zifir
+        if: inputs.hesap != 'aziz'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_ZIFIR }}
@@ -59,7 +66,7 @@ jobs:
 
       - name: Yorumlara TAHİN yazanlara tarif gönder
         id: yorum
-        if: vars.YORUM_OTOMASYONU == 'acik'
+        if: vars.YORUM_OTOMASYONU == 'acik' && inputs.hesap != 'zifir'
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

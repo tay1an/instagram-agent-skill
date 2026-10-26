@@ -56,17 +56,17 @@ Kırmızı çarpı çıkarsa Claude'a haber verin.
 
 ## Takvim
 
-| tarih (20:30) | video |
+| tarih | video |
 | --- | --- |
-| 27 Ekim | 01-yabancilar |
-| 28 Ekim | 03-ilk-cumle |
-| 29 Ekim | 05-gece-iki |
-| 30 Ekim | 04-fazlasi |
-| 31 Ekim | 06-yakan-asklar |
-| 1 Kasım | 02-hakli-miydim |
-| 2 Kasım | 07-kimi-dusunerek |
-| 3 Kasım | 08-kayboldum |
-| 4 Kasım | uzak-lyric-dikey (lyric videonun tamamı) |
+| 26 Ekim 13:45 | 01-yabancilar (deneme paylaşımı) |
+| 27 Ekim 20:30 | 03-ilk-cumle |
+| 28 Ekim 20:30 | 05-gece-iki |
+| 29 Ekim 20:30 | 04-fazlasi |
+| 30 Ekim 20:30 | 06-yakan-asklar |
+| 31 Ekim 20:30 | 02-hakli-miydim |
+| 1 Kasım 20:30 | 07-kimi-dusunerek |
+| 2 Kasım 20:30 | 08-kayboldum |
+| 3 Kasım 20:30 | uzak-lyric-dikey (lyric videonun tamamı) |
 
 Bilmeniz gerekenler:
 

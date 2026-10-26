@@ -2,20 +2,20 @@
   "saat_dilimi": "Europe/Istanbul",
   "paylasimlar": [
     {
-      "id": "2026-10-27-reel-01-yabancilar",
+      "id": "2026-10-26-reel-01-yabancilar-deneme",
       "tur": "reel",
-      "zaman": "2026-10-27 20:30",
+      "zaman": "2026-10-26 13:45",
       "medya": [
         ".claude/zifir/medya/01-yabancilar.mp4"
       ],
-      "kapak": ".claude/zifir/medya/01-yabancilar-kapak.jpg",
-      "aciklama": "Onu en iyi tanıyan bendim. Bunu kimse bilmiyor.\nSen de birine böyle yabancılaştın mı?\n\nUzak, Spotify'da. Link profilde.\n#türkçepop #duygusalşarkılar #şarkısözleri",
+      "kapak": ".claude/zifir/medya/01-yabancilar-kapak-tikla.jpg",
+      "aciklama": "Onu en iyi tanıyan bendim. Bunu kimse bilmiyor.\nSen de birine böyle yabancılaştın mı?\n\nUzak, Spotify'da. Link profilde.\n#türkçepop #duygusalşarkılar #şarkısözleri #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-28-reel-03-ilk-cumle",
+      "id": "2026-10-27-reel-03-ilk-cumle",
       "tur": "reel",
-      "zaman": "2026-10-28 20:30",
+      "zaman": "2026-10-27 20:30",
       "medya": [
         ".claude/zifir/medya/03-ilk-cumle.mp4"
       ],
@@ -24,9 +24,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-29-reel-05-gece-iki",
+      "id": "2026-10-28-reel-05-gece-iki",
       "tur": "reel",
-      "zaman": "2026-10-29 20:30",
+      "zaman": "2026-10-28 20:30",
       "medya": [
         ".claude/zifir/medya/05-gece-iki.mp4"
       ],
@@ -35,9 +35,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-30-reel-04-fazlasi",
+      "id": "2026-10-29-reel-04-fazlasi",
       "tur": "reel",
-      "zaman": "2026-10-30 20:30",
+      "zaman": "2026-10-29 20:30",
       "medya": [
         ".claude/zifir/medya/04-fazlasi.mp4"
       ],
@@ -46,9 +46,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-10-31-reel-06-yakan-asklar",
+      "id": "2026-10-30-reel-06-yakan-asklar",
       "tur": "reel",
-      "zaman": "2026-10-31 20:30",
+      "zaman": "2026-10-30 20:30",
       "medya": [
         ".claude/zifir/medya/06-yakan-asklar.mp4"
       ],
@@ -57,9 +57,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-01-reel-02-hakli-miydim",
+      "id": "2026-10-31-reel-02-hakli-miydim",
       "tur": "reel",
-      "zaman": "2026-11-01 20:30",
+      "zaman": "2026-10-31 20:30",
       "medya": [
         ".claude/zifir/medya/02-hakli-miydim.mp4"
       ],
@@ -68,9 +68,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-02-reel-07-kimi-dusunerek",
+      "id": "2026-11-01-reel-07-kimi-dusunerek",
       "tur": "reel",
-      "zaman": "2026-11-02 20:30",
+      "zaman": "2026-11-01 20:30",
       "medya": [
         ".claude/zifir/medya/07-kimi-dusunerek.mp4"
       ],
@@ -79,9 +79,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-03-reel-08-kayboldum",
+      "id": "2026-11-02-reel-08-kayboldum",
       "tur": "reel",
-      "zaman": "2026-11-03 20:30",
+      "zaman": "2026-11-02 20:30",
       "medya": [
         ".claude/zifir/medya/08-kayboldum.mp4"
       ],
@@ -90,9 +90,9 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-04-reel-lyric-video",
+      "id": "2026-11-03-reel-lyric-video",
       "tur": "reel",
-      "zaman": "2026-11-04 20:30",
+      "zaman": "2026-11-03 20:30",
       "medya": [
         ".claude/zifir/medya/uzak-lyric-dikey.mp4"
       ],
