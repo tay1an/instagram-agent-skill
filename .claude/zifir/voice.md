@@ -16,7 +16,7 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 ## Ben kimim
 
 - **Sanatçı adı:** Zifir
-- **Instagram kullanıcı adı:** [DOLDURULACAK]
+- **Instagram kullanıcı adı:** @zifir.123
 - **TikTok kullanıcı adı:** [DOLDURULACAK]
 - **Spotify sanatçı linki:** [DOLDURULACAK]
 - **Ne yapıyorum, tek cümleyle:** Türkçe duygusal pop şarkılar yayınlıyorum.

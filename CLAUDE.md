@@ -6,7 +6,7 @@ skill'leri ikisi için de kullanılır.
 | hesap | klasör | erişim anahtarı (GitHub secret) |
 | --- | --- | --- |
 | @aziz.tahin (tahin dükkânı) | `.claude/instagram/` | `IG_ACCESS_TOKEN` |
-| Zifir (müzisyen, Türkçe duygusal pop) | `.claude/zifir/` | `IG_ACCESS_TOKEN_ZIFIR` |
+| @zifir.123 (Zifir, müzisyen, Türkçe duygusal pop) | `.claude/zifir/` | `IG_ACCESS_TOKEN_ZIFIR` |
 
 Skill'ler `~/.claude/instagram/voice.md`, `plan.md`, `log.md`, `swipe.md`
 dediğinde, o an hangi hesap için çalışılıyorsa o hesabın klasöründeki dosyayı

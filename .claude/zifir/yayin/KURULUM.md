@@ -24,7 +24,7 @@ profesyonel hesapsa bu adımı atlayın.
 1. https://developers.facebook.com/apps adresinde, @aziz.tahin için
    kullandığınız uygulamayı açın.
 2. **App roles → Roles → Instagram Testers → Add Instagram Testers** →
-   Zifir hesabının kullanıcı adını yazın.
+   Zifir hesabının kullanıcı adını yazın (`zifir.123`).
 3. Zifir hesabıyla https://www.instagram.com/accounts/manage_access/
    adresini açın → **Tester davetleri** sekmesi → daveti **kabul edin**.
 4. Uygulama panelinde **Instagram → API setup with Instagram login →
