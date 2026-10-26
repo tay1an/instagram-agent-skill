@@ -32,8 +32,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "sabah hikâyesi, düzeltilmiş logoyla yeniden"
+      "durum": "yayinlandi",
+      "not": "sabah hikâyesi, düzeltilmiş logoyla yeniden",
+      "medya_id": "18115322543150937",
+      "yayin_zamani": "2026-10-26 09:29"
     },
     {
       "id": "2026-10-26-tarif-0-kapak",
