@@ -16,7 +16,7 @@ for p in parts:
     n,t,meta,b=parse(p)
     blocks+=f"<div class='r'><h2>{n}. {html.escape(t)}</h2>"+(f"<div class='meta'>{html.escape(meta)}</div>" if meta else "")+body_html(b)+"</div>"
 FIT="<script>let c=document.getElementById('c');let s=40;const ok=()=>c.scrollWidth<=c.clientWidth+2&&c.scrollHeight<=c.clientHeight+2;c.style.fontSize=s+'px';while(!ok()&&s>14){s-=0.5;c.style.fontSize=s+'px'}document.title=s</script>"
-h=f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body><div class='band top'></div><div class='head'><img src='logo.png'><div>ile 5 tarif</div></div><div id='c'>{blocks}</div><div class='foot'>Sipariş için bu sohbete yazabilirsiniz <span class='e'>🤎</span></div><div class='band bot'></div>{FIT}</body></html>"
+h=f"<!doctype html><html lang='tr'><head><meta charset='utf-8'><style>{CSS}</style></head><body><div class='band top'></div><div class='head'><img src='logo.png'><div>ile 5 tarif</div></div><div id='c'>{blocks}</div><div class='foot'>Sipariş için bu sohbete yazabilirsiniz <span class='e'>🤎</span></div><div class='band bot'></div>{FIT}</body></html>"
 open('h.html','w').write(h)
 js=f"""const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();const p=await b.newPage({{viewport:{{width:{W},height:{H}}}}});await p.goto('file://'+process.argv[2]);await p.waitForTimeout(500);console.log('font',await p.title());await p.screenshot({{path:process.argv[3]}});await b.close();}})();"""
 open('sh.js','w').write(js)
