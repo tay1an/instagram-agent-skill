@@ -11,6 +11,12 @@ uydurmaz, taslaklarda yer tutucu bırakır.
   hashtag'ler, hikâyeler, yorumlar, cevaplar ve DM'ler Türkçe yazılır.
 - **Hitap:** Takipçilere ve herkese "siz" diye hitap edilir. Saygılı ama sıcak
   ve samimi.
+- **Yazım (kullanıcının isteği):** Büyük/küçük harf ve noktalama her
+  paylaşımda Türkçe kurallara uygun olur. Büyük harfte i → İ, ı → I:
+  "TAHİN", "BİR", "İÇİN", "ZEYTİNYAĞI"; asla "TAHIN". Görsel üreticilerde
+  `<html lang="tr">` bunu sağlar (CSS `text-transform:uppercase` dil
+  verilmezse "I" yazar); yeni bir üretici yazılırsa aynısı eklenir. Görseller
+  yayına girmeden önce büyük harfli yazılar gözle kontrol edilir.
 
 ## Marka kuralı (önemli)
 

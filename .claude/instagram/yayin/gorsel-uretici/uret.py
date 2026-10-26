@@ -23,7 +23,7 @@ background:radial-gradient(ellipse at 50% 55%,#fffaf0 0%,#f6ead4 60%,#ead6b4 100
 SEEDS=[[70,320,20],[980,300,-30],[60,700,40],[1010,820,-35],[110,1380,15],[960,1450,-20],[200,1660,30],[880,1640,-25]]
 def page(body, seeds=True):
     s="".join(f'<div class="seed" style="left:{x}px;top:{y}px;transform:rotate({r}deg)"></div>' for x,y,r in SEEDS) if seeds else ""
-    return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="band top"></div><img class="logo" src="logo.png">{s}{body}<div class="band bot"></div></body></html>'
+    return f'<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="band top"></div><img class="logo" src="logo.png">{s}{body}<div class="band bot"></div></body></html>'
 E=lambda x:f'<span class="e">{x}</span>'
 stories=json.load(open(sys.argv[1]))
 for st in stories:
