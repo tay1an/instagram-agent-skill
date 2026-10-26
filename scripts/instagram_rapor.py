@@ -9,7 +9,8 @@ istediği oranları hesaplar ve .claude/instagram/rapor/ altına yazar.
 İstatistikler için tokenda instagram_business_manage_insights izni olmalı.
 İzin yoksa rapor yalnızca beğeni ve yorumlarla yazılır ve bunu belirtir.
 
-Ortam değişkenleri: IG_ACCESS_TOKEN, isteğe bağlı RAPOR_GONDERI (varsayılan 30).
+Ortam değişkenleri: IG_ACCESS_TOKEN, isteğe bağlı RAPOR_GONDERI (varsayılan 30)
+ve RAPOR_KLASOR (varsayılan .claude/instagram/rapor).
 """
 
 import json
@@ -21,7 +22,7 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from instagram_yayinla import ApiHatasi, istek  # noqa: E402
 
-KLASOR = ".claude/instagram/rapor"
+KLASOR = os.environ.get("RAPOR_KLASOR", ".claude/instagram/rapor")
 ADET = int(os.environ.get("RAPOR_GONDERI", "30"))
 
 # Metrikler gönderi türüne göre değişiyor; desteklenmeyen biri tüm isteği

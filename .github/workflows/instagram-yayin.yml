@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_ZIFIR }}
-          TAKVIM: .claude/zifir/takvim.json
+          TAKVIM: .claude/zifir/yayin/takvim.json
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
         run: python scripts/instagram_yayinla.py
 
@@ -76,7 +76,7 @@ jobs:
       - name: Takvimdeki durumları kaydet
         if: always()
         run: |
-          dosyalar=".claude/instagram/yayin/takvim.json .claude/zifir/takvim.json"
+          dosyalar=".claude/instagram/yayin/takvim.json .claude/zifir/yayin/takvim.json"
           if git diff --quiet -- $dosyalar; then
             exit 0
           fi
