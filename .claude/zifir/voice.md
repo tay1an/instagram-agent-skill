@@ -63,9 +63,14 @@ Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
 
 - **Video:** Ekstra yazı yok. Yalnızca şarkıyla akan sözler ve altta küçük
   `ZİFİR — UZAK` künyesi.
-- **Kapak:** Videoda çalan kısımdan bir satır, şarkıdaki haliyle, ortada büyük;
-  altında `ZİFİR — UZAK`. Kullanıcı kapakta hareket halinde bir insan da istiyor
-  (gerçekçi görseli kullanıcı yapay zekâ aracıyla üretir).
+- **Kapak:** Videoda çalan kısımdan bir satır, şarkıdaki haliyle, büyük;
+  altında `ZİFİR — UZAK`. Arka planda insan olan bir fotoğraf (`stok/`,
+  Pexels; yüz net görünmez), videonun sahnesine göre filtrelenir
+  (`uretici/kapak_foto.py`: kalp, yagmur, sicak-yagmur, agac, gece, mum,
+  gunbatimi, lila). Aynı fotoğraf farklı kırpma ve tonla yeniden kullanılabilir.
+- **Hikâye:** Her gün 13:00. Kapaklarda kullanılmayan bir şarkı satırı +
+  `ZİFİR — UZAK · SPOTIFY'DA`, aynı fotoğraf/filtre sistemiyle. Yazı ortada
+  (Instagram arayüzü üst ve alt kısmı kapatır). API ile çıkartma eklenemez.
 - **Açıklama:** Aynı satır tırnak içinde, küçük harfle. Sonra boş satır,
   `zifir · uzak. spotify'da.` ve `#türkçepop #yenimüzik #zifir`.
 

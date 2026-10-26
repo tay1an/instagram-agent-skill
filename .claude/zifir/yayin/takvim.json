@@ -15,6 +15,24 @@
       "yayin_zamani": "2026-10-26 22:10"
     },
     {
+      "id": "2026-10-26-hikaye-h0-ozune",
+      "tur": "hikaye",
+      "zaman": "2026-10-26 22:49",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h0-ozune.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-10-27-hikaye-h1-kor-yara",
+      "tur": "hikaye",
+      "zaman": "2026-10-27 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h1-kor-yara.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
       "id": "2026-10-27-reel-03-kalp",
       "tur": "reel",
       "zaman": "2026-10-27 20:30",
@@ -23,7 +41,16 @@
       ],
       "kapak": ".claude/zifir/medya/03-kalp-kapak.jpg",
       "aciklama": "\"elindeki kalbi yerine koysana\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-10-28-hikaye-h2-yuk-olur",
+      "tur": "hikaye",
+      "zaman": "2026-10-28 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h2-yuk-olur.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-10-28-reel-05-ufuk",
@@ -34,7 +61,16 @@
       ],
       "kapak": ".claude/zifir/medya/05-ufuk-kapak.jpg",
       "aciklama": "\"ufuk daldırır beni senli bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-10-29-hikaye-h3-kokleri",
+      "tur": "hikaye",
+      "zaman": "2026-10-29 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h3-kokleri.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-10-29-reel-04-agaclar",
@@ -45,7 +81,16 @@
       ],
       "kapak": ".claude/zifir/medya/04-agaclar-kapak.jpg",
       "aciklama": "\"yan yana ağacız gölge yeter bize\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-10-30-hikaye-h4-keyfine",
+      "tur": "hikaye",
+      "zaman": "2026-10-30 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h4-keyfine.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-10-30-reel-06-alev",
@@ -56,7 +101,16 @@
       ],
       "kapak": ".claude/zifir/medya/06-alev-kapak.jpg",
       "aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-10-31-hikaye-h5-oktur",
+      "tur": "hikaye",
+      "zaman": "2026-10-31 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h5-oktur.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-10-31-reel-02-yok-isem",
@@ -67,7 +121,16 @@
       ],
       "kapak": ".claude/zifir/medya/02-yok-isem-kapak.jpg",
       "aciklama": "\"ben eğer yok isem sen olmazsın dedim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-01-hikaye-h6-sevgili",
+      "tur": "hikaye",
+      "zaman": "2026-11-01 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h6-sevgili.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-11-01-reel-07-vardim",
@@ -78,7 +141,16 @@
       ],
       "kapak": ".claude/zifir/medya/07-vardim-kapak.jpg",
       "aciklama": "\"vardım kendime ufka bakmam hiç sakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-02-hikaye-h7-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-02 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h7-sabah.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-11-02-reel-08-ardinda",
@@ -89,7 +161,16 @@
       ],
       "kapak": ".claude/zifir/medya/08-ardinda-kapak.jpg",
       "aciklama": "\"ardında ne parçam ne de ben varım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-03-hikaye-h8-titre",
+      "tur": "hikaye",
+      "zaman": "2026-11-03 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/h8-titre.jpg"
+      ],
+      "durum": "bekliyor"
     },
     {
       "id": "2026-11-03-reel-lyric-video",
@@ -100,7 +181,7 @@
       ],
       "kapak": ".claude/zifir/medya/uzak-lyric-dikey-kapak.jpg",
       "aciklama": "uzak. baştan sona, sözleriyle.\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "taslak"
+      "durum": "bekliyor"
     }
   ]
 }
