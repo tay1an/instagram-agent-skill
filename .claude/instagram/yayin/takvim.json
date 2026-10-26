@@ -44,8 +44,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-0-kapak.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "17864779101696367",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-tarif-1a",
@@ -54,8 +56,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-1a.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "18007617021006061",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-tarif-1b",
@@ -64,8 +68,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-1b.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "18111333014350692",
+      "yayin_zamani": "2026-10-26 12:52"
     },
     {
       "id": "2026-10-26-carousel",
