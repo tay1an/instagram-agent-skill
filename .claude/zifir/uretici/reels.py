@@ -408,6 +408,7 @@ def render(name, scene_cls, kw, hook, t0, t1):
     lyr = [(s - t0, e - t0, text_layer(txt, font(F_SERIF, 58, 500), 900, H * 0.6)) for s, e, txt in LYRICS
            if e > t0 and s < t1]
     # İlk saniye kancası: ilk söz satırı ilk karede tam görünür (rapor 2026-10-26: ort. izlenme 4,8/15 sn).
+    lyr = [x for x in lyr if x[1] > 0.6]  # başta hemen biten önceki satırı atla
     lyr = [(-1.0 if k == 0 and s < 1.2 else s, e, L) for k, (s, e, L) in enumerate(lyr)]
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     vign = np.clip(1.25 - 0.75 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .7)) ** 2), 0.35, 1)[..., None]

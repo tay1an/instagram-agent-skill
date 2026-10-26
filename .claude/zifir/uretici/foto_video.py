@@ -63,6 +63,7 @@ def uret(foto, cikti, t0, ton, mx, zoom=1.0, my=0.5, sure=15.0, hikaye=False):
     lyr = [(s - t0, e - t0, R.text_layer(txt, R.font(R.F_SERIF, 60, 500), 900, H * soz_y))
            for s, e, txt in R.LYRICS if e > t0 and s < t1]
     # İlk saniye kancası: ilk söz satırı ilk karede tam görünür, siyahtan açılış yok.
+    lyr = [x for x in lyr if x[1] > 0.6]  # başta hemen biten önceki satırı atla
     lyr = [(-1.0 if k == 0 and s < 1.2 else s, e, L) for k, (s, e, L) in enumerate(lyr)]
     rng = np.random.default_rng(0)
     grains = [rng.normal(0, 6, (H, W, 1)).astype(np.float32) for _ in range(6)]
