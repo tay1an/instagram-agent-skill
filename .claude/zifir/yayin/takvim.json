@@ -4,15 +4,13 @@
     {
       "id": "2026-10-26-reel-01-anlatan",
       "tur": "reel",
-      "zaman": "2026-10-26 16:32",
+      "zaman": "2026-10-26 17:09",
       "medya": [
         ".claude/zifir/medya/01-anlatan.mp4"
       ],
       "kapak": ".claude/zifir/medya/01-anlatan-kapak.jpg",
       "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "durum": "bekliyor",
-      "deneme": 1,
-      "hata": "400: API access blocked. (code=200, type=OAuthException)"
+      "durum": "bekliyor"
     },
     {
       "id": "2026-10-27-reel-03-kalp",
