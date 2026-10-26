@@ -19,10 +19,11 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-26.jpg"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "not": "1 kg susam = 1 kg tahin",
       "deneme": 1,
-      "hata": "400: The requested resource does not exist"
+      "medya_id": "17942479536371710",
+      "yayin_zamani": "2026-10-26 09:19"
     },
     {
       "id": "2026-10-26-tarif-0-kapak",
