@@ -32,7 +32,9 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v01-yuk-olur.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "yayinlandi",
+      "medya_id": "17976281931137655",
+      "yayin_zamani": "2026-10-27 13:00"
     },
     {
       "id": "2026-10-27-reel-03-kalp",
