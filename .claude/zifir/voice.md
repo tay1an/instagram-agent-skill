@@ -70,7 +70,7 @@ Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
 
 - **Video:** Ekstra yazı yok. Yalnızca şarkıyla akan sözler ve altta küçük
   `ZİFİR — UZAK` künyesi.
-- **Kapak:** Videoda çalan kısımdan bir satır, şarkıdaki haliyle, büyük;
+- **Kapak:** Mutlaka insan görünür. Videoda çalan kısımdan bir satır, şarkıdaki haliyle, büyük;
   altında `ZİFİR — UZAK`. Arka planda insan olan bir fotoğraf (`stok/`,
   Pexels; yüz net görünmez), videonun sahnesine göre filtrelenir
   (`uretici/kapak_foto.py`: kalp, yagmur, sicak-yagmur, agac, gece, mum,

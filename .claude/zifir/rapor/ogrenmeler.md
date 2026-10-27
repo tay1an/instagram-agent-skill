@@ -24,6 +24,14 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 - Açıklama ve video şarkının kendisiyle konuşur; "şimdi Spotify'da" duyurusu
   değil. (26 Ekim: söz açıklamalı reel 387 izlenme / 3,4x; duyuru reel'leri 0-142)
 
+- **Çapa söz grubu** (kullanıcı isteği, 27 Ekim): "Oysa seni sana anlatan ben idim /
+  Ben eğer yok isem sen de olmazsın dedim / Yan yana ağacız gölge yeter bize /
+  Köklerini versene" dört satırın tamamıyla, her 3-4 günde bir, her seferinde
+  farklı görselle (aynı videoyu tekrar paylaşma). Kısa 8 sn kesit istenmiyor.
+- **Her reel kapağında insan görünür** (kullanıcı isteği). Hazır videolara
+  dokunulmaz; kapağı insan içermeyen eski reel'lerin kapağını kullanıcı
+  Instagram'da elle değiştirir (03, 04, 12).
+
 ## Eğilimler (henüz kesin değil)
 
 - 2. nakarat başı ("Oysa seni sana anlatan ben idim") güçlü kanca.
@@ -34,6 +42,7 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 | başlangıç | deney | değişen tek şey | ölçüt | sonuç |
 | --- | --- | --- | --- | --- |
 | 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |
+| 8 Kasım | Uzun reel | ikinci kıta + nakarat, 54 sn (18-kita2) | ort. izlenme süresi, kaydetme, paylaşma | bekleniyor |
 | 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler | kat, ort. izlenme | bekleniyor |
 
 ## Kullanıcıdan beklenenler
