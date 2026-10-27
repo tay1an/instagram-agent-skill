@@ -1,0 +1,28 @@
+name: Zifir TikTok bağla
+
+# TikTok'a giriş yaptıktan sonra tiktok-giris.html sayfasında görünen kod buraya
+# yapıştırılır. Kod yenileme anahtarına çevrilip ZIFIR_TT_REFRESH'e yazılır.
+on:
+  workflow_dispatch:
+    inputs:
+      kod:
+        description: "tiktok-giris sayfasındaki kod"
+        required: true
+
+jobs:
+  bagla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kodu anahtara çevir
+        env:
+          TT_KEY: ${{ secrets.ZIFIR_TT_KEY }}
+          TT_SECRET: ${{ secrets.ZIFIR_TT_SECRET }}
+          GH_TOKEN: ${{ secrets.ZIFIR_GH_TOKEN }}
+          KOD: ${{ inputs.kod }}
+          YENI_REFRESH_DOSYASI: ${{ runner.temp }}/yenileme
+        run: |
+          python3 scripts/zifir_tiktok.py baglan "$KOD"
+          gh secret set ZIFIR_TT_REFRESH --repo "$GITHUB_REPOSITORY" < "$YENI_REFRESH_DOSYASI"
+          rm -f "$YENI_REFRESH_DOSYASI"
+          echo "Yenileme anahtarı kaydedildi."

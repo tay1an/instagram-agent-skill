@@ -1,0 +1,37 @@
+name: Zifir TikTok yükle
+
+# Videoyu TikTok gelen kutusuna taslak olarak gönderir. Her çalışmada erişim
+# anahtarı yenilenir ve yeni yenileme anahtarı ZIFIR_TT_REFRESH'e yazılır.
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "depodaki video yolu"
+        required: true
+        default: ".claude/zifir/medya/01-anlatan.mp4"
+
+concurrency: zifir-tiktok
+
+jobs:
+  yukle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Taslak gönder
+        env:
+          TT_KEY: ${{ secrets.ZIFIR_TT_KEY }}
+          TT_SECRET: ${{ secrets.ZIFIR_TT_SECRET }}
+          TT_REFRESH: ${{ secrets.ZIFIR_TT_REFRESH }}
+          GH_TOKEN: ${{ secrets.ZIFIR_GH_TOKEN }}
+          VIDEO: ${{ inputs.video }}
+          YENI_REFRESH_DOSYASI: ${{ runner.temp }}/yenileme
+        run: |
+          set +e
+          python3 scripts/zifir_tiktok.py yukle "$VIDEO"
+          sonuc=$?
+          set -e
+          if [ -s "$YENI_REFRESH_DOSYASI" ]; then
+            gh secret set ZIFIR_TT_REFRESH --repo "$GITHUB_REPOSITORY" < "$YENI_REFRESH_DOSYASI"
+            rm -f "$YENI_REFRESH_DOSYASI"
+          fi
+          exit $sonuc
