@@ -55,13 +55,16 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="belgesel" data-width="1080" data-height="1920" data-start="0" data-duration="30">
-      <div id="s1" class="scene clip" data-start="0" data-duration="4.6" data-track-index="1"><div class="photo" id="k1" style="background-image: url('assets/k1.jpg')"></div></div>
-      <div id="s2" class="scene clip" data-start="4" data-duration="4.4" data-track-index="2"><div class="photo" style="background-image: url('assets/k2.jpg')"></div></div>
-      <div id="s3" class="scene clip" data-start="7.8" data-duration="4.8" data-track-index="1"><div class="photo" style="background-image: url('assets/k3.jpg')"></div></div>
-      <div id="s4" class="scene clip" data-start="12" data-duration="4.8" data-track-index="2"><div class="photo" style="background-image: url('assets/k4.jpg')"></div></div>
-      <div id="s5" class="scene clip" data-start="16.2" data-duration="4.8" data-track-index="1"><div class="photo" style="background-image: url('assets/k5.jpg')"></div></div>
-      <div id="s6" class="scene clip" data-start="20.4" data-duration="5.4" data-track-index="2"><div class="photo" style="background-image: url('assets/k6.jpg'); background-position: 50% 42%"></div></div>
+    <div id="root" data-composition-id="belgesel" data-width="1080" data-height="1920" data-start="0" data-duration="30.5">
+      <div id="s1" class="scene clip" data-start="0" data-duration="5" data-track-index="1"><div class="photo" id="k1" style="background-image: url('assets/k1.jpg')"></div></div>
+      <div id="s2" class="scene clip" data-start="4.7" data-duration="2.7" data-track-index="2"><div class="photo" style="background-image: url('assets/k2.jpg')"></div></div>
+      <div id="s3" class="scene clip" data-start="7.1" data-duration="2.8" data-track-index="1"><div class="photo" style="background-image: url('assets/k3.jpg')"></div></div>
+      <div id="s4" class="scene clip" data-start="9.5" data-duration="3.4" data-track-index="2"><div class="photo" style="background-image: url('assets/k7.jpg'); background-position: 50% 40%"></div></div>
+      <div id="s5" class="scene clip" data-start="12.4" data-duration="3.7" data-track-index="1"><div class="photo" style="background-image: url('assets/k4.jpg')"></div></div>
+      <div id="s6" class="scene clip" data-start="15.8" data-duration="5.1" data-track-index="2"><div class="photo" style="background-image: url('assets/k5.jpg')"></div></div>
+      <div id="s7" class="scene clip" data-start="20.6" data-duration="4.6" data-track-index="1"><div class="photo" style="background-image: url('assets/k6.jpg'); background-position: 50% 42%"></div></div>
+
+      <audio id="vo" class="clip" src="audio/ses.mp3" data-start="0" data-duration="28.74" data-track-index="5" data-volume="1"></audio>
 
       <div class="leak" id="leak"></div>
       <div class="vignette"></div>
@@ -78,7 +81,7 @@
       <div class="cap" id="c5">Siparişinizi özenle paketler, Türkiye'nin her iline göndeririz.</div>
       <div class="cap" id="c6">İçine hiçbir şey eklemeyiz.<br /><b>Yalnızca susam.</b></div>
 
-      <div id="end" class="clip" data-start="25.2" data-duration="4.8" data-track-index="3">
+      <div id="end" class="clip" data-start="24.9" data-duration="5.6" data-track-index="3">
         <div class="bg"></div>
         <div class="safe">
           <div id="e1" style="font-weight: 900; font-size: 150px; line-height: .9; color: #fff8ec; letter-spacing: -3px">AZİZ<br /><span style="color: #ff5a4f">TAHİN</span></div>
@@ -95,13 +98,14 @@
           const X = 0.6; // crossfade length
 
           // scene moves: [id, start, dur, from, to]
-          tl.fromTo("#k1", { backgroundPosition: "0% 50%", scale: 1.04 }, { backgroundPosition: "100% 50%", scale: 1.0, duration: 4.6, ease: "sine.inOut" }, 0);
+          tl.fromTo("#k1", { backgroundPosition: "0% 50%", scale: 1.04 }, { backgroundPosition: "100% 50%", scale: 1.0, duration: 5, ease: "sine.inOut" }, 0);
           const moves = [
-            ["#s2", 4, 4.4, { scale: 1.14, x: 30 }, { scale: 1.02, x: -20 }],
-            ["#s3", 7.8, 4.8, { scale: 1.02, y: 20 }, { scale: 1.14, y: -20 }],
-            ["#s4", 12, 4.8, { scale: 1.16, x: -30 }, { scale: 1.04, x: 30 }],
-            ["#s5", 16.2, 4.8, { scale: 1.04, x: 40 }, { scale: 1.16, x: -30 }],
-            ["#s6", 20.4, 5.4, { scale: 1.18, y: 30 }, { scale: 1.04, y: 0 }],
+            ["#s2", 4.7, 2.7, { scale: 1.14, x: 30 }, { scale: 1.04, x: -20 }],
+            ["#s3", 7.1, 2.8, { scale: 1.02, y: 20 }, { scale: 1.12, y: -20 }],
+            ["#s4", 9.5, 3.4, { scale: 1.02, y: 30 }, { scale: 1.14, y: -10 }],
+            ["#s5", 12.4, 3.7, { scale: 1.16, x: -30 }, { scale: 1.04, x: 30 }],
+            ["#s6", 15.8, 5.1, { scale: 1.04, x: 40 }, { scale: 1.16, x: -30 }],
+            ["#s7", 20.6, 4.6, { scale: 1.18, y: 30 }, { scale: 1.04, y: 0 }],
           ];
           moves.forEach(([id, t, d, from, to]) => {
             tl.fromTo(id, { opacity: 0 }, { opacity: 1, duration: X, ease: "none" }, t);
@@ -109,25 +113,25 @@
           });
 
           // light leak drifts across the whole film
-          tl.fromTo("#leak", { x: -200, y: 0, opacity: 0.6 }, { x: 700, y: 900, opacity: 1, duration: 30, ease: "sine.inOut" }, 0);
+          tl.fromTo("#leak", { x: -200, y: 0, opacity: 0.6 }, { x: 700, y: 900, opacity: 1, duration: 30.5, ease: "sine.inOut" }, 0);
 
           tl.fromTo("#kick", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6 }, 0.2);
-          tl.to("#kick", { opacity: 0, duration: 0.5 }, 4.0);
+          tl.to("#kick", { opacity: 0, duration: 0.5 }, 4.3);
 
           // captions follow the voiceover script
-          const caps = [["#c1", 0.3, 4.2], ["#c2", 4.6, 9.6], ["#c3", 10.0, 12.8], ["#c4", 13.1, 16.2], ["#c5", 16.6, 20.4], ["#c6", 20.9, 24.9]];
+          const caps = [["#c1", 0.3, 5.0], ["#c2", 5.25, 9.45], ["#c3", 9.65, 12.4], ["#c4", 12.5, 15.9], ["#c5", 16.05, 20.7], ["#c6", 20.9, 24.85]];
           caps.forEach(([id, a, b]) => {
             tl.fromTo(id, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, a);
             tl.to(id, { opacity: 0, duration: 0.35 }, b - 0.35);
           });
 
-          tl.fromTo("#end", { opacity: 0 }, { opacity: 1, duration: 0.7, ease: "none" }, 25.2);
-          tl.fromTo("#e1", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.6, ease: "back.out(1.6)" }, 25.5);
-          tl.fromTo("#e0", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 25.9);
-          tl.fromTo("#e2", { opacity: 0, scale: 0.85, transformOrigin: "left center" }, { opacity: 1, scale: 1, duration: 0.55, ease: "back.out(1.6)" }, 26.3);
-          tl.to("#e2", { scale: 1.05, duration: 0.35, yoyo: true, repeat: 3, ease: "sine.inOut" }, 27.2);
-          tl.fromTo("#e3", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4 }, 26.7);
-          tl.fromTo("#e4", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4 }, 26.9);
+          tl.fromTo("#end", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "none" }, 24.9);
+          tl.fromTo("#e1", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.6, ease: "back.out(1.6)" }, 25.05);
+          tl.fromTo("#e0", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 25.6);
+          tl.fromTo("#e2", { opacity: 0, scale: 0.85, transformOrigin: "left center" }, { opacity: 1, scale: 1, duration: 0.55, ease: "back.out(1.6)" }, 26.25);
+          tl.to("#e2", { scale: 1.05, duration: 0.35, yoyo: true, repeat: 3, ease: "sine.inOut" }, 27.4);
+          tl.fromTo("#e3", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4 }, 26.9);
+          tl.fromTo("#e4", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4 }, 27.1);
 
           window.__timelines = window.__timelines || {};
           window.__timelines["belgesel"] = tl;
