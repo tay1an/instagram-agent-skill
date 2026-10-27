@@ -1,3 +1,10 @@
 {
-  "2026-10-26-reel-01-anlatan": {"durum": "elle-paylasildi", "zaman": "2026-10-27 19:40"}
+  "2026-10-26-reel-01-anlatan": {
+    "durum": "elle-paylasildi",
+    "zaman": "2026-10-27 19:40"
+  },
+  "2026-10-27-reel-03-kalp": {
+    "durum": "gelen-kutusunda",
+    "zaman": "2026-10-27 20:57"
+  }
 }
