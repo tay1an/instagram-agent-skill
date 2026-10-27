@@ -21,7 +21,16 @@ jobs:
   yayinla:
     runs-on: ubuntu-latest
     steps:
+      # Sıradaki iş, öndeki iş bitene kadar bekleyebiliyor. Kuyruğa girdiği
+      # andaki commit'i değil dalın en son halini alır; yoksa öndeki işin
+      # yayınladığı paylaşımı "bekliyor" görüp ikinci kez paylaşır.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Medya adresi için commit
+        id: sha
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
         with:
@@ -33,6 +42,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
+          MEDYA_SHA: ${{ steps.sha.outputs.sha }}
         run: python scripts/instagram_yayinla.py
 
       # ManyChat kullanıldığı için kapalı. Açmak için depo değişkeni

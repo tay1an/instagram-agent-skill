@@ -8,7 +8,8 @@ Login, graph.instagram.com) üzerinden yayınlar, sonucu takvime geri yazar.
 Gereken ortam değişkenleri:
   IG_ACCESS_TOKEN     Instagram uzun ömürlü erişim anahtarı
   GITHUB_REPOSITORY   sahip/depo (Actions otomatik verir)
-  GITHUB_SHA          medyanın herkese açık adresi için commit (Actions verir)
+  GITHUB_SHA          medyanın herkese açık adresi için commit (Actions verir;
+                      MEDYA_SHA verilirse o kullanılır)
 
 İsteğe bağlı:
   IG_API_VERSION      varsayılan v23.0
@@ -18,6 +19,7 @@ Gereken ortam değişkenleri:
 
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.error
@@ -71,7 +73,7 @@ def istek(yontem, yol, params, token):
 
 def medya_url(yol):
     depo = os.environ["GITHUB_REPOSITORY"]
-    sha = os.environ["GITHUB_SHA"]
+    sha = os.environ.get("MEDYA_SHA") or os.environ["GITHUB_SHA"]
     return f"https://raw.githubusercontent.com/{depo}/{sha}/{urllib.parse.quote(yol)}"
 
 
@@ -202,6 +204,7 @@ def main():
             print(f"BEKLE    {hedef:%H:%M} paylaşımı için {int((hedef - simdi).total_seconds() // 60)} dk bekleniyor")
             time.sleep(max(0, (hedef - datetime.now(dilim)).total_seconds()) + 5)
             simdi = datetime.now(dilim)
+            takvim = guncel_takvim(takvim)
 
     zamani_gelen = []
     for p in takvim["paylasimlar"]:
@@ -256,6 +259,22 @@ def main():
     if not kuru:
         yaz(takvim)
     return 1 if hata_var else 0
+
+
+def guncel_takvim(takvim):
+    """Beklerken takvim değişmiş olabilir (elle düzeltme, başka iş): dalın son
+    halini çekip takvimi yeniden okur. Çekemezse eldekiyle devam eder."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return takvim
+    try:
+        subprocess.run(["git", "pull", "--ff-only", "-q"], check=True, timeout=120)
+        os.environ["MEDYA_SHA"] = subprocess.run(
+            ["git", "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()
+        with open(TAKVIM, encoding="utf-8") as f:
+            return json.load(f)
+    except (subprocess.SubprocessError, OSError, ValueError) as e:
+        print(f"UYARI    takvim yenilenemedi: {e}")
+        return takvim
 
 
 def yaz(takvim):
