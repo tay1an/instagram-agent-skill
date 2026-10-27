@@ -1,0 +1,26 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TikTok girişi · Zifir</title>
+<style>:root{--bg:#0f0f12;--fg:#ece8e3;--soluk:#a8a29b;--vurgu:#d9b38c}
+@media (prefers-color-scheme: light){:root{--bg:#faf8f5;--fg:#1d1b19;--soluk:#5e5953;--vurgu:#8a5a2b}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px}h1{font-weight:normal}
+code{display:block;word-break:break-all;padding:12px;border:1px solid var(--soluk);border-radius:6px;font-size:15px}
+button{margin-top:12px;padding:10px 18px;font:inherit;background:var(--vurgu);color:var(--bg);border:0;border-radius:6px}
+.soluk{color:var(--soluk);font-size:.9em}</style></head>
+<body><main><h1>TikTok girişi</h1>
+<div id="sonuc"><p>Bu sayfa TikTok'a giriş yaptıktan sonra açılır.</p></div>
+<p class="soluk">Bu kod tek kullanımlıktır ve birkaç dakika içinde geçersiz olur. Kod yalnızca bu tarayıcıda görünür; sayfa onu hiçbir yere göndermez.</p>
+</main>
+<script>
+var q = new URLSearchParams(location.search), kod = q.get("code"), hata = q.get("error");
+var s = document.getElementById("sonuc");
+if (kod) {
+  s.innerHTML = "<p>Giriş tamam. Aşağıdaki kodu kopyala ve GitHub'daki <b>Zifir TikTok bağla</b> iş akışına yapıştır:</p><code id='k'></code><button id='b'>Kopyala</button>";
+  document.getElementById("k").textContent = kod;
+  document.getElementById("b").onclick = function () {
+    navigator.clipboard.writeText(kod).then(function () { document.getElementById("b").textContent = "Kopyalandı"; });
+  };
+} else if (hata) {
+  s.innerHTML = "<p>TikTok bir hata döndürdü:</p><code id='k'></code>";
+  document.getElementById("k").textContent = hata + " " + (q.get("error_description") || "");
+}
+</script></body></html>
