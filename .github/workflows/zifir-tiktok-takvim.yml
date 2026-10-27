@@ -1,0 +1,59 @@
+name: Zifir TikTok takvim
+
+# Instagram takviminde (yayin/takvim.json) zamanı gelen reel'i TikTok gelen
+# kutusuna taslak olarak gönderir; kullanıcı uygulamadan açıklamayı ekleyip paylaşır.
+# Gönderilenler yayin/tiktok.json'a yazılır, aynı reel ikinci kez gitmez.
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zifir-tiktok
+  cancel-in-progress: false
+
+jobs:
+  gonder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Zamanı gelen reel'i gönder
+        id: gonder
+        continue-on-error: true
+        env:
+          TT_KEY: ${{ secrets.ZIFIR_TT_KEY }}
+          TT_SECRET: ${{ secrets.ZIFIR_TT_SECRET }}
+          TT_REFRESH: ${{ secrets.ZIFIR_TT_REFRESH }}
+          GH_TOKEN: ${{ secrets.ZIFIR_GH_TOKEN }}
+          YENI_REFRESH_DOSYASI: ${{ runner.temp }}/yenileme
+        run: |
+          set +e
+          python3 scripts/zifir_tiktok.py takvim .claude/zifir/yayin/takvim.json .claude/zifir/yayin/tiktok.json
+          sonuc=$?
+          set -e
+          if [ -s "$YENI_REFRESH_DOSYASI" ]; then
+            gh secret set ZIFIR_TT_REFRESH --repo "$GITHUB_REPOSITORY" < "$YENI_REFRESH_DOSYASI"
+            rm -f "$YENI_REFRESH_DOSYASI"
+          fi
+          exit $sonuc
+      - name: Durumu kaydet
+        if: always()
+        run: |
+          dosya=".claude/zifir/yayin/tiktok.json"
+          if git diff --quiet -- "$dosya"; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dosya"
+          git commit -m "Zifir: TikTok durumu güncellendi"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Hata varsa işi başarısız say
+        if: steps.gonder.outcome == 'failure'
+        run: exit 1

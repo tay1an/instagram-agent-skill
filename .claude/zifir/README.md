@@ -14,6 +14,7 @@ ig-* skill'leri `~/.claude/instagram/voice.md`, `plan.md`, `log.md`,
 | `log.md` | paylaşım geçmişi |
 | `rapor/` | günlük istatistikler (`Zifir rapor` iş akışı yazar) ve `ogrenmeler.md` (analiz, kurallar, deneyler) |
 | `yayin/takvim.json` | otomatik yayın takvimi (`Zifir yayın` iş akışı) |
+| `yayin/tiktok.json` | TikTok'a taslak gönderilen reel'ler (`Zifir TikTok takvim` iş akışı) |
 | `yayin/KURULUM.md` | Meta uygulaması ve GitHub anahtarlarının kurulumu |
 | `medya/` | reel videoları ve kapakları |
 | `medya/hikaye/` | hikâye görselleri |
