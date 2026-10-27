@@ -195,14 +195,14 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-04-reel-09-sevgili",
+      "id": "2026-11-04-reel-16-capa-sahil",
       "tur": "reel",
       "zaman": "2026-11-04 20:30",
       "medya": [
-        ".claude/zifir/medya/09-sevgili.mp4"
+        ".claude/zifir/medya/16-capa-sahil.mp4"
       ],
-      "kapak": ".claude/zifir/medya/09-sevgili-kapak.jpg",
-      "aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/16-capa-sahil-kapak.jpg",
+      "aciklama": "\"oysa seni sana anlatan ben idim\nben eğer yok isem sen de olmazsın dedim\nyan yana ağacız gölge yeter bize\nköklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
@@ -255,14 +255,14 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-07-reel-12-kokler",
+      "id": "2026-11-07-reel-17-capa-iskele",
       "tur": "reel",
       "zaman": "2026-11-07 20:30",
       "medya": [
-        ".claude/zifir/medya/12-kokler.mp4"
+        ".claude/zifir/medya/17-capa-iskele.mp4"
       ],
-      "kapak": ".claude/zifir/medya/12-kokler-kapak.jpg",
-      "aciklama": "\"köklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/17-capa-iskele-kapak.jpg",
+      "aciklama": "\"oysa seni sana anlatan ben idim\nben eğer yok isem sen de olmazsın dedim\nyan yana ağacız gölge yeter bize\nköklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
@@ -275,14 +275,14 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-08-reel-13-kalbim",
+      "id": "2026-11-08-reel-18-kita2",
       "tur": "reel",
       "zaman": "2026-11-08 20:30",
       "medya": [
-        ".claude/zifir/medya/13-kalbim.mp4"
+        ".claude/zifir/medya/18-kita2.mp4"
       ],
-      "kapak": ".claude/zifir/medya/13-kalbim-kapak.jpg",
-      "aciklama": "\"kalbim yerinde yanımda senin yerin\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/18-kita2-kapak.jpg",
+      "aciklama": "\"sevgili sevgilim dünüm yarınım\"\nikinci kıta ve nakarat, baştan sona.\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     },
     {
@@ -323,6 +323,66 @@
       ],
       "kapak": ".claude/zifir/medya/15-oysa-kapak.jpg",
       "aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-11-hikaye-v16-alev",
+      "tur": "hikaye",
+      "zaman": "2026-11-11 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v16-alev.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-11-reel-09-sevgili",
+      "tur": "reel",
+      "zaman": "2026-11-11 20:30",
+      "medya": [
+        ".claude/zifir/medya/09-sevgili.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/09-sevgili-kapak.jpg",
+      "aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-12-hikaye-v17-ufuk",
+      "tur": "hikaye",
+      "zaman": "2026-11-12 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v17-ufuk.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-12-reel-12-kokler",
+      "tur": "reel",
+      "zaman": "2026-11-12 20:30",
+      "medya": [
+        ".claude/zifir/medya/12-kokler.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/12-kokler-kapak.jpg",
+      "aciklama": "\"köklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-13-hikaye-v18-vardim",
+      "tur": "hikaye",
+      "zaman": "2026-11-13 13:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v18-vardim.mp4"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-13-reel-13-kalbim",
+      "tur": "reel",
+      "zaman": "2026-11-13 20:30",
+      "medya": [
+        ".claude/zifir/medya/13-kalbim.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/13-kalbim-kapak.jpg",
+      "aciklama": "\"kalbim yerinde yanımda senin yerin\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     }
   ]

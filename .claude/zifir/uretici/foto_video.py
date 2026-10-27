@@ -70,7 +70,7 @@ def uret(foto, cikti, t0, ton, mx, zoom=1.0, my=0.5, sure=15.0, hikaye=False):
     ff = subprocess.Popen([
         "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
         "-i", "-", "-ss", f"{t0}", "-t", f"{sure}", "-i", R.SONG, "-map", "0:v", "-map", "1:a",
-        "-af", f"afade=t=in:d=0.08,afade=t=out:st={sure - 0.9}:d=0.9",
+        "-af", f"afade=t=in:d=0.08,afade=t=out:st={sure - min(0.9, 0.06 * sure)}:d={min(0.9, 0.06 * sure)}",
         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "3500k", "-bufsize", "7000k",
         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart",
         "-shortest", cikti], stdin=subprocess.PIPE)

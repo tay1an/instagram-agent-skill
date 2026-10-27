@@ -1,6 +1,6 @@
 """Fotoğraftan kapak: dikey kırp, sözü ve künyeyi ekle.
 Kullanım: kapak_foto.py <foto> <çıktı.jpg> <söz> <merkez_x 0-1> <yazı_y 0-1> <açık|koyu|filtre adı>
-                       [yakınlaştırma] [merkez_y 0-1] [künye]"""
+                       [yakınlaştırma] [merkez_y 0-1] [künye] [yazı boyu]"""
 import os, sys
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -43,7 +43,8 @@ a += np.random.default_rng(0).normal(0, 6, a.shape[:2])[..., None]
 im = Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
 renk = (28, 26, 26) if ton == "koyu" else (255, 246, 235)
 KUNYE = sys.argv[9] if len(sys.argv) > 9 else "ZİFİR  —  UZAK"
-fnt = ImageFont.truetype(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "PlayfairDisplay-Italic[wght].ttf"), 104); fnt.set_variation_by_axes([500])
+BOY = int(sys.argv[10]) if len(sys.argv) > 10 else 104
+fnt = ImageFont.truetype(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "PlayfairDisplay-Italic[wght].ttf"), BOY); fnt.set_variation_by_axes([500])
 d0 = ImageDraw.Draw(Image.new("L", (1, 1)))
 sat, cur = [], ""
 for k in soz.split():
@@ -52,7 +53,7 @@ for k in soz.split():
     else: sat.append(cur); cur = k
 sat.append(cur)
 lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
-lh = 124; y = ty * H - lh * len(sat) / 2 + lh / 2
+lh = round(BOY * 1.19); y = ty * H - lh * len(sat) / 2 + lh / 2
 for s in sat:
     d.text((W / 2, y), s, font=fnt, fill=renk + (255,), anchor="mm"); y += lh
 d.text((W / 2, y + 36), KUNYE, font=ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-Medium.otf", 32), fill=renk + (215,), anchor="mm")
