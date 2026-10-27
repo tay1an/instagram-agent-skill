@@ -110,8 +110,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-27.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "İçindekiler: susam"
+      "durum": "yayinlandi",
+      "not": "İçindekiler: susam",
+      "medya_id": "18119294876079591",
+      "yayin_zamani": "2026-10-27 09:00"
     },
     {
       "id": "2026-10-27-tarif-2",
