@@ -38,8 +38,11 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 
 ## Kullanıcıdan beklenenler
 
-- Bio'ya Spotify şarkı linki (26 Ekim: 0 takip; açıklamalar "link profilde" diyor)
 - Spotify sanatçı linki (`voice.md`)
+
+Not: Spotify şarkı linki bio'da mevcut (27 Ekim kullanıcı teyidi). Takip
+sayısının düşük olması bio linkinin eksikliğinden değil; profil ziyareti → takip
+dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 

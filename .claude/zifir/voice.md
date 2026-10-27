@@ -18,6 +18,8 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 - **Sanatçı adı:** Zifir
 - **Instagram kullanıcı adı:** @zifir.123
 - **TikTok kullanıcı adı:** [DOLDURULACAK]
+- **Spotify şarkı linki (Uzak):** https://open.spotify.com/track/3oFzRcKi6Fkij74Jbu8MYh
+  (Instagram bio'sunda mevcut.)
 - **Spotify sanatçı linki:** [DOLDURULACAK]
 - **Ne yapıyorum, tek cümleyle:** Türkçe duygusal pop şarkılar yayınlıyorum.
 - **Kime konuşuyorum:** Gece geç saatte şarkı dinleyen, ayrılık, özlem ve
