@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="tr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aziz Tahin - 1 kg susam = 1 kg tahin</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Black.otf"); font-weight: 900; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Bold.otf"); font-weight: 700; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-SemiBold.otf"); font-weight: 600; }
+      @font-face { font-family: "AzizSerif"; src: url("fonts/Playfair-Italic.ttf"); font-style: italic; }
+
+      :root {
+        --krem: #f6ecd9;
+        --susam: #e3c48f;
+        --tahin: #c9a46b;
+        --kahve: #4a2c17;
+        --kirmizi: #b3202a;
+        --altin: #d9a441;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--krem);
+        font-family: "AzizSans", sans-serif;
+        color: var(--kahve);
+      }
+
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--krem);
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+
+      /* Instagram safe area: top 230, bottom 480, right 230 stay clear of text */
+      .safe {
+        position: absolute;
+        left: 80px;
+        top: 260px;
+        width: 740px;
+        height: 1160px;
+      }
+
+      .kicker {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 6px;
+        color: var(--kirmizi);
+      }
+
+      .big {
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 0.95;
+        letter-spacing: -4px;
+        margin: 0;
+      }
+
+      .serif {
+        font-family: "AzizSerif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+
+      /* ---------- sesame seeds ---------- */
+      .seed {
+        position: absolute;
+        width: 22px;
+        height: 34px;
+        border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
+        background: radial-gradient(circle at 35% 30%, #fbf1dc 0%, #e8cf9e 55%, #c99f5e 100%);
+        box-shadow: 0 2px 3px rgba(74, 44, 23, 0.25);
+        opacity: 0;
+      }
+
+      /* ---------- scale ---------- */
+      .scale {
+        position: absolute;
+        left: 80px;
+        top: 900px;
+        width: 740px;
+      }
+      .scale-bowl {
+        position: relative;
+        margin: 0 auto;
+        width: 560px;
+        height: 170px;
+        border-radius: 0 0 280px 280px;
+        background: linear-gradient(180deg, #fffaf0 0%, #eadcc2 100%);
+        box-shadow: inset 0 14px 0 rgba(74, 44, 23, 0.08), 0 18px 30px rgba(74, 44, 23, 0.15);
+        overflow: hidden;
+      }
+      .scale-fill {
+        position: absolute;
+        left: 0; right: 0; bottom: 0;
+        height: 0%;
+        background: repeating-radial-gradient(circle at 20px 20px, #e8cf9e 0 8px, #d7b47a 9px 12px);
+        background-size: 40px 30px;
+      }
+      .scale-body {
+        margin: 18px auto 0;
+        width: 640px;
+        height: 230px;
+        border-radius: 34px;
+        background: var(--kahve);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 24px 40px rgba(74, 44, 23, 0.3);
+      }
+      .scale-screen {
+        width: 470px;
+        height: 140px;
+        border-radius: 18px;
+        background: #1b120b;
+        color: #ffd27a;
+        font-weight: 900;
+        font-size: 104px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 36px;
+        box-sizing: border-box;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 2px;
+        text-shadow: 0 0 18px rgba(255, 196, 80, 0.55);
+      }
+      .scale-screen small { font-size: 52px; margin-left: 14px; color: #f0b54d; }
+
+      /* ---------- mill ---------- */
+      .mill {
+        position: absolute;
+        left: 150px;
+        top: 760px;
+        width: 600px;
+        height: 600px;
+      }
+      .stone {
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        background:
+          repeating-conic-gradient(from 0deg, #8b7a68 0deg 6deg, #a6957f 6deg 12deg);
+        box-shadow: inset 0 0 0 26px #6f5e4d, inset 0 0 0 30px #574738, 0 30px 50px rgba(74, 44, 23, 0.3);
+      }
+      .stone-hub {
+        position: absolute;
+        left: 50%; top: 50%;
+        width: 150px; height: 150px;
+        margin: -75px 0 0 -75px;
+        border-radius: 50%;
+        background: radial-gradient(circle, #e3c48f 0 40%, #4a2c17 42% 100%);
+      }
+      .drip {
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%;
+        height: 0;
+        background: linear-gradient(180deg, #b8894e 0%, #d4ac70 100%);
+      }
+      .drip-wave {
+        position: absolute;
+        left: 0; bottom: -60px;
+        width: 100%;
+        height: 120px;
+      }
+
+      /* ---------- strike list ---------- */
+      .yok-row {
+        display: flex;
+        align-items: center;
+        gap: 34px;
+        margin: 0 0 54px 0;
+      }
+      .yok-word {
+        position: relative;
+        font-weight: 900;
+        font-size: 118px;
+        letter-spacing: -2px;
+        color: var(--kahve);
+      }
+      .yok-line {
+        position: absolute;
+        left: -10px;
+        top: 52%;
+        height: 16px;
+        width: calc(100% + 20px);
+        background: var(--kirmizi);
+        border-radius: 8px;
+        transform-origin: left center;
+        transform: scaleX(0);
+      }
+      .yok-tag {
+        font-weight: 900;
+        font-size: 52px;
+        color: var(--krem);
+        background: var(--kirmizi);
+        border-radius: 14px;
+        padding: 10px 22px;
+      }
+
+      /* ---------- photos ---------- */
+      .photo {
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+      }
+      .shade {
+        position: absolute;
+        inset: 0;
+      }
+
+      .pill {
+        display: inline-block;
+        font-weight: 900;
+        border-radius: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="aziz-tahin"
+      data-width="1080"
+      data-height="1920"
+      data-start="0"
+      data-duration="20"
+    >
+      <!-- 1. Terazi: 1 kg susam (0 - 3.4) -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="3.4" data-track-index="1">
+        <div id="seeds1"></div>
+        <div class="safe">
+          <div class="kicker" id="s1-kicker">TERAZİ YALAN SÖYLEMEZ</div>
+          <h1 class="big" id="s1-title" style="margin-top: 26px">1 KG<br /><span style="color: var(--kirmizi)">SUSAM</span></h1>
+        </div>
+        <div class="scale" id="scale1">
+          <div class="scale-bowl"><div class="scale-fill" id="fill1"></div></div>
+          <div class="scale-body"><div class="scale-screen"><span id="count1">0</span><small>g</small></div></div>
+        </div>
+      </div>
+
+      <!-- 2. Taş değirmen (3.4 - 6.6) -->
+      <div id="s2" class="scene clip" data-start="3.4" data-duration="3.2" data-track-index="1" style="background: var(--susam)">
+        <div class="safe">
+          <div class="kicker" id="s2-kicker">GELENEKSEL YÖNTEM</div>
+          <h1 class="big" id="s2-title" style="margin-top: 26px">TAŞ<br />DEĞİRMEN</h1>
+          <div class="serif" id="s2-sub" style="font-size: 76px; margin-top: 24px; color: var(--kirmizi)">sadece susam.</div>
+        </div>
+        <div class="mill" id="mill">
+          <div class="stone" id="stone"></div>
+          <div class="stone-hub"></div>
+        </div>
+        <div class="drip" id="drip">
+          <svg class="drip-wave" viewBox="0 0 1080 120" preserveAspectRatio="none">
+            <path d="M0 0 H1080 V40 C1000 40 990 120 930 120 C870 120 880 50 800 50 C720 50 730 100 650 100 C570 100 590 30 500 30 C420 30 430 110 350 110 C270 110 280 45 200 45 C120 45 110 90 60 90 C30 90 10 60 0 60 Z" fill="#d4ac70" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- 3. Yine 1 kg (6.6 - 9.6) -->
+      <div id="s3" class="scene clip" data-start="6.6" data-duration="3" data-track-index="1" style="background: #d4ac70">
+        <div class="safe">
+          <div class="kicker" id="s3-kicker" style="color: var(--kahve)">VE SONUÇ...</div>
+          <h1 class="big" id="s3-title" style="margin-top: 26px; color: var(--krem)">YİNE<br />1 KG</h1>
+          <div id="s3-eq" style="margin-top: 40px; font-weight: 900; font-size: 64px; color: var(--kahve)">
+            1 kg susam <span style="color: var(--kirmizi)">=</span> 1 kg tahin
+          </div>
+        </div>
+        <div class="scale" id="scale3" style="top: 960px">
+          <div class="scale-bowl"><div class="scale-fill" id="fill3" style="background: linear-gradient(180deg, #c99a5c, #b5854a)"></div></div>
+          <div class="scale-body"><div class="scale-screen"><span id="count3">0</span><small>g</small></div></div>
+        </div>
+      </div>
+
+      <!-- 4. Yok listesi (9.6 - 13) -->
+      <div id="s4" class="scene clip" data-start="9.6" data-duration="3.4" data-track-index="1">
+        <div class="safe" style="top: 330px">
+          <div class="kicker" id="s4-kicker" style="margin-bottom: 60px">İÇİNDE NE VAR? SADECE SUSAM.</div>
+          <div class="yok-row" id="y1"><span class="yok-word">ŞEKER<span class="yok-line"></span></span><span class="yok-tag">YOK</span></div>
+          <div class="yok-row" id="y2"><span class="yok-word">KORUYUCU<span class="yok-line"></span></span><span class="yok-tag">YOK</span></div>
+          <div class="yok-row" id="y3"><span class="yok-word">KATKI<span class="yok-line"></span></span><span class="yok-tag">YOK</span></div>
+        </div>
+      </div>
+
+      <!-- 5. Ürün + %100 susam (13 - 16.4) -->
+      <div id="s5" class="scene clip" data-start="13" data-duration="3.4" data-track-index="1" style="background: var(--kahve)">
+        <div class="photo" id="jar" style="inset: 0; background-image: url('assets/kavanoz.jpg'); background-position: 50% 40%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(40,22,10,0.88) 0%, rgba(40,22,10,0.35) 34%, rgba(40,22,10,0) 52%, rgba(40,22,10,0.15) 70%, rgba(40,22,10,0.85) 100%)"></div>
+        <div class="safe">
+          <div class="kicker" id="s5-kicker" style="color: var(--altin)">AZİZ TAHİN</div>
+          <h1 class="big" id="s5-title" style="margin-top: 20px; color: var(--krem); font-size: 170px">%100<br />SUSAM</h1>
+        </div>
+        <div id="s5-stat" style="position: absolute; left: 80px; top: 1150px; width: 740px">
+          <span class="pill" style="background: var(--kirmizi); color: var(--krem); font-size: 54px; padding: 18px 30px">100 g'da 27 g protein</span>
+          <div class="serif" style="margin-top: 22px; display: inline-block; background: rgba(40,22,10,0.82); color: var(--krem); font-size: 52px; padding: 14px 26px; border-radius: 18px">kahvaltıda iki kaşıkla<br />güne tok başlayın</div>
+        </div>
+      </div>
+
+      <!-- 6. Kapanış: sipariş (16.4 - 20) -->
+      <div id="s6" class="scene clip" data-start="16.4" data-duration="3.6" data-track-index="1" style="background: var(--krem)">
+        <div class="photo" id="row" style="left: 0; top: 0; width: 1080px; height: 1920px; background-image: url('assets/sira.jpg'); background-position: 30% 50%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(246,236,217,0.97) 0%, rgba(246,236,217,0.9) 45%, rgba(246,236,217,0.55) 70%, rgba(246,236,217,0.2) 100%)"></div>
+        <div class="safe">
+          <div id="s6-brand" style="font-weight: 900; font-size: 120px; line-height: 0.9; color: var(--kirmizi); letter-spacing: -3px">AZİZ<br />TAHİN</div>
+          <div class="serif" id="s6-tag" style="font-size: 58px; margin-top: 18px">1 kilo susam, 1 kilo tahin.</div>
+          <div id="s6-cta" style="margin-top: 70px">
+            <span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 66px; line-height: 1.12; padding: 30px 38px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span>
+          </div>
+          <div id="s6-ship" style="margin-top: 40px; font-weight: 700; font-size: 44px">Türkiye'nin her iline gönderim</div>
+          <div id="s6-handle" style="margin-top: 14px; font-weight: 700; font-size: 44px; color: var(--kirmizi)">@aziz.tahin</div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          // deterministic pseudo-random (no Math.random)
+          let seed = 7;
+          const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+
+          const tl = gsap.timeline({ paused: true });
+          const pop = { ease: "back.out(1.7)", duration: 0.5 };
+
+          // ---------- 1. seeds pour onto the scale ----------
+          const seedBox = document.getElementById("seeds1");
+          const seeds = [];
+          for (let i = 0; i < 70; i++) {
+            const s = document.createElement("div");
+            s.className = "seed";
+            seedBox.appendChild(s);
+            seeds.push({ el: s, x: 300 + rnd() * 420, delay: rnd() * 2.1, rot: rnd() * 360, dur: 0.55 + rnd() * 0.3 });
+          }
+          seeds.forEach((s) => {
+            tl.fromTo(
+              s.el,
+              { x: s.x, y: 520 + rnd() * 120, rotation: s.rot, opacity: 1 },
+              { y: 930 + rnd() * 40, rotation: s.rot + 180, duration: s.dur, ease: "power2.in", immediateRender: false },
+              s.delay
+            );
+            tl.to(s.el, { opacity: 0, duration: 0.05 }, s.delay + s.dur);
+          });
+          tl.fromTo("#s1-title", { scale: 0.92, transformOrigin: "left center" }, { scale: 1, ...pop }, 0);
+          tl.fromTo("#scale1", { y: 60 }, { y: 0, duration: 0.5, ease: "power3.out" }, 0);
+          tl.fromTo("#fill1", { height: "0%" }, { height: "62%", duration: 2.4, ease: "power1.out" }, 0.3);
+          const c1 = { v: 0 };
+          tl.to(c1, {
+            v: 1000, duration: 2.4, ease: "power2.out",
+            onUpdate: () => (document.getElementById("count1").textContent = Math.round(c1.v)),
+          }, 0.3);
+          tl.to("#scale1 .scale-screen", { scale: 1.08, duration: 0.15, yoyo: true, repeat: 1 }, 2.75);
+
+          // ---------- 2. stone mill + tahini drip ----------
+          const t2 = 3.4;
+          tl.fromTo("#s2-kicker", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.4 }, t2 + 0.05);
+          tl.fromTo("#s2-title", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ...pop }, t2 + 0.1);
+          tl.fromTo("#s2-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t2 + 0.6);
+          tl.fromTo("#mill", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: "back.out(1.4)" }, t2);
+          tl.fromTo("#stone", { rotation: 0 }, { rotation: 300, duration: 3.2, ease: "none" }, t2);
+          tl.fromTo("#drip", { height: 0 }, { height: 2000, duration: 0.7, ease: "power2.in" }, t2 + 2.5);
+
+          // ---------- 3. again 1 kg ----------
+          const t3 = 6.6;
+          tl.fromTo("#s3-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t3 + 0.05);
+          tl.fromTo("#s3-title", { opacity: 0, scale: 0.7, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t3 + 0.2);
+          tl.fromTo("#scale3", { y: 220, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, t3);
+          tl.fromTo("#fill3", { height: "0%" }, { height: "62%", duration: 1.5, ease: "power1.out" }, t3 + 0.3);
+          const c3 = { v: 0 };
+          tl.to(c3, {
+            v: 1000, duration: 1.5, ease: "power2.out",
+            onUpdate: () => (document.getElementById("count3").textContent = Math.round(c3.v)),
+          }, t3 + 0.3);
+          tl.fromTo("#s3-eq", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t3 + 0.7);
+
+          // ---------- 4. nothing added ----------
+          const t4 = 9.6;
+          tl.fromTo("#s4-kicker", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t4 + 0.05);
+          ["#y1", "#y2", "#y3"].forEach((id, i) => {
+            const at = t4 + 0.35 + i * 0.75;
+            tl.fromTo(id, { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.35, ease: "power3.out" }, at);
+            tl.to(id + " .yok-line", { scaleX: 1, duration: 0.25, ease: "power2.out" }, at + 0.3);
+            tl.fromTo(id + " .yok-tag", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, ...pop, duration: 0.35 }, at + 0.4);
+          });
+
+          // ---------- 5. product hero ----------
+          const t5 = 13;
+          tl.fromTo("#jar", { scale: 1.25 }, { scale: 1.05, duration: 3.4, ease: "power1.out" }, t5);
+          tl.fromTo("#s5-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t5 + 0.1);
+          tl.fromTo("#s5-title", { opacity: 0, y: 70 }, { opacity: 1, y: 0, ...pop }, t5 + 0.2);
+          tl.fromTo("#s5-stat", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, t5 + 0.6);
+
+          // ---------- 6. call to action ----------
+          const t6 = 16.4;
+          tl.fromTo("#row", { scale: 1.15 }, { scale: 1.0, duration: 3.6, ease: "power1.out" }, t6);
+          tl.fromTo("#s6-brand", { opacity: 0, y: 50 }, { opacity: 1, y: 0, ...pop }, t6 + 0.05);
+          tl.fromTo("#s6-tag", { opacity: 0 }, { opacity: 1, duration: 0.4 }, t6 + 0.45);
+          tl.fromTo("#s6-cta", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t6 + 0.8);
+          tl.to("#s6-cta", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, t6 + 1.6);
+          tl.fromTo("#s6-ship", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t6 + 1.15);
+          tl.fromTo("#s6-handle", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t6 + 1.3);
+
+          window.__timelines = window.__timelines || {};
+          window.__timelines["aziz-tahin"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>
