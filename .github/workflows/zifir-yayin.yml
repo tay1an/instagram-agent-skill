@@ -24,7 +24,15 @@ jobs:
   yayinla:
     runs-on: ubuntu-latest
     steps:
+      # Sıradaki iş kuyruğa girdiği andaki commit'i değil dalın en son halini alır;
+      # yoksa öndeki işin yayınladığı paylaşımı "bekliyor" görüp ikinci kez paylaşır.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Medya adresi için commit
+        id: sha
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
         with:
@@ -37,6 +45,7 @@ jobs:
           ZIFIR_TOKEN: ${{ secrets.ZIFIR_IG_TOKEN }}
           TAKVIM: .claude/zifir/yayin/takvim.json
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
+          MEDYA_SHA: ${{ steps.sha.outputs.sha }}
         run: |
           # Elle yapıştırılan anahtarda kalan boşluk ve satır sonlarını temizle.
           export IG_ACCESS_TOKEN="$(printf '%s' "$ZIFIR_TOKEN" | tr -d '[:space:]')"
