@@ -17,7 +17,7 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 
 - **Sanatçı adı:** Zifir
 - **Instagram kullanıcı adı:** @zifir.123
-- **TikTok kullanıcı adı:** [DOLDURULACAK]
+- **TikTok kullanıcı adı:** @zifir243
 - **Spotify şarkı linki (Uzak):** https://open.spotify.com/track/3oFzRcKi6Fkij74Jbu8MYh
   (Instagram bio'sunda mevcut.)
 - **Spotify sanatçı linki:** [DOLDURULACAK]
