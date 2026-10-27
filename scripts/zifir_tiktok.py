@@ -5,11 +5,14 @@ gelen kutusuna taslak olarak yükler (Content Posting API, video.upload).
 Kullanım:
   zifir_tiktok.py baglan <kod>    giriş kodundan yenileme anahtarı alır
   zifir_tiktok.py yukle <video>   videoyu taslak olarak gönderir
+  zifir_tiktok.py takvim <takvim.json> <durum.json>
+                                  zamanı gelen Instagram reel'ini TikTok'a taslak gönderir
 
 Ortam: TT_KEY, TT_SECRET, TT_REFRESH (yukle için). Yeni yenileme anahtarı
 YENI_REFRESH_DOSYASI'na yazılır; iş akışı onu ZIFIR_TT_REFRESH'e kaydeder.
 """
 
+import datetime
 import json
 import os
 import sys
@@ -93,12 +96,38 @@ def yukle(video):
     raise ApiHatasi("durum 5 dakikada netleşmedi")
 
 
+def takvim(takvim_yolu, durum_yolu):
+    """Son 20 saatte zamanı gelmiş, TikTok'a henüz gitmemiş en eski reel'i gönderir."""
+    from zoneinfo import ZoneInfo
+    t = json.load(open(takvim_yolu))
+    simdi = datetime.datetime.now(ZoneInfo(t["saat_dilimi"])).replace(tzinfo=None)
+    durum = json.load(open(durum_yolu)) if os.path.exists(durum_yolu) else {}
+    for p in sorted(t["paylasimlar"], key=lambda p: p["zaman"]):
+        zaman = datetime.datetime.strptime(p["zaman"], "%Y-%m-%d %H:%M")
+        if p["tur"] != "reel" or p["id"] in durum or not simdi - datetime.timedelta(hours=20) <= zaman <= simdi:
+            continue
+        print(f"Gönderiliyor: {p['id']}", flush=True)
+        kayit = durum[p["id"]] = {"durum": "hata", "zaman": simdi.strftime("%Y-%m-%d %H:%M")}
+        try:
+            yukle(p["medya"][0])  # hata olursa tekrar denenmez; kayıttan silinince yeniden gider
+            kayit["durum"] = "gelen-kutusunda"
+        finally:
+            with open(durum_yolu, "w") as f:
+                json.dump(durum, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+        print("Açıklama (TikTok'ta yapıştırılacak):\n" + p.get("aciklama", ""))
+        return
+    print("Zamanı gelen yeni reel yok.")
+
+
 def main():
     komut, deger = sys.argv[1], sys.argv[2].strip()
     if komut == "baglan":
         anahtar_al({"grant_type": "authorization_code", "code": urllib.parse.unquote(deger),
                     "redirect_uri": YONLENDIRME})
         print("TikTok bağlandı.")
+    elif komut == "takvim":
+        takvim(deger, sys.argv[3])
     elif komut == "yukle":
         yukle(deger)
     else:

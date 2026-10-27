@@ -1,7 +1,8 @@
 # Plan: Zifir
 
 Her gün **13:00 hikâye** (15 sn şarkılı video) + **20:30 reel**. Instagram'da otomatik
-(`Zifir yayın` iş akışı, `yayin/takvim.json`). TikTok elle zamanlanır.
+(`Zifir yayın` iş akışı, `yayin/takvim.json`). Aynı reel TikTok gelen kutusuna taslak
+gider (`Zifir TikTok takvim`, `yayin/tiktok.json`); açıklamayı kullanıcı ekleyip paylaşır.
 
 | tarih | hikâye (13:00) | reel (20:30) |
 | --- | --- | --- |
