@@ -99,7 +99,7 @@ def yukle(video):
 
 def takvim(takvim_yolu, durum_yolu):
     """Zamanına 45 dakikadan az kalmış ya da son 20 saatte zamanı gelmiş, TikTok'a
-    henüz gitmemiş en eski reel'i gönderir. Taslak erken gelir ki kullanıcı
+    henüz gitmemiş en eski reel'i ya da video hikâyeyi gönderir. Taslak erken gelir ki kullanıcı
     Instagram'la aynı saatte paylaşabilsin."""
     from zoneinfo import ZoneInfo
     t = json.load(open(takvim_yolu))
@@ -107,7 +107,8 @@ def takvim(takvim_yolu, durum_yolu):
     durum = json.load(open(durum_yolu)) if os.path.exists(durum_yolu) else {}
     for p in sorted(t["paylasimlar"], key=lambda p: p["zaman"]):
         zaman = datetime.datetime.strptime(p["zaman"], "%Y-%m-%d %H:%M")
-        if p["tur"] != "reel" or p["id"] in durum or not simdi - datetime.timedelta(hours=20) <= zaman <= simdi + ONCE:
+        video = p["tur"] == "reel" or (p["tur"] == "hikaye" and p["medya"][0].endswith(".mp4"))
+        if not video or p["id"] in durum or not simdi - datetime.timedelta(hours=20) <= zaman <= simdi + ONCE:
             continue
         print(f"Gönderiliyor: {p['id']}", flush=True)
         kayit = durum[p["id"]] = {"durum": "hata", "zaman": simdi.strftime("%Y-%m-%d %H:%M")}
@@ -118,9 +119,9 @@ def takvim(takvim_yolu, durum_yolu):
             with open(durum_yolu, "w") as f:
                 json.dump(durum, f, ensure_ascii=False, indent=2)
                 f.write("\n")
-        print("Açıklama (TikTok'ta yapıştırılacak):\n" + p.get("aciklama", ""))
+        print("Açıklama (TikTok'ta yapıştırılacak):\n" + p.get("tiktok_aciklama", p.get("aciklama", "")))
         return
-    print("Zamanı gelen yeni reel yok.")
+    print("Zamanı gelen yeni video yok.")
 
 
 def main():
