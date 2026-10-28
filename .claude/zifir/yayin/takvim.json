@@ -56,7 +56,9 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v02-kor-yara.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "yayinlandi",
+      "medya_id": "18098323625449969",
+      "yayin_zamani": "2026-10-28 13:01"
     },
     {
       "id": "2026-10-28-reel-05-ufuk",
