@@ -34,7 +34,8 @@
       ],
       "durum": "yayinlandi",
       "medya_id": "17976281931137655",
-      "yayin_zamani": "2026-10-27 13:00"
+      "yayin_zamani": "2026-10-27 13:00",
+      "tiktok_aciklama": "\"yük olur her yudum içe işledikçe\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-10-27-reel-03-kalp",
@@ -58,7 +59,8 @@
       ],
       "durum": "yayinlandi",
       "medya_id": "18098323625449969",
-      "yayin_zamani": "2026-10-28 13:01"
+      "yayin_zamani": "2026-10-28 13:01",
+      "tiktok_aciklama": "\"kor yara sol yanım deşme dur daha\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-10-28-reel-05-ufuk",
@@ -78,7 +80,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v03-keyfine.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"keyfine varınca hepsi başka renk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-10-29-reel-04-agaclar",
@@ -98,7 +101,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v04-sevgili.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-10-30-reel-06-alev",
@@ -118,7 +122,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v05-oktur.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"oktur bakışların değince taşlara\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-10-31-reel-02-yok-isem",
@@ -138,7 +143,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v06-kokler.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"yan yana ağacız gölge yeter bize\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-01-reel-07-vardim",
@@ -158,7 +164,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v07-sabah.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"bir sabah var hep uyanmak isterim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-02-reel-08-ardinda",
@@ -178,7 +185,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v08-ufuk.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"ufuk daldırır beni senli bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-03-reel-lyric-video",
@@ -198,7 +206,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v09-parcalar.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-04-reel-16-capa-sahil",
@@ -218,7 +227,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v10-olmayi.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"olmayı seçenin yerine çok yakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-05-reel-10-sabah",
@@ -238,7 +248,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v11-ozune.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-06-reel-11-kor-yara",
@@ -258,7 +269,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v12-ardinda.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"ardında ne parçam ne de ben varım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-07-reel-17-capa-iskele",
@@ -278,7 +290,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v13-ben-eger.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"ben eğer yok isem sen de olmazsın dedim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-08-reel-18-kita2",
@@ -298,7 +311,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v14-elindeki.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"elindeki kalbi yerine koysana\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-09-reel-14-yuk",
@@ -318,7 +332,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v15-ustume.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"üstüme titre hep hiç ayrılmayalım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-10-reel-15-oysa",
@@ -338,7 +353,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v16-alev.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-11-reel-09-sevgili",
@@ -358,7 +374,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v17-ufuk.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"ufuk daldırır beni başka bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-12-reel-12-kokler",
@@ -378,7 +395,8 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v18-vardim.mp4"
       ],
-      "durum": "bekliyor"
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"vardım kendime ufka bakmam hiç sakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
     },
     {
       "id": "2026-11-13-reel-13-kalbim",

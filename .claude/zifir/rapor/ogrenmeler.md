@@ -47,6 +47,9 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 
 ## Kullanıcıdan beklenenler
 
+- `ZIFIR_GH_TOKEN` 30 Haziran 2027'de sona eriyor: 2 hafta önce kullanıcıdan yenisi istenir
+  (Instagram ve TikTok anahtar yenilemeleri buna bağlı).
+
 - Spotify sanatçı linki (`voice.md`)
 
 Not: Spotify şarkı linki bio'da mevcut (27 Ekim kullanıcı teyidi). Takip
