@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "fb4d3ff6-85f2-4662-997d-c152a5c4a3a3",
-  "currentRevision": null,
+  "currentRevision": "90c7ba8c-aa03-424a-9bae-024e6ffffea8",
   "pendingChanges": false,
   "files": {
     "assets/dukkan.jpg": {
@@ -13,8 +13,8 @@
       "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/68/687524e12123189ee91a5f83a4480f922bb4c7c78fda183e5af6721797db4228"
     },
     "assets/harita-yakin.jpg": {
-      "hash": "03e3241e18196343d6b45d8ad42c9139554e0a3ac2f7e72f2c684b99d7b841d9",
-      "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/03/03e3241e18196343d6b45d8ad42c9139554e0a3ac2f7e72f2c684b99d7b841d9"
+      "hash": "ac391a5045bf7f8af69684bef7be2d74ec6eafa6b7340f8042c6c211e98cb194",
+      "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/ac/ac391a5045bf7f8af69684bef7be2d74ec6eafa6b7340f8042c6c211e98cb194"
     },
     "assets/raf.jpg": {
       "hash": "7fec4fa67d34c08cda6bd4b38de68ed5625f9528d577871e15a2e9a4b90ab903",
@@ -49,8 +49,8 @@
       "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
     },
     "index.html": {
-      "hash": "70d3900651f615d1184dfaf177865425ab150d57b922010bf7e6273328f31061",
-      "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/70/70d3900651f615d1184dfaf177865425ab150d57b922010bf7e6273328f31061"
+      "hash": "b7fb7bbb2c19fc819eab0fe016702b31c94f24ad6b6bb06deab5414a181549e5",
+      "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/b7/b7fb7bbb2c19fc819eab0fe016702b31c94f24ad6b6bb06deab5414a181549e5"
     },
     "meta.json": {
       "hash": "7ee636fcbc34823e1d4732aca709032b4ce402ce8895b9d8941e779f7cbbee5f",
@@ -65,7 +65,27 @@
       "content": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "90c7ba8c-aa03-424a-9bae-024e6ffffea8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793191448125,
+      "endedAt": 1793191448136,
+      "files": {
+        "assets/harita-yakin.jpg": {
+          "before": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/03/03e3241e18196343d6b45d8ad42c9139554e0a3ac2f7e72f2c684b99d7b841d9",
+          "after": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/ac/ac391a5045bf7f8af69684bef7be2d74ec6eafa6b7340f8042c6c211e98cb194"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/70/70d3900651f615d1184dfaf177865425ab150d57b922010bf7e6273328f31061",
+          "after": "/root/.cache/hyperframes/history/fb4d3ff6-85f2-4662-997d-c152a5c4a3a3/blobs/b7/b7fb7bbb2c19fc819eab0fe016702b31c94f24ad6b6bb06deab5414a181549e5"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},
@@ -78,13 +98,14 @@
   },
   "renders": {
     "latest": {
-      "id": "cb7cb48a-9678-43ae-bfec-f8286681acf5",
-      "completedAt": 1793190434410,
+      "id": "1359e4df-5fa0-466e-a8be-4b750fbc572e",
+      "completedAt": 1793191610675,
       "output": "/tmp/claude-0/-home-user-instagram-agent-skill/b08adc6f-b6cc-526f-a373-ee744c42c1e3/scratchpad/bursa-dukkan-raw.mp4",
       "status": "completed",
-      "revision": null
+      "revision": "90c7ba8c-aa03-424a-9bae-024e6ffffea8"
     },
     "retainedRevisions": [
+      "90c7ba8c-aa03-424a-9bae-024e6ffffea8",
       "6c99a279-967c-4049-8524-9b7d906976ec"
     ]
   },

@@ -193,13 +193,14 @@ asla uydurmaz.
   Camii'nin karşısında" diye tarif edilir. Adres aslında İnönü Caddesi'ndedir
   (Alamescit Mh. İnönü Cad. No:51 Osmangazi/Bursa); "Cumhuriyet Caddesi'nde"
   denmez, yalnızca "Cumhuriyet Caddesi'nin girişinde" denir.
-- Haritada (kullanıcının 28 Ekim ekran görüntüleri, medya/referans/harita-*.jpg):
-  dükkan Cumhuriyet Caddesi ile İnönü Caddesi'nin kesiştiği köşede; tarihi
-  çarşı bölgesinde. Koza Han, Ulu Cami ve Yeşil Türbe yürüme
-  mesafesinde (dakika ya da metre verilmez). Google Haritalar'da "Aziz Tahin"
-  aratınca çıkıyor; içeriklerde "Haritada 'Aziz Tahin' yazın" denebilir.
-  Harita görseli bu ekran görüntülerinden, başka işletme adları ve Google
-  düğmeleri silinerek hazırlanır; köşede "Harita: Google" yazar.
+- Konum anlatımında YALNIZCA "Cumhuriyet Caddesi'nin girişinde" ve "tarihi Yiğit
+  Köhne Camii'nin karşısında" kullanılır (kullanıcının isteği, 28 Ekim). İkinci
+  bir cadde adı (İnönü, Çancılar) yazılmaz, kafa karıştırır. Koza Han (~450 m)
+  ve Ulu Cami (~650 m) gibi uzaklık iddiaları yazılmaz. "Haritada 'Aziz Tahin'
+  yazın" denebilir (Google Haritalar'da çıkıyor).
+- Harita görseli kullanıcının ekran görüntülerinden (medya/referans/harita-*.jpg)
+  harita-temizle.py ile hazırlanır: başka işletme adları, ikinci cadde adları ve
+  Google düğmeleri silinir; köşede "Harita: Google" yazar.
 - Bursa'da tek dükkanımız var; online satışla Türkiye'nin tüm illerine
   gönderim yapıyoruz. ("Şube" denmez, "dükkanımız" denir.)
 - Tahinimizi ilk kez alan müşterilerin büyük bölümü tekrar sipariş veriyor.
