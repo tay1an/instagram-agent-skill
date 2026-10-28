@@ -15,6 +15,9 @@ yaradığı anlaşılmaz. Cumartesi skor kartına bakılır, karar yazılır:
   (kullanıcıdan) önceki haftadan yüksek.
 - En iyi carousel hangisi olursa onun konusu/kapak kalıbı gelecek haftaya
   taşınır.
+- Not (28 Ekim): kullanıcının isteğiyle boş günlere reel eklendi (28 Ekim
+  terazi, 29 Ekim üstteki yağ, 31 Ekim Bursa dükkânı). Değerlendirmede
+  carousel'ler kendi aralarında, reel'ler kendi aralarında karşılaştırılır.
 - Sonuç: (31 Ekim'de yazılacak)
 
 ## Sıradaki adaylar
