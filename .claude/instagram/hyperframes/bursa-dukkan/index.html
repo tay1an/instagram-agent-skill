@@ -36,6 +36,13 @@
       .pill { display: inline-block; font-weight: 900; border-radius: 22px; }
       .photo { position: absolute; background-size: cover; background-position: center; }
       .shade { position: absolute; inset: 0; }
+      .mapcard {
+        position: absolute; left: 70px; width: 940px; border-radius: 34px; overflow: hidden;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45); border: 8px solid var(--krem); background: #f1f1f1;
+      }
+      .mapcard img { display: block; width: 100%; }
+      .credit { position: absolute; right: 16px; bottom: 10px; font-weight: 600; font-size: 22px; color: #5f6368; background: rgba(255,255,255,0.85); padding: 2px 10px; border-radius: 8px; }
+      .ring { position: absolute; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 10px solid var(--kirmizi); opacity: 0; }
       .pin {
         position: absolute; width: 120px; height: 120px; border-radius: 50% 50% 50% 0;
         background: var(--kirmizi); transform: rotate(-45deg); box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
@@ -44,10 +51,10 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="bursa-dukkan" data-width="1080" data-height="1920" data-start="0" data-duration="17">
+    <div id="root" data-composition-id="bursa-dukkan" data-width="1080" data-height="1920" data-start="0" data-duration="18.6">
 
-      <!-- 1. Kanca: dükkân cephesi (0 - 3.6) -->
-      <div id="s1" class="scene clip" data-start="0" data-duration="3.6" data-track-index="1">
+      <!-- 1. Kanca: dükkân cephesi (0 - 3.4) -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="3.4" data-track-index="1">
         <div class="photo" id="dukkan" style="left: 0; top: 880px; width: 1080px; height: 1008px; background-image: url('assets/dukkan.jpg'); background-position: 50% 0; transform-origin: 50% 40%"></div>
         <div class="shade" style="background: linear-gradient(180deg, rgba(42,23,10,1) 0%, rgba(42,23,10,1) 44%, rgba(42,23,10,0.15) 58%, rgba(42,23,10,0) 70%, rgba(42,23,10,0.85) 98%)"></div>
         <div class="safe">
@@ -56,8 +63,8 @@
         </div>
       </div>
 
-      <!-- 2. Konum: cami ve tramvay (3.6 - 7.6) -->
-      <div id="s2" class="scene clip" data-start="3.6" data-duration="4" data-track-index="1">
+      <!-- 2. Konum: cami ve tramvay (3.4 - 6.8) -->
+      <div id="s2" class="scene clip" data-start="3.4" data-duration="3.4" data-track-index="1">
         <div class="photo" id="tramvay" style="inset: 0; background-image: url('assets/tramvay.jpg'); background-position: 50% 50%"></div>
         <div class="shade" style="background: linear-gradient(180deg, rgba(20,10,4,0.9) 0%, rgba(20,10,4,0.55) 38%, rgba(20,10,4,0.1) 60%, rgba(20,10,4,0.6) 100%)"></div>
         <div class="safe">
@@ -65,42 +72,58 @@
           <h1 class="big" id="s2-title" style="margin-top: 24px; font-size: 104px">YİĞİT KÖHNE<br />CAMİİ'NİN<br /><span style="color: var(--altin)">KARŞISINDA</span></h1>
           <div class="serif" id="s2-sub" style="margin-top: 26px; font-size: 56px; line-height: 1.15">Cumhuriyet Caddesi'nin<br />girişinde, Bursa.</div>
         </div>
-        <div class="pin" id="pin" style="left: 460px; top: 1180px"></div>
       </div>
 
-      <!-- 3. Raf: ürün (7.6 - 11.2) -->
-      <div id="s3" class="scene clip" data-start="7.6" data-duration="3.6" data-track-index="1">
+      <!-- 3. Harita yakın: köşe (6.8 - 9.6) -->
+      <div id="s3" class="scene clip" data-start="6.8" data-duration="2.8" data-track-index="1" style="background: var(--koyu)">
+        <div class="safe">
+          <div class="kicker" id="s3-kicker">HARİTADA</div>
+          <h1 class="big" id="s3-title" style="margin-top: 20px; font-size: 92px">CUMHURİYET VE<br /><span style="color: var(--altin)">İNÖNÜ CADDESİ</span><br />KÖŞESİ</h1>
+        </div>
+        <div class="mapcard" id="map1" style="top: 720px; left: 190px; width: 700px">
+          <img src="assets/harita-yakin.jpg" />
+          <div class="credit">Harita: Google</div>
+          <div class="ring" id="ring1" style="left: 27%; top: 52%"></div>
+        </div>
+      </div>
+
+      <!-- 4. Harita çarşı (9.6 - 12.2) -->
+      <div id="s4" class="scene clip" data-start="9.6" data-duration="2.6" data-track-index="1" style="background: var(--koyu)">
+        <div class="safe">
+          <div class="kicker" id="s4-kicker">TARİHİ ÇARŞININ GÖBEĞİNDE</div>
+          <h1 class="big" id="s4-title" style="margin-top: 20px; font-size: 88px">KOZA HAN VE<br />ULU CAMİ'YE<br /><span style="color: var(--altin)">YÜRÜME MESAFESİ</span></h1>
+        </div>
+        <div class="mapcard" id="map2" style="top: 800px">
+          <img src="assets/harita-carsi.jpg" />
+          <div class="credit">Harita: Google</div>
+          <div class="ring" id="ring2" style="left: 59%; top: 26%"></div>
+        </div>
+      </div>
+
+      <!-- 5. Raf: ürün (12.2 - 15.2) -->
+      <div id="s5" class="scene clip" data-start="12.2" data-duration="3" data-track-index="1">
         <div class="photo" id="raf" style="inset: 0; background-image: url('assets/raf.jpg'); background-position: 50% 60%"></div>
         <div class="shade" style="background: linear-gradient(180deg, rgba(42,23,10,0.92) 0%, rgba(42,23,10,0.6) 34%, rgba(42,23,10,0) 55%, rgba(42,23,10,0.2) 80%, rgba(42,23,10,0.7) 100%)"></div>
         <div class="safe">
-          <div class="kicker" id="s3-kicker">RAFTA SİZİ BEKLİYOR</div>
-          <h1 class="big" id="s3-title" style="margin-top: 24px; font-size: 112px">TAŞ<br />DEĞİRMENDE,<br /><span style="color: var(--altin)">SADECE SUSAM</span></h1>
-          <div id="s3-sizes" style="margin-top: 34px">
+          <div class="kicker" id="s5-kicker">RAFTA SİZİ BEKLİYOR</div>
+          <h1 class="big" id="s5-title" style="margin-top: 24px; font-size: 112px">TAŞ<br />DEĞİRMENDE,<br /><span style="color: var(--altin)">SADECE SUSAM</span></h1>
+          <div id="s5-sizes" style="margin-top: 34px">
             <span class="pill" style="background: var(--kirmizi); color: var(--krem); font-size: 50px; padding: 16px 28px">500 g ve 1 kg</span>
           </div>
         </div>
       </div>
 
-      <!-- 4. Şehir dışı (11.2 - 13.8) -->
-      <div id="s4" class="scene clip" data-start="11.2" data-duration="2.6" data-track-index="1" style="background: var(--krem)">
-        <div class="safe" style="top: 330px">
-          <div class="kicker" id="s4-kicker" style="color: var(--kirmizi)">BURSA DIŞINDA MISINIZ?</div>
-          <h1 class="big" id="s4-title" style="margin-top: 24px; color: var(--kahve); font-size: 112px">SORUN<br />DEĞİL.</h1>
-          <div id="s4-sub" style="margin-top: 34px; font-weight: 900; font-size: 64px; line-height: 1.05; color: var(--kahve)">Türkiye'nin<br /><span style="color: var(--kirmizi)">her iline</span><br />gönderiyoruz.</div>
-        </div>
-      </div>
-
-      <!-- 5. Kapanış (13.8 - 17) -->
-      <div id="s5" class="scene clip" data-start="13.8" data-duration="3.2" data-track-index="1" style="background: var(--krem)">
+      <!-- 6. Kapanış (15.2 - 18.6) -->
+      <div id="s6" class="scene clip" data-start="15.2" data-duration="3.4" data-track-index="1" style="background: var(--krem)">
         <div class="photo" id="sira" style="inset: 0; background-image: url('assets/sira.jpg'); background-position: 30% 50%"></div>
         <div class="shade" style="background: linear-gradient(180deg, rgba(246,236,217,0.97) 0%, rgba(246,236,217,0.9) 45%, rgba(246,236,217,0.55) 70%, rgba(246,236,217,0.2) 100%)"></div>
         <div class="safe">
-          <div id="s5-brand" style="font-weight: 900; font-size: 120px; line-height: 0.9; color: var(--kirmizi); letter-spacing: -3px">AZİZ<br />TAHİN</div>
-          <div class="serif" id="s5-tag" style="font-size: 56px; margin-top: 18px; color: var(--kahve)">Bursa'dan, taş değirmenden.</div>
-          <div id="s5-cta" style="margin-top: 64px">
+          <div id="s6-map" style="font-weight: 900; font-size: 64px; line-height: 1.05; color: var(--kahve)">Haritada<br /><span style="color: var(--kirmizi)">"Aziz Tahin"</span> yazın.</div>
+          <div id="s6-cta" style="margin-top: 56px">
             <span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 64px; line-height: 1.12; padding: 30px 38px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span>
           </div>
-          <div id="s5-handle" style="margin-top: 36px; font-weight: 700; font-size: 44px; color: var(--kirmizi)">@aziz.tahin</div>
+          <div id="s6-ship" style="margin-top: 40px; font-weight: 700; font-size: 44px; color: var(--kahve)">Türkiye'nin her iline gönderim</div>
+          <div id="s6-handle" style="margin-top: 14px; font-weight: 700; font-size: 44px; color: var(--kirmizi)">@aziz.tahin</div>
         </div>
       </div>
 
@@ -110,39 +133,47 @@
           const pop = { ease: "back.out(1.7)", duration: 0.5 };
 
           // 1. dükkân
-          tl.fromTo("#dukkan", { scale: 1.12 }, { scale: 1.0, duration: 3.6, ease: "power1.out" }, 0);
+          tl.fromTo("#dukkan", { scale: 1.12 }, { scale: 1.0, duration: 3.4, ease: "power1.out" }, 0);
           tl.fromTo("#s1-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3 }, 0);
           tl.fromTo("#s1-title", { opacity: 0, scale: 0.9, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, 0.15);
 
           // 2. konum
-          const t2 = 3.6;
-          tl.fromTo("#tramvay", { scale: 1.15, x: -30 }, { scale: 1.05, x: 0, duration: 4, ease: "power1.out" }, t2);
+          const t2 = 3.4;
+          tl.fromTo("#tramvay", { scale: 1.15, x: -30 }, { scale: 1.05, x: 0, duration: 3.4, ease: "power1.out" }, t2);
           tl.fromTo("#s2-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t2 + 0.05);
           tl.fromTo("#s2-title", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ...pop }, t2 + 0.15);
           tl.fromTo("#s2-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t2 + 0.8);
-          tl.fromTo("#pin", { y: -400, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "bounce.out" }, t2 + 1.2);
 
-          // 3. raf
-          const t3 = 7.6;
-          tl.fromTo("#raf", { scale: 1.25 }, { scale: 1.05, duration: 3.6, ease: "power1.out" }, t3);
+          // 3. harita yakın
+          const t3 = 6.8;
           tl.fromTo("#s3-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t3 + 0.05);
-          tl.fromTo("#s3-title", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, t3 + 0.15);
-          tl.fromTo("#s3-sizes", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t3 + 0.9);
+          tl.fromTo("#s3-title", { opacity: 0, y: 40 }, { opacity: 1, y: 0, ...pop }, t3 + 0.1);
+          tl.fromTo("#map1", { opacity: 0, y: 120, rotation: -3 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: "back.out(1.3)" }, t3 + 0.2);
+          tl.fromTo("#ring1", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)" }, t3 + 0.9);
+          tl.to("#ring1", { scale: 1.2, opacity: 0.4, duration: 0.45, yoyo: true, repeat: 2, ease: "sine.inOut" }, t3 + 1.4);
 
-          // 4. şehir dışı
-          const t4 = 11.2;
+          // 4. harita çarşı
+          const t4 = 9.6;
           tl.fromTo("#s4-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t4 + 0.05);
-          tl.fromTo("#s4-title", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t4 + 0.2);
-          tl.fromTo("#s4-sub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" }, t4 + 0.7);
+          tl.fromTo("#s4-title", { opacity: 0, y: 40 }, { opacity: 1, y: 0, ...pop }, t4 + 0.1);
+          tl.fromTo("#map2", { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.7, ease: "power3.out" }, t4);
+          tl.fromTo("#ring2", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)" }, t4 + 0.7);
 
-          // 5. kapanış
-          const t5 = 13.8;
-          tl.fromTo("#sira", { scale: 1.15 }, { scale: 1.0, duration: 3.2, ease: "power1.out" }, t5);
-          tl.fromTo("#s5-brand", { opacity: 0, y: 50 }, { opacity: 1, y: 0, ...pop }, t5 + 0.05);
-          tl.fromTo("#s5-tag", { opacity: 0 }, { opacity: 1, duration: 0.4 }, t5 + 0.45);
-          tl.fromTo("#s5-cta", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t5 + 0.8);
-          tl.to("#s5-cta", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, t5 + 1.5);
-          tl.fromTo("#s5-handle", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t5 + 1.2);
+          // 5. raf
+          const t5 = 12.2;
+          tl.fromTo("#raf", { scale: 1.25 }, { scale: 1.05, duration: 3, ease: "power1.out" }, t5);
+          tl.fromTo("#s5-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t5 + 0.05);
+          tl.fromTo("#s5-title", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, t5 + 0.15);
+          tl.fromTo("#s5-sizes", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t5 + 0.8);
+
+          // 6. kapanış
+          const t6 = 15.2;
+          tl.fromTo("#sira", { scale: 1.15 }, { scale: 1.0, duration: 3.4, ease: "power1.out" }, t6);
+          tl.fromTo("#s6-map", { opacity: 0, y: 40 }, { opacity: 1, y: 0, ...pop }, t6 + 0.05);
+          tl.fromTo("#s6-cta", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t6 + 0.6);
+          tl.to("#s6-cta", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, t6 + 1.3);
+          tl.fromTo("#s6-ship", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t6 + 0.95);
+          tl.fromTo("#s6-handle", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t6 + 1.1);
 
           window.__timelines = window.__timelines || {};
           window.__timelines["bursa-dukkan"] = tl;
