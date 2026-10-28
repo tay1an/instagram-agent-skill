@@ -134,8 +134,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-28.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Yeni ballar | Actions kapalı olduğu için geç paylaşıldı"
+      "durum": "yayinlandi",
+      "not": "Yeni ballar | Actions kapalı olduğu için geç paylaşıldı",
+      "medya_id": "18132446479749752",
+      "yayin_zamani": "2026-10-28 11:28"
     },
     {
       "id": "2026-10-28-tarif-3",
