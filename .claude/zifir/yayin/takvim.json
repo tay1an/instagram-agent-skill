@@ -408,6 +408,27 @@
       "kapak": ".claude/zifir/medya/13-kalbim-kapak.jpg",
       "aciklama": "\"kalbim yerinde yanımda senin yerin\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-14-hikaye-v19-lamba",
+      "tur": "hikaye",
+      "zaman": "2026-11-14 18:00",
+      "medya": [
+        ".claude/zifir/medya/hikaye/v19-lamba.mp4"
+      ],
+      "durum": "bekliyor",
+      "tiktok_aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir"
+    },
+    {
+      "id": "2026-11-14-reel-19-capa-lamba",
+      "tur": "reel",
+      "zaman": "2026-11-14 22:00",
+      "medya": [
+        ".claude/zifir/medya/19-capa-lamba.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/19-capa-lamba-kapak.jpg",
+      "aciklama": "\"oysa seni sana anlatan ben idim\nben eğer yok isem sen de olmazsın dedim\nyan yana ağacız gölge yeter bize\nköklerini versene\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
     }
   ]
 }

@@ -18,5 +18,5 @@ ig-* skill'leri `~/.claude/instagram/voice.md`, `plan.md`, `log.md`,
 | `yayin/KURULUM.md` | Meta uygulaması ve GitHub anahtarlarının kurulumu |
 | `medya/` | reel videoları ve kapakları |
 | `medya/hikaye/` | hikâye görselleri |
-| `stok/` | kapak ve hikâyelerde kullanılan fotoğraflar (Pexels, ücretsiz lisans) |
+| `stok/` | kapak ve hikâyelerde kullanılan fotoğraflar (Pexels, ücretsiz lisans; `09-lamba` kullanıcının kendi fotoğrafı, insansız: yalnızca videoda, kapak insanlı fotoğraftan) |
 | `uretici/` | videoları, kapakları ve hikâyeleri üreten betikler, fontlar, şarkı ve zamanlı sözler |

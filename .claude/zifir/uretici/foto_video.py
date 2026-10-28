@@ -3,7 +3,7 @@ film greni, şarkıyla akan sözler ve künye.
 
 Kullanım: foto_video.py <foto> <çıktı.mp4> <başlangıç sn> <filtre> <merkez_x 0-1>
                         [yakınlaştırma] [merkez_y 0-1] [süre sn] [hikaye]
-Filtreler kapak_foto.py ile aynıdır. "hikaye" verilirse künyeye "SPOTIFY'DA" eklenir
+Filtreler kapak_foto.py ile aynıdır; "dogal" fotoğrafın kendi renklerini korur. "hikaye" verilirse künyeye "SPOTIFY'DA" eklenir
 ve sözler Instagram hikâye arayüzünden uzak, ekranın ortasına yazılır.
 """
 import os
@@ -42,11 +42,14 @@ def hazirla(foto, ton, mx, zoom, my):
     x0 = int(min(max(mx * w - cw / 2, 0), w - cw)); y0 = int(min(max(my * h - ch / 2, 0), h - ch))
     im = im.crop((x0, y0, x0 + cw, y0 + ch)).resize((bw, bh), Image.LANCZOS)
     o = np.asarray(im).astype(np.float32)
-    g, i, k = FILTRE[ton]
-    L = (o @ np.array([0.299, 0.587, 0.114], np.float32))[..., None] / 255
-    L = np.clip((L - 0.5) * 1.3 + 0.5, 0, 1) ** (1.15 + (0.6 - k))
-    a = (np.array(g, np.float32) * (1 - L) + np.array(i, np.float32) * L) * (0.35 + 0.65 * k)
-    a = a * 0.8 + o * 0.2 * k
+    if ton == "dogal":  # kendi renkleri güzel olan fotoğraflar: yalnızca hafif karartma
+        a = o * 0.9
+    else:
+        g, i, k = FILTRE[ton]
+        L = (o @ np.array([0.299, 0.587, 0.114], np.float32))[..., None] / 255
+        L = np.clip((L - 0.5) * 1.3 + 0.5, 0, 1) ** (1.15 + (0.6 - k))
+        a = (np.array(g, np.float32) * (1 - L) + np.array(i, np.float32) * L) * (0.35 + 0.65 * k)
+        a = a * 0.8 + o * 0.2 * k
     yy, xx = np.mgrid[0:bh, 0:bw].astype(np.float32)
     a *= np.clip(1.25 - 0.85 * (((xx - bw / 2) / (bw * .7)) ** 2 + ((yy - bh / 2) / (bh * .62)) ** 2), 0.25, 1)[..., None]
     a *= np.clip(0.5 + (yy / bh) / 0.55 * 0.5, 0.5, 1)[..., None]  # üstü biraz koyulaştır
