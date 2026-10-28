@@ -34,6 +34,11 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 
 ## Eğilimler (henüz kesin değil)
 
+- **Saat:** 22:07'de çıkan 01-anlatan 1142 izlenme (9,9x, 27 Ekim raporu); hedef kitle gece
+  geç saatte dinleyen. 28 Ekim'den itibaren reel 22:00, hikâye 18:00 (Instagram'da 24 saat
+  kalır; TikTok'ta akşam yoğunluğuna denk gelir). Her analizde saat etkisine bak; reel'leri
+  21:00-23:00 arasında kaydırarak dene, bir seferde tek fark.
+
 - 2. nakarat başı ("Oysa seni sana anlatan ben idim") güçlü kanca.
 - İlk saniyeler zayıf: ort. izlenme 4,8 / 15 sn.
 
@@ -43,7 +48,7 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 | --- | --- | --- | --- | --- |
 | 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |
 | 8 Kasım | Uzun reel | ikinci kıta + nakarat, 54 sn (18-kita2) | ort. izlenme süresi, kaydetme, paylaşma | bekleniyor |
-| 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler | kat, ort. izlenme | bekleniyor |
+| 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler (27 Ekim'deki 03-kalp 20:30'da, diğerleri 22:00'de; karşılaştırmada 03'ü ayrı tut) | kat, ort. izlenme | bekleniyor |
 
 ## Kullanıcıdan beklenenler
 

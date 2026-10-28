@@ -1,12 +1,12 @@
 # Plan: Zifir
 
-Her gün **13:00 hikâye** (15 sn şarkılı video) + **20:30 reel**. Instagram'da otomatik
+Her gün **18:00 hikâye** (15 sn şarkılı video) + **22:00 reel** (28 Ekim'e kadar 13:00 ve 20:30). Instagram'da otomatik
 (`Zifir yayın` iş akışı, `yayin/takvim.json`). Aynı reel TikTok gelen kutusuna taslak
 paylaşım saatinden 45 dk önce gider (`Zifir TikTok takvim`, `yayin/tiktok.json`); açıklamayı
-kullanıcı ekleyip aynı saatte paylaşır. 28 Ekim'den itibaren 13:00 hikâye videosu da
+kullanıcı ekleyip aynı saatte paylaşır. 28 Ekim'den itibaren hikâye videosu da
 TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`).
 
-| tarih | hikâye (13:00) | reel (20:30) |
+| tarih | hikâye (18:00) | reel (22:00) |
 | --- | --- | --- |
 | 2026-10-26 | h0-ozune | 01-anlatan |
 | 2026-10-27 | v01-yuk-olur | 03-kalp |
@@ -37,7 +37,7 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
   (ve varsa yeni şarkı) istenir.
 
 ## Sıradaki karar (4 Kasım analizi)
-Hikâye videoları Instagram'da 13:00'te reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).
+Hikâye videoları Instagram'da 18:00'de reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).
 "Çizim mi fotoğraf mı" deneyi bozulmasın diye 4 Kasım analizinden sonra başlar;
 her biri için `kapak_foto.py` ile insanlı, sözlü kapak üretilir.
 
