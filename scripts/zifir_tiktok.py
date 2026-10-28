@@ -91,7 +91,7 @@ def yukle(video):
         print(f"Durum: {durum}", flush=True)
         if durum == "SEND_TO_USER_INBOX":
             print("Taslak TikTok gelen kutusunda: uygulamadaki bildirimden açıp paylaşabilirsin.")
-            return
+            return d["publish_id"]
         if durum == "FAILED":
             raise ApiHatasi(f"yükleme başarısız: {s.get('fail_reason')}")
     raise ApiHatasi("durum 5 dakikada netleşmedi")
@@ -113,7 +113,7 @@ def takvim(takvim_yolu, durum_yolu):
         print(f"Gönderiliyor: {p['id']}", flush=True)
         kayit = durum[p["id"]] = {"durum": "hata", "zaman": simdi.strftime("%Y-%m-%d %H:%M")}
         try:
-            yukle(p["medya"][0])  # hata olursa tekrar denenmez; kayıttan silinince yeniden gider
+            kayit["publish_id"] = yukle(p["medya"][0])  # hata olursa tekrar denenmez; kayıttan silinince yeniden gider
             kayit["durum"] = "gelen-kutusunda"
         finally:
             with open(durum_yolu, "w") as f:
