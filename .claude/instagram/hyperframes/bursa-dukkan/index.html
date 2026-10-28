@@ -69,8 +69,7 @@
         <div class="shade" style="background: linear-gradient(180deg, rgba(20,10,4,0.9) 0%, rgba(20,10,4,0.55) 38%, rgba(20,10,4,0.1) 60%, rgba(20,10,4,0.6) 100%)"></div>
         <div class="safe">
           <div class="kicker" id="s2-kicker">ADRESİMİZ</div>
-          <h1 class="big" id="s2-title" style="margin-top: 24px; font-size: 104px">YİĞİT KÖHNE<br />CAMİİ'NİN<br /><span style="color: var(--altin)">KARŞISINDA</span></h1>
-          <div class="serif" id="s2-sub" style="margin-top: 26px; font-size: 56px; line-height: 1.15">Cumhuriyet Caddesi'nin<br />girişinde, Bursa.</div>
+          <h1 class="big" id="s2-title" style="margin-top: 24px; font-size: 104px"><span style="color: var(--altin)">TARİHİ</span><br />YİĞİT KÖHNE<br />CAMİİ'NİN<br />KARŞISINDA</h1>
         </div>
       </div>
 
@@ -78,7 +77,7 @@
       <div id="s3" class="scene clip" data-start="6.8" data-duration="2.8" data-track-index="1" style="background: var(--koyu)">
         <div class="safe">
           <div class="kicker" id="s3-kicker">HARİTADA</div>
-          <h1 class="big" id="s3-title" style="margin-top: 20px; font-size: 92px">CUMHURİYET VE<br /><span style="color: var(--altin)">İNÖNÜ CADDESİ</span><br />KÖŞESİ</h1>
+          <h1 class="big" id="s3-title" style="margin-top: 20px; font-size: 100px">CUMHURİYET<br />CADDESİ'NİN<br /><span style="color: var(--altin)">GİRİŞİNDE</span></h1>
         </div>
         <div class="mapcard" id="map1" style="top: 720px; left: 190px; width: 700px">
           <img src="assets/harita-yakin.jpg" />
@@ -90,8 +89,8 @@
       <!-- 4. Harita çarşı (9.6 - 12.2) -->
       <div id="s4" class="scene clip" data-start="9.6" data-duration="2.6" data-track-index="1" style="background: var(--koyu)">
         <div class="safe">
-          <div class="kicker" id="s4-kicker">TARİHİ ÇARŞININ GÖBEĞİNDE</div>
-          <h1 class="big" id="s4-title" style="margin-top: 20px; font-size: 88px">KOZA HAN VE<br />ULU CAMİ'YE<br /><span style="color: var(--altin)">YÜRÜME MESAFESİ</span></h1>
+          <div class="kicker" id="s4-kicker">BULMAK ÇOK KOLAY</div>
+          <h1 class="big" id="s4-title" style="margin-top: 20px; font-size: 100px">HARİTADA<br /><span style="color: var(--altin)">"AZİZ TAHİN"</span><br />YAZIN</h1>
         </div>
         <div class="mapcard" id="map2" style="top: 800px">
           <img src="assets/harita-carsi.jpg" />
@@ -118,7 +117,8 @@
         <div class="photo" id="sira" style="inset: 0; background-image: url('assets/sira.jpg'); background-position: 30% 50%"></div>
         <div class="shade" style="background: linear-gradient(180deg, rgba(246,236,217,0.97) 0%, rgba(246,236,217,0.9) 45%, rgba(246,236,217,0.55) 70%, rgba(246,236,217,0.2) 100%)"></div>
         <div class="safe">
-          <div id="s6-map" style="font-weight: 900; font-size: 64px; line-height: 1.05; color: var(--kahve)">Haritada<br /><span style="color: var(--kirmizi)">"Aziz Tahin"</span> yazın.</div>
+          <div id="s6-map" style="font-weight: 900; font-size: 120px; line-height: 0.9; color: var(--kirmizi); letter-spacing: -3px">AZİZ<br />TAHİN</div>
+          <div class="serif" style="font-size: 56px; margin-top: 18px; color: var(--kahve)">Bursa'dan, taş değirmenden.</div>
           <div id="s6-cta" style="margin-top: 56px">
             <span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 64px; line-height: 1.12; padding: 30px 38px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span>
           </div>
@@ -142,7 +142,6 @@
           tl.fromTo("#tramvay", { scale: 1.15, x: -30 }, { scale: 1.05, x: 0, duration: 3.4, ease: "power1.out" }, t2);
           tl.fromTo("#s2-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t2 + 0.05);
           tl.fromTo("#s2-title", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ...pop }, t2 + 0.15);
-          tl.fromTo("#s2-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t2 + 0.8);
 
           // 3. harita yakın
           const t3 = 6.8;
