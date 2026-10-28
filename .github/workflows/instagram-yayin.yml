@@ -43,6 +43,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           KURU_CALISMA: ${{ inputs.kuru_calisma && '1' || '0' }}
           MEDYA_SHA: ${{ steps.sha.outputs.sha }}
+          SONUC_DOSYASI: ${{ runner.temp }}/yayin-sonuc.json
         run: python scripts/instagram_yayinla.py
 
       # ManyChat kullanıldığı için kapalı. Açmak için depo değişkeni
@@ -73,19 +74,55 @@ jobs:
           path: .yorum-durumu
           key: yorum-durumu-${{ github.run_id }}
 
+      # Yalnızca bu çalışmada değişen paylaşımlar dalın EN SON takvimine
+      # uygulanır. Böylece başka bir oturum aynı anda takvimi değiştirse bile
+      # çakışma çıkmaz ve "yayınlandı" bilgisi kaybolmaz (kaybolursa sonraki
+      # çalışma aynı paylaşımı ikinci kez yapar).
       - name: Takvimdeki durumları kaydet
         if: always()
+        env:
+          SONUC: ${{ runner.temp }}/yayin-sonuc.json
         run: |
-          dosyalar=".claude/instagram/yayin/takvim.json"
-          if git diff --quiet -- $dosyalar; then
+          takvim=".claude/instagram/yayin/takvim.json"
+          if [ ! -s "$SONUC" ] || [ "$(cat "$SONUC")" = "[]" ]; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add $dosyalar
-          git commit -m "Instagram: yayın durumu güncellendi"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          for deneme in 1 2 3 4 5; do
+            git fetch -q origin "${GITHUB_REF_NAME}"
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+            python3 - "$SONUC" "$takvim" <<'PY'
+          import json, sys
+          sonuc, yol = sys.argv[1], sys.argv[2]
+          degisen = {p["id"]: p for p in json.load(open(sonuc, encoding="utf-8"))}
+          takvim = json.load(open(yol, encoding="utf-8"))
+          alanlar = ("durum", "medya_id", "yayin_zamani", "deneme", "hata")
+          for p in takvim["paylasimlar"]:
+              yeni = degisen.get(p["id"])
+              if not yeni:
+                  continue
+              for a in alanlar:
+                  if a in yeni:
+                      p[a] = yeni[a]
+                  else:
+                      p.pop(a, None)
+          with open(yol, "w", encoding="utf-8") as f:
+              json.dump(takvim, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+          PY
+            if git diff --quiet -- "$takvim"; then
+              exit 0
+            fi
+            git commit -q -m "Instagram: yayın durumu güncellendi" -- "$takvim"
+            if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            sleep $((deneme * 5))
+          done
+          echo "::error::Yayın durumu takvime yazılamadı; aynı paylaşım ikinci kez yapılabilir."
+          cat "$SONUC"
+          exit 1
 
       - name: Hata varsa işi başarısız say
         if: steps.yayin.outcome == 'failure' || steps.yorum.outcome == 'failure'

@@ -15,8 +15,12 @@ Gereken ortam değişkenleri:
   IG_API_VERSION      varsayılan v23.0
   TAKVIM              takvim dosyası yolu
   KURU_CALISMA=1      hiçbir şey yayınlamaz, yalnızca ne yapılacağını yazar
+  SONUC_DOSYASI       bu çalışmada değişen paylaşımlar buraya da yazılır; iş
+                      akışı bunları dalın en son takvimine uygular (çakışmada
+                      yayın durumu kaybolup aynı şey ikinci kez paylaşılmasın)
 """
 
+import copy
 import json
 import os
 import subprocess
@@ -191,6 +195,7 @@ def main():
         baglanti_kontrol(os.environ["IG_ACCESS_TOKEN"])
     with open(TAKVIM, encoding="utf-8") as f:
         takvim = json.load(f)
+    ilk_hal = copy.deepcopy(takvim)
     dilim = ZoneInfo(takvim.get("saat_dilimi", "Europe/Istanbul"))
     simdi = datetime.now(dilim)
 
@@ -205,6 +210,7 @@ def main():
             time.sleep(max(0, (hedef - datetime.now(dilim)).total_seconds()) + 5)
             simdi = datetime.now(dilim)
             takvim = guncel_takvim(takvim)
+            ilk_hal = copy.deepcopy(takvim)
 
     zamani_gelen = []
     for p in takvim["paylasimlar"]:
@@ -223,7 +229,7 @@ def main():
     if not zamani_gelen:
         print("Zamanı gelen paylaşım yok.")
         if not kuru:
-            yaz(takvim)
+            yaz(takvim, ilk_hal)
         return 0
 
     token = os.environ.get("IG_ACCESS_TOKEN")
@@ -255,9 +261,13 @@ def main():
             if isinstance(e, ValueError) or p["deneme"] >= EN_FAZLA_DENEME:
                 p["durum"] = "hata"
             print(f"HATA     {p['id']}: {e}", file=sys.stderr)
+        # Her paylaşımdan hemen sonra kaydet: iş sonraki paylaşımda beklenmedik
+        # biçimde çökerse yapılan paylaşımın durumu kaybolmasın.
+        if not kuru:
+            yaz(takvim, ilk_hal)
 
     if not kuru:
-        yaz(takvim)
+        yaz(takvim, ilk_hal)
     return 1 if hata_var else 0
 
 
@@ -277,7 +287,13 @@ def guncel_takvim(takvim):
         return takvim
 
 
-def yaz(takvim):
+def yaz(takvim, ilk_hal=None):
+    sonuc = os.environ.get("SONUC_DOSYASI")
+    if sonuc and ilk_hal is not None:
+        once = {p["id"]: p for p in ilk_hal["paylasimlar"]}
+        degisen = [p for p in takvim["paylasimlar"] if once.get(p["id"]) != p]
+        with open(sonuc, "w", encoding="utf-8") as f:
+            json.dump(degisen, f, ensure_ascii=False, indent=2)
     with open(TAKVIM, "w", encoding="utf-8") as f:
         json.dump(takvim, f, ensure_ascii=False, indent=2)
         f.write("\n")
