@@ -130,12 +130,12 @@
     {
       "id": "2026-10-28-hikaye-sabah",
       "tur": "hikaye",
-      "zaman": "2026-10-28 09:00",
+      "zaman": "2026-10-28 11:21",
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-28.jpg"
       ],
-      "durum": "elle",
-      "not": "Yeni ballar | GitHub Actions kapalıydı, kullanıcıya elle paylaşım için gönderildi"
+      "durum": "bekliyor",
+      "not": "Yeni ballar | Actions kapalı olduğu için geç paylaşıldı"
     },
     {
       "id": "2026-10-28-tarif-3",
