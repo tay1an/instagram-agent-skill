@@ -201,6 +201,18 @@
       "not": "Tarifler öne çıkanına eklenecek"
     },
     {
+      "id": "2026-10-29-reel-ustteki-yag",
+      "tur": "reel",
+      "zaman": "2026-10-29 20:00",
+      "medya": [
+        ".claude/instagram/medya/reel-ustteki-yag.mp4"
+      ],
+      "kapak": ".claude/instagram/gorseller/reel-2026-10-29-kapak.jpg",
+      "aciklama": "Tahinin üstündeki yağı dökmeyin, o yağ tahinin ta kendisi.\n\nKatkısız tahinde susamın kendi yağı zamanla üste çıkar. Etiketimizde de yazar: \"Yağın üstte birikmesi normaldir.\" Kullanmadan önce kaşıkla dibe kadar iyice karıştırın, kapağını sıkıca kapatın ve serin, kuru bir yerde saklayın.\n\nBu videoyu kaydedin, kavanozu açtığınızda lazım olur. Aziz Tahin siparişi için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahin #katkısız",
+      "durum": "bekliyor",
+      "not": "Bilgi reel'i: üstteki yağ (kaydetme hedefi)"
+    },
+    {
       "id": "2026-10-30-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-10-30 09:00",
@@ -256,6 +268,18 @@
       ],
       "durum": "bekliyor",
       "not": "Hafta sonu kahvaltısı"
+    },
+    {
+      "id": "2026-10-31-reel-bursa-dukkan",
+      "tur": "reel",
+      "zaman": "2026-10-31 19:00",
+      "medya": [
+        ".claude/instagram/medya/reel-bursa-dukkan.mp4"
+      ],
+      "kapak": ".claude/instagram/gorseller/reel-2026-10-31-kapak.jpg",
+      "aciklama": "Bursa'da hakiki tahin arıyorsanız adresimiz belli: Cumhuriyet Caddesi'nin girişinde, Yiğit Köhne Camii'nin tam karşısındayız.\n\nAziz Tahin taş değirmende, yalnızca kavrulmuş susamdan öğütülür. 500 g ve 1 kg kavanozlarımız rafta sizi bekliyor; dükkânımıza bekleriz.\n\nBursa dışındaysanız sorun değil, Türkiye'nin her iline gönderiyoruz. Sipariş için bize DM'den yazın 🤎\n\n#AzizTahin #bursa #tahin",
+      "durum": "bekliyor",
+      "not": "Konum reel'i: Bursa dükkânı"
     },
     {
       "id": "2026-11-01-hikaye-sabah",

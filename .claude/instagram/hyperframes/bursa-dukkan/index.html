@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="tr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aziz Tahin - Bursa'daki dükkânımız</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Black.otf"); font-weight: 900; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Bold.otf"); font-weight: 700; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-SemiBold.otf"); font-weight: 600; }
+      @font-face { font-family: "AzizSerif"; src: url("fonts/Playfair-Italic.ttf"); font-style: italic; }
+
+      :root {
+        --krem: #f6ecd9;
+        --susam: #e3c48f;
+        --kahve: #4a2c17;
+        --koyu: #2a170a;
+        --kirmizi: #b3202a;
+        --altin: #d9a441;
+      }
+
+      html, body {
+        margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden;
+        background: var(--koyu); font-family: "AzizSans", sans-serif; color: var(--krem);
+      }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--koyu); }
+      .scene { position: absolute; inset: 0; overflow: hidden; }
+
+      /* Instagram güvenli alanı: üst 230, alt 480, sağ 230 yazısız kalır */
+      .safe { position: absolute; left: 80px; top: 260px; width: 740px; }
+
+      .kicker { font-weight: 700; font-size: 40px; letter-spacing: 6px; color: var(--altin); }
+      .big { font-weight: 900; font-size: 124px; line-height: 0.95; letter-spacing: -4px; margin: 0; }
+      .serif { font-family: "AzizSerif", serif; font-style: italic; font-weight: 400; }
+      .pill { display: inline-block; font-weight: 900; border-radius: 22px; }
+      .photo { position: absolute; background-size: cover; background-position: center; }
+      .shade { position: absolute; inset: 0; }
+      .pin {
+        position: absolute; width: 120px; height: 120px; border-radius: 50% 50% 50% 0;
+        background: var(--kirmizi); transform: rotate(-45deg); box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+      }
+      .pin:after { content: ""; position: absolute; left: 36px; top: 36px; width: 48px; height: 48px; border-radius: 50%; background: var(--krem); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="bursa-dukkan" data-width="1080" data-height="1920" data-start="0" data-duration="17">
+
+      <!-- 1. Kanca: dükkân cephesi (0 - 3.6) -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="3.6" data-track-index="1">
+        <div class="photo" id="dukkan" style="left: 0; top: 880px; width: 1080px; height: 1008px; background-image: url('assets/dukkan.jpg'); background-position: 50% 0; transform-origin: 50% 40%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(42,23,10,1) 0%, rgba(42,23,10,1) 44%, rgba(42,23,10,0.15) 58%, rgba(42,23,10,0) 70%, rgba(42,23,10,0.85) 98%)"></div>
+        <div class="safe">
+          <div class="kicker" id="s1-kicker">BURSALILAR, BURAYA BAKIN</div>
+          <h1 class="big" id="s1-title" style="margin-top: 24px">HAKİKİ<br />TAHİNİ<br /><span style="color: #ff5a4f">NEREDEN</span><br />ALIRIM?</h1>
+        </div>
+      </div>
+
+      <!-- 2. Konum: cami ve tramvay (3.6 - 7.6) -->
+      <div id="s2" class="scene clip" data-start="3.6" data-duration="4" data-track-index="1">
+        <div class="photo" id="tramvay" style="inset: 0; background-image: url('assets/tramvay.jpg'); background-position: 50% 50%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(20,10,4,0.9) 0%, rgba(20,10,4,0.55) 38%, rgba(20,10,4,0.1) 60%, rgba(20,10,4,0.6) 100%)"></div>
+        <div class="safe">
+          <div class="kicker" id="s2-kicker">ADRESİMİZ</div>
+          <h1 class="big" id="s2-title" style="margin-top: 24px; font-size: 104px">YİĞİT KÖHNE<br />CAMİİ'NİN<br /><span style="color: var(--altin)">KARŞISINDA</span></h1>
+          <div class="serif" id="s2-sub" style="margin-top: 26px; font-size: 56px; line-height: 1.15">Cumhuriyet Caddesi'nin<br />girişinde, Bursa.</div>
+        </div>
+        <div class="pin" id="pin" style="left: 460px; top: 1180px"></div>
+      </div>
+
+      <!-- 3. Raf: ürün (7.6 - 11.2) -->
+      <div id="s3" class="scene clip" data-start="7.6" data-duration="3.6" data-track-index="1">
+        <div class="photo" id="raf" style="inset: 0; background-image: url('assets/raf.jpg'); background-position: 50% 60%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(42,23,10,0.92) 0%, rgba(42,23,10,0.6) 34%, rgba(42,23,10,0) 55%, rgba(42,23,10,0.2) 80%, rgba(42,23,10,0.7) 100%)"></div>
+        <div class="safe">
+          <div class="kicker" id="s3-kicker">RAFTA SİZİ BEKLİYOR</div>
+          <h1 class="big" id="s3-title" style="margin-top: 24px; font-size: 112px">TAŞ<br />DEĞİRMENDE,<br /><span style="color: var(--altin)">SADECE SUSAM</span></h1>
+          <div id="s3-sizes" style="margin-top: 34px">
+            <span class="pill" style="background: var(--kirmizi); color: var(--krem); font-size: 50px; padding: 16px 28px">500 g ve 1 kg</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Şehir dışı (11.2 - 13.8) -->
+      <div id="s4" class="scene clip" data-start="11.2" data-duration="2.6" data-track-index="1" style="background: var(--krem)">
+        <div class="safe" style="top: 330px">
+          <div class="kicker" id="s4-kicker" style="color: var(--kirmizi)">BURSA DIŞINDA MISINIZ?</div>
+          <h1 class="big" id="s4-title" style="margin-top: 24px; color: var(--kahve); font-size: 112px">SORUN<br />DEĞİL.</h1>
+          <div id="s4-sub" style="margin-top: 34px; font-weight: 900; font-size: 64px; line-height: 1.05; color: var(--kahve)">Türkiye'nin<br /><span style="color: var(--kirmizi)">her iline</span><br />gönderiyoruz.</div>
+        </div>
+      </div>
+
+      <!-- 5. Kapanış (13.8 - 17) -->
+      <div id="s5" class="scene clip" data-start="13.8" data-duration="3.2" data-track-index="1" style="background: var(--krem)">
+        <div class="photo" id="sira" style="inset: 0; background-image: url('assets/sira.jpg'); background-position: 30% 50%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(246,236,217,0.97) 0%, rgba(246,236,217,0.9) 45%, rgba(246,236,217,0.55) 70%, rgba(246,236,217,0.2) 100%)"></div>
+        <div class="safe">
+          <div id="s5-brand" style="font-weight: 900; font-size: 120px; line-height: 0.9; color: var(--kirmizi); letter-spacing: -3px">AZİZ<br />TAHİN</div>
+          <div class="serif" id="s5-tag" style="font-size: 56px; margin-top: 18px; color: var(--kahve)">Bursa'dan, taş değirmenden.</div>
+          <div id="s5-cta" style="margin-top: 64px">
+            <span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 64px; line-height: 1.12; padding: 30px 38px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span>
+          </div>
+          <div id="s5-handle" style="margin-top: 36px; font-weight: 700; font-size: 44px; color: var(--kirmizi)">@aziz.tahin</div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const pop = { ease: "back.out(1.7)", duration: 0.5 };
+
+          // 1. dükkân
+          tl.fromTo("#dukkan", { scale: 1.12 }, { scale: 1.0, duration: 3.6, ease: "power1.out" }, 0);
+          tl.fromTo("#s1-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3 }, 0);
+          tl.fromTo("#s1-title", { opacity: 0, scale: 0.9, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, 0.15);
+
+          // 2. konum
+          const t2 = 3.6;
+          tl.fromTo("#tramvay", { scale: 1.15, x: -30 }, { scale: 1.05, x: 0, duration: 4, ease: "power1.out" }, t2);
+          tl.fromTo("#s2-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t2 + 0.05);
+          tl.fromTo("#s2-title", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ...pop }, t2 + 0.15);
+          tl.fromTo("#s2-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t2 + 0.8);
+          tl.fromTo("#pin", { y: -400, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "bounce.out" }, t2 + 1.2);
+
+          // 3. raf
+          const t3 = 7.6;
+          tl.fromTo("#raf", { scale: 1.25 }, { scale: 1.05, duration: 3.6, ease: "power1.out" }, t3);
+          tl.fromTo("#s3-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t3 + 0.05);
+          tl.fromTo("#s3-title", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, t3 + 0.15);
+          tl.fromTo("#s3-sizes", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t3 + 0.9);
+
+          // 4. şehir dışı
+          const t4 = 11.2;
+          tl.fromTo("#s4-kicker", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t4 + 0.05);
+          tl.fromTo("#s4-title", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t4 + 0.2);
+          tl.fromTo("#s4-sub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" }, t4 + 0.7);
+
+          // 5. kapanış
+          const t5 = 13.8;
+          tl.fromTo("#sira", { scale: 1.15 }, { scale: 1.0, duration: 3.2, ease: "power1.out" }, t5);
+          tl.fromTo("#s5-brand", { opacity: 0, y: 50 }, { opacity: 1, y: 0, ...pop }, t5 + 0.05);
+          tl.fromTo("#s5-tag", { opacity: 0 }, { opacity: 1, duration: 0.4 }, t5 + 0.45);
+          tl.fromTo("#s5-cta", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, t5 + 0.8);
+          tl.to("#s5-cta", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, t5 + 1.5);
+          tl.fromTo("#s5-handle", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, t5 + 1.2);
+
+          window.__timelines = window.__timelines || {};
+          window.__timelines["bursa-dukkan"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>

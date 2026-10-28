@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "historyId": "d0395f42-835d-4f76-8d65-3177b48edccb",
+  "currentRevision": "515d3dfa-cd38-497d-98d3-9722bff76d66",
+  "pendingChanges": false,
+  "files": {
+    "assets/kavanoz.jpg": {
+      "hash": "37eb18f2291661de448b16bd43d8482ae07e69e96bf29bc1ef7155c9050a178e",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/37/37eb18f2291661de448b16bd43d8482ae07e69e96bf29bc1ef7155c9050a178e"
+    },
+    "assets/sira.jpg": {
+      "hash": "32cb67edfb151f43099692c9651901161b44cb9c76eb7bc9751cb0db041f908d",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/32/32cb67edfb151f43099692c9651901161b44cb9c76eb7bc9751cb0db041f908d"
+    },
+    "fonts/InterDisplay-Black.otf": {
+      "hash": "c0ebb676933a45d73d16fea70c875f9f2b711b585c69b15962b7f2a890b5f8e8",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/c0/c0ebb676933a45d73d16fea70c875f9f2b711b585c69b15962b7f2a890b5f8e8"
+    },
+    "fonts/InterDisplay-Bold.otf": {
+      "hash": "4253eed76d9014a469d7449934e54250497ee007f4d58dab4ddefe9f759b1970",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/42/4253eed76d9014a469d7449934e54250497ee007f4d58dab4ddefe9f759b1970"
+    },
+    "fonts/InterDisplay-SemiBold.otf": {
+      "hash": "12aec2b9f93d2c7a977dad5dac3427516b15e7041b578052b0aba9f9a9b0774f",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/12/12aec2b9f93d2c7a977dad5dac3427516b15e7041b578052b0aba9f9a9b0774f"
+    },
+    "fonts/Playfair-Italic.ttf": {
+      "hash": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/a5/a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "684bd0d5c2226b5178f1de5af8857639290a98e073b418b25a99000f0f563280",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/68/684bd0d5c2226b5178f1de5af8857639290a98e073b418b25a99000f0f563280"
+    },
+    "meta.json": {
+      "hash": "bb2d598ed6ec78677c4a5d26c5e944d9245e65c668f2d7aa877e83ae3538244e",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/bb/bb2d598ed6ec78677c4a5d26c5e944d9245e65c668f2d7aa877e83ae3538244e"
+    },
+    "package.json": {
+      "hash": "621dc3bea358cbaf3014108f5779af3fb1e339a2a1c7c1f4a9649cab05367579",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/62/621dc3bea358cbaf3014108f5779af3fb1e339a2a1c7c1f4a9649cab05367579"
+    },
+    "vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    }
+  },
+  "revisions": {
+    "515d3dfa-cd38-497d-98d3-9722bff76d66": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793189653709,
+      "endedAt": 1793189653710,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/d5/d5db3423c24794bbb4621c915948609a15cc5166cdd62a205090322008aa0888",
+          "after": "/root/.cache/hyperframes/history/d0395f42-835d-4f76-8d65-3177b48edccb/blobs/68/684bd0d5c2226b5178f1de5af8857639290a98e073b418b25a99000f0f563280"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "16724f7a-d983-45ab-a365-264e98b92b14",
+      "completedAt": 1793189697079,
+      "output": "/tmp/claude-0/-home-user-instagram-agent-skill/b08adc6f-b6cc-526f-a373-ee744c42c1e3/scratchpad/ustteki-yag-raw.mp4",
+      "status": "completed",
+      "revision": "515d3dfa-cd38-497d-98d3-9722bff76d66"
+    },
+    "retainedRevisions": [
+      "515d3dfa-cd38-497d-98d3-9722bff76d66"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
