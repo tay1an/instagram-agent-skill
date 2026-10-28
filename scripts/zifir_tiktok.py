@@ -24,6 +24,7 @@ import urllib.request
 API = "https://open.tiktokapis.com/v2"
 YONLENDIRME = "https://tay1an.github.io/zifirtiktok/tiktok-giris.html"
 PARCA = 10 * 1024 * 1024
+ONCE = datetime.timedelta(minutes=45)
 
 
 class ApiHatasi(Exception):
@@ -97,14 +98,16 @@ def yukle(video):
 
 
 def takvim(takvim_yolu, durum_yolu):
-    """Son 20 saatte zamanı gelmiş, TikTok'a henüz gitmemiş en eski reel'i gönderir."""
+    """Zamanına 45 dakikadan az kalmış ya da son 20 saatte zamanı gelmiş, TikTok'a
+    henüz gitmemiş en eski reel'i gönderir. Taslak erken gelir ki kullanıcı
+    Instagram'la aynı saatte paylaşabilsin."""
     from zoneinfo import ZoneInfo
     t = json.load(open(takvim_yolu))
     simdi = datetime.datetime.now(ZoneInfo(t["saat_dilimi"])).replace(tzinfo=None)
     durum = json.load(open(durum_yolu)) if os.path.exists(durum_yolu) else {}
     for p in sorted(t["paylasimlar"], key=lambda p: p["zaman"]):
         zaman = datetime.datetime.strptime(p["zaman"], "%Y-%m-%d %H:%M")
-        if p["tur"] != "reel" or p["id"] in durum or not simdi - datetime.timedelta(hours=20) <= zaman <= simdi:
+        if p["tur"] != "reel" or p["id"] in durum or not simdi - datetime.timedelta(hours=20) <= zaman <= simdi + ONCE:
             continue
         print(f"Gönderiliyor: {p['id']}", flush=True)
         kayit = durum[p["id"]] = {"durum": "hata", "zaman": simdi.strftime("%Y-%m-%d %H:%M")}
