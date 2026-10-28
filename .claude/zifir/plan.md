@@ -27,13 +27,14 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 | 2026-11-11 | v16-alev | 09-sevgili |
 | 2026-11-12 | v17-ufuk | 12-kokler |
 | 2026-11-13 | v18-vardim | 13-kalbim |
+| 2026-11-14 | v19-lamba | 19-capa-lamba |
 
 - Aynı gün paylaşılan hikâye ile reel şarkının aynı kısmını kullanmaz.
 - 1-8 numaralı reel'ler çizim sahneli; 9-18 ve bütün video hikâyeler `stok/`
   fotoğraflarından (`uretici/foto_video.py`, plan `uretici/plan_2.py`, `plan_3.py`).
 - Video: ekstra yazı yok, yalnızca akan şarkı sözü + `ZİFİR — UZAK`.
-- **Çapa söz grubu** (dört satır) 26 Eki, 31 Eki, 4, 7, 10 Kasım; sonra da 3-4 günde bir.
-- **Malzeme 13 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
+- **Çapa söz grubu** (dört satır) 26 Eki, 31 Eki, 4, 7, 10, 14 Kasım; sonra da 3-4 günde bir.
+- **Malzeme 14 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
   (ve varsa yeni şarkı) istenir.
 
 ## Sıradaki karar (4 Kasım analizi)
