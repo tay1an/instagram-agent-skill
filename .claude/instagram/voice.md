@@ -98,6 +98,15 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 - Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
   çağrının yerine geçmez.
 
+## Kancalar (kullanıcının isteği, 28 Ekim)
+
+Her yeni reel ve carousel kapağı kanca-bankasi.md'deki bir kancayla başlar
+(ekranda en fazla 6-7 kelime, söylenmesi 3 saniyenin altında, vaadi videoda
+karşılanır). Kullanılan kanca takvimde `kanca` alanına yazılır; aynı kanca iki
+hafta üst üste kullanılmaz. Cumartesi değerlendirmesinde kanca türlerinin
+izlenme süresi ve kaydetme oranı karşılaştırılır, işe yarayan türler bankada
+öne alınır.
+
 ## Carousel kuralları (sonraki haftalar için)
 
 Carousel'ler çok dikkat çekici, satış odaklı ve merak uyandırıcı olur; amaç
