@@ -24,7 +24,7 @@ import urllib.request
 API = "https://open.tiktokapis.com/v2"
 YONLENDIRME = "https://tay1an.github.io/zifirtiktok/tiktok-giris.html"
 PARCA = 10 * 1024 * 1024
-ONCE = datetime.timedelta(minutes=45)
+ONCE = datetime.timedelta(hours=10)  # TikTok gelen kutusu bildirimi saatlerce gecikebiliyor
 
 
 class ApiHatasi(Exception):
@@ -98,7 +98,7 @@ def yukle(video):
 
 
 def takvim(takvim_yolu, durum_yolu):
-    """Zamanına 45 dakikadan az kalmış ya da son 20 saatte zamanı gelmiş, TikTok'a
+    """Zamanına 10 saatten az kalmış ya da son 20 saatte zamanı gelmiş, TikTok'a
     henüz gitmemiş en eski reel'i ya da video hikâyeyi gönderir. Taslak erken gelir ki kullanıcı
     Instagram'la aynı saatte paylaşabilsin."""
     from zoneinfo import ZoneInfo

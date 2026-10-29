@@ -1,7 +1,8 @@
 name: Zifir TikTok takvim
 
 # Instagram takviminde (yayin/takvim.json) zamanı gelen reel'i ve video hikâyeyi TikTok gelen
-# kutusuna, paylaşım saatinden en çok 45 dk önce taslak olarak gönderir; kullanıcı
+# kutusuna, paylaşım saatinden en çok 10 saat önce taslak olarak gönderir (bildirim
+# saatlerce gecikebiliyor); kullanıcı
 # uygulamadan açıklamayı ekleyip Instagram'la aynı saatte paylaşır.
 # Gönderilenler yayin/tiktok.json'a yazılır, aynı reel ikinci kez gitmez.
 on:
