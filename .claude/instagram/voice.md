@@ -111,6 +111,17 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   Yeni hafta planlanırken takvimde dolu olan günlere dokunulmaz, yalnızca boş
   günler doldurulur.
 
+## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
+
+- Bundan sonraki bütün reel'lerde arka plan sesi olarak Aziz Tahin
+  jingle'larından biri kullanılır: medya/muzik/jingle-1.m4a ve jingle-2.m4a
+  (kullanıcının kendi şarkıları, ~2,5 dk). Her reel'de biri seçilir, sırayla
+  değişir (1, 2, 1, 2...). Kullanılan jingle takvimde `jingle` alanına yazılır.
+- Videoya eklemek için: `.claude/instagram/yayin/jingle-ekle.sh girdi.mp4 cikti.mp4`
+  (görüntü yeniden üretilmez, yalnızca ses eklenir; sonda yumuşak kısılma).
+  Şarkının hangi saniyesinden başlanacağı medya/muzik/jingle-N.txt'de yazar.
+- Zaten paylaşılmış reel'lere dokunulmaz.
+
 ## Kancalar (kullanıcının isteği, 28 Ekim)
 
 Her yeni reel ve carousel kapağı kanca-bankasi.md'deki bir kancayla başlar
