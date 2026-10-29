@@ -119,9 +119,45 @@ Kaynak: kullanıcının gönderdiği "daima çalışan kanca başlıklar" reel'i
 - Kış gelmeden kilere bir kavanoz tahin.
 - Ramazan sofrası için tahin-pekmez hazır mı? *(zamanı gelince)*
 
+## C. Şablon listesinden seçilenler (kullanıcının gönderdiği liste, 29 Ekim)
+
+Kaynak: Beren İrem Öncü'nün kanca şablonları (carousel, 2-4. sayfalar). Tahine
+uyan şablonlar seçildi, "siz" hitabına ve doğrulanmış bilgilere çevrildi.
+Bu bölümdekiler gelecek haftalarda **öncelikli** kullanılır.
+
+| şablon | Aziz Tahin versiyonu | içerik |
+| --- | --- | --- |
+| [Sonuca] ulaşmak istiyorsan bu hatayı acilen bırak | **Tahininiz ipek gibi kalsın istiyorsanız bu hatayı bırakın.** | yağı dökmeyin, karıştırın |
+| [Konu] hakkında söylenen en büyük yalan | **Tahin hakkında en büyük yanlış: "Yağı ayrıldıysa bozulmuştur."** | üstteki yağ |
+| Neden hâlâ [problemi] yaşadığınızı biliyor musunuz? | **Tahin neden kavanozun dibinde sertleşir, biliyor musunuz?** | karıştırma, saklama |
+| Bunu öğrenene kadar [eski inanç] sanıyordum | **Bunu öğrenene kadar tahinin sadece helvalık olduğunu sanıyordum.** | tarif serisi |
+| [Popüler tavsiye] vakit kaybı, sebebi şu | **Tahini buzdolabına koymanıza gerek yok. Sebebi şu:** | saklama (serin, kuru yer; soğukta sertleşir) |
+| Eğer [kitle] isen bu videoyu kaydet | **Kahvaltıyı seviyorsanız bu videoyu kaydedin.** | tahin-pekmez, ballı tahin |
+| [Zor görünen hedef] sandığınız kadar zor değil | **Evde humus yapmak sandığınız kadar zor değil.** | humus tarifi |
+| Bu tek hamleyle [sonucu] değiştirdim | **Tek kaşık tahin, sade yoğurdu bambaşka yapıyor.** | önce / sonra |
+| [Sonuç] için bu basit kuralı sakın atlamayın | **Tahinli tariflerde bu kuralı atlamayın: önce dibe kadar karıştırın.** | tarif başları |
+| Neden kimse [gizli gerçek] hakkında konuşmuyor? | **Neden kimse susamın kavrulmasından bahsetmiyor?** | taş değirmen, kavurma |
+| Sürekli [sorun] ile boğuşuyorsanız çözüm bu videoda | **Kahvaltıda hep aynı şeylerden sıkıldıysanız çözüm bu videoda.** | kahvaltı tarifleri |
+| [Kötü sonuç] istemiyorsanız şu hatayı bırakın | **Tahininiz sertleşmesin istiyorsanız şu hatayı bırakın.** | kapağı açık bırakmak, karıştırmamak |
+| Sadece [basit araç] ile [sonuç] | **Sadece 3 malzeme: tahin, bal, tarçın.** | ballı tahin |
+| [Göz korkutan hedef] sizi durdurmasın | **Fırınla aranız iyi değilse bu tatlı fırınsız.** | enerji topları |
+| [Doğru sanılan yanlış]. Doğrusu şu... | **Tahinin yağını dökmek doğru sanılır. Doğrusu şu:** | üstteki yağ |
+| [Para/zaman] israfını bitiren yöntem | **Kavanozun dibindeki tahini atmayın, son kaşığa kadar kullanın.** | dipte kalanla tarif |
+| [Durumdaysanız] bu videoyu geçmeyin | **Evde yarım kavanoz tahin varsa bu videoyu geçmeyin.** | tarif |
+| Kimse size [gerçeği] anlatmıyor | **Kimse size tahin seçmeyi anlatmıyor: önce etiketi okuyun.** | içindekiler: susam |
+| Hâlâ [eski yöntem] mi kullanıyorsunuz? | **Kahvaltıda hâlâ sadece reçel mi?** | tahin-pekmez |
+| Sıradan sonuçlardan sıkıldıysanız bu kuralı uygulayın | **Sıradan salata sosundan sıkıldıysanız tahinli sosu deneyin.** | tahin yağı / sos |
+| Bugün sıfırdan başlasaydım şu adımları izlerdim | **Tahinle yemeğe bugün başlasaydım ilk bu tarifi denerdim.** | en kolay tarif |
+
+**Seçilmeyenler ve nedeni:** "rakiplerinin önüne geçiren detay" (rakip kıyası
+yasak); "sektörde aranan unvan", "en başarılı unvanların sırrı" (iş/kariyer
+şablonu, tahine uymuyor); "kısa sürede büyük başarı", "bir ayda büyük sonuç",
+"sonucu ikiye katladım", "ölçülebilir sonucu anında artır" (uydurma rakam ve
+abartı vaadi gerekir); "gereksiz metrik yerine..." (pazarlama dili).
+
 ## Kullanım sırası (önerilen)
 
-- **Reel:** A listesinden bir merak cümlesi + B'den kanıt (terazi, etiket, kıvam).
+- **Reel:** önce C bölümünden (öncelikli), sonra A'dan bir merak cümlesi + B'den kanıt (terazi, etiket, kıvam).
 - **Carousel kapağı:** numaralı liste, "kaydedin" ya da itiraz cümlesi.
 - **Hikâye:** soru ya da karşılaştırma (anket çıkartmasıyla).
 - Her hafta en az bir **"İzleyerek başlama"** (kıvam) reel'i: hesabın en çok
