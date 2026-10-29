@@ -89,7 +89,8 @@
       "durum": "yayinlandi",
       "not": "Ne var, ne yok | API engeli yüzünden geç paylaşıldı",
       "medya_id": "18025827566927058",
-      "yayin_zamani": "2026-10-26 20:33"
+      "yayin_zamani": "2026-10-26 20:33",
+      "kanca": "Bir kavanoz tahinde ne var, ne yok? (merak sorusu)"
     },
     {
       "id": "2026-10-26-hikaye-aksam",
@@ -168,7 +169,8 @@
       "durum": "yayinlandi",
       "not": "5 tarif",
       "medya_id": "18087631661331485",
-      "yayin_zamani": "2026-10-28 19:01"
+      "yayin_zamani": "2026-10-28 19:01",
+      "kanca": "Kaydırın, kaydedin: 5 tarif (kaydet çağrısı)"
     },
     {
       "id": "2026-10-28-reel-terazi",
@@ -267,7 +269,8 @@
       ],
       "aciklama": "Tahin yağı rafta duruyor ama çoğu kişi ne yapacağını bilmiyor.\n\nBizim mutfakta kullandığımız 5 yol: salata sosu, humus ve mezelerin üstü, tuzla sıcak ekmek, balla kahvaltılık ve çorbalara son dokunuş. Dördüncüsü kahvaltı sofranızın yeni favorisi olabilir.\n\nAziz Tahin Yağı siparişi için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahinyağı #susamyağı",
       "durum": "bekliyor",
-      "not": "Tahin yağının 5 kullanım yolu"
+      "not": "Tahin yağının 5 kullanım yolu",
+      "kanca": "Tahin yağını kullanmanın 5 yolu, 4. maddeyi çok az kişi deniyor (numaralı liste, favoriyle)"
     },
     {
       "id": "2026-10-31-hikaye-sabah",
@@ -317,7 +320,8 @@
       ],
       "aciklama": "Aziz Tahin'i nereden alırım diye soranlar için kısa bir rehber.\n\nTaş değirmende öğütülen %100 susam tahinimiz, tahin yağımız, %100 doğal zeytinyağımız ve Munzur ve Ahlat ballarımız; Bursa'daki dükkanımızda, Trendyol mağazamızda ve aziztahin.com'da. Türkiye'nin her iline gönderiyoruz.\n\nEn hızlı yol: bize DM'den yazın, siparişinizi hemen hazırlayalım 🤎\n\n#AzizTahin #tahin #bursa",
       "durum": "bekliyor",
-      "not": "Nasıl sipariş verilir"
+      "not": "Nasıl sipariş verilir",
+      "kanca": "Aziz Tahin sofranıza nasıl gelir? (soru)"
     }
   ]
 }
