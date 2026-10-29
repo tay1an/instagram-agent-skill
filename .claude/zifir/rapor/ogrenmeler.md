@@ -39,8 +39,12 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
   kalır; TikTok'ta akşam yoğunluğuna denk gelir). Her analizde saat etkisine bak; reel'leri
   21:00-23:00 arasında kaydırarak dene, bir seferde tek fark.
 
-- 2. nakarat başı ("Oysa seni sana anlatan ben idim") güçlü kanca.
-- İlk saniyeler zayıf: ort. izlenme 4,8 / 15 sn.
+- **Güçlü kısım:** 1. kıta sonu + 1. nakarat başı (47-74 sn: "Ardında ne parçam ne de ben
+  varım / Özüne karışmışım / Oysa seni sana anlatan ben idim"). En iyi iki reel bu kısımdan
+  (29 Ekim: "ardında" 1405 izlenme, 10 kaydetme; "oysa" 1257, 8 kaydetme). Kaydetme/erişim
+  ikisinde de ~%0,8. Takvimde bu kısım 2 Kasım (08-ardinda) ve çapa reel'lerinde (4, 7, 14 Kasım) var.
+- **İlk saniyeler zayıf:** ort. izlenme 3,3-6,2 sn / 15 sn (hedef ≥ 7). 05-ufuk (Ufuk satırı,
+  çizim gece sahnesi) 3,3 sn; henüz 8 saatlik, 2 Kasım analizinde yeniden bak.
 
 ## Deneyler
 
@@ -62,6 +66,17 @@ sayısının düşük olması bio linkinin eksikliğinden değil; profil ziyaret
 dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
+
+### 29 Ekim 2026
+- @zifir.123 · 2 takipçi (+1) · medyan 487 izlenme · haftalık erişim 2803, kaydetme 21, paylaşma 5
+- En iyi: 27 Ekim "ardında ne parçam ne de ben varım, özüne karışmışım" 1405 izlenme, 30 beğeni,
+  10 kaydetme, 4,6 sn. **Bu reel takvimden değil, kullanıcı elle paylaştı** (açıklama biçimi farklı:
+  “ ” ve •). Takvimin 27 Ekim reel'i 03-kalp (insansız eski kapak) Instagram'da yok: kullanıcı
+  silmiş. Silinen gönderi analize girmez; kullanıcıya silmek yerine haber vermesi söylendi.
+- 01-anlatan: 1257 izlenme (2 günde 387 → 1257), 6,2 sn, 8 kaydetme: reel'ler günlerce izlenmeye
+  devam ediyor, ilk günün sayısıyla karar verme.
+- 05-ufuk: 487 izlenme, 3,3 sn (yayından ~8 saat sonra; kıyas için erken).
+- Takvim değişmedi: güçlü kısım (47-74 sn) zaten 2, 4, 7, 14 Kasım'da var; deneyler sürüyor.
 
 ### 26 Ekim 2026 (ilk rapor)
 - @zifir.123 · 1 takipçi · son 7 reel · medyan 114 izlenme
