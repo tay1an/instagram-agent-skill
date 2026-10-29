@@ -98,6 +98,19 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 - Sıcaklık kaybolmaz: "afiyet olsun", "sofranıza" gibi ifadeler kalır, ama
   çağrının yerine geçmez.
 
+## Üretilmiş içerik korunur (kullanıcının isteği, 29 Ekim)
+
+- Yeni bir girdi (geri bildirim, yeni bilgi, yeni kanca listesi, yeni fikir)
+  geldiğinde yayın takvimi ve **hazır üretilmiş içerikler bozulmaz, silinmez,
+  yeniden üretilmez**. Her üretim emek, kredi ve token demek.
+- Yeni girdi **henüz üretilmemiş** içeriklere uygulanır.
+- Hazır bir içerik yalnızca kullanıcı onu açıkça değiştirmek isterse ya da
+  içinde yanlış bilgi, yazım hatası veya marka kuralı ihlali varsa değiştirilir;
+  o zaman da yalnızca gereken yer düzeltilir, içerik baştan yapılmaz.
+- Sürekli içerik gerektiği için **ileri tarihlere plan ve üretim yapılabilir**.
+  Yeni hafta planlanırken takvimde dolu olan günlere dokunulmaz, yalnızca boş
+  günler doldurulur.
+
 ## Kancalar (kullanıcının isteği, 28 Ekim)
 
 Her yeni reel ve carousel kapağı kanca-bankasi.md'deki bir kancayla başlar
