@@ -236,9 +236,11 @@
       "medya": [
         ".claude/instagram/medya/reel-ustteki-yag-jingle.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "jingle": 2,
-      "not": "Üstteki yağ reel'i, jingle-2 ile yeniden"
+      "not": "Üstteki yağ reel'i, jingle-2 ile yeniden",
+      "medya_id": "18647722012042385",
+      "yayin_zamani": "2026-10-29 20:29"
     },
     {
       "id": "2026-10-30-hikaye-sabah",
