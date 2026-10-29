@@ -192,8 +192,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-29.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Ballı tahin 3+1"
+      "durum": "yayinlandi",
+      "not": "Ballı tahin 3+1",
+      "medya_id": "18495668482106042",
+      "yayin_zamani": "2026-10-29 09:00"
     },
     {
       "id": "2026-10-29-tarif-4",
