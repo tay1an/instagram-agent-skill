@@ -75,7 +75,7 @@ Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
   Pexels; yüz net görünmez), videonun sahnesine göre filtrelenir
   (`uretici/kapak_foto.py`: kalp, yagmur, sicak-yagmur, agac, gece, mum,
   gunbatimi, lila). Aynı fotoğraf farklı kırpma ve tonla yeniden kullanılabilir.
-- **Hikâye:** Her gün 18:00 (reel 22:00; saatlerin gerekçesi `rapor/ogrenmeler.md`). Kapaklarda kullanılmayan bir şarkı satırı +
+- **Hikâye:** Her gün 18:00 (reel 19:00; saatlerin gerekçesi `rapor/ogrenmeler.md`). Kapaklarda kullanılmayan bir şarkı satırı +
   `ZİFİR — UZAK · SPOTIFY'DA`, aynı fotoğraf/filtre sistemiyle. Yazı ortada
   (Instagram arayüzü üst ve alt kısmı kapatır). API ile çıkartma eklenemez.
 - **Açıklama:** Aynı satır tırnak içinde, küçük harfle. Sonra boş satır,

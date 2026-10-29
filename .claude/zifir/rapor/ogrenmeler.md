@@ -38,6 +38,8 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
   geç saatte dinleyen. 28 Ekim'den itibaren reel 22:00, hikâye 18:00 (Instagram'da 24 saat
   kalır; TikTok'ta akşam yoğunluğuna denk gelir). Her analizde saat etkisine bak; reel'leri
   21:00-23:00 arasında kaydırarak dene, bir seferde tek fark.
+  29 Ekim: kullanıcı isteğiyle reel 19:00'a alındı (29 Ekim'den itibaren). 19:00 reel'lerini
+  20:30/22:00'dekilerle kıyasla; fark büyükse kullanıcıya veriyle öner.
 
 - **Güçlü kısım:** 1. kıta sonu + 1. nakarat başı (47-74 sn: "Ardında ne parçam ne de ben
   varım / Özüne karışmışım / Oysa seni sana anlatan ben idim"). En iyi iki reel bu kısımdan

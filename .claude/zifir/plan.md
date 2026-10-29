@@ -1,12 +1,12 @@
 # Plan: Zifir
 
-Her gün **18:00 hikâye** (15 sn şarkılı video) + **22:00 reel** (28 Ekim'e kadar 13:00 ve 20:30). Instagram'da otomatik
+Her gün **18:00 hikâye** (15 sn şarkılı video) + **19:00 reel** (kullanıcı isteği 29 Ekim; önce 20:30, sonra 22:00). Instagram'da otomatik
 (`Zifir yayın` iş akışı, `yayin/takvim.json`). Aynı reel TikTok gelen kutusuna taslak
 paylaşım saatinden 10 saat önce gider (TikTok bildirimi gecikebiliyor) (`Zifir TikTok takvim`, `yayin/tiktok.json`); açıklamayı
 kullanıcı ekleyip aynı saatte paylaşır. 28 Ekim'den itibaren hikâye videosu da
 TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`).
 
-| tarih | hikâye (18:00) | reel (22:00) |
+| tarih | hikâye (18:00) | reel (19:00) |
 | --- | --- | --- |
 | 2026-10-26 | h0-ozune | 01-anlatan |
 | 2026-10-27 | v01-yuk-olur | 03-kalp |

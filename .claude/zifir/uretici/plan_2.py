@@ -1,6 +1,6 @@
 """27 Ekim-10 Kasım planının üretim listesi: (id, tür, tarih saat, foto, filtre, mx, zoom, my, t0, kapak sözü)."""
 S = "stok/"
-REEL = [  # 4-10 Kasım fotoğraflı yeni reel'ler (22:00)
+REEL = [  # 4-10 Kasım fotoğraflı yeni reel'ler (19:00)
     ("09-sevgili", "2026-11-04", S + "07-sahil.jpg", "gunbatimi", 0.5, 1.0, 0.5, 102.9, "Sevgili sevgilim dünüm yarınım"),
     ("10-sabah", "2026-11-05", S + "05-iskele.jpg", "lila", 0.5, 1.2, 0.5, 111.0, "Bir sabah var hep uyanmak isterim"),
     ("11-kor-yara", "2026-11-06", S + "08-sis.jpg", "kalp", 0.6, 1.3, 0.62, 12.5, "Kor yara sol yanım deşme dur daha"),
