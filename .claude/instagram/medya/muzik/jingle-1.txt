@@ -1,2 +1,2 @@
-12
-# Şarkı 12. saniyede tam enerjiye çıkıyor (giriş öncesi sessizce başlıyor).
+0
+# Kullanıcının isteği (29 Ekim): şarkı en baştan kullanılır.

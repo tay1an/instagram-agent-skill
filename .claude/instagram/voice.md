@@ -119,7 +119,7 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   değişir (1, 2, 1, 2...). Kullanılan jingle takvimde `jingle` alanına yazılır.
 - Videoya eklemek için: `.claude/instagram/yayin/jingle-ekle.sh girdi.mp4 cikti.mp4`
   (görüntü yeniden üretilmez, yalnızca ses eklenir; sonda yumuşak kısılma).
-  Şarkının hangi saniyesinden başlanacağı medya/muzik/jingle-N.txt'de yazar.
+  Şarkı her zaman en baştan (0. saniye) başlar (kullanıcının isteği).
 - Zaten paylaşılmış reel'lere dokunulmaz.
 
 ## Kancalar (kullanıcının isteği, 28 Ekim)
