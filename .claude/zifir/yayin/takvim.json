@@ -82,9 +82,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v03-keyfine.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"keyfine varınca hepsi başka renk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v03-keyfine-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v03-keyfine-kapak.jpg",
+      "medya_id": "18376181329211761",
+      "yayin_zamani": "2026-10-29 18:01"
     },
     {
       "id": "2026-10-29-reel-04-agaclar",
