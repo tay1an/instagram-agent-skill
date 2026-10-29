@@ -23,10 +23,15 @@ Kaynak: kullanıcının gönderdiği "daima çalışan kanca başlıklar" reel'i
 
 - ⭐ **Çok sevildi:** "Evde humus yapmak sandığınız kadar zor değil." Aynı kalıp
   ("[tarif] sandığınız kadar zor değil") başka tariflerde de kullanılabilir.
-- ✗ **Sevilmedi, kullanılmaz:**
-  - "…bu hatayı (acilen) bırakın" kalıbı (tüm türevleri)
-  - "Bunu öğrenene kadar tahinin sadece helvalık olduğunu sanıyordum."
-  - "Neden kimse susamın kavrulmasından bahsetmiyor?"
+- **Kalıp iyi, örnek sevilmedi:**
+  - "…bu hatayı acilen bırakın" kalıbı iyi; tahinin ipek gibi akmasıyla
+    birleştirilmesi sevilmedi. Ballar için kullanılır:
+    **"Bal tüketirken bu hatayı acilen bırakın: ıslak kaşığı bala değdirmek."**
+    (Bal nemi çeker, ıslak kaşık balı bozabilir.) Başka hatalar da olabilir.
+  - "Bunu öğrenene kadar … sanıyordum" kalıbı iyi; "tahinin sadece helvalık
+    olduğu" örneği sevilmedi. Başka bir yanlış inançla kullanılabilir.
+- ✗ **Konu yasak:** susamın kavrulması. Kavrulmuş tohuma karşı tüketici
+  önyargısı var; kavurma hiçbir içerikte geçmez (voice.md).
 - Yeni kanca seçerken önce bu bölüme bakılır.
 
 ## A. Merak cümleleri (kullanıcının gönderdiği listeden)
@@ -139,6 +144,7 @@ Bu bölümdekiler gelecek haftalarda **öncelikli** kullanılır.
 | --- | --- | --- |
 | [Konu] hakkında söylenen en büyük yalan | **Tahin hakkında en büyük yanlış: "Yağı ayrıldıysa bozulmuştur."** | üstteki yağ |
 | Neden hâlâ [problemi] yaşadığınızı biliyor musunuz? | **Tahin neden kavanozun dibinde sertleşir, biliyor musunuz?** | karıştırma, saklama |
+| Bal tüketirken bu hatayı acilen bırakın | **Bal tüketirken bu hatayı acilen bırakın: ıslak kaşık.** | Munzur / Ahlat balı (marka kuralı: "Aziz bal" denmez) |
 | [Popüler tavsiye] vakit kaybı, sebebi şu | **Tahini buzdolabına koymanıza gerek yok. Sebebi şu:** | saklama (serin, kuru yer; soğukta sertleşir) |
 | Eğer [kitle] isen bu videoyu kaydet | **Kahvaltıyı seviyorsanız bu videoyu kaydedin.** | tahin-pekmez, ballı tahin |
 | [Zor görünen hedef] sandığınız kadar zor değil | ⭐ **Evde humus yapmak sandığınız kadar zor değil.** | humus tarifi (kullanıcının favorisi) |

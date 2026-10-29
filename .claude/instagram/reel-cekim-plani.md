@@ -53,7 +53,7 @@ Not: Kanca puanlama aracımız İngilizce dile göre ayarlı olduğu için Türk
 ```
 1 kilo susam koyduk, 1 kilo tahin çıktı. Arada hiçbir şey eklenmedi.
 
-Aziz Tahin taş değirmende, yalnızca kavrulmuş susamdan öğütülür. Şeker, koruyucu ya da katkı maddesi yok. Tadına bakmak isterseniz bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎
+Aziz Tahin taş değirmende, yalnızca susamdan öğütülür. Şeker, koruyucu ya da katkı maddesi yok. Tadına bakmak isterseniz bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎
 
 #AzizTahin #tahin #katkısız
 ```
@@ -220,7 +220,7 @@ Kahvaltıda krema mı, tahin mi? Yorumlara yazın 👇
 | zaman | sunucu söyler | çekim / açı | ekran yazısı |
 | --- | --- | --- | --- |
 | 0:00.0 | 1 kavanozun yolculuğu: değirmenden kapınıza. | POV: sunucu elinde boş kavanozla kameraya yürür. | DEĞİRMENDEN KAPINIZA |
-| 0:03.5 | Sabah. Susam kavruluyor. | YAKIN: susam kavrulurken (gerçek üretim). |  |
+| 0:03.5 | Sabah. Susam taş değirmene dökülüyor. | YAKIN: susam değirmen ağzına akarken (gerçek üretim; kavurma gösterilmez). |  |
 | 0:04.7 | Taş değirmende yavaşça tahine dönüşüyor. | ÇOK YAKIN: taş değirmen, akan tahin. | TAŞ DEĞİRMEN |
 | 0:08.1 | Kavanoza dolduruyoruz. | YAKIN: kavanoz dolumu. |  |
 | 0:08.9 | Etiketini tek tek yapıştırıyoruz. | YAKIN: etiketi elle yapıştırma. |  |
@@ -237,7 +237,7 @@ Kahvaltıda krema mı, tahin mi? Yorumlara yazın 👇
 ```
 Bir kavanoz Aziz Tahin size gelene kadar neler yaşıyor?
 
-Susam kavruluyor, taş değirmende tahine dönüşüyor, kavanoza doluyor ve her biri elimizden geçip kargoya veriliyor. Sıradaki kavanoz sizin olsun: bize DM'den yazın 🤎
+Susam taş değirmende tahine dönüşüyor, kavanoza doluyor ve her biri elimizden geçip kargoya veriliyor. Sıradaki kavanoz sizin olsun: bize DM'den yazın 🤎
 
 #AzizTahin #tahin #aileişletmesi
 ```
