@@ -249,8 +249,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-30.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tahin yağı"
+      "durum": "yayinlandi",
+      "not": "Tahin yağı",
+      "medya_id": "18107216978354465",
+      "yayin_zamani": "2026-10-30 09:00"
     },
     {
       "id": "2026-10-30-tarif-5",
