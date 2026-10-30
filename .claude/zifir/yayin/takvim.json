@@ -108,9 +108,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v04-sevgili.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v04-sevgili-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v04-sevgili-kapak.jpg",
+      "medya_id": "18126932281931990",
+      "yayin_zamani": "2026-10-30 18:01"
     },
     {
       "id": "2026-10-30-reel-06-alev",
