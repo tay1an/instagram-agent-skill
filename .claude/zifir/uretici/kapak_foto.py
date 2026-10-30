@@ -1,5 +1,5 @@
 """Fotoğraftan kapak: dikey kırp, sözü ve künyeyi ekle.
-Kullanım: kapak_foto.py <foto> <çıktı.jpg> <söz> <merkez_x 0-1> <yazı_y 0-1> <açık|koyu|filtre adı>
+Kullanım: kapak_foto.py <foto> <çıktı.jpg> <söz; "" ise yazısız> <merkez_x 0-1> <yazı_y 0-1> <açık|koyu|filtre adı>
                        [yakınlaştırma] [merkez_y 0-1] [künye] [yazı boyu]"""
 import os, sys
 import numpy as np, cv2
@@ -41,6 +41,9 @@ else:
     a = a * 0.96 + 4                                         # hafif soluk film tonu
 a += np.random.default_rng(0).normal(0, 6, a.shape[:2])[..., None]
 im = Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+if not soz.strip():  # yazısız kapak (29 Ekim'den sonra reel kapakları): yalnızca fotoğraf
+    im.save(cikti, quality=92)
+    sys.exit(0)
 renk = (28, 26, 26) if ton == "koyu" else (255, 246, 235)
 KUNYE = sys.argv[9] if len(sys.argv) > 9 else "ZİFİR  —  UZAK"
 BOY = int(sys.argv[10]) if len(sys.argv) > 10 else 104

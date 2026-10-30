@@ -28,7 +28,7 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 | 2026-11-12 | v17-ufuk | 12-kokler |
 | 2026-11-13 | v18-vardim | 13-kalbim |
 | 2026-11-14 | v19-lamba | 19-capa-lamba |
-| 2026-11-15 | - | v04-sevgili (30 Ekim hikâyesi, reel olarak; kullanıcı isteği) |
+| 2026-11-15 | - | 20-sevgili-kita ("Sevgili sevgilim" kıtasının dört satırı, 20,6 sn; kullanıcı isteği) |
 
 - Aynı gün paylaşılan hikâye ile reel şarkının aynı kısmını kullanmaz.
 - 1-8 numaralı reel'ler çizim sahneli; 9-18 ve bütün video hikâyeler `stok/`

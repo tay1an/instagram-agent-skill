@@ -70,7 +70,9 @@ Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
 
 - **Video:** Ekstra yazı yok. Yalnızca şarkıyla akan sözler ve altta küçük
   `ZİFİR — UZAK` künyesi.
-- **Kapak:** Mutlaka insan görünür ve telefonda net seçilir (figür küçükse `kapak_foto.py` yakınlaştırma ile büyütülür; kapak boyunun en az ~%8'i). Videoda çalan kısımdan bir satır, şarkıdaki haliyle, büyük;
+- **Kapak (30 Ekim kullanıcı isteği):** Bundan sonraki reel kapaklarında **yazı yok**: yalnızca insanlı fotoğraf
+  (`kapak_foto.py` söz yerine ""). Daha önce hazırlanmış yazılı kapaklar olduğu gibi kalır.
+  Eski kural (yazılı kapaklar için): Mutlaka insan görünür ve telefonda net seçilir (figür küçükse `kapak_foto.py` yakınlaştırma ile büyütülür; kapak boyunun en az ~%8'i). Videoda çalan kısımdan bir satır, şarkıdaki haliyle, büyük;
   altında `ZİFİR — UZAK`. Arka planda insan olan bir fotoğraf (`stok/`,
   Pexels; yüz net görünmez), videonun sahnesine göre filtrelenir
   (`uretici/kapak_foto.py`: kalp, yagmur, sicak-yagmur, agac, gece, mum,
