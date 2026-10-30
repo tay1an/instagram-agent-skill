@@ -261,8 +261,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-tarif-5.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Tarifler öne çıkanına eklenecek"
+      "durum": "yayinlandi",
+      "not": "Tarifler öne çıkanına eklenecek",
+      "medya_id": "18110698924900942",
+      "yayin_zamani": "2026-10-30 12:30"
     },
     {
       "id": "2026-10-30-hikaye-aksam",
