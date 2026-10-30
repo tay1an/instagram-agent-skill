@@ -24,3 +24,5 @@ HIKAYE = [  # 11-13 Kasım hikâyeleri (18:00)
     ("v18-vardim", "2026-11-13", S + "08-sis.jpg", "gunbatimi", 0.6, 1.3, 0.62, 35.2),
     ("v19-lamba", "2026-11-14", S + "09-lamba.jpg", "dogal", 0.55, 1.1, 0.56, 23.7),
 ]
+# 30 Ekim kullanıcı isteği: "Sevgili sevgilim" kıtasının tamamı, 15 Kasım; kapak yazısız (08-sis, gece, figür yakın).
+KITA = ("20-sevgili-kita", "2026-11-15", S + "08-sis.jpg", "gece", 0.4, 1.0, 0.5, 102.9, 20.6)

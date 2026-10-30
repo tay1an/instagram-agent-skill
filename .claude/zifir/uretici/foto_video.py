@@ -68,6 +68,9 @@ def uret(foto, cikti, t0, ton, mx, zoom=1.0, my=0.5, sure=15.0, hikaye=False):
     # İlk saniye kancası: ilk söz satırı ilk karede tam görünür, siyahtan açılış yok.
     lyr = [x for x in lyr if x[1] > 0.6]  # başta hemen biten önceki satırı atla
     lyr = [(-1.0 if k == 0 and s < 1.2 else s, e, L) for k, (s, e, L) in enumerate(lyr)]
+    # Son satırdan sonra sona 4 sn'den az kalıyorsa (uzatılan son hece) satır video bitene kadar kalır.
+    if lyr and sure - lyr[-1][1] < 4:
+        lyr[-1] = (lyr[-1][0], sure + 1, lyr[-1][2])
     rng = np.random.default_rng(0)
     grains = [rng.normal(0, 6, (H, W, 1)).astype(np.float32) for _ in range(6)]
     ff = subprocess.Popen([

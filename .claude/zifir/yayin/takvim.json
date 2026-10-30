@@ -458,14 +458,14 @@
       "durum": "bekliyor"
     },
     {
-      "id": "2026-11-15-reel-v04-sevgili",
+      "id": "2026-11-15-reel-20-sevgili-kita",
       "tur": "reel",
       "zaman": "2026-11-15 19:00",
       "medya": [
-        ".claude/zifir/medya/hikaye/v04-sevgili.mp4"
+        ".claude/zifir/medya/20-sevgili-kita.mp4"
       ],
-      "kapak": ".claude/zifir/medya/hikaye/v04-sevgili-kapak.jpg",
-      "aciklama": "\"sevgili sevgilim dünüm yarınım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/20-sevgili-kita-kapak.jpg",
+      "aciklama": "\"sevgili sevgilim dünüm yarınım\nüstüme titre hep hiç ayrılmayalım\nbir sabah var hep uyanmak isterim\nkalbim yerinde yanımda senin yerin\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     }
   ]
