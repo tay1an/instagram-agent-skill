@@ -273,8 +273,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-30-aksam.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Cevap: tahin yağının 5 kullanım yolu"
+      "durum": "yayinlandi",
+      "not": "Cevap: tahin yağının 5 kullanım yolu",
+      "medya_id": "18501899257101986",
+      "yayin_zamani": "2026-10-30 20:00"
     },
     {
       "id": "2026-10-30-carousel",
@@ -290,9 +292,11 @@
         ".claude/instagram/gorseller/gonderi-2026-10-30-7.jpg"
       ],
       "aciklama": "Tahin yağı rafta duruyor ama çoğu kişi ne yapacağını bilmiyor.\n\nBizim mutfakta kullandığımız 5 yol: salata sosu, humus ve mezelerin üstü, tuzla sıcak ekmek, balla kahvaltılık ve çorbalara son dokunuş. Dördüncüsü kahvaltı sofranızın yeni favorisi olabilir.\n\nAziz Tahin Yağı siparişi için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahinyağı #susamyağı",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "not": "Tahin yağının 5 kullanım yolu",
-      "kanca": "Tahin yağını kullanmanın 5 yolu, 4. maddeyi çok az kişi deniyor (numaralı liste, favoriyle)"
+      "kanca": "Tahin yağını kullanmanın 5 yolu, 4. maddeyi çok az kişi deniyor (numaralı liste, favoriyle)",
+      "medya_id": "17956032987258272",
+      "yayin_zamani": "2026-10-30 20:01"
     },
     {
       "id": "2026-10-31-hikaye-sabah",
