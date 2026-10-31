@@ -305,8 +305,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-10-31.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Hafta sonu kahvaltısı"
+      "durum": "yayinlandi",
+      "not": "Hafta sonu kahvaltısı",
+      "medya_id": "18150321031564767",
+      "yayin_zamani": "2026-10-31 09:00"
     },
     {
       "id": "2026-10-31-reel-bursa-dukkan",
