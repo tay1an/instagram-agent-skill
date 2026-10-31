@@ -134,9 +134,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v05-oktur.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"oktur bakışların değince taşlara\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v05-oktur-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v05-oktur-kapak.jpg",
+      "medya_id": "18115522255841829",
+      "yayin_zamani": "2026-10-31 18:01"
     },
     {
       "id": "2026-10-31-reel-02-yok-isem",
