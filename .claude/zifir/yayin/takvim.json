@@ -160,9 +160,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v06-kokler.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"yan yana ağacız gölge yeter bize\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v06-kokler-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v06-kokler-kapak.jpg",
+      "medya_id": "18131401148494314",
+      "yayin_zamani": "2026-11-01 18:01"
     },
     {
       "id": "2026-11-01-reel-07-vardim",
