@@ -186,9 +186,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v07-sabah.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"bir sabah var hep uyanmak isterim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v07-sabah-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v07-sabah-kapak.jpg",
+      "medya_id": "17957391045276642",
+      "yayin_zamani": "2026-11-02 18:01"
     },
     {
       "id": "2026-11-02-reel-08-ardinda",
