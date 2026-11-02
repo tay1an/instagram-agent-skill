@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "historyId": "f2d92e6a-de92-4e19-876e-1dc0be7d7844",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/kavanoz.jpg": {
+      "hash": "37eb18f2291661de448b16bd43d8482ae07e69e96bf29bc1ef7155c9050a178e",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/37/37eb18f2291661de448b16bd43d8482ae07e69e96bf29bc1ef7155c9050a178e"
+    },
+    "assets/sira.jpg": {
+      "hash": "32cb67edfb151f43099692c9651901161b44cb9c76eb7bc9751cb0db041f908d",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/32/32cb67edfb151f43099692c9651901161b44cb9c76eb7bc9751cb0db041f908d"
+    },
+    "fonts/InterDisplay-Black.otf": {
+      "hash": "c0ebb676933a45d73d16fea70c875f9f2b711b585c69b15962b7f2a890b5f8e8",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/c0/c0ebb676933a45d73d16fea70c875f9f2b711b585c69b15962b7f2a890b5f8e8"
+    },
+    "fonts/InterDisplay-Bold.otf": {
+      "hash": "4253eed76d9014a469d7449934e54250497ee007f4d58dab4ddefe9f759b1970",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/42/4253eed76d9014a469d7449934e54250497ee007f4d58dab4ddefe9f759b1970"
+    },
+    "fonts/InterDisplay-SemiBold.otf": {
+      "hash": "12aec2b9f93d2c7a977dad5dac3427516b15e7041b578052b0aba9f9a9b0774f",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/12/12aec2b9f93d2c7a977dad5dac3427516b15e7041b578052b0aba9f9a9b0774f"
+    },
+    "fonts/Playfair-Italic.ttf": {
+      "hash": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/a5/a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "7616b85499f8987044f877089e25904fc4bfd162ced2e9c7022a6981ea8dc2f6",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/76/7616b85499f8987044f877089e25904fc4bfd162ced2e9c7022a6981ea8dc2f6"
+    },
+    "meta.json": {
+      "hash": "3b1cf6a7a4d2ae301252933215ff1e0bde174356c3ba61dc57ef5640b6d6568b",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/3b/3b1cf6a7a4d2ae301252933215ff1e0bde174356c3ba61dc57ef5640b6d6568b"
+    },
+    "package.json": {
+      "hash": "621dc3bea358cbaf3014108f5779af3fb1e339a2a1c7c1f4a9649cab05367579",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/62/621dc3bea358cbaf3014108f5779af3fb1e339a2a1c7c1f4a9649cab05367579"
+    },
+    "vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/f2d92e6a-de92-4e19-876e-1dc0be7d7844/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "04e13678-8b51-491b-a352-84174356b79d",
+      "completedAt": 1793604988507,
+      "output": "/tmp/claude-0/-home-user-instagram-agent-skill/b08adc6f-b6cc-526f-a373-ee744c42c1e3/scratchpad/etiket-raw.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

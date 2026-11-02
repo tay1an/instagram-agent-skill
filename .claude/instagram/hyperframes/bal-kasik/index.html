@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="tr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aziz Tahin - Bal ve ıslak kaşık</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Black.otf"); font-weight: 900; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Bold.otf"); font-weight: 700; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-SemiBold.otf"); font-weight: 600; }
+      @font-face { font-family: "AzizSerif"; src: url("fonts/Playfair-Italic.ttf"); font-style: italic; }
+
+      :root {
+        --krem: #f6ecd9;
+        --susam: #e3c48f;
+        --tahin: #c9a46b;
+        --yag: #e0b24e;
+        --kahve: #4a2c17;
+        --koyu: #2a170a;
+        --kirmizi: #b3202a;
+        --altin: #d9a441;
+      }
+
+      html, body {
+        margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden;
+        background: var(--krem); font-family: "AzizSans", sans-serif; color: var(--kahve);
+      }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--krem); }
+      .scene { position: absolute; inset: 0; overflow: hidden; }
+
+      /* Instagram güvenli alanı: üst 230, alt 480, sağ 230 yazısız kalır */
+      .safe { position: absolute; left: 80px; top: 260px; width: 740px; }
+
+      .kicker { font-weight: 700; font-size: 40px; letter-spacing: 6px; color: var(--kirmizi); }
+      .big { font-weight: 900; font-size: 128px; line-height: 0.95; letter-spacing: -4px; margin: 0; }
+      .serif { font-family: "AzizSerif", serif; font-style: italic; font-weight: 400; }
+      .pill { display: inline-block; font-weight: 900; border-radius: 22px; }
+      .photo { position: absolute; background-size: cover; background-position: center; }
+      .shade { position: absolute; inset: 0; }
+
+      /* ---------- çizim kavanoz ---------- */
+      .jar { position: absolute; left: 290px; top: 860px; width: 420px; height: 560px; }
+      .jar-lid {
+        position: absolute; left: 40px; top: 0; width: 340px; height: 70px; border-radius: 14px;
+        background: linear-gradient(180deg, #e9c46a 0%, #b88a2c 100%);
+        box-shadow: 0 6px 0 #8f6a1f;
+      }
+      .jar-body {
+        position: absolute; left: 0; top: 78px; width: 420px; height: 482px;
+        border-radius: 46px 46px 60px 60px; overflow: hidden;
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.55), 0 30px 50px rgba(42, 23, 10, 0.35);
+      }
+      .jar-tahin { position: absolute; left: 0; right: 0; bottom: 0; height: 100%; background: linear-gradient(180deg, #b98d55 0%, #9c7442 100%); }
+      .jar-oil {
+        position: absolute; left: 0; right: 0; top: 0; height: 0;
+        background: linear-gradient(180deg, #ffe08a 0%, #f2b93b 100%);
+        box-shadow: 0 6px 0 rgba(255, 236, 170, 0.9), 0 12px 18px rgba(80, 45, 10, 0.35);
+      }
+      .jar-shine { position: absolute; left: 40px; top: 30px; width: 40px; height: 380px; border-radius: 20px; background: rgba(255, 255, 255, 0.35); }
+      .jar-label {
+        position: absolute; left: 50px; right: 50px; top: 230px; height: 150px; border-radius: 18px;
+        background: var(--krem); border: 6px solid var(--kirmizi);
+        display: flex; align-items: center; justify-content: center; flex-direction: column;
+      }
+      .jar-label b { font-weight: 900; font-size: 52px; color: var(--kirmizi); letter-spacing: 2px; line-height: 1; }
+      .jar-label span { font-weight: 900; font-size: 46px; color: var(--altin); letter-spacing: 6px; }
+      .spoon {
+        position: absolute; left: 520px; top: 900px; width: 40px; height: 520px; border-radius: 20px;
+        background: linear-gradient(90deg, #cfd3d6, #f4f6f7, #b9bec2); transform-origin: 50% 85%; opacity: 0;
+      }
+      .spoon:after {
+        content: ""; position: absolute; left: -30px; bottom: -40px; width: 100px; height: 130px; border-radius: 50%;
+        background: linear-gradient(90deg, #cfd3d6, #f4f6f7, #b9bec2);
+      }
+
+      /* ---------- adımlar ---------- */
+      .step { display: flex; align-items: center; gap: 30px; margin: 0 0 46px 0; }
+      .step-no {
+        flex: none; width: 110px; height: 110px; border-radius: 50%; background: var(--kirmizi); color: var(--krem);
+        font-weight: 900; font-size: 64px; display: flex; align-items: center; justify-content: center;
+      }
+      .step-txt { font-weight: 900; font-size: 62px; line-height: 1.02; color: var(--kahve); }
+      .xmark { position: absolute; font-weight: 900; font-size: 300px; color: #ff4b4b; line-height: 1; opacity: 0; }
+      .cap { display: inline-block; font-weight: 700; font-size: 44px; padding: 10px 22px; border-radius: 14px; background: rgba(40,22,10,0.85); color: var(--krem); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="bal-kasik" data-width="1080" data-height="1920" data-start="0" data-duration="18.6">
+      <div id="s1" class="scene clip" data-start="0" data-duration="3.4" data-track-index="1" style="background: var(--koyu)">
+        <div class="safe">
+          <div class="kicker" id="a1" style="color: var(--altin)">BAL SEVENLER</div>
+          <h1 class="big" id="a2" style="margin-top: 26px; color: var(--krem); font-size: 120px">BAL<br />TÜKETİRKEN<br />BU HATAYI<br /><span style="color: #ff5a4f">ACİLEN</span><br /><span style="color: #ff5a4f">BIRAKIN.</span></h1>
+        </div>
+      </div>
+      <div id="s2" class="scene clip" data-start="3.4" data-duration="3.4" data-track-index="1" style="background: var(--kahve)">
+        <div class="photo" id="b1" style="inset: 0; background-image: url('assets/munzur.jpg'); background-position: 50% 45%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(40,22,10,0.92) 0%, rgba(40,22,10,0.5) 32%, rgba(40,22,10,0.1) 55%, rgba(40,22,10,0.7) 100%)"></div>
+        <div class="safe">
+          <div class="kicker" style="color: var(--altin)">HATA</div>
+          <h1 class="big" id="b2" style="margin-top: 20px; color: var(--krem); font-size: 132px">ISLAK<br />KAŞIK.</h1>
+        </div>
+        <div class="xmark" id="b3" style="left: 600px; top: 1050px">✕</div>
+      </div>
+      <div id="s3" class="scene clip" data-start="6.8" data-duration="3.6" data-track-index="1" style="background: var(--krem)">
+        <div class="safe">
+          <div class="kicker" id="c1">NEDEN?</div>
+          <h1 class="big" id="c2" style="margin-top: 24px; font-size: 104px">BAL NEMİ<br /><span style="color: var(--kirmizi)">ÇEKER.</span></h1>
+          <div id="c3" style="margin-top: 36px; font-weight: 700; font-size: 52px; line-height: 1.2">Kavanoza giren su,<br />balın kıvamını ve tadını<br />bozabilir.</div>
+        </div>
+      </div>
+      <div id="s4" class="scene clip" data-start="10.4" data-duration="3.6" data-track-index="1" style="background: var(--krem)">
+        <div class="safe" style="top: 300px">
+          <div class="kicker" id="d0" style="margin-bottom: 56px">DOĞRUSU</div>
+          <div class="step" id="d1"><div class="step-no">1</div><div class="step-txt">Kuru ve temiz<br />kaşık kullanın</div></div>
+          <div class="step" id="d2"><div class="step-no">2</div><div class="step-txt">Kapağı sıkıca<br />kapatın</div></div>
+          <div class="step" id="d3"><div class="step-no">3</div><div class="step-txt">Oda sıcaklığında<br />saklayın</div></div>
+        </div>
+      </div>
+      <div id="s5" class="scene clip" data-start="14" data-duration="1.4" data-track-index="1" style="background: var(--kahve)">
+        <div class="photo" id="e1" style="inset: 0; background-image: url('assets/ahlat.jpg'); background-position: 50% 50%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(40,22,10,0.9) 0%, rgba(40,22,10,0.3) 35%, rgba(40,22,10,0) 55%, rgba(40,22,10,0.6) 100%)"></div>
+        <div class="safe">
+          <div class="kicker" style="color: var(--altin)">DÜKKANIMIZDA</div>
+          <h1 class="big" id="e2" style="margin-top: 20px; color: var(--krem); font-size: 84px">MUNZUR BALI<br />AHLAT ÇİÇEK BALI</h1>
+          <div id="e3" style="margin-top: 22px"><span class="cap">Tahinle de çok yakışır.</span></div>
+        </div>
+      </div>
+      <div id="sZ" class="scene clip" data-start="15.4" data-duration="3.2" data-track-index="1" style="background: var(--krem)">
+        <div class="photo" id="row" style="left: 0; top: 0; width: 1080px; height: 1920px; background-image: url('assets/sira.jpg'); background-position: 30% 50%"></div>
+        <div class="shade" style="background: linear-gradient(180deg, rgba(246,236,217,0.97) 0%, rgba(246,236,217,0.9) 45%, rgba(246,236,217,0.55) 70%, rgba(246,236,217,0.2) 100%)"></div>
+        <div class="safe">
+          <div id="z1" style="font-weight: 900; font-size: 92px; line-height: 0.95; color: var(--kahve); letter-spacing: -2px">KAYDEDİN,<br /><span style="color: var(--kirmizi)">BAL SEVENE<br />GÖNDERİN.</span></div>
+          <div id="z2" style="margin-top: 60px"><span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 64px; line-height: 1.12; padding: 30px 38px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span></div>
+          <div id="z3" style="margin-top: 40px; font-weight: 700; font-size: 44px">Türkiye'nin her iline gönderim</div>
+          <div id="z4" style="margin-top: 14px; font-weight: 700; font-size: 44px; color: var(--kirmizi)">@aziz.tahin</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const pop = { ease: "back.out(1.7)", duration: 0.5 };
+          tl.fromTo("#a1", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3 }, 0);
+          tl.fromTo("#a2", { opacity: 0, scale: 0.9, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, 0.1);
+          tl.to("#a1", { x: 10, duration: 0.06, yoyo: true, repeat: 7 }, 1.6);
+          const t2 = 3.4;
+          tl.fromTo("#b1", { scale: 1.25 }, { scale: 1.05, duration: 3.4, ease: "power1.out" }, t2);
+          tl.fromTo("#b2", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ...pop }, t2 + 0.15);
+          tl.fromTo("#b3", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, t2 + 1.0);
+          const t3 = 6.8;
+          tl.fromTo("#c1", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t3 + 0.05);
+          tl.fromTo("#c2", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, t3 + 0.15);
+          tl.fromTo("#c3", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45 }, t3 + 0.9);
+          const t4 = 10.4;
+          tl.fromTo("#d0", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35 }, t4 + 0.05);
+          ["#d1", "#d2", "#d3"].forEach((id, i) => {
+            const at = t4 + 0.35 + i * 0.85;
+            tl.fromTo(id, { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: 0.35, ease: "power3.out" }, at);
+            tl.fromTo(id + " .step-no", { scale: 0 }, { scale: 1, ...pop, duration: 0.35 }, at + 0.1);
+          });
+          const t5 = 14;
+          tl.fromTo("#e1", { scale: 1.2 }, { scale: 1.05, duration: 1.4, ease: "power1.out" }, t5);
+          tl.fromTo("#e2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4 }, t5 + 0.1);
+          tl.fromTo("#e3", { opacity: 0 }, { opacity: 1, duration: 0.3 }, t5 + 0.5);
+          const tz = 15.4;
+          tl.fromTo("#row", { scale: 1.15 }, { scale: 1.0, duration: 3.2, ease: "power1.out" }, tz);
+          tl.fromTo("#z1", { opacity: 0, y: 50 }, { opacity: 1, y: 0, ...pop }, tz + 0.05);
+          tl.fromTo("#z2", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, tz + 0.6);
+          tl.to("#z2", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, tz + 1.3);
+          tl.fromTo("#z3", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, tz + 0.95);
+          tl.fromTo("#z4", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, tz + 1.1);
+          window.__timelines = window.__timelines || {};
+          window.__timelines["bal-kasik"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>

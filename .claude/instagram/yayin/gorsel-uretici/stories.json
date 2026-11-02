@@ -48,5 +48,35 @@
   "id": "hikaye-2026-11-02",
   "seeds": true,
   "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg' style='width:340px'><div class='t'>Yeni haftaya<br><span class='r'>tahinle</span> başlayın.</div><div class='s'>3 kaşık tahin, 1 kaşık bal,<br>bir tutam tarçın. Kahvaltı hazır.</div></div><div class='foot'>Bu akşam 20:00 · evde humus</div>"
+ },
+ {
+  "id": "hikaye-2026-11-03",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg' style='width:330px'><div class='t'>Tahin kavanozun<br>dibinde <span class='r'>sertleşiyor mu?</span></div><div class='s'>Nedenini ve çözümünü<br>bu akşam anlatıyoruz.</div></div><div class='foot'>Bu akşam 20:00 · tahin nasıl saklanır?</div>"
+ },
+ {
+  "id": "hikaye-2026-11-04",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='bal.jpg' style='width:330px'><div class='t'>Balı hangi kaşıkla<br><span class='r'>alıyorsunuz?</span></div><div class='s'>Küçük bir alışkanlık,<br>büyük bir fark.</div></div><div class='foot'>Bu akşam 20:00 · bal sevenlere ipucu</div>"
+ },
+ {
+  "id": "hikaye-2026-11-05",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Kahvaltıda<br>bugün <span class='r'>ne var?</span></div><div class='s'>Bizden bir öneri:<br>3 kaşık tahin, 1 kaşık bal,<br>bir tutam tarçın.</div></div><div class='foot'>Bu akşam 20:00 · 4 tahinli kahvaltı fikri</div>"
+ },
+ {
+  "id": "hikaye-2026-11-06",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg' style='width:330px'><div class='t'>Tahin alırken<br><span class='r'>neye bakıyorsunuz?</span></div><div class='s'>İpucu: etiketin<br>içindekiler kısmı.</div></div><div class='foot'>Bu akşam 20:00 · tahin nasıl seçilir?</div>"
+ },
+ {
+  "id": "hikaye-2026-11-07",
+  "seeds": false,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='pekmez.jpg' style='width:330px'><div class='t'>Tahin-pekmez mi,<br><span class='r'>tahin-bal mı?</span></div><div class='s'>Bu akşam soruyoruz,<br>siz karar vereceksiniz.</div></div><div class='foot'>Bu akşam 20:00 · büyük karar <span class='e'>😄</span></div>"
+ },
+ {
+  "id": "hikaye-2026-11-08",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><div class='t'>Pazar kahvaltısı<br><span class='r'>tahinsiz olmaz.</span></div><div class='s'>Sofranıza bir kaşık<br>Aziz Tahin. Afiyet olsun!</div></div><div class='foot'>İyi pazarlar <span class='e'>🤎</span></div>"
  }
 ]
