@@ -383,6 +383,134 @@
       "kanca": "Evde humus yapmak sandığınız kadar zor değil (kullanıcının favorisi)",
       "jingle": 1,
       "not": "Humus reel'i"
+    },
+    {
+      "id": "2026-11-03-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-03 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-03.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-03-carousel",
+      "tur": "carousel",
+      "zaman": "2026-11-03 20:00",
+      "medya": [
+        ".claude/instagram/gorseller/gonderi-2026-11-03-1.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-2.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-3.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-4.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-5.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-6.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-03-7.jpg"
+      ],
+      "aciklama": "Tahin neden kavanozun dibinde sertleşir, biliyor musunuz?\n\nKatkısız tahinde susamın kendi yağı zamanla üste çıkar, susam dibe çöker. Bu doğaldır; etiketimizde de yazar: \"Yağın üstte birikmesi normaldir.\"\n\nYapmanız gereken 4 şey: kullanmadan önce dibe kadar karıştırın, yağı dökmeyin, kapağı sıkıca kapatıp serin ve kuru bir yerde saklayın, kavanoza ıslak kaşık sokmayın.\n\nBu gönderiyi kaydedin, kavanozu açtığınızda lazım olur. Aziz Tahin siparişi için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahin #katkısız",
+      "durum": "bekliyor",
+      "kanca": "Tahin neden kavanozun dibinde sertleşir, biliyor musunuz? (neden hâlâ)"
+    },
+    {
+      "id": "2026-11-04-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-04 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-04.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-04-reel-bal-kasik",
+      "tur": "reel",
+      "zaman": "2026-11-04 20:00",
+      "medya": [
+        ".claude/instagram/medya/reel-bal-kasik.mp4"
+      ],
+      "kapak": ".claude/instagram/gorseller/reel-2026-11-04-kapak.jpg",
+      "aciklama": "Bal tüketirken bu hatayı acilen bırakın: ıslak kaşık.\n\nBal nemi çeker; kavanoza giren su balın kıvamını ve tadını bozabilir. Kuru ve temiz kaşık kullanın, kapağı sıkıca kapatın, balı oda sıcaklığında saklayın.\n\nDükkânımızda Munzur Balı ve Ahlat Çiçek Balı var; tahinle de çok yakışır. Bu videoyu bal seven birine gönderin. Sipariş için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#bal #AzizTahin #kahvaltı",
+      "durum": "bekliyor",
+      "kanca": "Bal tüketirken bu hatayı acilen bırakın: ıslak kaşık (kullanıcının önerisi)",
+      "jingle": 2
+    },
+    {
+      "id": "2026-11-05-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-05 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-05.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-05-carousel",
+      "tur": "carousel",
+      "zaman": "2026-11-05 20:00",
+      "medya": [
+        ".claude/instagram/gorseller/gonderi-2026-11-05-1.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-05-2.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-05-3.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-05-4.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-05-5.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-05-6.jpg"
+      ],
+      "aciklama": "Kahvaltıda hâlâ sadece reçel mi?\n\nTahinle 4 kolay kahvaltı fikri: tahin-pekmez, ballı tahin (3 kaşık tahin, 1 kaşık bal, bir tutam tarçın), bir kaşık tahinli yoğurt ve tahinli kızarmış ekmek.\n\nHangisini yarın deneyeceksiniz? Yorumlara numarasını yazın. Aziz Tahin siparişi için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #kahvaltı #tahin",
+      "durum": "bekliyor",
+      "kanca": "Kahvaltıda hâlâ sadece reçel mi? (hâlâ eski yöntem)"
+    },
+    {
+      "id": "2026-11-06-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-06 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-06.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-06-reel-etiket",
+      "tur": "reel",
+      "zaman": "2026-11-06 20:00",
+      "medya": [
+        ".claude/instagram/medya/reel-etiket.mp4"
+      ],
+      "kapak": ".claude/instagram/gorseller/reel-2026-11-06-kapak.jpg",
+      "aciklama": "Kimse size tahin seçmeyi anlatmıyor: önce etiketi çevirin.\n\nİçindekiler kısmında tek kelime olmalı: susam. Şeker, koruyucu ya da katkı maddesi yazıyorsa o tahin yalnızca susam değildir.\n\nKavanozda yağ üste çıkıyorsa sevinin; katkısız tahinin işaretidir. Etiketimizde de yazar: \"Yağın üstte birikmesi normaldir.\"\n\nAziz Tahin taş değirmende, yalnızca susamdan öğütülür. Sipariş için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz 🤎\n\n#AzizTahin #tahin #katkısız",
+      "durum": "bekliyor",
+      "kanca": "Kimse size tahin seçmeyi anlatmıyor (kimse anlatmıyor)",
+      "jingle": 1
+    },
+    {
+      "id": "2026-11-07-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-07 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-07.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-07-carousel",
+      "tur": "carousel",
+      "zaman": "2026-11-07 20:00",
+      "medya": [
+        ".claude/instagram/gorseller/gonderi-2026-11-07-1.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-07-2.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-07-3.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-07-4.jpg",
+        ".claude/instagram/gorseller/gonderi-2026-11-07-5.jpg"
+      ],
+      "aciklama": "Tahin-pekmez mi, tahin-bal mı? Bizde ev ikiye bölündü 😄\n\nTakım 1: tahin-pekmez, kış kahvaltılarının klasiği. Takım 2: ballı tahin, 3 kaşık tahin, 1 kaşık bal, isteğe göre tarçın.\n\nSiz hangi takımdasınız? Yorumlara PEKMEZ ya da BAL yazın.\n\nTakımınız ne olursa olsun tahin aynı: taş değirmende, yalnızca susamdan. Sipariş için bize DM'den yazın 🤎\n\n#AzizTahin #tahinpekmez #kahvaltı",
+      "durum": "bekliyor",
+      "kanca": "Tahin-pekmez mi, tahin-bal mı? (karşılaştırma)"
+    },
+    {
+      "id": "2026-11-08-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-08 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-08.jpg"
+      ],
+      "durum": "bekliyor"
     }
   ]
 }
