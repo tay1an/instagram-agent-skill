@@ -43,5 +43,10 @@
   "id": "hikaye-2026-10-30-aksam",
   "seeds": true,
   "html": "<div class='wrap' style='gap:22px'><div class='kick'>Sorunun cevabı</div><div class='t'>Tahin yağını<br><span class='r'>kullanmanın 5 yolu</span></div><div class='s' style='text-align:left;font-size:46px;line-height:1.55'><b class='r'>1.</b> Salata sosuna birkaç damla<br><b class='r'>2.</b> Humus ve mezelerin üstüne<br><b class='r'>3.</b> Sıcak ekmeğe, bir tutam tuzla<br><b class='r'>4.</b> Kahvaltıda balla karıştırıp<br><b class='r'>5.</b> Çorba ve sebze yemeklerine<br>&nbsp;&nbsp;&nbsp;&nbsp;son dokunuş olarak</div></div><div class='foot'>Sipariş için bize DM'den yazabilirsiniz</div>"
+ },
+ {
+  "id": "hikaye-2026-11-02",
+  "seeds": true,
+  "html": "<div class='wrap'><div class='kick'>Günaydın</div><img class='photo' src='jarphoto.jpg' style='width:340px'><div class='t'>Yeni haftaya<br><span class='r'>tahinle</span> başlayın.</div><div class='s'>3 kaşık tahin, 1 kaşık bal,<br>bir tutam tarçın. Kahvaltı hazır.</div></div><div class='foot'>Bu akşam 20:00 · evde humus</div>"
  }
 ]
