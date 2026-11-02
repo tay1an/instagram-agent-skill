@@ -69,6 +69,19 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 2 Kasım 2026
+- 2 takipçi (+0) · medyan 424 · haftalık erişim 3691, kaydetme 19, paylaşma 7, yorum 2 (ilk yorumlar)
+- **Elle (uygulamadan) paylaşılanlar en iyi:** 27 Ekim "ardında" 1410 (10 kaydetme) ve 1 Kasım
+  "zifir • uzak. spotify'da." 1120 (2 yorum). İkisi de takvimden değil, kullanıcı paylaştı.
+- **API ile paylaşılanlar:** 01-anlatan 1258, 05-ufuk 931, 06-alev 424, 04-agaclar 149,
+  07-vardim 25 (1 günlük), **02-yok-isem 1 ve 03-kalp 1** (03 silinmemiş; 6 günde 1 izlenme).
+  1 izlenmede kalanlar Instagram'ın hiç dağıtmadığını gösteriyor (öneri dışı kalma olabilir).
+  Kullanıcıdan Hesap Durumu ve bu iki reel'in "önerilebilirlik" bilgisi istendi.
+- Ort. izlenme hâlâ 3,2-4,7 sn; ilk kare kancası deneyi henüz iyileşme göstermiyor.
+- Eğilim (kesin değil): elle paylaşılan reel'ler API'den paylaşılanlardan iyi. Kullanıcının elle
+  paylaştığı reel'lerde ne farklı (ses, görsel, kapak, düzenleme) öğrenilecek.
+- Takvim değişmedi; 3 Kasım'da çizim dönemi bitiyor, 4 Kasım'dan itibaren fotoğraflı reel'ler.
+
 ### 29 Ekim 2026
 - @zifir.123 · 2 takipçi (+1) · medyan 487 izlenme · haftalık erişim 2803, kaydetme 21, paylaşma 5
 - En iyi: 27 Ekim "ardında ne parçam ne de ben varım, özüne karışmışım" 1405 izlenme, 30 beğeni,
