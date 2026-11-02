@@ -365,8 +365,10 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-11-02.jpg"
       ],
-      "durum": "bekliyor",
-      "not": "Sabah hikayesi, geç paylaşım (otomatiğe dönüldü)"
+      "durum": "yayinlandi",
+      "not": "Sabah hikayesi, geç paylaşım (otomatiğe dönüldü)",
+      "medya_id": "18084917837375583",
+      "yayin_zamani": "2026-11-02 10:31"
     },
     {
       "id": "2026-11-02-reel-humus",
