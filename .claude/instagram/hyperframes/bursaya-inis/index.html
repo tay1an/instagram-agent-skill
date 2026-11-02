@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="tr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aziz Tahin - Bursa'ya iniş</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Black.otf"); font-weight: 900; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Bold.otf"); font-weight: 700; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-SemiBold.otf"); font-weight: 600; }
+      @font-face { font-family: "AzizSerif"; src: url("fonts/Playfair-Italic.ttf"); font-style: italic; }
+
+      :root {
+        --krem: #f6ecd9;
+        --susam: #e3c48f;
+        --kahve: #4a2c17;
+        --koyu: #2a170a;
+        --kirmizi: #b3202a;
+        --altin: #d9a441;
+      }
+
+      html, body {
+        margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden;
+        background: var(--koyu); font-family: "AzizSans", sans-serif; color: var(--krem);
+      }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--koyu); }
+      .scene { position: absolute; inset: 0; overflow: hidden; }
+
+      /* Instagram güvenli alanı: üst 230, alt 480, sağ 230 yazısız kalır */
+      .safe { position: absolute; left: 80px; top: 260px; width: 740px; }
+
+      .kicker { font-weight: 700; font-size: 40px; letter-spacing: 6px; color: var(--altin); }
+      .big { font-weight: 900; font-size: 124px; line-height: 0.95; letter-spacing: -4px; margin: 0; }
+      .serif { font-family: "AzizSerif", serif; font-style: italic; font-weight: 400; }
+      .pill { display: inline-block; font-weight: 900; border-radius: 22px; }
+      .photo { position: absolute; background-size: cover; background-position: center; }
+      .shade { position: absolute; inset: 0; }
+      .mapcard {
+        position: absolute; left: 70px; width: 940px; border-radius: 34px; overflow: hidden;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45); border: 8px solid var(--krem); background: #f1f1f1;
+      }
+      .mapcard img { display: block; width: 100%; }
+      .credit { position: absolute; right: 16px; bottom: 10px; font-weight: 600; font-size: 22px; color: #5f6368; background: rgba(255,255,255,0.85); padding: 2px 10px; border-radius: 8px; }
+      .ring { position: absolute; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 10px solid var(--kirmizi); opacity: 0; }
+      .pin {
+        position: absolute; width: 120px; height: 120px; border-radius: 50% 50% 50% 0;
+        background: var(--kirmizi); transform: rotate(-45deg); box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+      }
+      .pin:after { content: ""; position: absolute; left: 36px; top: 36px; width: 48px; height: 48px; border-radius: 50%; background: var(--krem); }
+    
+      .full { position: absolute; }
+      .alt { position: absolute; left: 60px; right: 60px; top: 1250px; text-align: center; }
+      .alt span { display: inline-block; white-space: nowrap; background: #fff; color: #111; font-weight: 900; font-size: 68px; line-height: 1.18; padding: 20px 34px; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+      .etiket { position: absolute; transform: translate(-50%, -100%); background: var(--kirmizi); color: var(--krem); font-weight: 900; font-size: 46px; padding: 12px 24px; border-radius: 16px; white-space: nowrap; box-shadow: 0 12px 24px rgba(0,0,0,0.35); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="bursaya-inis" data-width="1080" data-height="1920" data-start="0" data-duration="13.4">
+
+      <!-- 1. Bursa haritasına iniş (0 - 3) -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="3" data-track-index="1" style="background: var(--koyu)">
+        <div class="mapcard" id="c1" style="left: 40px; width: 1000px; height: 560px; top: 560px">
+          <img id="m1" src="assets/harita-carsi.jpg" style="width: 1000px; height: 560px; transform-origin: 56% 31%" />
+          <div class="ring" id="r1" style="left: 56%; top: 31%"></div>
+          <div class="credit">Harita: Google</div>
+        </div>
+        <div class="alt" id="a1"><span>…ve bu hızla Bursa'ya,<br />Aziz Tahin'e inersiniz!</span></div>
+      </div>
+
+      <!-- 2. Yakın harita (3 - 5.2) -->
+      <div id="s2" class="scene clip" data-start="3" data-duration="2.2" data-track-index="1" style="background: var(--koyu)">
+        <div class="mapcard" id="c2" style="left: 140px; width: 800px; height: 1021px; top: 170px">
+          <img id="m2" src="assets/harita-yakin.jpg" style="width: 800px; height: 1021px; transform-origin: 28% 52%" />
+          <div class="ring" id="r2" style="left: 28%; top: 52%"></div>
+          <div class="credit">Harita: Google</div>
+        </div>
+        <div class="alt" id="a2"><span style="font-size: 58px">Cumhuriyet Caddesi'nin girişi,<br />tarihi Yiğit Köhne Camii'nin<br />karşısındayız</span></div>
+      </div>
+
+      <!-- 3. Dükkan cephesi (5.2 - 7.6) -->
+      <div id="s3" class="scene clip" data-start="5.2" data-duration="2.4" data-track-index="1">
+        <div class="photo" id="dk" style="inset: 0; background-image: url('assets/dukkan.jpg'); background-position: 50% 30%; transform-origin: 50% 35%"></div>
+        <div class="alt" id="a3"><span>Hoş geldiniz!</span></div>
+      </div>
+
+      <!-- 4. Raf videosu (7.6 - 10) -->
+      <div id="s4" class="scene clip" style="z-index: 3" data-start="7.6" data-duration="2.4" data-track-index="1">
+        <div class="alt" id="a4" style="z-index: 3"><span>Taş değirmende,<br />yalnızca susamdan</span></div>
+      </div>
+
+      <!-- 5. Kapanış (10 - 13.4) -->
+      <div id="s5" class="scene clip" data-start="10" data-duration="3.4" data-track-index="1" style="background: var(--krem); z-index: 5">
+        <div class="safe" style="top: 260px">
+          <div id="k1" style="font-weight: 900; font-size: 130px; line-height: 0.9; color: var(--kirmizi); letter-spacing: -3px">AZİZ TAHİN</div>
+          <div id="k2" class="serif" style="font-size: 56px; margin-top: 16px; color: var(--kahve)">Bursa'dan, taş değirmenden.</div>
+        </div>
+        <div class="safe" style="top: 1210px">
+          <div id="k3"><span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 64px; line-height: 1.12; padding: 28px 36px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span></div>
+          <div id="k4" style="margin-top: 34px; font-weight: 700; font-size: 50px; line-height: 1.3; color: var(--kahve)">Türkiye'nin her iline gönderim<br /><span style="color: var(--kirmizi)">@aziz.tahin</span></div>
+        </div>
+      </div>
+
+        <video id="rafv" class="clip" src="assets/raf.mp4" muted playsinline data-start="7.6" data-duration="2.4" data-track-index="2" style="z-index: 2; position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover"></video>
+        <video id="kavv" class="clip" src="assets/kavanoz.mp4" muted playsinline data-start="10" data-duration="3.37" data-track-index="2" style="z-index: 6; position: absolute; left: 0; top: 560px; width: 1080px; height: 608px; object-fit: cover"></video>
+
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          [["#s1",0,3],["#s2",3,5.2],["#s3",5.2,7.6],["#s4",7.6,10],["#s5",10,13.4]].forEach(([id,a,b]) => {
+            if (a > 0) { tl.set(id, { autoAlpha: 0 }, 0); tl.set(id, { autoAlpha: 1 }, a); } if (b < 13.4) tl.set(id, { autoAlpha: 0 }, b);
+          });
+          const pop = { ease: "back.out(1.7)", duration: 0.45 };
+          // 1
+          tl.fromTo("#c1", { scale: 0.5, rotation: -4, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 0);
+          tl.fromTo("#m1", { scale: 1 }, { scale: 2.1, duration: 2.6, ease: "power2.in" }, 0.4);
+          tl.fromTo("#a1", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3 }, 0.05);
+          tl.fromTo("#r1", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1.3, duration: 0.5, ease: "back.out(2)" }, 0.8);
+          tl.to("#r1", { opacity: 0, duration: 0.3 }, 1.5);
+          // 2
+          tl.fromTo("#m2", { scale: 1.6 }, { scale: 1.0, duration: 1.0, ease: "power3.out" }, 3);
+          tl.fromTo("#a2", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3 }, 3.05);
+          tl.fromTo("#r2", { opacity: 0, scale: 0.3 }, { opacity: 1, scale: 1.2, duration: 0.5, ease: "back.out(2)" }, 3.4);
+          // 3
+          tl.fromTo("#dk", { scale: 1.6 }, { scale: 1.0, duration: 2.4, ease: "power3.out" }, 5.2);
+          tl.fromTo("#a3", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, ...pop }, 5.6);
+          // 4
+          tl.fromTo("#a4", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3 }, 7.7);
+          // 5
+          tl.fromTo("#k1", { opacity: 0, y: 40 }, { opacity: 1, y: 0, ...pop }, 10.05);
+          tl.fromTo("#k2", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 10.3);
+          tl.fromTo("#kavv", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 10.0);
+          tl.fromTo("#k3", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ...pop }, 10.6);
+          tl.to("#k3", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, 11.3);
+          tl.fromTo("#k4", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, 10.9);
+          window.__timelines = window.__timelines || {};
+          window.__timelines["bursaya-inis"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>

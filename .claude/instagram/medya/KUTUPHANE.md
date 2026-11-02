@@ -8,7 +8,7 @@ Depo herkese açıktır: buraya yalnızca paylaşılması sorun olmayan görünt
 konur.
 
 Bu dosyaya yeni satırlar EKLENİR; dosyanın üzerine yeni bir tablo yazılmaz
-(eski satırlar kaybolur). Videolar `video/` klasöründedir (H.264, sessiz).
+(eski satırlar kaybolur). Videolar `video/` klasöründedir (H.264, sessiz, SDR; iPhone HDR videoları SDR'ye çevrilir, yoksa HyperFrames render'ı bozulur).
 
 Başka markaların ürünleri ana görsel olarak kullanılmaz; fiyat etiketleri
 kırpılır; tanınan kişiler kırpılır.
