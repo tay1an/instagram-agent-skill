@@ -55,6 +55,7 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 | 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |
 | 8 Kasım | Uzun reel | ikinci kıta + nakarat, 54 sn (18-kita2) | ort. izlenme süresi, kaydetme, paylaşma | bekleniyor |
 | 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler (27 Ekim'deki 03-kalp 20:30'da, diğerleri 22:00'de; karşılaştırmada 03'ü ayrı tut) | kat, ort. izlenme | bekleniyor |
+| 4 Kasım | Elle mi API mi | 4-7 Kasım fotoğraflı 15 sn reel'ler: 5 (10-sabah) ve 7 Kasım (17-capa-iskele) kullanıcı uygulamadan paylaşır (`durum: elle`, iş akışı atlar); 4 (16-capa-sahil) ve 6 Kasım (11-kor-yara) API'den. Çapa reel'i her iki grupta bir tane | kat, izlenme, ort. izlenme | bekleniyor |
 
 ## Kullanıcıdan beklenenler
 
