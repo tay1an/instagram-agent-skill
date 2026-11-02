@@ -224,9 +224,10 @@ asla uydurmaz.
     süzme çiçek balı. İçeriklerde "Munzur balı" denir; "Ovacık balı" ya da "Aziz
     balı" denmez.
   - **Ahlat balı:** Bitlis Ahlat'tan hakiki çiçek balı (kavanozlar etiketsiz).
-  - **İkisi de çiçek balıdır** (kullanıcı, 2 Kasım). Birlikte anılınca iki ayrı
-    tür sanılmasın: "Munzur balı ve Ahlat çiçek balı" yerine "iki çeşit çiçek
-    balı: Tunceli'den Munzur, Bitlis'ten Ahlat" gibi yazılır.
+  - **İkisi de çiçek balıdır** (kullanıcı, 2 Kasım). Birlikte anılınca adlar
+    aynı yapıda yazılır: "Munzur balı, Ahlat balı" ya da "Munzur çiçek balı,
+    Ahlat çiçek balı". Biri "bal" öteki "çiçek balı" diye yazılmaz;
+    "iki çeşit çiçek balı" gibi ek açıklama da yapılmaz.
   - "%100 doğal" gibi ek iddialar bal için kullanılmaz; etikette yazanla sınırlı kalınır.
 - Dükkan Bursa'da, Cumhuriyet Caddesi'nin girişinde; 15. yüzyıldan kalma tarihi
   Yiğit Köhne Camii'nin tam karşısında. Tarihi görünümlü bir binada, önünden
