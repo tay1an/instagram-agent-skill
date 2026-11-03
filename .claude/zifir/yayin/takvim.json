@@ -199,9 +199,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v08-ufuk.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"ufuk daldırır beni senli bir hayale\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v08-ufuk-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v08-ufuk-kapak.jpg",
+      "medya_id": "17918876166261787",
+      "yayin_zamani": "2026-11-03 18:01"
     },
     {
       "id": "2026-11-03-reel-lyric-video",
