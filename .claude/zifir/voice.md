@@ -61,6 +61,14 @@ yazmayan bir bilgiyi uydurmaz, taslaklarda yer tutucu bırakır.
 İçerik üretmeden önce `rapor/ogrenmeler.md` okunur. Oradaki "Kurallar" bu
 dosyadaki genel tercihlerden önce gelir; "Deneyler" sürerken deney koşulu bozulmaz.
 
+## Klip ve hikâyeli videolar (3 Kasım kullanıcı geri bildirimi)
+
+- Sözleri birebir görüntüye çevirme ("bakışlar ok olup taşları kırıyor" gibi). Anlatım dolaylı,
+  sezdiren, metaforik olsun; söz ile görüntü arasında boşluk bırak, izleyici kendisi bağlasın.
+- Çizgi kanatlar (yelpaze gibi) beğenilmedi; kanat ya da benzeri büyük dönüşüm gerekiyorsa
+  çok daha iyi çizilmeli ya da hiç kullanılmamalı.
+- Hareket istenir: her bölümde tek durağan görsel değil, sürekli akan bir hikâye.
+
 ## Açıklama ve ekran yazısı kalıbı
 
 Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
