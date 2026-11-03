@@ -56,6 +56,28 @@ def ton_bul(chroma: np.ndarray) -> tuple[str, float]:
     return en_iyi, round(skor, 3)
 
 
+def paralel_ton_sec(ton: str, akor_listesi: list[dict]) -> str:
+    """Majör/relatif minör ayni notalari paylasir; akorlarda hangi tonik baskinsa onu sec."""
+    kok, tur = ton.split()
+    k = NOTA.index(kok)
+    if tur == "major":
+        aday_ad, aday = NOTA[(k + 9) % 12] + "m", f"{NOTA[(k + 9) % 12]} minor"
+        mevcut_ad = kok
+    else:
+        aday_ad, aday = NOTA[(k + 3) % 12], f"{NOTA[(k + 3) % 12]} major"
+        mevcut_ad = kok + "m"
+
+    def skor(ad: str) -> float:
+        s = sum(x["bitis"] - x["baslangic"] for x in akor_listesi if x["ad"] == ad)
+        if akor_listesi and akor_listesi[0]["ad"] == ad:
+            s += 4  # acilis akoru genelde toniktir
+        if akor_listesi and akor_listesi[-1]["ad"] == ad:
+            s += 2
+        return s
+
+    return aday if skor(aday_ad) > skor(mevcut_ad) else ton
+
+
 def akor_sablonlari() -> list[tuple[str, np.ndarray, list[int]]]:
     sablon = []
     for kok in range(12):
@@ -109,21 +131,34 @@ def monofonik_notalar(y: np.ndarray, iz: Izgara, fmin: str, fmax: str) -> list[d
 
 
 def davul_notalari(y: np.ndarray, iz: Izgara) -> list[dict]:
-    """Onset'leri spektral merkeze gore kick(36)/snare(38)/hat(42) olarak ayirir."""
-    onset = librosa.onset.onset_detect(y=y, sr=SR, hop_length=HOP, units="frames", backtrack=False)
+    """Onset'leri frekans bandi enerjisine gore kick(36)/snare(38)/hat(42) olarak ayirir."""
+    onset = librosa.onset.onset_detect(y=y, sr=SR, hop_length=HOP, units="samples", backtrack=True)
     if len(onset) == 0:
         return []
-    merkez = librosa.feature.spectral_centroid(y=y, sr=SR, hop_length=HOP)[0]
-    rms = librosa.feature.rms(y=y, hop_length=HOP)[0]
-    notalar, gorulen = [], set()
-    for f in onset:
-        c = merkez[min(f, len(merkez) - 1)]
-        pitch = 36 if c < 1500 else (38 if c < 4500 else 42)
-        b = iz.beat(librosa.frames_to_time(f, sr=SR, hop_length=HOP))
+    pencere = int(0.05 * SR)
+    frek = np.fft.rfftfreq(pencere, 1 / SR)
+    olaylar = []
+    for o in onset:
+        parca = y[o:o + pencere]
+        if len(parca) < pencere:
+            parca = np.pad(parca, (0, pencere - len(parca)))
+        guc = np.abs(np.fft.rfft(parca * np.hanning(pencere))) ** 2
+        toplam = guc.sum() + 1e-12
+        dusuk, yuksek = guc[frek < 150].sum() / toplam, guc[frek > 5000].sum() / toplam
+        pitch = 36 if dusuk > 0.5 else (42 if yuksek > 0.7 else 38)
+        olaylar.append((o / SR, pitch, float(np.sqrt(np.mean(parca ** 2)))))
+    tepe = max(e for _, _, e in olaylar) + 1e-9
+    notalar, gorulen, onceki = [], set(), None
+    for t, pitch, enerji in olaylar:
+        # bir vurusun kuyrugundan cikan zayif sahte onset'leri at
+        if onceki and t - onceki[0] < 0.6 * 60 / iz.bpm / 2 and enerji < 0.5 * onceki[1]:
+            continue
+        onceki = (t, enerji)
+        b = iz.beat(t)
         if b < 0 or (pitch, b) in gorulen:
             continue
         gorulen.add((pitch, b))
-        hiz = int(np.clip(50 + 77 * rms[min(f, len(rms) - 1)] / (rms.max() + 1e-9), 50, 127))
+        hiz = int(np.clip(50 + 77 * enerji / tepe, 50, 127))
         notalar.append({"pitch": pitch, "start_time": b, "duration": 0.25, "velocity": hiz, "mute": False})
     return notalar
 
@@ -194,14 +229,27 @@ def main() -> None:
 
     ritim = next((y for p, y in stemler.items() if roller[p] == "davul"), miks)
     tempo, vuruslar = librosa.beat.beat_track(y=ritim, sr=SR, hop_length=HOP, units="time")
-    bpm = a.bpm or float(np.round(np.atleast_1d(tempo)[0], 1))
-    iz = Izgara(bpm, float(vuruslar[0]) if len(vuruslar) else 0.0)
+    bpm = float(np.atleast_1d(tempo)[0])
+    while bpm and bpm < 70:   # beat tracker cogu zaman yarim/iki kat tempo bulur
+        bpm *= 2
+    while bpm > 180:
+        bpm /= 2
+    bpm = a.bpm or (float(round(bpm)) if abs(bpm - round(bpm)) < 0.35 else round(bpm, 1))
+    # Izgarayi ilk vurusa hizala, sonra muzigin basladigi yere kadar tam vuruslarla geri sar.
+    periyot = 60.0 / bpm
+    ilk = float(vuruslar[0]) if len(vuruslar) else 0.0
+    onsetler = librosa.onset.onset_detect(y=miks, sr=SR, hop_length=HOP, units="time")
+    baslangic = float(onsetler[0]) if len(onsetler) else 0.0
+    while ilk - periyot >= baslangic - 0.1 * periyot:
+        ilk -= periyot
+    iz = Izgara(bpm, ilk)
     toplam_beat = iz.beat(uzunluk / SR, 1)
     toplam_bar = int(np.ceil(toplam_beat / 4))
 
     harmonik = [y for p, y in stemler.items() if roller[p] in ("akor", "bas")] or [miks]
     harm_miks = sum(np.pad(y, (0, uzunluk - len(y))) for y in harmonik)
     ton, ton_guven = ton_bul(librosa.feature.chroma_cqt(y=harm_miks, sr=SR, hop_length=HOP))
+    ton = paralel_ton_sec(ton, akorlar(harm_miks, Izgara(bpm, ilk), toplam_beat))
 
     rapor = {
         "bpm": bpm, "ton": ton, "ton_guveni": ton_guven, "olcu": "4/4",

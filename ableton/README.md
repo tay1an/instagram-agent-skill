@@ -83,4 +83,5 @@ Stem dosya adından rol tahmin edilir: `vocal/vox` → vokal, `bass/808` → bas
 - Transkripsiyon yaklaşıktır. Bas ve vokal melodisi (pyin) genelde iyidir. Akorlar majör/minör
   üçlü olarak tahmin edilir. Davul sadece kick/snare/hat diye üçe ayrılır. Sonucu kulakla kontrol et.
 - Sabit tempo ve 4/4 varsayılır (Suno çıktıları için genelde doğru).
-- Analiz, şarkı başına birkaç dakika sürebilir. En yavaş adım vokal ve bas perde takibi.
+- Sentetik testte (120 BPM, A minör, Am–F–C–G, 16 bar) tempo, ton, akorlar, bas, vokal melodisi ve davul birebir doğru çıktı; gerçek Suno miksleri bu kadar temiz değildir.
+- Analiz, şarkı başına bir-iki dakika sürebilir. En yavaş adım vokal ve bas perde takibi.
