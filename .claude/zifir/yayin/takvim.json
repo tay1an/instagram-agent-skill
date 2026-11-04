@@ -225,9 +225,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v09-parcalar.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v09-parcalar-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v09-parcalar-kapak.jpg",
+      "medya_id": "18082656671359475",
+      "yayin_zamani": "2026-11-04 18:01"
     },
     {
       "id": "2026-11-04-reel-16-capa-sahil",
