@@ -27,7 +27,7 @@ def yol_noktasi(f):
     return p[i] * (1 - u) + p[i + 1] * u
 
 
-def main(cikti, bas=79.3, sure=20.0):
+def main(cikti, bas=2.0, sure=53.8):
     kap = cv2.cvtColor(cv2.imread(KAPAK), cv2.COLOR_BGR2RGB).astype(np.float32)
     s0 = kap.shape[0]
     # arka plan: kapağın bulanık, koyu hâli ekranı doldurur
