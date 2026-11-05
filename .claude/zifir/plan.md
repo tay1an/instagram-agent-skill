@@ -42,7 +42,7 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 
 ## Yeni şarkı: Yolun Sonunda (11 Aralık)
 Ses ve kapak `yolun-sonunda/`. Suno ile üretilmiş, 2:18; nakarat ~21 sn ve ~79 sn'de başlıyor. 5 Kasım ilk ön dinleti
-(`uretici/yolun_teaser.py`, 79,3-99,3 sn, kapaktaki yolu ışık yürür). Sözler kullanıcıdan istenecek.
+(`uretici/yolun_teaser.py`, 79,3-99,3 sn, kapaktaki yolu ışık yürür). Sözler `yolun-sonunda/sozler.txt` (5 Kasım). Güçlü satırlar: "Yolun sonunda kendimi bile görmem yine", "Bi bilsen ah ne çok özledim seni", "Verirsen solmaz hiç çiçeklerim".
 
 ## Sıradaki karar (4 Kasım analizi)
 Hikâye videoları Instagram'da 18:00'de reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).
