@@ -251,9 +251,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v10-olmayi.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"olmayı seçenin yerine çok yakın\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v10-olmayi-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v10-olmayi-kapak.jpg",
+      "medya_id": "17891890200617843",
+      "yayin_zamani": "2026-11-05 18:01"
     },
     {
       "id": "2026-11-05-reel-23-yolun-teaser",
