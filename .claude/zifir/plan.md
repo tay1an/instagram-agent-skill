@@ -30,14 +30,19 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 | 2026-11-14 | v19-lamba | 19-capa-lamba |
 | 2026-11-15 | - | 20-sevgili-kita ("Sevgili sevgilim" kıtasının dört satırı, 20,6 sn; kullanıcı isteği) |
 | 2026-11-16 | - | 08-ardinda (2 Kasım'dan ertelendi; o gün kullanıcı 'iki şey' carousel'ini elle paylaştı) |
+| 2026-11-17 | - | 10-sabah (5 Kasım'dan ertelendi; o gün 'Yolun Sonunda' ön dinletisi elle paylaşıldı) |
 
 - Aynı gün paylaşılan hikâye ile reel şarkının aynı kısmını kullanmaz.
 - 1-8 numaralı reel'ler çizim sahneli; 9-18 ve bütün video hikâyeler `stok/`
   fotoğraflarından (`uretici/foto_video.py`, plan `uretici/plan_2.py`, `plan_3.py`).
 - Video: ekstra yazı yok, yalnızca akan şarkı sözü + `ZİFİR — UZAK`.
 - **Çapa söz grubu** (dört satır) 26 Eki, 31 Eki, 4, 7, 10, 14 Kasım; sonra da 3-4 günde bir.
-- **Malzeme 16 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
+- **Malzeme 17 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
   (ve varsa yeni şarkı) istenir.
+
+## Yeni şarkı: Yolun Sonunda (11 Aralık)
+Ses ve kapak `yolun-sonunda/`. Suno ile üretilmiş, 2:18; nakarat ~21 sn ve ~79 sn'de başlıyor. 5 Kasım ilk ön dinleti
+(`uretici/yolun_teaser.py`, 79,3-99,3 sn, kapaktaki yolu ışık yürür). Sözler kullanıcıdan istenecek.
 
 ## Sıradaki karar (4 Kasım analizi)
 Hikâye videoları Instagram'da 18:00'de reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).

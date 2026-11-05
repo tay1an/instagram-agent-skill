@@ -256,14 +256,14 @@
       "tiktok_kapak": ".claude/zifir/medya/hikaye/v10-olmayi-kapak.jpg"
     },
     {
-      "id": "2026-11-05-reel-10-sabah",
+      "id": "2026-11-05-reel-23-yolun-teaser",
       "tur": "reel",
       "zaman": "2026-11-05 19:00",
       "medya": [
-        ".claude/zifir/medya/10-sabah.mp4"
+        ".claude/zifir/medya/23-yolun-teaser.mp4"
       ],
-      "kapak": ".claude/zifir/medya/10-sabah-kapak.jpg",
-      "aciklama": "\"bir sabah var hep uyanmak isterim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "kapak": ".claude/zifir/medya/23-yolun-teaser-kapak.jpg",
+      "aciklama": "yolun sonunda.\n\n11 aralık'ta spotify'da. zifir.\n#türkçepop #yenimüzik #zifir",
       "durum": "elle"
     },
     {
@@ -484,6 +484,17 @@
       ],
       "kapak": ".claude/zifir/medya/08-ardinda-kapak.jpg",
       "aciklama": "\"ardında ne parçam ne de ben varım\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-05-reel-10-sabah",
+      "tur": "reel",
+      "zaman": "2026-11-17 19:00",
+      "medya": [
+        ".claude/zifir/medya/10-sabah.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/10-sabah-kapak.jpg",
+      "aciklama": "\"bir sabah var hep uyanmak isterim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
       "durum": "bekliyor"
     }
   ]
