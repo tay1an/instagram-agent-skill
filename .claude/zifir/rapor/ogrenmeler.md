@@ -70,6 +70,19 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 5 Kasım 2026
+- 2 takipçi · medyan 126 · haftalık erişim 2913, kaydetme 17, paylaşma 4, yorum 4
+- **En iyi: 4 Kasım çapa reel'i (16-capa-sahil, API, fotoğraflı, 4 satır):** 1242 izlenme, 11 kaydetme,
+  **ort. 6,9 sn** (şimdiye kadarki en uzun izlenme; hedef 7 sn'ye en yakın). Çapa söz grubu ikinci kez
+  ~1250 izlenmeye ulaştı (26 Ekim 01-anlatan 1258): en güvenilir içerik bu dört satır.
+- Fotoğraf dönemi güçlü başladı (1 reel); çizim dönemi (27 Ekim-3 Kasım API reel'leri): 931, 424, 149,
+  29, 1, 1. Eğilim: fotoğraflı > çizim; 10 Kasım'a kadar fotoğraflı reel'lerle doğrulanacak.
+- 3 Kasım lyric reel'i (takvimde yayınlandı) son 15 gönderide yok: silinmiş olabilir, kullanıcıya soruldu.
+- Kullanıcının elle paylaştıkları: "iki şey" animasyon reel'i 121 izlenme / 5,5 sn, carousel'de API
+  izlenme vermiyor (0). 3 Kasım'da kullanıcı yeni şarkı duyurusu yaptı: **"Yolun Sonunda" 11 Aralık'ta
+  Spotify'da** (97 ve 2 izlenme). Duyuru gönderileri yine zayıf (26 Ekim kuralı geçerli).
+- Takvim değişmedi; çapa reel'leri 7, 10, 14 Kasım'da zaten var.
+
 ### 2 Kasım 2026
 - 2 takipçi (+0) · medyan 424 · haftalık erişim 3691, kaydetme 19, paylaşma 7, yorum 2 (ilk yorumlar)
 - **Elle (uygulamadan) paylaşılanlar en iyi:** 27 Ekim "ardında" 1410 (10 kaydetme) ve 1 Kasım
