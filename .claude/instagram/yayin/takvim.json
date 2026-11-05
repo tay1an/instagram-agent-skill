@@ -449,7 +449,9 @@
       "medya": [
         ".claude/instagram/gorseller/hikaye-2026-11-05.jpg"
       ],
-      "durum": "bekliyor"
+      "durum": "yayinlandi",
+      "medya_id": "18147607204602270",
+      "yayin_zamani": "2026-11-05 09:00"
     },
     {
       "id": "2026-11-05-carousel",
