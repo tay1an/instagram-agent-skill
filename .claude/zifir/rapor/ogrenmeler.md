@@ -55,7 +55,7 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 | 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |
 | 8 Kasım | Uzun reel | ikinci kıta + nakarat, 54 sn (18-kita2) | ort. izlenme süresi, kaydetme, paylaşma | bekleniyor |
 | 27 Ekim | Çizim mi fotoğraf mı | 27 Ekim-3 Kasım çizim sahneli, 4-10 Kasım fotoğraflı reel'ler (27 Ekim'deki 03-kalp 20:30'da, diğerleri 22:00'de; karşılaştırmada 03'ü ayrı tut) | kat, ort. izlenme | bekleniyor |
-| 4 Kasım | Elle mi API mi | 4-7 Kasım fotoğraflı 15 sn reel'ler: 5 (10-sabah) ve 7 Kasım (17-capa-iskele) kullanıcı uygulamadan paylaşır (`durum: elle`, iş akışı atlar); 4 (16-capa-sahil) ve 6 Kasım (11-kor-yara) API'den. Çapa reel'i her iki grupta bir tane | kat, izlenme, ort. izlenme | bekleniyor |
+| 4 Kasım | Elle mi API mi | 4-7 Kasım fotoğraflı 15 sn reel'ler: 5 (10-sabah) ve 7 Kasım (17-capa-iskele) kullanıcı uygulamadan paylaşır (`durum: elle`, iş akışı atlar); 4 (16-capa-sahil) ve 6 Kasım (11-kor-yara) API'den. Çapa reel'i her iki grupta bir tane. **5 Kasım değişti:** kullanıcı isteğiyle o gün elle 'Yolun Sonunda' ön dinletisi paylaşıldı (10-sabah 17 Kasım'a); 5 Kasım elle örneği farklı içerik olduğu için kıyas zayıfladı, ana kıyas 7 (elle) ↔ 4 Kasım (API) çapa reel'leri | kat, izlenme, ort. izlenme | bekleniyor |
 
 ## Kullanıcıdan beklenenler
 
@@ -77,7 +77,8 @@ dönüşümü ayrıca izlenecek.
   ~1250 izlenmeye ulaştı (26 Ekim 01-anlatan 1258): en güvenilir içerik bu dört satır.
 - Fotoğraf dönemi güçlü başladı (1 reel); çizim dönemi (27 Ekim-3 Kasım API reel'leri): 931, 424, 149,
   29, 1, 1. Eğilim: fotoğraflı > çizim; 10 Kasım'a kadar fotoğraflı reel'lerle doğrulanacak.
-- 3 Kasım lyric reel'i (takvimde yayınlandı) son 15 gönderide yok: silinmiş olabilir, kullanıcıya soruldu.
+- 3 Kasım lyric reel'i (tam şarkı, 2:56) silinmemiş: 126 izlenme, 2 beğeni, ort. 3,9 sn (kullanıcı teyidi; açıklaması
+  raporda farklı görünüyor). Tam şarkı uzunluğu Reels'te tutmadı.
 - Kullanıcının elle paylaştıkları: "iki şey" animasyon reel'i 121 izlenme / 5,5 sn, carousel'de API
   izlenme vermiyor (0). 3 Kasım'da kullanıcı yeni şarkı duyurusu yaptı: **"Yolun Sonunda" 11 Aralık'ta
   Spotify'da** (97 ve 2 izlenme). Duyuru gönderileri yine zayıf (26 Ekim kuralı geçerli).
