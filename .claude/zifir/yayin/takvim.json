@@ -275,9 +275,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v11-ozune.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"oysa seni sana anlatan ben idim\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v11-ozune-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v11-ozune-kapak.jpg",
+      "medya_id": "18003544160813603",
+      "yayin_zamani": "2026-11-06 18:01"
     },
     {
       "id": "2026-11-06-reel-11-kor-yara",
