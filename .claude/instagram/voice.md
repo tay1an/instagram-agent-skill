@@ -111,6 +111,16 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   Yeni hafta planlanırken takvimde dolu olan günlere dokunulmaz, yalnızca boş
   günler doldurulur.
 
+## İfade tercihleri ve onay (kullanıcının isteği, 7 Kasım)
+
+- **Reel yazıları önce onaya:** Reel'ler render edilmeden önce ekrandaki
+  bütün yazılar kullanıcıya liste halinde sorulur; onay gelmeden üretilmez.
+- **Tahin yağı ölçüsü:** "birkaç damla tahin yağı" denmez; "birkaç kaşık
+  tahin yağı" denir.
+- **"Kış kaşığı" ve "bu kaşığı deneyin" kullanılmaz.** Kullanıcının önerdiği
+  ad: "Kışa girerken şifa veren kaşık". Ölçüler açık yazılır: yarım yemek
+  kaşığı tahin, yarım yemek kaşığı zeytinyağı, 1 çay kaşığı bal.
+
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
 - Bundan sonraki bütün reel'lerde arka plan sesi olarak Aziz Tahin
