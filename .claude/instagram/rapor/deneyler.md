@@ -18,12 +18,26 @@ yaradığı anlaşılmaz. Cumartesi skor kartına bakılır, karar yazılır:
 - Not (28 Ekim): kullanıcının isteğiyle boş günlere reel eklendi (28 Ekim
   terazi, 29 Ekim üstteki yağ, 31 Ekim Bursa dükkânı). Değerlendirmede
   carousel'ler kendi aralarında, reel'ler kendi aralarında karşılaştırılır.
-- Sonuç: (31 Ekim'de yazılacak)
+- Sonuç (7 Kasım): **BIRAK.** Carousel paylaşma oranı %0-1,5 (hedef %2,5);
+  carousel erişimi 50-120, yani neredeyse yalnızca takipçiler görüyor. DM: 0,
+  sipariş: 0. Rehber türü carousel ("neden sertleşir") tek kaydedilen oldu.
+  Karar: haftada 2 carousel, ikisi de kaydettiren rehber türünde.
+
+## D2 · 8-14 Kas: reel'ler ilk 2 saniyede gerçek görüntüyle açılır
+
+- Neden: hesabın en iyi reel'leri gerçek görüntülü (akan tahin 6,0x; 1 kg
+  susam terazi 2,7x). Bu haftanın 3 reel'i yalnızca yazı/grafikle açıldı,
+  hepsi 0,3x kaldı.
+- Uygulama: her reel kütüphanedeki gerçek videoyla açılır (akan tahin, raf,
+  kavanozlar, dükkan); kanca ilk karede büyük yazı, kanıt ya da uyarı türü.
+  Kullanıcı (7 Kasım): carousel'ler ve açıklamalar da Instagram kullanıcısı
+  gözüyle dikkat çekici olsun.
+- Ölçüt: reel ortalama izlenme 5 sn ve üstü, reel başına erişim 400 ve üstü,
+  haftalık DM > 0.
+- Sonuç: (14 Kasım'da yazılacak)
 
 ## Sıradaki adaylar
 
-- D2: reel ilk 2 saniyesi. Ortalama izlenme 4,2 sn; kanca metni ilk karede
-  ekranda, ilk cümle soru ya da iddia. Ölçüt: ortalama izlenme süresi 6 sn.
 - D3: kaydetme için "rehber" carousel (ör. "tahin nasıl saklanır, neden yağı
   ayrılır"). Ölçüt: kaydetme oranı %1.
 - D4: dükkân/konum içeriği (Bursa'dan gelen ziyaret ve DM). Ölçüt: Bursa'dan
