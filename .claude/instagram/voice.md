@@ -121,6 +121,13 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   ad: "Kışa girerken şifa veren kaşık". Ölçüler açık yazılır: yarım yemek
   kaşığı tahin, yarım yemek kaşığı zeytinyağı, 1 çay kaşığı bal.
 
+## Ürün bilgisi (kullanıcı, 8 Kasım)
+
+- Etiketsiz 1 L cam şişelerde **zeytinyağı** satılır.
+- Keten bezli, sicimli, kırmızı "AZİZ" mühürlü şişeler **susam (tahin) yağıdır**.
+- **Pervari balının reklamı yapılmaz**; içeriklerde adı geçmez, öne çıkarılmaz.
+- Fotoğraflardaki fiyat etiketleri ve fiyat kâğıtları her kullanımda kapatılır.
+
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
 - Bundan sonraki bütün reel'lerde arka plan sesi olarak Aziz Tahin
