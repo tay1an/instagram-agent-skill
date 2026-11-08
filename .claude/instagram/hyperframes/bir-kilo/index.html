@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="tr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aziz Tahin - bir-kilo</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Black.otf"); font-weight: 900; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-Bold.otf"); font-weight: 700; }
+      @font-face { font-family: "AzizSans"; src: url("fonts/InterDisplay-SemiBold.otf"); font-weight: 600; }
+      @font-face { font-family: "AzizSerif"; src: url("fonts/Playfair-Italic.ttf"); font-style: italic; }
+
+      :root {
+        --krem: #f6ecd9;
+        --susam: #e3c48f;
+        --kahve: #4a2c17;
+        --koyu: #2a170a;
+        --kirmizi: #b3202a;
+        --altin: #d9a441;
+      }
+
+      html, body {
+        margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden;
+        background: var(--koyu); font-family: "AzizSans", sans-serif; color: var(--krem);
+      }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--koyu); }
+      .scene { position: absolute; inset: 0; overflow: hidden; }
+
+      /* Instagram güvenli alanı: üst 230, alt 480, sağ 230 yazısız kalır */
+      .safe { position: absolute; left: 80px; top: 260px; width: 740px; }
+
+      .kicker { font-weight: 700; font-size: 40px; letter-spacing: 6px; color: var(--altin); }
+      .big { font-weight: 900; font-size: 124px; line-height: 0.95; letter-spacing: -4px; margin: 0; }
+      .serif { font-family: "AzizSerif", serif; font-style: italic; font-weight: 400; }
+      .pill { display: inline-block; font-weight: 900; border-radius: 22px; }
+      .photo { position: absolute; background-size: cover; background-position: center; }
+      .shade { position: absolute; inset: 0; }
+      .mapcard {
+        position: absolute; left: 70px; width: 940px; border-radius: 34px; overflow: hidden;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45); border: 8px solid var(--krem); background: #f1f1f1;
+      }
+      .mapcard img { display: block; width: 100%; }
+      .credit { position: absolute; right: 16px; bottom: 10px; font-weight: 600; font-size: 22px; color: #5f6368; background: rgba(255,255,255,0.85); padding: 2px 10px; border-radius: 8px; }
+      .ring { position: absolute; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 10px solid var(--kirmizi); opacity: 0; }
+      .pin {
+        position: absolute; width: 120px; height: 120px; border-radius: 50% 50% 50% 0;
+        background: var(--kirmizi); transform: rotate(-45deg); box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+      }
+      .pin:after { content: ""; position: absolute; left: 36px; top: 36px; width: 48px; height: 48px; border-radius: 50%; background: var(--krem); }
+    
+      .num { display: inline-block; width: 130px; height: 130px; border-radius: 50%; background: var(--kirmizi); color: var(--krem); font-weight: 900; font-size: 84px; line-height: 130px; text-align: center; box-shadow: 0 12px 30px rgba(0,0,0,0.4); }
+      .lbl { font-weight: 900; font-size: 96px; line-height: 0.98; letter-spacing: -3px; margin-top: 26px; text-shadow: 0 6px 24px rgba(0,0,0,0.55); }
+      .bant { position: absolute; left: 0; right: 0; top: 0; height: 900px; background: linear-gradient(180deg, rgba(30,15,5,0.92) 0%, rgba(30,15,5,0.75) 45%, rgba(30,15,5,0) 100%); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="bir-kilo" data-width="1080" data-height="1920" data-start="0" data-duration="14.2">
+      <div id="s1" class="scene clip" data-start="0.0" data-duration="3.4" data-track-index="1" style="z-index: 3"><div class="bant"></div>
+        <div class="safe"><div class="kicker" id="k1">BU SİZİ ŞAŞIRTABİLİR</div><h1 class="big" id="t1" style="margin-top: 22px; font-size: 104px">1 KİLO SUSAM.<br />1 KİLO TAHİN.<br /><span style='color: var(--altin)'>ARADA SIFIR.</span></h1></div></div>
+<div id="s2" class="scene clip" data-start="3.4" data-duration="2.6" data-track-index="1">
+        <div class="photo" id="p2" style="inset: 0; background-image: url('assets/p2.jpg'); background-position: 50% 50%"></div><div class="bant"></div>
+        <div class="safe"><div class="lbl" id="l2" style="font-size: 86px">TEMİZLENİP<br />HAZIRLANMIŞ<br /><span style='color: var(--altin)'>1 KİLO SUSAMDAN</span></div></div></div>
+<div id="s3" class="scene clip" data-start="6.0" data-duration="2.4" data-track-index="1">
+        <div class="photo" id="p3" style="inset: 0; background-image: url('assets/p3.jpg'); background-position: 50% 55%"></div><div class="bant"></div>
+        <div class="safe"><div class="lbl" id="l3" style="font-size: 110px"><span style='color: var(--altin)'>1 KİLO</span><br />TAHİN ÇIKAR</div></div></div>
+<div id="s4" class="scene clip" data-start="8.4" data-duration="2.4" data-track-index="1" style="z-index: 3"><div class="bant"></div>
+        <div class="safe"><div class="kicker" id="k4"></div><h1 class="big" id="t4" style="margin-top: 22px; font-size: 100px">ŞEKER YOK.<br />KATKI YOK.<br /><span style='color: var(--altin)'>SADECE SUSAM.</span></h1></div></div>
+<div id="s5" class="scene clip" data-start="10.8" data-duration="3.4" data-track-index="1" style="background: var(--krem); z-index: 5">
+        <div class="safe" style="top: 250px"><div id="c1" style="font-weight: 900; font-size: 110px; line-height: 0.95; color: var(--kirmizi); letter-spacing: -3px">1 KG<br />AZİZ TAHİN</div>
+        <div id="c2" style="font-weight: 700; font-size: 42px; line-height: 1.3; margin-top: 18px; color: var(--kahve)">Taş değirmende, yalnızca susamdan</div></div>
+        <div class="safe" style="top: 1230px"><div id="c3"><span class="pill" style="background: var(--kahve); color: var(--krem); font-size: 60px; line-height: 1.12; padding: 26px 34px">SİPARİŞ İÇİN<br />DM'DEN YAZIN</span></div>
+        <div id="c4" style="margin-top: 28px; font-weight: 700; font-size: 44px; color: var(--kahve)">Türkiye'nin her iline gönderim<br /><span style="color: var(--kirmizi)">@aziz.tahin</span></div></div></div>
+      <video id="v1" class="clip" src="assets/v1.mp4" muted playsinline data-start="0.0" data-duration="3.4" data-track-index="2" style="z-index: 2; position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover"></video>
+<video id="v4" class="clip" src="assets/v4.mp4" muted playsinline data-start="8.4" data-duration="2.4" data-track-index="2" style="z-index: 2; position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover"></video>
+<video id="vk" class="clip" src="assets/kavanoz.mp4" muted playsinline data-start="10.8" data-duration="3.37" data-track-index="2" style="z-index: 6; position: absolute; left: 0; top: 590px; width: 1080px; height: 608px; object-fit: cover"></video>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          if (10.8 > 0) { tl.set("#s5", { autoAlpha: 0 }, 0); tl.set("#s5", { autoAlpha: 1 }, 10.8); } 
+if (8.4 > 0) { tl.set("#s4", { autoAlpha: 0 }, 0); tl.set("#s4", { autoAlpha: 1 }, 8.4); } tl.set("#s4", { autoAlpha: 0 }, 10.8);
+if (6.0 > 0) { tl.set("#s3", { autoAlpha: 0 }, 0); tl.set("#s3", { autoAlpha: 1 }, 6.0); } tl.set("#s3", { autoAlpha: 0 }, 8.4);
+if (3.4 > 0) { tl.set("#s2", { autoAlpha: 0 }, 0); tl.set("#s2", { autoAlpha: 1 }, 3.4); } tl.set("#s2", { autoAlpha: 0 }, 6.0);
+if (0.0 > 0) { tl.set("#s1", { autoAlpha: 0 }, 0); tl.set("#s1", { autoAlpha: 1 }, 0.0); } tl.set("#s1", { autoAlpha: 0 }, 3.4);
+tl.fromTo("#k1", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3 }, 0.0);
+tl.fromTo("#t1", { opacity: 0, scale: 0.85, transformOrigin: "left center" }, { opacity: 1, scale: 1, ease: "back.out(1.7)", duration: 0.45 }, 0.1);
+tl.fromTo("#p2", { scale: 1.18 }, { scale: 1.02, duration: 2.6, ease: "power1.out" }, 3.4);
+tl.fromTo("#l2", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, 3.6);
+tl.fromTo("#p3", { scale: 1.18 }, { scale: 1.02, duration: 2.4, ease: "power1.out" }, 6.0);
+tl.fromTo("#l3", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, 6.2);
+tl.fromTo("#k4", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3 }, 8.4);
+tl.fromTo("#t4", { opacity: 0, scale: 0.85, transformOrigin: "left center" }, { opacity: 1, scale: 1, ease: "back.out(1.7)", duration: 0.45 }, 8.5);
+tl.fromTo("#c1", { opacity: 0, y: 40 }, { opacity: 1, y: 0, ease: "back.out(1.7)", duration: 0.45 }, 10.850000000000001);
+tl.fromTo("#c2", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 11.100000000000001);
+tl.fromTo("#vk", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 10.8);
+tl.fromTo("#c3", { opacity: 0, scale: 0.8, transformOrigin: "left center" }, { opacity: 1, scale: 1, ease: "back.out(1.7)", duration: 0.45 }, 11.4);
+tl.to("#c3", { scale: 1.05, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, 12.100000000000001);
+tl.fromTo("#c4", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, 11.700000000000001);
+          window.__timelines = window.__timelines || {};
+          window.__timelines["bir-kilo"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>
