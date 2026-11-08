@@ -10,13 +10,15 @@ konur.
 Bu dosyaya yeni satırlar EKLENİR; dosyanın üzerine yeni bir tablo yazılmaz
 (eski satırlar kaybolur). Videolar `video/` klasöründedir (H.264, sessiz, SDR; iPhone HDR videoları SDR'ye çevrilir, yoksa HyperFrames render'ı bozulur).
 
-Başka markaların ürünleri ana görsel olarak kullanılmaz ve reklamı yapılmaz
-(ör. Pervari bal); fiyat etiketleri ve fiyat kâğıtları HER KULLANIMDA kapatılır
-(kırpma, bulanıklaştırma ya da üstüne yazı/bant); tanınan kişiler kırpılır.
-Makine (değirmen) görünen kısım kırpılır.
-
-Ürün bilgisi (kullanıcı, 8 Kasım): etiketsiz 1 L cam şişeler ZEYTİNYAĞI;
-keten bezli, sicimli, kırmızı mühürlü şişeler SUSAM (TAHİN) YAĞI.
+**Güncel kurallar (kullanıcı, 8 Kasım; satırlardaki eski notlardan önce gelir):**
+- Fiyat etiketleri ve fiyat kâğıtları HER KULLANIMDA silinir/kapatılır.
+- Başka markalar (Pervari bal dahil) fotoğrafta görünebilir, kırpmaya gerek
+  yok; yalnızca onlara özel reklam/tanıtım içeriği yapılmaz.
+- Makine: yalnızca daha önce silinen yakın makine fotoğrafı yasaktır. 8 Kasım
+  fotoğraflarında makine uzaktan göründüğü için kullanılabilir.
+- 8 Kasım'da gönderilen bütün fotoğraflar (fiyatlar silinerek) kullanılabilir.
+- Ürün adları: etiketsiz 1 L cam şişeler ZEYTİNYAĞI; keten bezli, mühürlü
+  şişeler SUSAM YAĞI (içerikte "susam yağı" denir).
 
 | dosya | ne | açıklama (kullanıcının sözleriyle) | tür / boyut | etiketler | notlar | kullanıldığı yerler |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +66,7 @@ keten bezli, sicimli, kırmızı mühürlü şişeler SUSAM (TAHİN) YAĞI.
 | yag-sise-01.jpg | Üç etiketsiz yağ şişesi, pencere önünde, yakın çekim | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | yağ, şişe, ürün, ışık | Çok temiz ve ışıklı ürün fotoğrafı. Etiketsiz 1 L şişeler: zeytinyağı (kullanıcı, 8 Kasım). | |
 | pekmez-bidon-01.jpg | Kırmızı kapaklı pekmez bidonları sıra halinde, yakın, derinlikli | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | pekmez, ürün, bidon | Etiketsiz, koyu sıvılı bidonlar; vitrin fotoğraflarındaki pekmez bidonları. Tahin-pekmez içeriklerinde arka plan ya da geçiş görseli. Fiyat etiketi yok. | |
 | pekmez-bidon-02.jpg | Kırmızı kapaklı pekmez bidonları, başka açı | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | pekmez, ürün, bidon | pekmez-bidon-01 ile neredeyse aynı; ikisinden biri seçilir. | |
-| tahinyagi-06.jpg | Tahin yağı şişeleri, keten bez kapak, sicim ve kırmızı "AZİZ" mühürleri, çok yakın; arkada kırmızı etiketli şişeler | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | tahin yağı, ürün, mühür, yakın çekim, ışık | Tahin yağının en etkileyici yakın çekimi: ışık şişelerin içinden geçiyor. Kapak, reel açılışı ve "el emeği, özenli paket" içerikleri için birinci tercih. Fiyat etiketi ve başka marka yok. | |
+| tahinyagi-06.jpg | Susam yağı (mühürlü) şişeleri, keten bez kapak, sicim ve kırmızı "AZİZ" mühürleri, çok yakın; arkada kırmızı etiketli şişeler | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | tahin yağı, ürün, mühür, yakın çekim, ışık | Tahin yağının en etkileyici yakın çekimi: ışık şişelerin içinden geçiyor. Kapak, reel açılışı ve "el emeği, özenli paket" içerikleri için birinci tercih. Fiyat etiketi ve başka marka yok. | |
 | dukkan-tabela-aksam-01.jpg | Dükkan cephesi, alacakaranlık: büyük "AZİZ TAHİN" tabelası, vitrin, açık kapı | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, yatay 1600x1200 | dükkan, tabela, cephe, akşam, konum | YALNIZCA ÜST KISIM (tabela) kullanılır. Vitrinde "Bursa gazozu 20 TL" ve "Doğal tahin kilo 250 TL" fiyat kâğıtları, başka markaların vitrin yapıştırması (Vakıflar) ve başka marka paketler var; ayrıca camın ardında, rafların arasında makine küçük de olsa görünüyor. Bu yüzden vitrin kısmı kırpılır. | |
 | urunler-tezgah-01.jpg | Ahşap tezgahta 1 kg Aziz Tahin kavanozları, sızma zeytinyağı tenekeleri, pekmez şişesi ve bir kavanoz bal | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | tahin, zeytinyağı, pekmez, bal, ürün, kahvaltı | Ürünleri bir arada gösteren temiz kare: "tahin, zeytinyağı, bal" tarifleri ve "üçü de dükkanımızda" içerikleri için. Bal kavanozu Pervari balı: reklamı yapılmaz (kullanıcı, 8 Kasım); kırpılır ya da adı anılmaz. | |
 | bal-munzur-02.jpg | Munzur balı kavanozları rafta, etiketler net ("munzur birlik BAL", "Süzme Çiçek Bal", 850 g) | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | bal, munzur, ürün, raf | Munzur balı içerikleri için bal-munzur-01'den daha zengin (çoklu kavanoz). Marka kuralı: "Munzur balı" ya da "Munzur çiçek balı" denir, Aziz Tahin ürünü gibi sunulmaz. Fiyat etiketi yok. | |
@@ -80,3 +82,10 @@ keten bezli, sicimli, kırmızı mühürlü şişeler SUSAM (TAHİN) YAĞI.
 | vitrin-nar-eksisi-bal-01.jpg | Vitrinde nar ekşisi şişeleri ve Pervari bal kavanozları | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | vitrin, başka marka | Her iki ürün de başka marka (Odunpazarı nar ekşisi, Pervari bal): ana görsel ve reklam yok; yalnızca "dükkanımızda neler var" atmosferinde, markalar seçilmeyecek şekilde. | |
 | vitrin-tahin-zeytinyagi-02.jpg | Vitrin: üstte 1 kg Aziz Tahin kavanozları, altta etiketsiz 1 L zeytinyağı şişeleri | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | tahin, 1kg, zeytinyağı, vitrin | Sağ yarı (tahin ve zeytinyağı) temiz; solda Pervari bal, Fiskobirlik krem ve Harras helva var: sol kırpılır. | |
 | vitrin-distan-01.jpg | Vitrin dışarıdan, açılı: üst rafta 1 kg Aziz Tahin, altlarda ballar ve şişeler, camda cadde yansıması | "İleride paylaşılacak içeriklerde kullanman için görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | vitrin, tahin, atmosfer | Üst kısım (Aziz Tahin kavanozları) kullanılır; alt raflardaki başka markalar (Pervari, nar ekşisi) ve fiyat etiketleri kırpılır/kapatılır. | |
+| dukkan-cephe-gece-yakin-01.jpg | Dükkan cephesi, gece, yakın: vitrin, açık kapıdan içerisi | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, vitrin, gece | Makine içeride uzaktan görünüyor; kullanılabilir (kullanıcı, 8 Kasım). Fiyat kâğıtları ("Bursa gazozu 20 TL", "Doğal tahin kilo 250 TL") silinir. | |
+| dukkan-raf-helva-02.jpg | Rafta Kastamonu çekme helvası kutuları, yanda başka marka helva ve kremalar | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, raf, başka marka | Dükkanda neler var içerikleri için; markaya özel reklam yapılmaz. Fiyat ("90") silinir. | |
+| dukkan-tezgah-kahve-02.jpg | Türk kahvesi paketleri ve zeytinyağı şişeleri | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, kahve, zeytinyağı | Markaya özel reklam yapılmaz. Fiyat etiketleri silinir. | |
+| dukkan-tezgah-kahve-03.jpg | Türk kahvesi kutusu, arkada buzdolabı | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, kahve | Markaya özel reklam yapılmaz. Fiyat ("80 TL") silinir. | |
+| dukkan-tezgah-kahve-04.jpg | Türk kahvesi paketleri, yakın | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, kahve | Markaya özel reklam yapılmaz. | |
+| dukkan-tezgah-kahve-05.jpg | Türk kahvesi paketleri, başka açı | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | dükkan, kahve | Markaya özel reklam yapılmaz. Fiyat ("60 TL") silinir. | |
+| dukkan-tezgah-zeytinyagi-kahve-01.jpg | Önde 1 L zeytinyağı şişeleri, yanında kahve paketleri | "İçeriklerde kullanman için yeni görseller" (8 Kasım) | fotoğraf, dikey 1200x1600 | zeytinyağı, dükkan | Zeytinyağı şişeleri ön planda; fiyat ("60 TL") silinir. | |

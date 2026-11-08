@@ -124,9 +124,14 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 ## Ürün bilgisi (kullanıcı, 8 Kasım)
 
 - Etiketsiz 1 L cam şişelerde **zeytinyağı** satılır.
-- Keten bezli, sicimli, kırmızı "AZİZ" mühürlü şişeler **susam (tahin) yağıdır**.
-- **Pervari balının reklamı yapılmaz**; içeriklerde adı geçmez, öne çıkarılmaz.
-- Fotoğraflardaki fiyat etiketleri ve fiyat kâğıtları her kullanımda kapatılır.
+- Keten bezli, sicimli, kırmızı "AZİZ" mühürlü şişeler: içerikte **"susam yağı"**
+  denir. "Susam (tahin) yağı" yazılmaz. (Daha önce üretilmiş içeriklerdeki
+  "tahin yağı" ifadeleri değiştirilmez.)
+- Tahinin üstüne çıkan yağ da susamın kendi yağıdır: "susam yağı" denebilir.
+- **Pervari bal** fotoğraflarda görünebilir; yalnızca ona özel reklam yapılmaz.
+- Fotoğraflardaki fiyat etiketleri ve fiyat kâğıtları her kullanımda silinir.
+- Makine: yalnızca daha önce silinen yakın makine fotoğrafı yasak; uzaktan
+  göründüğü dükkan fotoğrafları kullanılabilir.
 
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
