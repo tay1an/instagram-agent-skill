@@ -132,6 +132,9 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
 - Fotoğraflardaki fiyat etiketleri ve fiyat kâğıtları her kullanımda silinir.
 - Makine: yalnızca daha önce silinen yakın makine fotoğrafı yasak; uzaktan
   göründüğü dükkan fotoğrafları kullanılabilir.
+- Tarif ölçüleri (kullanıcı, 9 Kasım): **Tahinli yoğurt:** sade yoğurda 2 yemek
+  kaşığı tahin, üstüne 1-2 tatlı kaşığı bal. **Susam yağlı sıcak ekmek:** sıcak
+  ekmeğe birkaç kaşık susam yağı, üstüne kekik ve kırmızı biber (tuz yok).
 
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
