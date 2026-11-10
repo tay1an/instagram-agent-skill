@@ -7,7 +7,7 @@ sorunlar, nedenleri ve alınan önlemler var.
 
 ## Bekçi (her gün otomatik kontrol)
 
-Claude her gün 09:25, 12:50, 19:25 ve 21:25'te (Türkiye saati) takvime bakar:
+Claude her gün 21:25'te (Türkiye saati) bir kez takvime bakar:
 zamanı geçmiş ama "bekliyor" ya da "hata" kalan paylaşım var mı? Varsa nedeni
 bulur, düzeltebiliyorsa düzeltip paylaştırır; düzeltemiyorsa görseli ve
 açıklamayı elle paylaşım için kullanıcıya gönderir ve takvimde "elle" yapar
@@ -21,13 +21,14 @@ açıklamayı elle paylaşım için kullanıcıya gönderir ve takvimde "elle" y
 | 2 | **Meta API engeli** (26 Ekim) | "API access blocked" | anahtar bozuldu / kısa sürede çok deneme (aynı uygulamada iki hesap) | Yeni anahtar: Meta → Use cases → API setup → Generate token → GitHub sırrı IG_ACCESS_TOKEN. Başarısız paylaşımı art arda elle denemeyin. |
 | 3 | **Çift paylaşım** (27 Ekim) | aynı hikâye iki kez | sıradaki iş eski takvimi okudu | Düzeltildi: iş dalın en son halini alır, bekledikten sonra takvimi yeniden okur. |
 | 4 | **Durum kaydı çakışması** | "Run failed" e-postası, sonra çift paylaşım riski | başka bir oturum aynı anda takvimi değiştirdi | Düzeltildi: yalnızca değişen paylaşımlar en son takvime uygulanır, 5 kez denenir; her paylaşımdan hemen sonra kaydedilir. |
-| 5 | **Gecikme** (26 Ekim) | 12:30 paylaşımı 12:52'de | GitHub zamanlayıcısı yoğunken saatte bir çalışıyor | Düzeltildi: iş 70 dakika içindeki paylaşımı bekleyip tam dakikasında yayınlar. 3 saatten fazla gecikene "atlandi" denir. |
+| 5 | **Gecikme** (26 Ekim) | 12:30 paylaşımı 12:52'de | GitHub zamanlayıcısı yoğunken geç çalışıyor | İş 70 dakika içindeki paylaşımı bekleyip tam dakikasında yayınlar. 3 saatten fazla gecikene "atlandi" denir. |
 | 6 | **Geçici Instagram hatası** | "does not exist", "not ready" | yeni medya kabı birkaç saniye hazır olmuyor | Kısa bekleyip yeniden dener; iş başına en fazla 3 deneme. |
 | 7 | **Anahtar süresi** | "Session has expired", "Invalid OAuth" | Instagram anahtarı 60 günde biter | "Instagram anahtar yenileme" her pazartesi yeniler. Yenilemeyi yapan GH_SECRETS_TOKEN **1 Haziran 2027**'de biter; ondan önce GitHub'da yenisi oluşturulup sırra yazılmalı. |
 | 8 | **Depo gizli yapılırsa** | "media could not be fetched" | görseller raw.githubusercontent.com adresinden herkese açık okunuyor | Depoyu **gizli yapmayın**. Gizli gerekirse görseller başka bir herkese açık yere taşınmalı. |
 | 9 | **Görsel biçimi** | "görsel .jpg olmalı" | Instagram PNG kabul etmez | Üreticiler JPG yazar; yayıncı yüklemeden önce denetler. |
 | 10 | **Türkçe büyük harf** | "TAHIN" | CSS büyük harfi dil verilmeden yapılınca i → I | Bütün üreticilerde `<html lang="tr">`. Kural voice.md'de. |
 | 11 | **60 gün hareketsizlik** | zamanlanmış işler durur | GitHub, 60 gün commit olmayan herkese açık depoda zamanlamayı kapatır | Yayın durumu her gün commit edildiği için olmaz; uzun ara verilirse Actions sayfasından iş akışı yeniden etkinleştirilir. |
+| 13 | **GitHub hesabı askıya alındı** (7-8 Kasım) | depo 404, push 403, GitHub girişinde "suspended" | büyük ihtimalle aşırı otomatik işlem: yayın işi her 15 dakikada (günde 96 kez) ~1 GB'lık depoyu indiriyordu | Düzeltildi (10 Kasım): yayın işi günde yalnızca 2 kez çalışır (08:50 ve 19:50 İstanbul) ve depodan yalnızca gereken klasörleri indirir. **Paylaşımlar yalnızca 09:00 ve 20:00'e konur**; başka saatler otomatik çıkmaz. Bekçi günde 1 kez. Hesap yine kapanırsa: support.github.com/contact (Account suspended). |
 | 12 | **Günlük sınır** | "limit" hatası | API ile günde en fazla 100 paylaşım | Bizim kullanımımız günde 3-5; sorun olmaz. |
 
 ## Kullanıcının yapması gerekenler

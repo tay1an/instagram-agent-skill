@@ -32,6 +32,12 @@ Kaynak: kullanıcının gönderdiği "daima çalışan kanca başlıklar" reel'i
     olduğu" örneği sevilmedi. Başka bir yanlış inançla kullanılabilir.
 - ✗ **Konu yasak:** susamın kavrulması. Kavrulmuş tohuma karşı tüketici
   önyargısı var; kavurma hiçbir içerikte geçmez (voice.md).
+- ✗ **Sevilmedi (7 Kasım):** "Bu kaşığı deneyin", "kış kaşığı" ifadeleri.
+  Kullanıcının tercihi: ölçüleri açıkça yazmak ("yarım yemek kaşığı tahin,
+  yarım yemek kaşığı zeytinyağı, 1 çay kaşığı bal") ve "Üçü de en doğal
+  haliyle dükkanımızda".
+- **Kural (7 Kasım):** Reel'ler render edilmeden önce ekrandaki yazılar
+  kullanıcıya sorulur ve onay alınır.
 - Yeni kanca seçerken önce bu bölüme bakılır.
 
 ## A. Merak cümleleri (kullanıcının gönderdiği listeden)

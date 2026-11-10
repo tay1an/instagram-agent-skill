@@ -111,6 +111,37 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   Yeni hafta planlanırken takvimde dolu olan günlere dokunulmaz, yalnızca boş
   günler doldurulur.
 
+## İfade tercihleri ve onay (kullanıcının isteği, 7 Kasım)
+
+- **Reel yazıları önce onaya:** Reel'ler render edilmeden önce ekrandaki
+  bütün yazılar kullanıcıya liste halinde sorulur; onay gelmeden üretilmez.
+- **Tahin yağı ölçüsü:** "birkaç damla tahin yağı" denmez; "birkaç kaşık
+  tahin yağı" denir.
+- **"Kış kaşığı" ve "bu kaşığı deneyin" kullanılmaz.** Kullanıcının önerdiği
+  ad: "Kışa girerken şifa veren kaşık". Ölçüler açık yazılır: yarım yemek
+  kaşığı tahin, yarım yemek kaşığı zeytinyağı, 1 çay kaşığı bal.
+
+## Ürün bilgisi (kullanıcı, 8 Kasım)
+
+- Etiketsiz 1 L cam şişelerde **zeytinyağı** satılır.
+- Keten bezli, sicimli, kırmızı "AZİZ" mühürlü şişeler: içerikte **"susam yağı"**
+  denir. "Susam (tahin) yağı" yazılmaz. (Daha önce üretilmiş içeriklerdeki
+  "tahin yağı" ifadeleri değiştirilmez.)
+- Tahinin üstüne çıkan yağ da susamın kendi yağıdır: "susam yağı" denebilir.
+- **Pervari bal** fotoğraflarda görünebilir; yalnızca ona özel reklam yapılmaz.
+- Fotoğraflardaki fiyat etiketleri ve fiyat kâğıtları her kullanımda silinir.
+- Makine: yalnızca daha önce silinen yakın makine fotoğrafı yasak; uzaktan
+  göründüğü dükkan fotoğrafları kullanılabilir.
+- Tarif ölçüleri (kullanıcı, 9 Kasım): **Tahinli yoğurt:** sade yoğurda 2 yemek
+  kaşığı tahin, üstüne 1-2 tatlı kaşığı bal. **Susam yağlı sıcak ekmek:** sıcak
+  ekmeğe birkaç kaşık susam yağı, üstüne kekik ve kırmızı biber (tuz yok).
+
+## Paylaşım saatleri (10 Kasım)
+
+Otomatik paylaşım yalnızca **09:00 (hikâye)** ve **20:00 (gönderi)** İstanbul
+saatinde çalışır; takvime başka saat yazılmaz. GitHub'ı yormamak için yayın
+işi günde iki kez çalışır (SORUN-GIDERME.md, madde 13).
+
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
 - Bundan sonraki bütün reel'lerde arka plan sesi olarak Aziz Tahin
