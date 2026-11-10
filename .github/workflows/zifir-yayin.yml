@@ -5,7 +5,8 @@ name: Zifir yayın
 # yayın betiğini (scripts/instagram_yayinla.py) değiştirmeden kullanır.
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    # Yalnızca paylaşım saatlerinde (18:00 hikâye, 19:00 reel, İstanbul = UTC+3); GitHub yükünü azaltmak için.
+    - cron: "7,37 15,16 * * *"
   workflow_dispatch:
     inputs:
       kuru_calisma:

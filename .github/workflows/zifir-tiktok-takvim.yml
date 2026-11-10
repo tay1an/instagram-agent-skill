@@ -5,9 +5,7 @@ name: Zifir TikTok takvim
 # saatlerce gecikebiliyor); kullanıcı
 # uygulamadan açıklamayı ekleyip Instagram'la aynı saatte paylaşır.
 # Gönderilenler yayin/tiktok.json'a yazılır, aynı reel ikinci kez gitmez.
-on:
-  schedule:
-    - cron: "17,47 * * * *"
+on:  # zamanlama kapalı (10 Kasım): TikTok'a kullanıcı elle yüklüyor; GitHub yükünü azaltmak için yalnızca elle çalıştırılır
   workflow_dispatch:
 
 permissions:
