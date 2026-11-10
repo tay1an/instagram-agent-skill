@@ -1,8 +1,13 @@
 name: Instagram yayın
 
 on:
+  # GitHub'ı yormamak için günde yalnızca iki kez çalışır (hesap 7-8 Kasım
+  # 2026'da askıya alınmıştı; o zaman her 15 dakikada bir çalışıyordu).
+  # 05:50 ve 16:50 UTC = 08:50 ve 19:50 İstanbul. Betik 70 dakika içinde
+  # zamanı gelecek paylaşımı bekleyip tam dakikasında yayınlar; bu yüzden
+  # paylaşımlar yalnızca 09:00 ve 20:00 (İstanbul) saatlerine konur.
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "50 5,16 * * *"
   workflow_dispatch:
     inputs:
       kuru_calisma:
@@ -24,9 +29,16 @@ jobs:
       # Sıradaki iş, öndeki iş bitene kadar bekleyebiliyor. Kuyruğa girdiği
       # andaki commit'i değil dalın en son halini alır; yoksa öndeki işin
       # yayınladığı paylaşımı "bekliyor" görüp ikinci kez paylaşır.
+      # Yalnızca gereken klasörler indirilir (depo ~1 GB; hyperframes ve
+      # Zifir dosyaları her çalışmada indirilmesin).
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
+          sparse-checkout: |
+            scripts
+            .claude/instagram/yayin
+            .claude/instagram/medya
+            .claude/instagram/gorseller
 
       - name: Medya adresi için commit
         id: sha

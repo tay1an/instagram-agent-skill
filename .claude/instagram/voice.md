@@ -136,6 +136,12 @@ Bu açıklamalarda eksik olanlar (bundan sonra yapılmayacak):
   kaşığı tahin, üstüne 1-2 tatlı kaşığı bal. **Susam yağlı sıcak ekmek:** sıcak
   ekmeğe birkaç kaşık susam yağı, üstüne kekik ve kırmızı biber (tuz yok).
 
+## Paylaşım saatleri (10 Kasım)
+
+Otomatik paylaşım yalnızca **09:00 (hikâye)** ve **20:00 (gönderi)** İstanbul
+saatinde çalışır; takvime başka saat yazılmaz. GitHub'ı yormamak için yayın
+işi günde iki kez çalışır (SORUN-GIDERME.md, madde 13).
+
 ## Müzik: Aziz Tahin jingle'ları (kullanıcının isteği, 29 Ekim)
 
 - Bundan sonraki bütün reel'lerde arka plan sesi olarak Aziz Tahin
