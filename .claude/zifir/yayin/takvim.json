@@ -389,9 +389,11 @@
       "medya": [
         ".claude/zifir/medya/hikaye/v16-alev.mp4"
       ],
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "tiktok_aciklama": "\"alevin içinde yanması ayrı zevk\"\n\nzifir · uzak. spotify'da.\n#türkçepop #yenimüzik #zifir",
-      "tiktok_kapak": ".claude/zifir/medya/hikaye/v16-alev-kapak.jpg"
+      "tiktok_kapak": ".claude/zifir/medya/hikaye/v16-alev-kapak.jpg",
+      "medya_id": "18196519363402514",
+      "yayin_zamani": "2026-11-11 18:53"
     },
     {
       "id": "2026-11-11-reel-09-sevgili",
