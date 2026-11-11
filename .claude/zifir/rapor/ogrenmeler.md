@@ -70,6 +70,13 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 11 Kasım 2026 (kullanıcının bildirdiği)
+- Grup 9 motion reel'i (10 Kasım, elle): 1700 izlenme, 22 yorum, 46 beğeni. Hesabın en iyisi;
+  yorum sayısı önceki en iyi reel'lerin birkaç katı. Neden: canlı saniye sayacı (izleyene
+  "kaydırmadın" der), kişisel hitap, sonda tek ve kolay soru ("hangi şehirden?").
+- Yüz siluet/karanlık olsa da reel çalıştı. Format Yolun Sonunda dönemine taşınabilir.
+- Eksik veri: ort. izlenme süresi, kaydetme, paylaşma, takipçi artışı, Spotify'a yansıma.
+
 ### 5 Kasım 2026
 - 2 takipçi · medyan 126 · haftalık erişim 2913, kaydetme 17, paylaşma 4, yorum 4
 - **En iyi: 4 Kasım çapa reel'i (16-capa-sahil, API, fotoğraflı, 4 satır):** 1242 izlenme, 11 kaydetme,
