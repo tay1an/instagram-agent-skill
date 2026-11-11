@@ -1,5 +1,10 @@
 # Plan: Zifir
 
+> **11 Kasım'dan itibaren otomatik paylaşım yok (kullanıcı isteği).** `Zifir yayın` iş akışının
+> zamanlaması kaldırıldı. Her paylaşım önce kullanıcıya sorulur; onay gelirse ya kullanıcı elle
+> paylaşır ya da iş akışı elle (workflow_dispatch) çalıştırılır. Çalıştırmadan önce takvimde
+> zamanı geçmiş `bekliyor` kayıt kalmadığından emin ol, yoksa onlar da gider.
+
 Her gün **18:00 hikâye** (15 sn şarkılı video) + **19:00 reel** (kullanıcı isteği 29 Ekim; önce 20:30, sonra 22:00). Instagram'da otomatik
 (`Zifir yayın` iş akışı, `yayin/takvim.json`). Aynı reel TikTok gelen kutusuna taslak
 paylaşım saatinden 10 saat önce gider (TikTok bildirimi gecikebiliyor) (`Zifir TikTok takvim`, `yayin/tiktok.json`); açıklamayı
