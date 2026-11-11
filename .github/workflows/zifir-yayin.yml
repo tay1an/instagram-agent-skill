@@ -4,9 +4,8 @@ name: Zifir yayın
 # yayınlar. Tahin hesabının iş akışlarından tamamen ayrıdır; yalnızca ortak
 # yayın betiğini (scripts/instagram_yayinla.py) değiştirmeden kullanır.
 on:
-  schedule:
-    # Yalnızca paylaşım saatlerinde (18:00 hikâye, 19:00 reel, İstanbul = UTC+3); GitHub yükünü azaltmak için.
-    - cron: "7,37 15,16 * * *"
+  # Otomatik zamanlama kaldırıldı (11 Kasım, kullanıcı isteği): her paylaşım önce
+  # kullanıcıya sorulur, onaydan sonra bu iş akışı elle çalıştırılır.
   workflow_dispatch:
     inputs:
       kuru_calisma:
