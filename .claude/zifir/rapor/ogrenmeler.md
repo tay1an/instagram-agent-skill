@@ -70,12 +70,17 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
-### 11 Kasım 2026 (kullanıcının bildirdiği)
-- Grup 9 motion reel'i (10 Kasım, elle): 1700 izlenme, 22 yorum, 46 beğeni. Hesabın en iyisi;
-  yorum sayısı önceki en iyi reel'lerin birkaç katı. Neden: canlı saniye sayacı (izleyene
-  "kaydırmadın" der), kişisel hitap, sonda tek ve kolay soru ("hangi şehirden?").
-- Yüz siluet/karanlık olsa da reel çalıştı. Format Yolun Sonunda dönemine taşınabilir.
-- Eksik veri: ort. izlenme süresi, kaydetme, paylaşma, takipçi artışı, Spotify'a yansıma.
+### 12 Kasım 2026 (11 Kasım raporu + kullanıcının ekran görüntüsü)
+- @zifir.123 · 16 takipçi (+13, 7 Kasım'a göre) · medyan 178 izlenme · haftalık yorum 31 (+27).
+- En iyi: 10 Kasım Grup 9 motion reel'i 9,3x (1659-1716 izlenme), 20-22 yorum, 45-46 beğeni,
+  7,6 sn ort., 3 takip. Hesabın ilk "konuşan" reel'i: canlı saniye sayacı, Zifir kendini tanıtır,
+  sonda tek istek. Yorumların çoğu beğeni/övgü; şehir sorusuna az cevap geldi (soru zahmetli).
+- Söz reel'leri izlenmeyi tutuyor (7-8 Kasım 8x) ama izlenme süresi düşük (3,8-4,1 sn), yorum 0;
+  kaydetme getiriyor (8'er). Grup 9 tarzı yorum ve takip getiriyor, kaydetme az (2).
+- Eğilim (tek reel, kesin değil): izleyiciye doğrudan konuşan format takipçi kazandırıyor.
+  Grup 9 reel 2 (11 Kasım, sonda "birine gönder" isteği, ilerleme çizgisi) paylaşma oranını
+  ölçecek; 11 Kasım'da otomatik giden 09-sevgili ile aynı saatte çıktı, kıyas bulanık olabilir.
+- 11 Kasım'dan itibaren otomatik paylaşım kapalı; her içerik onayla, kullanıcı elle paylaşır.
 
 ### 5 Kasım 2026
 - 2 takipçi · medyan 126 · haftalık erişim 2913, kaydetme 17, paylaşma 4, yorum 4
