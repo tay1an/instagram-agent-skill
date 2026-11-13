@@ -648,6 +648,14 @@
       "durum": "bekliyor"
     },
     {
+      "id": "2026-11-14-reel-eyfel-sirik",
+      "tur": "reel",
+      "zaman": "2026-11-14 10:00",
+      "medya": [],
+      "durum": "elle",
+      "not": "TahinReklam (Eiffel sırık) reel'i; kullanıcı elle paylaşacak. Müzik kaynak satırı açıklamada olmalı (Kevin MacLeod, CC BY 4.0)."
+    },
+    {
       "id": "2026-11-14-reel-tahin-pekmez",
       "tur": "reel",
       "zaman": "2026-11-14 20:00",
@@ -656,9 +664,10 @@
       ],
       "kapak": ".claude/instagram/gorseller/reel-2026-11-14-kapak.jpg",
       "aciklama": "Tahini sevdirmenin en kolay yolu: pekmez 🤎\n\n1️⃣ Önce tahin\n2️⃣ Üstüne pekmez\n3️⃣ Karıştırın, sıcak ekmeğe sürün\n\nTahinin tadını sevmeyenler bile bu ikiliye hayır diyemiyor. Siz nasıl seviyorsunuz: yarı yarıya mı, bol tahinli mi? Yorumlara yazın 👇\n\nAziz Tahin ve doğal üzüm pekmezi dükkanımızda. Sipariş için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz.\n\n#AzizTahin #tahinpekmez #kahvaltı",
-      "durum": "bekliyor",
+      "durum": "iptal",
       "kanca": "Tahini sevdirmenin en kolay yolu: pekmez (en'li cümle)",
-      "jingle": 2
+      "jingle": 2,
+      "not": "Kullanıcı 14 Kasım sabahı Eiffel sırık reel'ini elle paylaşacak; bu reel o gün otomatik paylaşılmaz (13 Kasım)."
     },
     {
       "id": "2026-11-15-hikaye-sabah",
