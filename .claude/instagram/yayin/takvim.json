@@ -667,7 +667,7 @@
       "durum": "iptal",
       "kanca": "Tahini sevdirmenin en kolay yolu: pekmez (en'li cümle)",
       "jingle": 2,
-      "not": "Kullanıcı 14 Kasım sabahı Eiffel sırık reel'ini elle paylaşacak; bu reel o gün otomatik paylaşılmaz (13 Kasım)."
+      "not": "16 Kasım 20:00'e taşındı (kullanıcı, 13 Kasım)."
     },
     {
       "id": "2026-11-15-hikaye-sabah",
@@ -677,6 +677,28 @@
         ".claude/instagram/gorseller/hikaye-2026-11-15.jpg"
       ],
       "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-16-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-16 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-16.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-16-reel-tahin-pekmez",
+      "tur": "reel",
+      "zaman": "2026-11-16 20:00",
+      "medya": [
+        ".claude/instagram/medya/reel-tahin-pekmez.mp4"
+      ],
+      "kapak": ".claude/instagram/gorseller/reel-2026-11-14-kapak.jpg",
+      "aciklama": "Tahini sevdirmenin en kolay yolu: pekmez 🤎\n\n1️⃣ Önce tahin\n2️⃣ Üstüne pekmez\n3️⃣ Karıştırın, sıcak ekmeğe sürün\n\nTahinin tadını sevmeyenler bile bu ikiliye hayır diyemiyor. Siz nasıl seviyorsunuz: yarı yarıya mı, bol tahinli mi? Yorumlara yazın 👇\n\nAziz Tahin ve doğal üzüm pekmezi dükkanımızda. Sipariş için bize DM'den yazın, Türkiye'nin her iline gönderiyoruz.\n\n#AzizTahin #tahinpekmez #kahvaltı",
+      "durum": "bekliyor",
+      "kanca": "Tahini sevdirmenin en kolay yolu: pekmez (en'li cümle)",
+      "jingle": 2
     }
   ]
 }
