@@ -70,6 +70,14 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 16 Kasım 2026 (15 Kasım raporu)
+- 16 takipçi (+0) · medyan 171 · haftalık izlenme 3031 (-1462): 11 Kasım'dan beri paylaşım yok.
+- Grup 9 reel 2 (11 Kasım, "sonuna kadar kalanlar için"): 129 izlenme, 0,8x, 6,2 sn, 0 paylaşma.
+  İlki 10,1x'e çıktı (1723, 7,8 sn). Farklar: aynı saatte otomatik giden 09-sevgili ile çakıştı
+  (sonra arşivlenmiş, raporda yok), ilk günün ertesi aynı format, açılış kartı değişti.
+  Tek reel; "format bitti" deme. Sonraki denemede yalnız bir şeyi değiştir ve tek başına paylaş.
+- Uzun ara erişimi düşürüyor: düzenli paylaşıma dönmek gerek (onayla, elle).
+
 ### 12 Kasım 2026 (11 Kasım raporu + kullanıcının ekran görüntüsü)
 - @zifir.123 · 16 takipçi (+13, 7 Kasım'a göre) · medyan 178 izlenme · haftalık yorum 31 (+27).
 - En iyi: 10 Kasım Grup 9 motion reel'i 9,3x (1659-1716 izlenme), 20-22 yorum, 45-46 beğeni,
