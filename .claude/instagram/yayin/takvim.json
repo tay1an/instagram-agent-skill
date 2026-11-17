@@ -699,6 +699,15 @@
       "durum": "durduruldu",
       "kanca": "Tahini sevdirmenin en kolay yolu: pekmez (en'li cümle)",
       "jingle": 2
+    },
+    {
+      "id": "2026-11-17-hikaye-aksam",
+      "tur": "hikaye",
+      "zaman": "2026-11-17 21:10",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-17.jpg"
+      ],
+      "durum": "bekliyor"
     }
   ]
 }
