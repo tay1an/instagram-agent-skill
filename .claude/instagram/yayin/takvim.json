@@ -712,6 +712,15 @@
       "yayin_zamani": "2026-11-17 21:13"
     },
     {
+      "id": "2026-11-18-hikaye-aksam",
+      "tur": "hikaye",
+      "zaman": "2026-11-18 21:35",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-18.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
       "id": "2026-11-19-hikaye-sabah",
       "tur": "hikaye",
       "zaman": "2026-11-19 09:00",
