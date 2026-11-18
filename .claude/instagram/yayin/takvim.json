@@ -710,6 +710,42 @@
       "durum": "yayinlandi",
       "medya_id": "18458263075134093",
       "yayin_zamani": "2026-11-17 21:13"
+    },
+    {
+      "id": "2026-11-19-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-19 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-19.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-20-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-20 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-20.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-21-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-21 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-21.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-22-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-22 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-22.jpg"
+      ],
+      "durum": "bekliyor"
     }
   ]
 }
