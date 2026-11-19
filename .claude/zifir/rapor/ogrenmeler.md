@@ -70,6 +70,15 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 19 Kasım 2026 (19 Kasım raporu)
+- 18 takipçi (+2) · medyan 178 · haftalık paylaşma 5 (+3), paylaşma/erişim %0,4 (önceki %0,1-0,2).
+- En iyi yeni: 17 Kasım ışık zerresi söz reel'i (Uzak 1. nakarat, kelime kelime zerreden kurulan
+  sözler, sonda ayın önünde siluet): 1275 izlenme 7,1x, 5 paylaşma (hesabın en yükseği), 8 kaydetme,
+  6 yorum, 5,6 sn. Hareketli tipografi + sonda "açılış" (siluet) paylaşma getiriyor olabilir (eğilim).
+- 18 Kasım showreel (2. nakarat, hızlı kurgu): 1. günde 274 izlenme, 5,4 sn; erken, sonraki raporda bak.
+- 15 Kasım "spotify'da ve tüm dijital..." duyurusu 13 izlenme: duyuru dili yine çalışmadı.
+- Kural adayı (3 örnek): söz satırıyla açılan, tek parça hareketli görsel > duyuru > hızlı kurgu.
+
 ### 16 Kasım 2026 (15 Kasım raporu)
 - 16 takipçi (+0) · medyan 171 · haftalık izlenme 3031 (-1462): 11 Kasım'dan beri paylaşım yok.
 - Grup 9 reel 2 (11 Kasım, "sonuna kadar kalanlar için"): 129 izlenme, 0,8x, 6,2 sn, 0 paylaşma.
