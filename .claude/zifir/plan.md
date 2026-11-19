@@ -58,6 +58,9 @@ Ses ve kapak `yolun-sonunda/`. Suno ile üretilmiş, 2:18; nakarat ~21 sn ve ~79
 Plan (5 Kasım kullanıcı onayı): 17 Kasım'a kadar Uzak takvimi; arada haftada 1-2 Yolun Sonunda ön dinletisi. 18 Kasım'dan
 11 Aralık'a ağırlık Yolun Sonunda; son hafta Spotify ön kaydetme çağrısı.
 
+**19 Kasım kullanıcı kararı: Yolun Sonunda'ya geçilmiyor, reel'ler Uzak ile devam ediyor.** Yolun Sonunda
+içeriği kullanıcı isteyene kadar hazırlanmaz (Spotify canvas'ları hazır, 11 Aralık'tan sonra yüklenecek).
+
 ## Sıradaki karar (4 Kasım analizi)
 Hikâye videoları Instagram'da 18:00'de reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).
 "Çizim mi fotoğraf mı" deneyi bozulmasın diye 4 Kasım analizinden sonra başlar;
