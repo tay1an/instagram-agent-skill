@@ -50,6 +50,12 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
 
 ## Deneyler
 
+- **Saat deneyi (20-25 Kasım):** aynı biçimde 6 Uzak söz reel'i, her gün tek paylaşım, saatler
+  11/13/15/17/21/23 (rastgele dağıtıldı; 19:00 için önceki reel'ler kıyas). Karşılaştır: yayından
+  ~48 sa sonraki izlenme (günlük raporlardan), ort. izlenme süresi, kaydetme+paylaşma. Karıştırıcılar:
+  içerik farkı, haftanın günü, 5 kapakta yazı var 1'inde yok. Tek turla kesin kural çıkarma; fark
+  belirginse (≥2x) o aralığı seç, değilse ikinci tur öner.
+
 | başlangıç | deney | değişen tek şey | ölçüt | sonuç |
 | --- | --- | --- | --- | --- |
 | 27 Ekim | İlk kare kancası | ilk söz satırı ilk karede tam görünür, siyahtan açılış yok (27 Ekim sonrası bütün reel'ler) | ort. izlenme süresi, kat | bekleniyor |

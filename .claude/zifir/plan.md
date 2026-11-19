@@ -1,5 +1,11 @@
 # Plan: Zifir
 
+> **Saat deneyi (20-25 Kasım, kullanıcı isteği 19 Kasım):** 6 Uzak söz reel'i, her gün biri, farklı
+> saatte otomatik: 20 Kas 21:00 köklerini · 21 Kas 11:00 kalbim · 22 Kas 17:00 yan yana ·
+> 23 Kas 15:00 sevgili · 24 Kas 13:00 ardında · 25 Kas 23:00 bir sabah. Ölçüt: her reel'in yayından
+> ~48 sa sonraki izlenmesi ve ort. izlenme süresi (19:00 için önceki reel'ler kıyas). Kazanan saat
+> aralığı sonraki paylaşımların saati olur. Deney bitince zamanlama kendiliğinden durur.
+
 > **11 Kasım'dan itibaren otomatik paylaşım yok (kullanıcı isteği).** `Zifir yayın` iş akışının
 > zamanlaması kaldırıldı. Her paylaşım önce kullanıcıya sorulur; onay gelirse ya kullanıcı elle
 > paylaşır ya da iş akışı elle (workflow_dispatch) çalıştırılır. Çalıştırmadan önce takvimde
