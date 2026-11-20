@@ -69,6 +69,25 @@ dosyadaki genel tercihlerden önce gelir; "Deneyler" sürerken deney koşulu boz
   çok daha iyi çizilmeli ya da hiç kullanılmamalı.
 - Hareket istenir: her bölümde tek durağan görsel değil, sürekli akan bir hikâye.
 
+## Kalıcı yönetmenlik ve ton kuralları (20 Kasım kullanıcı direktifi; tüm içeriklerde uygula)
+
+Bağlam: Zifir'in sesi (yüzü) yok, ciddi bütçe ve zaman da yok. Hedef yan gelir olarak Spotify
+dinlenmesi ve şarkıyı beğenip dinleyen insanlar. Ben (ajan) sosyal medya yöneticisi gibi çalışırım.
+
+Ton (ekran yazısı, açıklama, kullanıcıya yazışma):
+- Slogan gibi durmaz, reklam ya da kurumsal dil yok. Aşırı duygusal yakınlık, "canım" sıcaklığı yok.
+- Ara ara tespit yapar gibi, ama bilmiş/ukala değil. Gereksiz şaka yok. Şarkılar duygusal tonda.
+- Cümleler kısa, sade, estetik. Örnek soru: "Bu şarkıyı Gökhan Türkmen söyleseydi kaç verirdin?"
+
+Görsel yönetmenlik:
+- Kendi ürettiğim hareketli görsellerle (zerre, akış çizgileri, ışık yolu vb.) zenginlik ve şaşırtıcı öğe kat.
+- Her 2-3 sn'de ekran değişir; geçişlerde şaşırtıcı üretilmiş görseller. Aynı görsel tekrar etmez.
+- Soru/ekran yazısı yazılırken görünür (daktilo/kelime kelime).
+- Estetiği yüksek, hiçbir dönemi yansıtmayan (retro, VHS, REC, kamera arayüzü yok), romantik klişe olmayan,
+  profesyonel görsel yönetmenlik. Genel estetik kurallar: sade kompozisyon, nefes alan boşluk, uyumlu
+  sınırlı palet, tutarlı tipografi, yumuşak geçişler; göze ve algıya iyi gelen his.
+- Yüz tanınmaz (gölge/siluet); kapakta insan var, kapakta yazı yok.
+
 ## Açıklama ve ekran yazısı kalıbı
 
 Kullanıcı romantik/duygusal yorum cümlelerini ("onu en iyi tanıyan bendim",
