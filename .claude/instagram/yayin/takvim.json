@@ -825,6 +825,69 @@
       "jingle": 1,
       "medya_id": "17974203924188031",
       "yayin_zamani": "2026-11-22 20:29"
+    },
+    {
+      "id": "2026-11-23-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-23 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-23.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-24-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-24 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-24.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-25-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-25 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-25.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-26-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-26 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-26.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-27-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-27 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-27.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-28-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-28 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-28.jpg"
+      ],
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-29-hikaye-sabah",
+      "tur": "hikaye",
+      "zaman": "2026-11-29 09:00",
+      "medya": [
+        ".claude/instagram/gorseller/hikaye-2026-11-29.jpg"
+      ],
+      "durum": "bekliyor"
     }
   ]
 }
