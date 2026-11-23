@@ -76,6 +76,15 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 23 Kasım 2026 (22 Kasım raporu)
+- 19 takipçi (+2) · medyan 190 · haftalık izlenme 6069 (+2245), kaydetme 48 (+25), paylaşma 35 (+11).
+- Saat deneyi ara sonuç (rapor anında yaş farklı, kesin değil): 20 Kas 21:00 köklerini 1879 (9,9x, ~36 sa),
+  16 paylaşma, 4,3 sn · 21 Kas 11:00 kalbim 1752 (9,2x, ~22 sa), 23 kaydetme, 4,9 sn. 22 Kas 17:00 henüz
+  raporda yok. 23-25 Kasım (15/13/23) bekliyor; karşılaştırma 48 sa değerleriyle 28 Kasım'da.
+- Showreel (18 Kas) geç açıldı: 984 izlenme, ort. 20,3 sn (hesabın en uzun izlenme süresi).
+- 19 Kas akış çizgileri reel'i 165 (0,9x) ama 7,6 sn: dağıtım almadı; kapak (yüz gölgede) ya da ilk kare olabilir.
+- Uzak söz reel'leri hâlâ en güvenilir dağıtımı alıyor (9-10x); kaydetme/paylaşma artıyor.
+
 ### 19 Kasım 2026 (19 Kasım raporu)
 - 18 takipçi (+2) · medyan 178 · haftalık paylaşma 5 (+3), paylaşma/erişim %0,4 (önceki %0,1-0,2).
 - En iyi yeni: 17 Kasım ışık zerresi söz reel'i (Uzak 1. nakarat, kelime kelime zerreden kurulan

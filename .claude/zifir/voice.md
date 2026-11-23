@@ -87,6 +87,11 @@ Görsel yönetmenlik:
   profesyonel görsel yönetmenlik. Genel estetik kurallar: sade kompozisyon, nefes alan boşluk, uyumlu
   sınırlı palet, tutarlı tipografi, yumuşak geçişler; göze ve algıya iyi gelen his.
 - Yüz tanınmaz (gölge/siluet); kapakta insan var, kapakta yazı yok.
+- 20-21 Kasım ek: videoda yüz/fotoğraf yok; tema mürekkep; her öğe küçük damlacık/akışlardan oluşur;
+  sahne değişimi şarkı satırı/ölçüsüyle (~3,8 sn), 2-3 sn değil; ilk 3 sn'de hemen bir olay + merak;
+  yazılar font gibi belirmez, harf harf dolarak oluşur.
+- Uzun videoda önce erken/kaba bir önizleme gönder (metin + birkaç kare ya da düşük çözünürlük),
+  kullanıcı onaylarsa tamamla. Ekran metnini de önce onaya sun.
 
 ## Açıklama ve ekran yazısı kalıbı
 
