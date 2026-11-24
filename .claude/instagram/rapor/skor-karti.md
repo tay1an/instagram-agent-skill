@@ -26,3 +26,4 @@ gösterir: erişim (kaç kişi gördü) → paylaşma/kaydetme (içerik işe yar
 | 19-25 Eki (başlangıç) | | 2034 | | | | | | - | denetim-2026-10-25.md |
 | 26 Eki - 1 Kas | 7 (4 reel, 3 carousel) | 2038 (+6) | 2373 | %0,5 | 7 | ? | ? | D1 | 1 kg susam reel'i tek başına 1394 erişim; oturum kapalıydı, DM sorulmadı |
 | 2-7 Kas | 6 (3 reel, 3 carousel) | 2040 (+2) | 615 | %0,2 | 3 | 0 | 0 | D1 | carousel erişimi 50-65; reel'ler ~145; hepsi grafik açılışlı. D1 bırakıldı |
+| 8-21 Kas | reel + hikâye, carousel azaltıldı | | Eyfel reel'i 1709 | Eyfel reel'i 82 paylaşma | | 0 | 0 | D2 | "Ya olsaydı?" animasyon reel'i en iyisi (1709 erişim, 14,8 sn izlenme); şablon yazılı reel'ler 3-4 sn'de kaldı |
