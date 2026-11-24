@@ -515,6 +515,18 @@
       "yayin_zamani": "2026-11-24 13:01"
     },
     {
+      "id": "2026-11-24-reel-24-tel",
+      "tur": "reel",
+      "zaman": "2026-11-24 22:15",
+      "medya": [
+        ".claude/zifir/medya/24-tel.mp4"
+      ],
+      "kapak": ".claude/zifir/medya/24-tel-kapak.jpg",
+      "aciklama": "oysa seni sana anlatan ben idim\n\nzifir · uzak. spotify'da, link profilde.\n#türkçepop #yenimüzik #zifir",
+      "durum": "bekliyor",
+      "not": "kullanıcı isteği 24 Kasım: yatmadan önce ek reel (saat deneyi dışı)"
+    },
+    {
       "id": "2026-11-05-reel-10-sabah",
       "tur": "reel",
       "zaman": "2026-11-25 23:00",
