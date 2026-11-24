@@ -55,6 +55,9 @@ Her analizde (pazartesi ve perşembe) güncellenir. Yeni içerik üretilirken
   ~48 sa sonraki izlenme (günlük raporlardan), ort. izlenme süresi, kaydetme+paylaşma. Karıştırıcılar:
   içerik farkı, haftanın günü, 5 kapakta yazı var 1'inde yok. Tek turla kesin kural çıkarma; fark
   belirginse (≥2x) o aralığı seç, değilse ikinci tur öner.
+  - 24 Kasım: 25 Kasım 23:00 reel'i iptal edildi. Kullanıcı isteğiyle 23:00 verisi olarak Grup 7 reel'i
+    sayılır (kullanıcı elle paylaştı, 24 Kasım ~23:00). Karıştırıcı: biçim farklı (konuşan kartlı, söz reel'i
+    değil) ve aynı akşam 22:16'da tel sanatı reel'i çıktı. 23:00 sonucunu bu notla yorumla.
 
 | başlangıç | deney | değişen tek şey | ölçüt | sonuç |
 | --- | --- | --- | --- | --- |
