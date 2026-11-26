@@ -23,7 +23,7 @@ YAZI_RENK = np.array([16, 20, 32], np.float32)
 SATIR = [(59.04, 62.87, "Oysa seni sana\nanlatan ben idim"),
          (62.87, 66.62, "Ben eğer yok isem\nsen de olmazsın dedim"),
          (66.62, 69.73, "Yan yana ağacız\ngölge yeter bize"),
-         (69.73, 79.30, "Köklerini\nversene")]
+         (69.73, 76.70, "Köklerini\nversene")]
 SATIR = [(a - T0, b - T0, m) for a, b, m in SATIR]
 # damlalar: (düşme anı, x 0-1, boyut) — ilk damla ilk karede düşmekte
 DAMLA = [(0.0, 0.50, 1.0), (3.85, 0.30, 0.8), (7.6, 0.70, 0.85), (10.7, 0.45, 1.1), (14.6, 0.62, 0.7), (17.4, 0.36, 0.75)]
@@ -104,6 +104,11 @@ def yazi(m, font, ara=1.2):
 
 
 SOZ = [(a, b, yazi(m, FONT)) for a, b, m in SATIR]
+# kapanış: Spotify çağrısı (sakin, slogan değil)
+FC = ImageFont.truetype("/usr/share/fonts/opentype/inter/InterDisplay-SemiBold.otf", 58)
+SON1 = yazi("Şimdi Spotify'da", FC, 1.1)
+SON2 = yazi("Zifir — Uzak", FONT)
+SON_BAS = 76.85 - T0
 KUNYE = yazi("Z İ F İ R   —   U Z A K", FK)
 
 
@@ -140,10 +145,18 @@ def kare(f):
             x = W / 2 - al.shape[1] / 2; y = 1300 - al.shape[0] / 2 + (1 - min(1, (g + 0.1) / 0.6)) ** 2 * 14
             bas(fr, cv2.GaussianBlur(al, (0, 0), 14), x, y + 4, (255, 255, 255), op * 0.5)
             bas(fr, al, x, y, YAZI_RENK, op)
-    bas(fr, KUNYE, W / 2 - KUNYE.shape[1] / 2, 1500, YAZI_RENK, 0.6)
+    if t >= SON_BAS:
+        g = t - SON_BAS
+        o1 = min(1, g / 0.5); o2 = min(1, max(0, g - 0.35) / 0.5)
+        for al, y, o in ((SON1, 1230, o1), (SON2, 1320, o2)):
+            x = W / 2 - al.shape[1] / 2
+            bas(fr, cv2.GaussianBlur(al, (0, 0), 14), x, y + 4, (255, 255, 255), o * 0.5)
+            bas(fr, al, x, y + (1 - o) * 12, YAZI_RENK, o)
+    else:
+        bas(fr, KUNYE, W / 2 - KUNYE.shape[1] / 2, 1500, YAZI_RENK, 0.6)
     fr = fr * VIN
-    if t > SURE - 0.8:
-        fr = fr * (1 - (t - (SURE - 0.8)) / 0.8 * 0.85)
+    if t > SURE - 0.4:
+        fr = fr * (1 - (t - (SURE - 0.4)) / 0.4 * 0.85)
     fr = fr + rng.normal(0, 2.2, (H, W, 1)).astype(np.float32)
     return np.clip(fr, 0, 255).astype(np.uint8)
 
