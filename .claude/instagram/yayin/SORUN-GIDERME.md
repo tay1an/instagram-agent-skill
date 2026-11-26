@@ -47,3 +47,16 @@ aştığı için "atlandi" oldu. Önlem: cron'a yedek saatler eklendi
 `zaman`ı yeni bir saate alınıp iş akışı elle tetiklenir.
 26 Kasım'da elle tetikleme "Actions has been disabled" verdi: asıl neden madde 1
 (Actions kapalı). Önce Settings → Actions ayarına bakın.
+
+## 15. Actions kapalıyken oturumdan yayın (26 Kasım)
+
+Instagram anahtarı Claude ortamının ağ sırrı olarak kayıtlı (graph.instagram.com);
+vekil `Authorization` başlığına ekler. Claude oturumu 08:52 ve 19:52'de
+(İstanbul) şunu çalıştırır, sonra takvimi PR ile main'e alır:
+
+    IG_ACCESS_TOKEN=proxy-injected GITHUB_REPOSITORY=tay1an/instagram-agent-skill \
+    MEDYA_SHA=$(git rev-parse origin/main) TZ=Europe/Istanbul python3 scripts/instagram_yayinla.py
+
+Actions yeniden açılınca bu zamanlama kapatılır; iki sistem aynı anda çalışmasın.
+Anahtar yenileme iş akışı da Actions'ta çalıştığı için 60 günde bir anahtarın
+elle yenilenmesi gerekir.

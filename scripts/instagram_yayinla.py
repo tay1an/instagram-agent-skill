@@ -56,7 +56,10 @@ class ApiHatasi(Exception):
 
 
 def istek(yontem, yol, params, token):
-    params = dict(params, access_token=token)
+    # "proxy-injected": anahtarı ağ vekili Authorization başlığına ekler
+    # (GitHub Actions kapalıyken Claude oturumundan yayın).
+    if token != "proxy-injected":
+        params = dict(params, access_token=token)
     veri = urllib.parse.urlencode(params).encode()
     url = f"{API}/{yol}"
     if yontem == "GET":
