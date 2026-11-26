@@ -79,6 +79,17 @@ dönüşümü ayrıca izlenecek.
 
 ## Geçmiş analizler
 
+### 26 Kasım 2026 (25 Kasım raporu) — saat deneyi sonucu
+- 19 takipçi · medyan 178 · haftalık izlenme 7236, kaydetme 60, paylaşma 41.
+- Saat deneyi (aynı biçim söz reel'leri, rapor anındaki toplam): 21:00 köklerini 1897 (10,7x) · 11:00 kalbim 1810
+  (10,2x) · 15:00 sevgili 1591 (8,9x) · 17:00 oysa grubu 1392 (7,8x) · 13:00 ardında 121 (0,7x, ~18 sa) ·
+  23:00 Grup 7 (elle, farklı biçim) 111 (0,6x, ~8 sa).
+- Yorum: 11-21 arası saatler arasında belirgin fark yok (7,8x-10,7x, ≤1,4 kat fark → kural yok). 24 Kasım'ın üç
+  paylaşımı da (13:00, 22:16 tel, ~23:00 Grup 7) 110-140'ta kaldı: aynı gün 3 reel ve/veya o günkü dağıtım
+  düşüşü; saat değil. Karar: paylaşım 19:00-21:00 aralığında kalır, günde en fazla 1 reel.
+- Biçim sinyali daha güçlü: fotoğraf/gerçek görüntü + söz satırları reel'leri tutarlı 8-11x alıyor; deneysel
+  üretilmiş görsel reel'ler (akış 1,0x, tel 0,8x) dağıtım almadı. Showreel geç açıldı (5,5x, 20 sn izlenme).
+
 ### 23 Kasım 2026 (22 Kasım raporu)
 - 19 takipçi (+2) · medyan 190 · haftalık izlenme 6069 (+2245), kaydetme 48 (+25), paylaşma 35 (+11).
 - Saat deneyi ara sonuç (rapor anında yaş farklı, kesin değil): 20 Kas 21:00 köklerini 1879 (9,9x, ~36 sa),
