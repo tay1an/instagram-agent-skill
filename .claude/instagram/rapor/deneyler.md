@@ -34,7 +34,20 @@ yaradığı anlaşılmaz. Cumartesi skor kartına bakılır, karar yazılır:
   gözüyle dikkat çekici olsun.
 - Ölçüt: reel ortalama izlenme 5 sn ve üstü, reel başına erişim 400 ve üstü,
   haftalık DM > 0.
-- Sonuç: (14 Kasım'da yazılacak)
+- Sonuç (24 Kasım): **KISMEN.** Gerçek görüntü ve hikâyeli reel'ler şablon
+  reel'leri geçti; Eyfel "Ya olsaydı?" reel'i 1709 erişim, 14,8 sn ortalama
+  izlenme, 82 paylaşma. Şablon yazılı reel'ler 3-4 sn'de kaldı. Ama DM: 0,
+  sipariş: 0 (8-21 Kas). Karar: şablon reel üretme; haftada 1 "Ya olsaydı?"
+  animasyonu + 2 gerçek görüntülü reel.
+
+## D6 · 23 Kas-6 Ara: her reel açıklamasında tek, net DM anahtar kelimesi
+
+- Neden: erişim geliyor ama 4 haftadır DM 0. İzleyiciye ne yapacağı açıkça
+  söylenmiyor.
+- Uygulama: reel açıklaması ve son karesi aynı çağrıyla biter: "Sipariş için
+  bize DM'den TAHİN yazın." Hikâyelerde DM sticker'ı.
+- Ölçüt: haftalık DM 3 ve üstü.
+- Sonuç: (6 Aralık'ta yazılacak)
 
 ## Sıradaki adaylar
 
