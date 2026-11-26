@@ -45,3 +45,5 @@ başlatmaz. 25 Kasım sabah çalışması 10 saat geç başladı, hikâye 3 saat
 aştığı için "atlandi" oldu. Önlem: cron'a yedek saatler eklendi
 (`50 5,8,16,18 * * *` = 08:50, 11:50, 19:50, 21:50 İstanbul). Kaçan paylaşımın
 `zaman`ı yeni bir saate alınıp iş akışı elle tetiklenir.
+26 Kasım'da elle tetikleme "Actions has been disabled" verdi: asıl neden madde 1
+(Actions kapalı). Önce Settings → Actions ayarına bakın.
