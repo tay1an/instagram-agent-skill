@@ -297,3 +297,11 @@ asla uydurmaz.
   Varsayılan sipariş çağrısı DM'dir ("Sipariş için bize DM'den yazın").
   Bir link kastediliyorsa adıyla söylenir (ör. "profildeki Trendyol
   linkinden").
+
+## Hikâye kuralı (26 Kasım)
+
+Kullanıcı "ballı tahin: 3 kaşık tahin, 1 kaşık bal" hikâyesini yetersiz buldu:
+satışa yönlendirmiyor, yeni bir şey sunmuyor. Her hikâye iki şeyi birden yapar:
+1. Okura yeni bir bilgi, seçenek ya da sebep verir (hangi boy, birlikte sipariş,
+   yeni kullanım, dükkâna gelme nedeni). Herkesin bildiği tarif tek başına yetmez.
+2. Net bir satış çağrısıyla biter: "Sipariş için bize DM'den TAHİN yazın."
