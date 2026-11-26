@@ -37,3 +37,11 @@ açıklamayı elle paylaşım için kullanıcıya gönderir ve takvimde "elle" y
 - Öne çıkan hikâyeye ekleme ve başkalarının gönderilerine yorum Instagram
   tarafından otomatiğe kapalı; bunlar elle yapılır.
 - Meta uygulamasında ve GitHub ayarlarında bir şeyi değiştirmeden önce Claude'a sorun.
+
+## 14. Zamanlanmış çalışma hiç gelmedi ya da saatlerce gecikti (25-26 Kasım)
+
+GitHub, yoğunlukta `schedule` çalışmalarını saatlerce geciktirebilir ya da hiç
+başlatmaz. 25 Kasım sabah çalışması 10 saat geç başladı, hikâye 3 saat sınırını
+aştığı için "atlandi" oldu. Önlem: cron'a yedek saatler eklendi
+(`50 5,8,16,18 * * *` = 08:50, 11:50, 19:50, 21:50 İstanbul). Kaçan paylaşımın
+`zaman`ı yeni bir saate alınıp iş akışı elle tetiklenir.

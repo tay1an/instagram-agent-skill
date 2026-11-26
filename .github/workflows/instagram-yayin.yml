@@ -7,7 +7,7 @@ on:
   # zamanı gelecek paylaşımı bekleyip tam dakikasında yayınlar; bu yüzden
   # paylaşımlar yalnızca 09:00 ve 20:00 (İstanbul) saatlerine konur.
   schedule:
-    - cron: "50 5,16 * * *"
+    - cron: "50 5,8,16,18 * * *"
   workflow_dispatch:
     inputs:
       kuru_calisma:
