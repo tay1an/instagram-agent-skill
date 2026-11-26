@@ -73,17 +73,18 @@ def yazi_yogunluk(i, t):
     son = b - a
     cx = W / 2 + (i % 2 * 2 - 1) * 60
     # yayılma: çarpma noktasından uzaklığa göre, gürültülü kenarla (mürekkep kâğıda/suya yürür gibi)
-    r = 1100 * (1 - math.exp(-max(0.0, g - 0.18) / 0.5))
+    r = 1300 * (1 - math.exp(-max(0.0, g - 0.2) / 0.35))
+    form = math.exp(-max(0.0, g - 0.3) / 0.38)        # 1: dağınık bulut → 0: net harf
     dist = np.sqrt((xx - cx) ** 2 + ((yy - CARPMA_Y) * 1.6) ** 2)
     gor = np.clip((r - dist - KUM * 160) / 60, 0, 1)
     # harfler suda yaşar: kenar haleleri ve yukarı süzülen ince dumanlar; satır bitince hızla dağılıp çöker
     dag = max(0.0, g - son)
     q = g * 0.7
-    A = 2.5 + 1.5 * min(g, 3) + 120 * (1 - math.exp(-dag / 0.45))
+    A = 2.5 + 1.2 * min(g, 3) + 170 * form + 120 * (1 - math.exp(-dag / 0.45))
     dx = cv2.resize(D.fbm(mx_, my_, q) * A, (W, H), interpolation=cv2.INTER_CUBIC)
     dy = cv2.resize(D.fbm(mx_ + 137, my_ + 291, q) * A, (W, H), interpolation=cv2.INTER_CUBIC) + dag * 220
     m = cv2.remap(MASKE[i], xx - dx, yy - dy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
-    cekirdek = cv2.GaussianBlur(m, (0, 0), 0.8 + 10 * (1 - math.exp(-dag / 0.4)))
+    cekirdek = cv2.GaussianBlur(m, (0, 0), 0.8 + 24 * form + 10 * (1 - math.exp(-dag / 0.4)))
     hale = cv2.GaussianBlur(m, (0, 0), 7) * np.clip((KUM - 0.25) * 2.2, 0, 1)
     # ince mürekkep iplikleri: harf kenarlarından suya doğru kıvrılarak uzar
     duman = np.zeros((H, W), np.float32)
@@ -103,7 +104,7 @@ def yazi_yogunluk(i, t):
     duman = cv2.GaussianBlur(duman, (0, 0), 1.1)
     doku = 0.7 + 0.6 * cv2.resize(np.clip(0.5 + D.fbm(mx_ * 2.6, my_ * 2.6, q) * 1.6, 0, 1), (W, H))
     soluk = math.exp(-dag / 0.35)
-    return (cekirdek * doku * 2.4 + hale * 0.9 + duman) * gor * soluk
+    return (cekirdek * doku * (2.4 + 3.0 * form) + hale * 0.9 * (1 - form) + duman) * gor * soluk
 
 
 def kare(f):
@@ -130,9 +131,9 @@ def kare(f):
             o = (k + 1) * 97.0
             A = 10 + 30 * min(1, q / 2.5)
             wx = mx_ + A * D.fbm(mx_ + o, my_, q); wy = my_ + A * D.fbm(mx_ + 137 + o, my_ + 291, q)
-            R = 8 + 26 * k2
+            R = 10 + 75 * (1 - math.exp(-q / 0.45))
             bulut = np.clip(1.05 - np.sqrt(((wx - x0 * MW) / R) ** 2 + ((wy - cy_hedef - 18 * k2) / R) ** 2), 0, 1) ** 1.4
-            d += bulut * 0.35 * math.exp(-q / 3.0)
+            d += bulut * 1.1 * math.exp(-q / 0.55)
     dd = cv2.resize(d, (W, H), interpolation=cv2.INTER_CUBIC)
     for i in range(len(SATIR)):
         y = yazi_yogunluk(i, t)
