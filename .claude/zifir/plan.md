@@ -51,15 +51,19 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 - **Malzeme 17 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
   (ve varsa yeni şarkı) istenir.
 
-## Yeni şarkı: Yolun Sonunda (11 Aralık)
+## Yeni şarkı: Yolun Sonunda (12 Aralık)
+
+> 26 Kasım: Spotify for Artists'te yayın tarihi 12 Aralık görünüyor (önce 11 Aralık sanılıyordu). Aynı yayında
+> ikinci şarkı: Yolun Sonunda (Late Night Call Mix). Editör pitch'i Yolun Sonunda için yapıldı; mix ayrı pitch edilemez.
+> Canvas'lar: martı ve balonlar → Yolun Sonunda; ışık yolu / mürekkep yol → Late Night Call Mix.
 Ses ve kapak `yolun-sonunda/`. Suno ile üretilmiş, 2:18; nakarat ~21 sn ve ~79 sn'de başlıyor. 5 Kasım ilk ön dinleti
 (`uretici/yolun_teaser.py`, 79,3-99,3 sn, kapaktaki yolu ışık yürür). Sözler `yolun-sonunda/sozler.txt` (5 Kasım). Güçlü satırlar: "Yolun sonunda kendimi bile görmem yine", "Bi bilsen ah ne çok özledim seni", "Kalbini bana verirsen solmaz hiç çiçeklerim" ya da "Korktuğum yok hiç kalbini bana verirsen solmaz hiç çiçeklerim" (kullanıcı: "Verirsen solmaz hiç çiçeklerim" tek başına kullanılmaz).
 
 Plan (5 Kasım kullanıcı onayı): 17 Kasım'a kadar Uzak takvimi; arada haftada 1-2 Yolun Sonunda ön dinletisi. 18 Kasım'dan
-11 Aralık'a ağırlık Yolun Sonunda; son hafta Spotify ön kaydetme çağrısı.
+12 Aralık'a ağırlık Yolun Sonunda; son hafta Spotify ön kaydetme çağrısı.
 
 **19 Kasım kullanıcı kararı: Yolun Sonunda'ya geçilmiyor, reel'ler Uzak ile devam ediyor.** Yolun Sonunda
-içeriği kullanıcı isteyene kadar hazırlanmaz (Spotify canvas'ları hazır, 11 Aralık'tan sonra yüklenecek).
+içeriği kullanıcı isteyene kadar hazırlanmaz (Spotify canvas'ları hazır, 12 Aralık'tan sonra yüklenecek).
 
 ## Sıradaki karar (4 Kasım analizi)
 Hikâye videoları Instagram'da 18:00'de reel olarak da paylaşılacak (kullanıcı onayı, 28 Ekim).
