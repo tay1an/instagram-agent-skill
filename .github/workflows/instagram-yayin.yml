@@ -6,6 +6,8 @@ on:
   # 05:50 ve 16:50 UTC = 08:50 ve 19:50 İstanbul. Betik 70 dakika içinde
   # zamanı gelecek paylaşımı bekleyip tam dakikasında yayınlar; bu yüzden
   # paylaşımlar yalnızca 09:00 ve 20:00 (İstanbul) saatlerine konur.
+  # 08:50 ve 19:50'ye ek olarak 11:50 ve 21:50 yedek çalışmadır (GitHub gecikmesi).
+  # Actions kapatılıp açılınca zamanlama bu dosya yeniden gönderilerek kaydedilir.
   schedule:
     - cron: "50 5,8,16,18 * * *"
   workflow_dispatch:
