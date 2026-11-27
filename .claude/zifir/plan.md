@@ -51,9 +51,9 @@ TikTok'a ikinci gönderi olarak gider (açıklaması takvimde `tiktok_aciklama`)
 - **Malzeme 17 Kasım'da bitiyor.** 9-10 Kasım civarı kullanıcıdan yeni fotoğraf
   (ve varsa yeni şarkı) istenir.
 
-## Yeni şarkı: Yolun Sonunda (12 Aralık)
+## Yeni şarkı: Yolun Sonunda (11 Aralık)
 
-> 26 Kasım: Spotify for Artists'te yayın tarihi 12 Aralık görünüyor (önce 11 Aralık sanılıyordu). Aynı yayında
+> 26-27 Kasım: Yayın 11 Aralık (Spotify ana sayfa ve geri sayım 11'i gösteriyor; yayın sayfasında 12 yazması saat dilimi farkı). Aynı yayında
 > ikinci şarkı: Yolun Sonunda (Late Night Call Mix). Editör pitch'i Yolun Sonunda için yapıldı; mix ayrı pitch edilemez.
 > Canvas'lar: martı ve balonlar → Yolun Sonunda; ışık yolu / mürekkep yol → Late Night Call Mix.
 Ses ve kapak `yolun-sonunda/`. Suno ile üretilmiş, 2:18; nakarat ~21 sn ve ~79 sn'de başlıyor. 5 Kasım ilk ön dinleti
